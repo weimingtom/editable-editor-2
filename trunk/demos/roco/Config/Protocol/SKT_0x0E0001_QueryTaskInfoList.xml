@@ -1,0 +1,25 @@
+<EditableEditorHeader>
+  
+	<class className = "SKT_0x0E0001_QueryTaskInfoList">
+		
+		
+	
+		<item class = "ProtocolEditor_comment" name = "" text="~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate" name = "" text="回包信息"/>
+		<item class = "ENTER" name = ""/>
+		
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="retCode"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:返回码 说明:0成功，非0失败"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="taskInfoListLength"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u16 说明:任务信息长度"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="taskInfoListArray"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:TaskInfo[taskInfoListLength] 说明:任务信息数组"/>
+		<item class = "ENTER" name = ""/>
+		
+		
+	</class>
+
+</EditableEditorHeader>

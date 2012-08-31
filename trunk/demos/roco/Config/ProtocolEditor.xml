@@ -1,0 +1,24 @@
+<EditableEditorHeader>
+
+	<TextField className = "ProtocolEditor_Indicate" editable = "false" width = "0" height = "20" border = "false" background = "false" selectable = "false"/>
+	<TextField className = "ProtocolEditor_comment" editable = "false" width = "0" height = "20" border = "false" background = "false" selectable = "false"/>
+	<TextField className = "ProtocolEditor_Indicate_S2C" editable = "false" width = "0" height = "20" border = "true" background = "false" selectable = "true" />
+
+	<TextField className = "ProtocolEditor_u8" editable = "true" width = "60" restrict = "0-9\-" defaultText = "输入数字" export="text=u8" />
+	<TextField className = "ProtocolEditor_u16" editable = "true" width = "60" restrict = "0-9\-" defaultText = "输入数字" export="text=u8_16" />
+	<TextField className = "ProtocolEditor_u32" editable = "true" width = "80" restrict = "0-9\-" defaultText = "输入数字" export="text=u32" />
+	<TextField className = "ProtocolEditor_s8" editable = "true" width = "60" restrict = "0-9\-" defaultText = "输入数字" export="text=s8" />
+	<TextField className = "ProtocolEditor_s16" editable = "true" width = "60" restrict = "0-9\-" defaultText = "输入数字" export="text=s8_16" />
+	<TextField className = "ProtocolEditor_s32" editable = "true" width = "80" restrict = "0-9\-" defaultText = "输入数字" export="text=s32" />
+
+	<TextField className = "ProtocolEditor_f32" editable = "true" width = "60" restrict = "0-9\-." defaultText = "输入数字" export="text=f32" />
+	<TextField className = "ProtocolEditor_d64" editable = "true" width = "60" restrict = "0-9\-." defaultText = "输入数字" export="text=d64" />
+
+	<TextField className = "ProtocolEditor_string" editable = "true" width = "60" defaultText = "输入文本" export="text=string" />
+
+
+	<Include filename="Config/Protocol/All_Protocol.xml"/>
+  
+  
+  
+</EditableEditorHeader>

@@ -1,0 +1,46 @@
+<EditableEditorHeader>
+  
+	<class className = "SKT_0x030085_QueryServerTime">
+		
+		
+	
+		<item class = "ProtocolEditor_comment" name = "" text="~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate" name = "" text="回包信息"/>
+		<item class = "ENTER" name = ""/>
+		
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="retCode"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:返回码 说明:返回码"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="fullYear"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u32 说明:a four-digit number, such as 2000"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="month"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u32 说明:0 for January, 1 for February, and so on"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="date"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u32 说明:an integer from 1 to 31"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="hours"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u32 说明:an integer from 0 to 23"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="minutes"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u32 说明:an integer from 0 to 59"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="seconds"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u32 说明:an integer from 0 to 59"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="day"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u32 说明:星期几 0 for Sunday, 1 for Monday, and so on"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="dayOfYear"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u32 说明:一年第几天"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="stamp"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u32 说明:从1970-1-1 00：00：00到现在的秒数 long"/>
+		<item class = "ENTER" name = ""/>
+		
+		
+	</class>
+
+</EditableEditorHeader>

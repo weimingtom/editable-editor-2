@@ -1,0 +1,304 @@
+<EditableEditorHeader>
+	<Include filename="Config/Protocol/CGI_CHEERTOSCHOOL_CMD0_QueryStatus.xml"/>
+	<Include filename="Config/Protocol/CGI_CHEERTOSCHOOL_CMD1_ApplyOpenCard.xml"/>
+	<Include filename="Config/Protocol/CGI_CHEERTOSCHOOL_CMD2_ApplyOpenBox.xml"/>
+	<Include filename="Config/Protocol/CGI_LOVEGIFT_CMD0_QueryStatus.xml"/>
+	<Include filename="Config/Protocol/CGI_LOVEGIFT_CMD1_ApplySendFlower.xml"/>
+	<Include filename="Config/Protocol/CGI_LOVEGIFT_CMD2_ApplySellFlower.xml"/>
+	<Include filename="Config/Protocol/CGI_LOVEGIFT_CMD3_ApplyGetReward.xml"/>
+	<Include filename="Config/Protocol/CGI_LOVEGIFT_CMD4_QueryStatus.xml"/>
+	<Include filename="Config/Protocol/CGI_MUSICEDIFY_CMD0_QueryMusicEdifyStatus.xml"/>
+	<Include filename="Config/Protocol/CGI_MUSICEDIFY_CMD1_ApplyMusicEdifyStart.xml"/>
+	<Include filename="Config/Protocol/CGI_MUSICEDIFY_CMD2_ApplyMusicEdifyReward.xml"/>
+	<Include filename="Config/Protocol/CGI_MUSICTEAMBIRD_CMD0.xml"/>
+	<Include filename="Config/Protocol/CGI_MUSICTEAMBIRD_CMD1.xml"/>
+	<Include filename="Config/Protocol/CGI_OLYMPICPAEN_CMD0_QueryStatus.xml"/>
+	<Include filename="Config/Protocol/CGI_OLYMPICPAEN_CMD1_ApplyWatchAnime.xml"/>
+	<Include filename="Config/Protocol/CGI_OLYMPICPAEN_CMD2_ApplyCombatEnd.xml"/>
+	<Include filename="Config/Protocol/CGI_PANNUTRITIONALMEALS_CMD0_QueryPanMealStatus.xml"/>
+	<Include filename="Config/Protocol/CGI_PANNUTRITIONALMEALS_CMD1_ApplyPanMealPlay.xml"/>
+	<Include filename="Config/Protocol/CGI_PANNUTRITIONALMEALS_CMD2_ApplyPanMealSeed.xml"/>
+	<Include filename="Config/Protocol/CGI_PANNUTRITIONALMEALS_CMD3_ApplyPanMealRewards.xml"/>
+	<Include filename="Config/Protocol/CGI_PANNUTRITIONALMEALS_CMD4_ApplyPanMealFinal.xml"/>
+	<Include filename="Config/Protocol/CGI_PANNUTRITIONALMEALS_CMD5_QueryPanMealFirstOpen.xml"/>
+	<Include filename="Config/Protocol/CGI_WEEKTASKWORK_CMD0_ApplyStartWork.xml"/>
+	<Include filename="Config/Protocol/CGI_WEEKTASKWORK_CMD1_ApplyGetDailyReward.xml"/>
+	<Include filename="Config/Protocol/CGI_WEEKTASKWORK_CMD2_QueryWorkStatus.xml"/>
+	<Include filename="Config/Protocol/CGI_WEEKTASKWORK_CMD3_ApplyGetWeeklyReward.xml"/>
+	<Include filename="Config/Protocol/PTB_0x000000_ApplyStatLogin.xml"/>
+	<Include filename="Config/Protocol/PTB_0x000001_OnStatLog.xml"/>
+	<Include filename="Config/Protocol/PTB_0x03008B_QueryBadgeInfo.xml"/>
+	<Include filename="Config/Protocol/PTB_0x0300A3_OnCourageNpcRefreshNotify.xml"/>
+	<Include filename="Config/Protocol/PTB_0x0300A4_ApplyCourageBitNpc.xml"/>
+	<Include filename="Config/Protocol/PTB_0x0300A5_OnCourageHpNotify.xml"/>
+	<Include filename="Config/Protocol/PTB_0x0300A6_OnCourageResultNotify.xml"/>
+	<Include filename="Config/Protocol/PTB_0x0300A7_OnCourageRewardNotify.xml"/>
+	<Include filename="Config/Protocol/PTB_0x0300CD_QueryLoginGiftStatus.xml"/>
+	<Include filename="Config/Protocol/PTB_0x0300CE_QueryLoginGift.xml"/>
+	<Include filename="Config/Protocol/SKT_0x030005_ApplyMainRoleMove.xml"/>
+	<Include filename="Config/Protocol/SKT_0x030006_OnARoleMove.xml"/>
+	<Include filename="Config/Protocol/SKT_0x030007_QueryUserAllItems.xml"/>
+	<Include filename="Config/Protocol/SKT_0x03000B_ApplyChangeAvatar.xml"/>
+	<Include filename="Config/Protocol/SKT_0x030015_QueryUserDetailInfo.xml"/>
+	<Include filename="Config/Protocol/SKT_0x030029_ApplyChangeAAvatar.xml"/>
+	<Include filename="Config/Protocol/SKT_0x030044_QueryRiddleIslandRewardStatus.xml"/>
+	<Include filename="Config/Protocol/SKT_0x030050_ApplyRiddleIslandQuit.xml"/>
+	<Include filename="Config/Protocol/SKT_0x030085_QueryServerTime.xml"/>
+	<Include filename="Config/Protocol/SKT_0x03009C_OnSugerMagicStatusChange.xml"/>
+	<Include filename="Config/Protocol/SKT_0x03009D_QuerySugerMagicResult.xml"/>
+	<Include filename="Config/Protocol/SKT_0x03009E_ApplyGetSugerMagicReward.xml"/>
+	<Include filename="Config/Protocol/SKT_0x03009F_ApplySugerMaigcHitCursedPlayer.xml"/>
+	<Include filename="Config/Protocol/SKT_0x0300A8_QuerySugerMagicStatus.xml"/>
+	<Include filename="Config/Protocol/SKT_0x0300A9_QueryBraveBigWheelStatus.xml"/>
+	<Include filename="Config/Protocol/SKT_0x0300AA_ApplyBraveBigWheelLottery.xml"/>
+	<Include filename="Config/Protocol/SKT_0x0300AB_QueryTwoYearsVIP.xml"/>
+	<Include filename="Config/Protocol/SKT_0x0300AC_ApplyWannaWish.xml"/>
+	<Include filename="Config/Protocol/SKT_0x0300AD_ApplyWannaReward.xml"/>
+	<Include filename="Config/Protocol/SKT_0x0300B4_QueryBraveBigWheelLuckyPlayer.xml"/>
+	<Include filename="Config/Protocol/SKT_0x0300B5_ApplyWeiBo.xml"/>
+	<Include filename="Config/Protocol/SKT_0x0300C5_ApplyCourageCupOlympicsReceiveCake.xml"/>
+	<Include filename="Config/Protocol/SKT_0x0300C7_OnCourageCupOlympicsRefreshCake.xml"/>
+	<Include filename="Config/Protocol/SKT_0x0300C8_OnCourageCupOlympicsCakeNum.xml"/>
+	<Include filename="Config/Protocol/SKT_0x0300CF_QueryRiddleIslandStartTime.xml"/>
+	<Include filename="Config/Protocol/SKT_0x0300D0_OnRiddleIslandStartTime.xml"/>
+	<Include filename="Config/Protocol/SKT_0x0C0001_QueryTaskConditionStatus.xml"/>
+	<Include filename="Config/Protocol/SKT_0x0C0002_ApplyATaskConditionComplete.xml"/>
+	<Include filename="Config/Protocol/SKT_0x0C0100_OnTaskConditionComplete.xml"/>
+	<Include filename="Config/Protocol/SKT_0x0E0001_QueryTaskInfoList.xml"/>
+	<Include filename="Config/Protocol/SKT_0x0E0002_ApplyAcceptATask.xml"/>
+	<Include filename="Config/Protocol/SKT_0x0E0003_ApplyCompleteATask.xml"/>
+	<Include filename="Config/Protocol/SKT_0x100001_QueryQQSimpleInfo.xml"/>
+	<Include filename="Config/Protocol/SKT_0x100002_QueryQQDetailInfo.xml"/>
+	<Include filename="Config/Protocol/SKT_0x110213_QueryQQSimpleInfoHome.xml"/>
+	<Include filename="Config/Protocol/SKT_0x120002_QueryManorGroundInfo.xml"/>
+	<Include filename="Config/Protocol/SKT_0x140003_OnMailListReceived.xml"/>
+
+	<ClassCreater className = "ProtocolCreater" valueType = "String" width = "280">
+		<item class="CGI_CHEERTOSCHOOL_CMD0_QueryStatus"/>
+		<item class="CGI_CHEERTOSCHOOL_CMD1_ApplyOpenCard"/>
+		<item class="CGI_CHEERTOSCHOOL_CMD2_ApplyOpenBox"/>
+		<item class="CGI_LOVEGIFT_CMD0_QueryStatus"/>
+		<item class="CGI_LOVEGIFT_CMD1_ApplySendFlower"/>
+		<item class="CGI_LOVEGIFT_CMD2_ApplySellFlower"/>
+		<item class="CGI_LOVEGIFT_CMD3_ApplyGetReward"/>
+		<item class="CGI_LOVEGIFT_CMD4_QueryStatus"/>
+		<item class="CGI_MUSICEDIFY_CMD0_QueryMusicEdifyStatus"/>
+		<item class="CGI_MUSICEDIFY_CMD1_ApplyMusicEdifyStart"/>
+		<item class="CGI_MUSICEDIFY_CMD2_ApplyMusicEdifyReward"/>
+		<item class="CGI_MUSICTEAMBIRD_CMD0"/>
+		<item class="CGI_MUSICTEAMBIRD_CMD1"/>
+		<item class="CGI_OLYMPICPAEN_CMD0_QueryStatus"/>
+		<item class="CGI_OLYMPICPAEN_CMD1_ApplyWatchAnime"/>
+		<item class="CGI_OLYMPICPAEN_CMD2_ApplyCombatEnd"/>
+		<item class="CGI_PANNUTRITIONALMEALS_CMD0_QueryPanMealStatus"/>
+		<item class="CGI_PANNUTRITIONALMEALS_CMD1_ApplyPanMealPlay"/>
+		<item class="CGI_PANNUTRITIONALMEALS_CMD2_ApplyPanMealSeed"/>
+		<item class="CGI_PANNUTRITIONALMEALS_CMD3_ApplyPanMealRewards"/>
+		<item class="CGI_PANNUTRITIONALMEALS_CMD4_ApplyPanMealFinal"/>
+		<item class="CGI_PANNUTRITIONALMEALS_CMD5_QueryPanMealFirstOpen"/>
+		<item class="CGI_WEEKTASKWORK_CMD0_ApplyStartWork"/>
+		<item class="CGI_WEEKTASKWORK_CMD1_ApplyGetDailyReward"/>
+		<item class="CGI_WEEKTASKWORK_CMD2_QueryWorkStatus"/>
+		<item class="CGI_WEEKTASKWORK_CMD3_ApplyGetWeeklyReward"/>
+		<item class="PTB_0x000000_ApplyStatLogin"/>
+		<item class="PTB_0x000001_OnStatLog"/>
+		<item class="PTB_0x03008B_QueryBadgeInfo"/>
+		<item class="PTB_0x0300A3_OnCourageNpcRefreshNotify"/>
+		<item class="PTB_0x0300A4_ApplyCourageBitNpc"/>
+		<item class="PTB_0x0300A5_OnCourageHpNotify"/>
+		<item class="PTB_0x0300A6_OnCourageResultNotify"/>
+		<item class="PTB_0x0300A7_OnCourageRewardNotify"/>
+		<item class="PTB_0x0300CD_QueryLoginGiftStatus"/>
+		<item class="PTB_0x0300CE_QueryLoginGift"/>
+		<item class="SKT_0x030005_ApplyMainRoleMove"/>
+		<item class="SKT_0x030006_OnARoleMove"/>
+		<item class="SKT_0x030007_QueryUserAllItems"/>
+		<item class="SKT_0x03000B_ApplyChangeAvatar"/>
+		<item class="SKT_0x030015_QueryUserDetailInfo"/>
+		<item class="SKT_0x030029_ApplyChangeAAvatar"/>
+		<item class="SKT_0x030044_QueryRiddleIslandRewardStatus"/>
+		<item class="SKT_0x030050_ApplyRiddleIslandQuit"/>
+		<item class="SKT_0x030085_QueryServerTime"/>
+		<item class="SKT_0x03009C_OnSugerMagicStatusChange"/>
+		<item class="SKT_0x03009D_QuerySugerMagicResult"/>
+		<item class="SKT_0x03009E_ApplyGetSugerMagicReward"/>
+		<item class="SKT_0x03009F_ApplySugerMaigcHitCursedPlayer"/>
+		<item class="SKT_0x0300A8_QuerySugerMagicStatus"/>
+		<item class="SKT_0x0300A9_QueryBraveBigWheelStatus"/>
+		<item class="SKT_0x0300AA_ApplyBraveBigWheelLottery"/>
+		<item class="SKT_0x0300AB_QueryTwoYearsVIP"/>
+		<item class="SKT_0x0300AC_ApplyWannaWish"/>
+		<item class="SKT_0x0300AD_ApplyWannaReward"/>
+		<item class="SKT_0x0300B4_QueryBraveBigWheelLuckyPlayer"/>
+		<item class="SKT_0x0300B5_ApplyWeiBo"/>
+		<item class="SKT_0x0300C5_ApplyCourageCupOlympicsReceiveCake"/>
+		<item class="SKT_0x0300C7_OnCourageCupOlympicsRefreshCake"/>
+		<item class="SKT_0x0300C8_OnCourageCupOlympicsCakeNum"/>
+		<item class="SKT_0x0300CF_QueryRiddleIslandStartTime"/>
+		<item class="SKT_0x0300D0_OnRiddleIslandStartTime"/>
+		<item class="SKT_0x0C0001_QueryTaskConditionStatus"/>
+		<item class="SKT_0x0C0002_ApplyATaskConditionComplete"/>
+		<item class="SKT_0x0C0100_OnTaskConditionComplete"/>
+		<item class="SKT_0x0E0001_QueryTaskInfoList"/>
+		<item class="SKT_0x0E0002_ApplyAcceptATask"/>
+		<item class="SKT_0x0E0003_ApplyCompleteATask"/>
+		<item class="SKT_0x100001_QueryQQSimpleInfo"/>
+		<item class="SKT_0x100002_QueryQQDetailInfo"/>
+		<item class="SKT_0x110213_QueryQQSimpleInfoHome"/>
+		<item class="SKT_0x120002_QueryManorGroundInfo"/>
+		<item class="SKT_0x140003_OnMailListReceived"/>
+	</ClassCreater>
+
+	<InstanceSelector className = "ProtocolList" valueType = "String" width = "280" editable = "true">
+		<item class="CGI_CHEERTOSCHOOL_CMD0_QueryStatus"/>
+		<item class="CGI_CHEERTOSCHOOL_CMD1_ApplyOpenCard"/>
+		<item class="CGI_CHEERTOSCHOOL_CMD2_ApplyOpenBox"/>
+		<item class="CGI_LOVEGIFT_CMD0_QueryStatus"/>
+		<item class="CGI_LOVEGIFT_CMD1_ApplySendFlower"/>
+		<item class="CGI_LOVEGIFT_CMD2_ApplySellFlower"/>
+		<item class="CGI_LOVEGIFT_CMD3_ApplyGetReward"/>
+		<item class="CGI_LOVEGIFT_CMD4_QueryStatus"/>
+		<item class="CGI_MUSICEDIFY_CMD0_QueryMusicEdifyStatus"/>
+		<item class="CGI_MUSICEDIFY_CMD1_ApplyMusicEdifyStart"/>
+		<item class="CGI_MUSICEDIFY_CMD2_ApplyMusicEdifyReward"/>
+		<item class="CGI_MUSICTEAMBIRD_CMD0"/>
+		<item class="CGI_MUSICTEAMBIRD_CMD1"/>
+		<item class="CGI_OLYMPICPAEN_CMD0_QueryStatus"/>
+		<item class="CGI_OLYMPICPAEN_CMD1_ApplyWatchAnime"/>
+		<item class="CGI_OLYMPICPAEN_CMD2_ApplyCombatEnd"/>
+		<item class="CGI_PANNUTRITIONALMEALS_CMD0_QueryPanMealStatus"/>
+		<item class="CGI_PANNUTRITIONALMEALS_CMD1_ApplyPanMealPlay"/>
+		<item class="CGI_PANNUTRITIONALMEALS_CMD2_ApplyPanMealSeed"/>
+		<item class="CGI_PANNUTRITIONALMEALS_CMD3_ApplyPanMealRewards"/>
+		<item class="CGI_PANNUTRITIONALMEALS_CMD4_ApplyPanMealFinal"/>
+		<item class="CGI_PANNUTRITIONALMEALS_CMD5_QueryPanMealFirstOpen"/>
+		<item class="CGI_WEEKTASKWORK_CMD0_ApplyStartWork"/>
+		<item class="CGI_WEEKTASKWORK_CMD1_ApplyGetDailyReward"/>
+		<item class="CGI_WEEKTASKWORK_CMD2_QueryWorkStatus"/>
+		<item class="CGI_WEEKTASKWORK_CMD3_ApplyGetWeeklyReward"/>
+		<item class="PTB_0x000000_ApplyStatLogin"/>
+		<item class="PTB_0x000001_OnStatLog"/>
+		<item class="PTB_0x03008B_QueryBadgeInfo"/>
+		<item class="PTB_0x0300A3_OnCourageNpcRefreshNotify"/>
+		<item class="PTB_0x0300A4_ApplyCourageBitNpc"/>
+		<item class="PTB_0x0300A5_OnCourageHpNotify"/>
+		<item class="PTB_0x0300A6_OnCourageResultNotify"/>
+		<item class="PTB_0x0300A7_OnCourageRewardNotify"/>
+		<item class="PTB_0x0300CD_QueryLoginGiftStatus"/>
+		<item class="PTB_0x0300CE_QueryLoginGift"/>
+		<item class="SKT_0x030005_ApplyMainRoleMove"/>
+		<item class="SKT_0x030006_OnARoleMove"/>
+		<item class="SKT_0x030007_QueryUserAllItems"/>
+		<item class="SKT_0x03000B_ApplyChangeAvatar"/>
+		<item class="SKT_0x030015_QueryUserDetailInfo"/>
+		<item class="SKT_0x030029_ApplyChangeAAvatar"/>
+		<item class="SKT_0x030044_QueryRiddleIslandRewardStatus"/>
+		<item class="SKT_0x030050_ApplyRiddleIslandQuit"/>
+		<item class="SKT_0x030085_QueryServerTime"/>
+		<item class="SKT_0x03009C_OnSugerMagicStatusChange"/>
+		<item class="SKT_0x03009D_QuerySugerMagicResult"/>
+		<item class="SKT_0x03009E_ApplyGetSugerMagicReward"/>
+		<item class="SKT_0x03009F_ApplySugerMaigcHitCursedPlayer"/>
+		<item class="SKT_0x0300A8_QuerySugerMagicStatus"/>
+		<item class="SKT_0x0300A9_QueryBraveBigWheelStatus"/>
+		<item class="SKT_0x0300AA_ApplyBraveBigWheelLottery"/>
+		<item class="SKT_0x0300AB_QueryTwoYearsVIP"/>
+		<item class="SKT_0x0300AC_ApplyWannaWish"/>
+		<item class="SKT_0x0300AD_ApplyWannaReward"/>
+		<item class="SKT_0x0300B4_QueryBraveBigWheelLuckyPlayer"/>
+		<item class="SKT_0x0300B5_ApplyWeiBo"/>
+		<item class="SKT_0x0300C5_ApplyCourageCupOlympicsReceiveCake"/>
+		<item class="SKT_0x0300C7_OnCourageCupOlympicsRefreshCake"/>
+		<item class="SKT_0x0300C8_OnCourageCupOlympicsCakeNum"/>
+		<item class="SKT_0x0300CF_QueryRiddleIslandStartTime"/>
+		<item class="SKT_0x0300D0_OnRiddleIslandStartTime"/>
+		<item class="SKT_0x0C0001_QueryTaskConditionStatus"/>
+		<item class="SKT_0x0C0002_ApplyATaskConditionComplete"/>
+		<item class="SKT_0x0C0100_OnTaskConditionComplete"/>
+		<item class="SKT_0x0E0001_QueryTaskInfoList"/>
+		<item class="SKT_0x0E0002_ApplyAcceptATask"/>
+		<item class="SKT_0x0E0003_ApplyCompleteATask"/>
+		<item class="SKT_0x100001_QueryQQSimpleInfo"/>
+		<item class="SKT_0x100002_QueryQQDetailInfo"/>
+		<item class="SKT_0x110213_QueryQQSimpleInfoHome"/>
+		<item class="SKT_0x120002_QueryManorGroundInfo"/>
+		<item class="SKT_0x140003_OnMailListReceived"/>
+	</InstanceSelector>
+
+	<Selector className = "ProtocolIdSelector" valueType = "String" width = "280" showValue = "true">
+		<item text="CGI_CHEERTOSCHOOL_CMD0_QueryStatus" value = "cheer_to_school?cmd=0"/>
+		<item text="CGI_CHEERTOSCHOOL_CMD1_ApplyOpenCard" value = "cheer_to_school?cmd=1"/>
+		<item text="CGI_CHEERTOSCHOOL_CMD2_ApplyOpenBox" value = "cheer_to_school?cmd=2"/>
+		<item text="CGI_LOVEGIFT_CMD0_QueryStatus" value = "lovegift?cmd=0"/>
+		<item text="CGI_LOVEGIFT_CMD1_ApplySendFlower" value = "lovegift?cmd=1"/>
+		<item text="CGI_LOVEGIFT_CMD2_ApplySellFlower" value = "lovegift?cmd=2"/>
+		<item text="CGI_LOVEGIFT_CMD3_ApplyGetReward" value = "lovegift?cmd=3"/>
+		<item text="CGI_LOVEGIFT_CMD4_QueryStatus" value = "lovegift?cmd=4"/>
+		<item text="CGI_MUSICEDIFY_CMD0_QueryMusicEdifyStatus" value = "music_edify?cmd=0"/>
+		<item text="CGI_MUSICEDIFY_CMD1_ApplyMusicEdifyStart" value = "music_edify?cmd=1"/>
+		<item text="CGI_MUSICEDIFY_CMD2_ApplyMusicEdifyReward" value = "music_edify?cmd=2"/>
+		<item text="CGI_MUSICTEAMBIRD_CMD0" value = "pet_push?cmd=0"/>
+		<item text="CGI_MUSICTEAMBIRD_CMD1" value = "pet_push?cmd=1"/>
+		<item text="CGI_OLYMPICPAEN_CMD0_QueryStatus" value = "olympic_paen?cmd=0"/>
+		<item text="CGI_OLYMPICPAEN_CMD1_ApplyWatchAnime" value = "olympic_paen?cmd=1"/>
+		<item text="CGI_OLYMPICPAEN_CMD2_ApplyCombatEnd" value = "olympic_paen?cmd=2"/>
+		<item text="CGI_PANNUTRITIONALMEALS_CMD0_QueryPanMealStatus" value = "pan_nutritional_meals?cmd=0"/>
+		<item text="CGI_PANNUTRITIONALMEALS_CMD1_ApplyPanMealPlay" value = "pan_nutritional_meals?cmd=1"/>
+		<item text="CGI_PANNUTRITIONALMEALS_CMD2_ApplyPanMealSeed" value = "pan_nutritional_meals?cmd=2"/>
+		<item text="CGI_PANNUTRITIONALMEALS_CMD3_ApplyPanMealRewards" value = "pan_nutritional_meals?cmd=3"/>
+		<item text="CGI_PANNUTRITIONALMEALS_CMD4_ApplyPanMealFinal" value = "pan_nutritional_meals?cmd=4"/>
+		<item text="CGI_PANNUTRITIONALMEALS_CMD5_QueryPanMealFirstOpen" value = "pan_nutritional_meals?cmd=5"/>
+		<item text="CGI_WEEKTASKWORK_CMD0_ApplyStartWork" value = "weektaskwork?cmd=0"/>
+		<item text="CGI_WEEKTASKWORK_CMD1_ApplyGetDailyReward" value = "weektaskwork?cmd=1"/>
+		<item text="CGI_WEEKTASKWORK_CMD2_QueryWorkStatus" value = "weektaskwork?cmd=2"/>
+		<item text="CGI_WEEKTASKWORK_CMD3_ApplyGetWeeklyReward" value = "weektaskwork?cmd=3"/>
+		<item text="PTB_0x000000_ApplyStatLogin" value = "0x000000"/>
+		<item text="PTB_0x000001_OnStatLog" value = "0x000001"/>
+		<item text="PTB_0x03008B_QueryBadgeInfo" value = "0x03008B"/>
+		<item text="PTB_0x0300A3_OnCourageNpcRefreshNotify" value = "0x0300A3"/>
+		<item text="PTB_0x0300A4_ApplyCourageBitNpc" value = "0x0300A4"/>
+		<item text="PTB_0x0300A5_OnCourageHpNotify" value = "0x0300A5"/>
+		<item text="PTB_0x0300A6_OnCourageResultNotify" value = "0x0300A6"/>
+		<item text="PTB_0x0300A7_OnCourageRewardNotify" value = "0x0300A7"/>
+		<item text="PTB_0x0300CD_QueryLoginGiftStatus" value = "0x0300CD"/>
+		<item text="PTB_0x0300CE_QueryLoginGift" value = "0x0300CE"/>
+		<item text="SKT_0x030005_ApplyMainRoleMove" value = "0x030005"/>
+		<item text="SKT_0x030006_OnARoleMove" value = "0x030006"/>
+		<item text="SKT_0x030007_QueryUserAllItems" value = "0x030007"/>
+		<item text="SKT_0x03000B_ApplyChangeAvatar" value = "0x03000B"/>
+		<item text="SKT_0x030015_QueryUserDetailInfo" value = "0x030015"/>
+		<item text="SKT_0x030029_ApplyChangeAAvatar" value = "0x030029"/>
+		<item text="SKT_0x030044_QueryRiddleIslandRewardStatus" value = "0x030044"/>
+		<item text="SKT_0x030050_ApplyRiddleIslandQuit" value = "0x030050"/>
+		<item text="SKT_0x030085_QueryServerTime" value = "0x030085"/>
+		<item text="SKT_0x03009C_OnSugerMagicStatusChange" value = "0x03009C"/>
+		<item text="SKT_0x03009D_QuerySugerMagicResult" value = "0x03009D"/>
+		<item text="SKT_0x03009E_ApplyGetSugerMagicReward" value = "0x03009E"/>
+		<item text="SKT_0x03009F_ApplySugerMaigcHitCursedPlayer" value = "0x03009F"/>
+		<item text="SKT_0x0300A8_QuerySugerMagicStatus" value = "0x0300A8"/>
+		<item text="SKT_0x0300A9_QueryBraveBigWheelStatus" value = "0x0300A9"/>
+		<item text="SKT_0x0300AA_ApplyBraveBigWheelLottery" value = "0x0300AA"/>
+		<item text="SKT_0x0300AB_QueryTwoYearsVIP" value = "0x0300AB"/>
+		<item text="SKT_0x0300AC_ApplyWannaWish" value = "0x0300AC"/>
+		<item text="SKT_0x0300AD_ApplyWannaReward" value = "0x0300AD"/>
+		<item text="SKT_0x0300B4_QueryBraveBigWheelLuckyPlayer" value = "0x0300B4"/>
+		<item text="SKT_0x0300B5_ApplyWeiBo" value = "0x0300B5"/>
+		<item text="SKT_0x0300C5_ApplyCourageCupOlympicsReceiveCake" value = "0x0300C5"/>
+		<item text="SKT_0x0300C7_OnCourageCupOlympicsRefreshCake" value = "0x0300C7"/>
+		<item text="SKT_0x0300C8_OnCourageCupOlympicsCakeNum" value = "0x0300C8"/>
+		<item text="SKT_0x0300CF_QueryRiddleIslandStartTime" value = "0x0300CF"/>
+		<item text="SKT_0x0300D0_OnRiddleIslandStartTime" value = "0x0300D0"/>
+		<item text="SKT_0x0C0001_QueryTaskConditionStatus" value = "0x0C0001"/>
+		<item text="SKT_0x0C0002_ApplyATaskConditionComplete" value = "0x0C0002"/>
+		<item text="SKT_0x0C0100_OnTaskConditionComplete" value = "0x0C0100"/>
+		<item text="SKT_0x0E0001_QueryTaskInfoList" value = "0x0E0001"/>
+		<item text="SKT_0x0E0002_ApplyAcceptATask" value = "0x0E0002"/>
+		<item text="SKT_0x0E0003_ApplyCompleteATask" value = "0x0E0003"/>
+		<item text="SKT_0x100001_QueryQQSimpleInfo" value = "0x100001"/>
+		<item text="SKT_0x100002_QueryQQDetailInfo" value = "0x100002"/>
+		<item text="SKT_0x110213_QueryQQSimpleInfoHome" value = "0x110213"/>
+		<item text="SKT_0x120002_QueryManorGroundInfo" value = "0x120002"/>
+		<item text="SKT_0x140003_OnMailListReceived" value = "0x140003"/>
+	</Selector>
+
+</EditableEditorHeader>

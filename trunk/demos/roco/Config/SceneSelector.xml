@@ -1,0 +1,265 @@
+﻿<EditableEditorHeader>
+
+<Selector className = "SceneSelector" valueType = "int" width = "200" showValue = "true" export="value=u8_16">
+		 <item text = "1 商店街"  value =  "1" />
+		 <item text = "2 皮卡服装店"  value =  "2" />
+		 <item text = "3 古拉拉家具店"  value =  "3" />
+		 <item text = "4 博得材料屋"  value =  "4" />
+		 <item text = "5 魔法学院"  value =  "5" />
+		 <item text = "6 教学楼"  value =  "6" />
+		 <item text = "7 图书馆"  value =  "7" />
+		 <item text = "8 皇家研究院"  value =  "8" />
+		 <item text = "9 实验工坊"  value =  "9" />
+		 <item text = "10 奇妙屋"  value =  "10" />
+		 <item text = "11 观星台"  value =  "11" />
+		 <item text = "12 体育场"  value =  "12" />
+		 <item text = "13 王国城堡"  value =  "13" />
+		 <item text = "14 城堡大厅"  value =  "14" />
+		 <item text = "16 主题乐园"  value =  "16" />
+		 <item text = "17 雪人谷"  value =  "17" />
+		 <item text = "18 宠物园"  value =  "18" />
+		 <item text = "19 人鱼湾"  value =  "19" />
+		 <item text = "20 天空城"  value =  "20" />
+		 <item text = "22 彼得大道"  value =  "22" />
+		 <item text = "23 爱心教堂"  value =  "23" />
+		 <item text = "24 智慧出版社"  value =  "24" />
+		 <item text = "25 洛克金融行"  value =  "25" />
+		 <item text = "26  植物园"  value =  "26 " />
+		 <item text = "27  跳跳集市"  value =  "27 " />
+		 <item text = "28 创意园"  value =  "28" />
+		 <item text = "29 福尔摩斯事务所"  value =  "29" />
+		 <item text = "30 马戏团"  value =  "30" />
+		 <item text = "31 魔法课教室"  value =  "31" />
+		 <item text = "32 下水道"  value =  "32" />
+		 <item text = "33 索米亚草原"  value =  "33" />
+		 <item text = "34 普拉塔草原"  value =  "34" />
+		 <item text = "35 野外研究院"  value =  "35" />
+		 <item text = "36 杰诺斯浅海"  value =  "36" />
+		 <item text = "37 杰诺斯深海"  value =  "37" />
+		 <item text = "38 亚特兰蒂斯"  value =  "38" />
+		 <item text = "40 拉布朗矿山口"  value =  "40" />
+		 <item text = "41 拉布朗铜矿场"  value =  "41" />
+		 <item text = "42 拉布朗金矿场"  value =  "42" />
+		 <item text = "43 拉布朗水晶矿场"  value =  "43" />
+		 <item text = "44 怀特冰川"  value =  "44" />
+		 <item text = "45 怀特冰山"  value =  "45" />
+		 <item text = "46 怀特峰"  value =  "46" />
+		 <item text = "47 海洋研究所"  value =  "47" />
+		 <item text = "50 精灵道具店"  value =  "50" />
+		 <item text = "51 宠物训练室"  value =  "51" />
+		 <item text = "52 维苏威火山口"  value =  "52" />
+		 <item text = "53 维苏威地壳"  value =  "53" />
+		 <item text = "54 维苏威地幔"  value =  "54" />
+		 <item text = "55 维苏威地心"  value =  "55" />
+		 <item text = "56 艾美特山岭"  value =  "56" />
+		 <item text = "57 宠物医院"  value =  "57" />
+		 <item text = "58 特鲁米小径"  value =  "58" />
+		 <item text = "59 雷霆入口"  value =  "59" />
+		 <item text = "60 雷雨走廊"  value =  "60" />
+		 <item text = "61 雷霆之渊"  value =  "61" />
+		 <item text = "62 光之藤"  value =  "62" />
+		 <item text = "63 藤蔓之源"  value =  "63" />
+		 <item text = "64 光之蔓"  value =  "64" />
+		 <item text = "65 藤蔓之源"  value =  "65" />
+		 <item text = "66 风铃岛"  value =  "66" />
+		 <item text = "67 漂浮宫殿"  value =  "67" />
+		 <item text = "68 幽暗空间入口"  value =  "68" />
+		 <item text = "69 空间一层"  value =  "69" />
+		 <item text = "70 空间二层"  value =  "70" />
+		 <item text = "71 轮回黑洞"  value =  "71" />
+		 <item text = "72 竞技场大厅"  value =  "72" />
+		 <item text = "73 夜影回路"  value =  "73" />
+		 <item text = "74 黑光秘道"  value =  "74" />
+		 <item text = "75 微光实验室"  value =  "75" />
+		 <item text = "76 钻石港"  value =  "76" />
+		 <item text = "77 秘密营地"  value =  "77" />
+		 <item text = "78 龙守望"  value =  "78" />
+		 <item text = "79 龙影密道"  value =  "79" />
+		 <item text = "80 龙珠禁地"  value =  "80" />
+		 <item text = "81 龙榻陋室"  value =  "81" />
+		 <item text = "82 龙须小径"  value =  "82" />
+		 <item text = "83 黑影之岭"  value =  "83" />
+		 <item text = "84 黑魔法教室"  value =  "84" />
+		 <item text = "85 悬崖索桥"  value =  "85" />
+		 <item text = "86 玩具废场"  value =  "86" />
+		 <item text = "87 能源站"  value =  "87" />
+		 <item text = "88 迷雾之森"  value =  "88" />
+		 <item text = "89 威廉古堡花园"  value =  "89" />
+		 <item text = "90 威廉古堡大厅"  value =  "90" />
+		 <item text = "91 威廉古堡内厅"  value =  "91" />
+		 <item text = "92 威廉古堡露台"  value =  "92" />
+		 <item text = "93 威廉古堡密室"  value =  "93" />
+		 <item text = "94 VIP俱乐部"  value =  "94" />
+		 <item text = "95 时空幻境"  value =  "95" />
+		 <item text = "96 黑衣人基地"  value =  "96" />
+		 <item text = "97 宠物农庄"  value =  "97" />
+		 <item text = "98 轻风山(真假麋鹿)"  value =  "98" />
+		 <item text = "99 宴会厅"  value =  "99" />
+		 <item text = "100 白落落村"  value =  "100" />
+		 <item text = "101 城堡露台"  value =  "101" />
+		 <item text = "102 绿野擂台"  value =  "102" />
+		 <item text = "103 云烟桃源"  value =  "103" />
+		 <item text = "104 云隐鹤山"  value =  "104" />
+		 <item text = "105 云海古道"  value =  "105" />
+		 <item text = "106 云雾长城"  value =  "106" />
+		 <item text = "107 迷魂八卦"  value =  "107" />
+		 <item text = "108 云外孔桥"  value =  "108" />
+		 <item text = "109 九龙长廊"  value =  "109" />
+		 <item text = "110 月光桃源"  value =  "110" />
+		 <item text = "111 独角仙踪"  value =  "111" />
+		 <item text = "112 玉合殿"  value =  "112" />
+		 <item text = "113 墨圣殿"  value =  "113" />
+		 <item text = "114 画中仙"  value =  "114" />
+		 <item text = "115 宠物梦工厂"  value =  "115" />
+		 <item text = "116 教学楼二楼"  value =  "116" />
+		 <item text = "117 洛克展馆"  value =  "117" />
+		 <item text = "118 月牙桥"  value =  "118" />
+		 <item text = "119 农贸集市"  value =  "119" />
+		 <item text = "120 外交使馆"  value =  "120" />
+		 <item text = "121 商店街(时光倒流)"  value =  "121" />
+		 <item text = "124 秘密营地(无间道)"  value =  "124" />
+		 <item text = "125 海螺沙滩"  value =  "125" />
+		 <item text = "126 晶晶雪域"  value =  "126" />
+		 <item text = "127 轻风山"  value =  "127" />
+		 <item text = "128 山姆大叔的农庄"  value =  "128" />
+		 <item text = "129 龙脉之炎"  value =  "129" />
+		 <item text = "130 蛋内世界"  value =  "130" />
+		 <item text = "131 雷霆禁地"  value =  "131" />
+		 <item text = "132 孵蛋基地"  value =  "132" />
+		 <item text = "133 睡美人之书"  value =  "133" />
+		 <item text = "134 魔法密林"  value =  "134" />
+		 <item text = "135 安妮的幻境"  value =  "135" />
+		 <item text = "136 幻境里的小屋"  value =  "136" />
+		 <item text = "137 海螺洞穴"  value =  "137" />
+		 <item text = "138 神泣魔法台"  value =  "138" />
+		 <item text = "139 魔法台"  value =  "139" />
+		 <item text = "140 彩虹河流"  value =  "140" />
+		 <item text = "141 暗黑岭"  value =  "141" />
+		 <item text = "142 暗黑宠物基地"  value =  "142" />
+		 <item text = "143 暗黑魔法学院"  value =  "143" />
+		 <item text = "144 大剧院"  value =  "144" />
+		 <item text = "145 亚特兰蒂斯广场"  value =  "145" />
+		 <item text = "146 凯旋门"  value =  "146" />
+		 <item text = "147 亚特兰蒂斯古道"  value =  "147" />
+		 <item text = "148 亚特兰蒂斯卫城"  value =  "148" />
+		 <item text = "149 太阳神庙"  value =  "149" />
+		 <item text = "150 角斗场"  value =  "150" />
+		 <item text = "151 亚特兰蒂斯宫殿"  value =  "151" />
+		 <item text = "152 倒影暗域"  value =  "152" />
+		 <item text = "153 天罩地牢"  value =  "153" />
+		 <item text = "154 雷电迷踪"  value =  "154" />
+		 <item text = "155 倒影迷城"  value =  "155" />
+		 <item text = "156 时之秘道 "  value =  "156" />
+		 <item text = "157 禁忌的书房 "  value =  "157" />
+		 <item text = "158 巨石阵 "  value =  "158" />
+		 <item text = "159 冰封亚特兰蒂斯"  value =  "159" />
+		 <item text = "160 暗黑迷之岛"  value =  "160" />
+		 <item text = "161 巨石残垣"  value =  "161" />
+		 <item text = "162 亚特兰蒂斯宫殿二层"  value =  "162" />
+		 <item text = "163 地牢内部(左)"  value =  "163" />
+		 <item text = "164 地牢内部(右)"  value =  "164" />
+		 <item text = "165 威廉古堡暗道"  value =  "165" />
+		 <item text = "166 威廉古堡收藏室"  value =  "166" />
+		 <item text = "167 冷月仓库"  value =  "167" />
+		 <item text = "168 冷月岭"  value =  "168" />
+		 <item text = "169 冷月武器库"  value =  "169" />
+		 <item text = "170 冰原浅滩"  value =  "170" />
+		 <item text = "171 服装店二楼"  value =  "171" />
+		 <item text = "172 皇家发明仓库"  value =  "172" />
+		 <item text = "173 洛克号储物仓"  value =  "173" />
+		 <item text = "174 洛克号甲板"  value =  "174" />
+		 <item text = "175 冰原瀑布"  value =  "175" />
+		 <item text = "176 洛克号驾驶舱"  value =  "176" />
+		 <item text = "177 通天门"  value =  "177" />
+		 <item text = "179 高黎贡门廊"  value =  "179" />
+		 <item text = "180 枫雪教堂"  value =  "180" />
+		 <item text = "181 枫雪左岸"  value =  "181" />
+		 <item text = "182 枫雪松路"  value =  "182" />
+		 <item text = "183 高黎贡山道"  value =  "183" />
+		 <item text = "184 枫雪广场"  value =  "184" />
+		 <item text = "185 同心山顶"  value =  "185" />
+		 <item text = "186 枫雪廊桥"  value =  "186" />
+		 <item text = "187 枫雪右岸"  value =  "187" />
+		 <item text = "188 枫雪冰泉"  value =  "188" />
+		 <item text = "189 光明神殿"  value =  "189" />
+		 <item text = "190 VIP广场"  value =  "190" />
+		 <item text = "191 枫雪夏宫"  value =  "191" />
+		 <item text = "192 生命之路"  value =  "192" />
+		 <item text = "193 冰晶空间"  value =  "193" />
+		 <item text = "194 舞会厅"  value =  "194" />
+		 <item text = "195 风纪委员会所"  value =  "195" />
+		 <item text = "196 梦想屋"  value =  "196" />
+		 <item text = "197 暗毒空间"  value =  "197" />
+		 <item text = "198 宠物潜力训练室"  value =  "198" />
+		 <item text = "199 档案室"  value =  "199" />
+		 <item text = "200 巨石水晶台"  value =  "200" />
+		 <item text = "201 武斗空间"  value =  "201" />
+		 <item text = "202 暗黑溶洞"  value =  "202" />
+		 <item text = "203 同心树屋"  value =  "203" />
+		 <item text = "205 恶魔空间"  value =  "205" />
+		 <item text = "206 机械空间"  value =  "206" />
+		 <item text = "207 机密档案室"  value =  "207" />
+		 <item text = "208 天空游乐园"  value =  "208" />
+		 <item text = "209 萌萌空间"  value =  "209" />
+		 <item text = "210 光明圣殿"  value =  "210" />
+		 <item text = "211 土系空间"  value =  "211" />
+
+
+		<item text = "5000 迷之岛0" value = "5000"/>
+		<item text = "5001 迷之岛1" value = "5001"/>
+		<item text = "5002 迷之岛2" value = "5002"/>
+		<item text = "5003 迷之岛3" value = "5003"/>
+
+		<item text = "10000 家园" value = "10000"/>
+		<item text = "11000 农场" value = "11000"/>
+		
+		<item text = "20001 挑战塔大厅" value = "20001"/>
+		<item text = "20101 武系馆1" value = "20101"/>
+		<item text = "20102 武系馆2" value = "20102"/>
+		<item text = "20103 武系馆3" value = "20103"/>
+		<item text = "20104 武系馆4" value = "20104"/>
+		<item text = "20105 武系馆5" value = "20105"/>
+		<item text = "20201 毒系馆1" value = "20201"/>
+		<item text = "20202 毒系馆2" value = "20202"/>
+		<item text = "20203 毒系馆3" value = "20203"/>
+		<item text = "20204 毒系馆4" value = "20204"/>
+		<item text = "20205 毒系馆5" value = "20205"/>
+		<item text = "20301 土系馆1" value = "20301"/>
+		<item text = "20302 土系馆2" value = "20302"/>
+		<item text = "20303 土系馆3" value = "20303"/>
+		<item text = "20304 土系馆4" value = "20304"/>
+		<item text = "20305 土系馆5" value = "20305"/>
+		<item text = "20401 虫系馆1" value = "20401"/>
+		<item text = "20402 虫系馆2" value = "20402"/>
+		<item text = "20403 虫系馆3" value = "20403"/>
+		<item text = "20404 虫系馆4" value = "20404"/>
+		<item text = "20405 虫系馆5" value = "20405"/>
+		<item text = "20501 恶魔系馆1" value = "20501"/>
+		<item text = "20502 恶魔系馆2" value = "20502"/>
+		<item text = "20503 恶魔系馆3" value = "20503"/>
+		<item text = "20504 恶魔系馆4" value = "20504"/>
+		<item text = "20505 恶魔系馆5" value = "20505"/>
+		<item text = "20601 萌系馆1" value = "20601"/>
+		<item text = "20602 萌系馆2" value = "20602"/>
+		<item text = "20603 萌系馆3" value = "20603"/>
+		<item text = "20604 萌系馆4" value = "20604"/>
+		<item text = "20605 萌系馆5" value = "20605"/>
+		<item text = "20701 机械系馆1" value = "20701"/>
+		<item text = "20702 机械系馆2" value = "20702"/>
+		<item text = "20703 机械系馆3" value = "20703"/>
+		<item text = "20704 机械系馆4" value = "20704"/>
+		<item text = "20705 机械系馆5" value = "20705"/>
+		<item text = "20801 龙系馆1" value = "20801"/>
+		<item text = "20802 龙系馆2" value = "20802"/>
+		<item text = "20803 龙系馆3" value = "20803"/>
+		<item text = "20804 龙系馆4" value = "20804"/>
+		<item text = "20805 龙系馆5" value = "20805"/>
+		<item text = "20901 教官馆1" value = "20901"/>
+		<item text = "20902 教官馆2" value = "20902"/>
+		<item text = "20903 教官馆3" value = "20903"/>
+		<item text = "20904 教官馆4" value = "20904"/>
+		<item text = "20905 教官馆5" value = "20905"/>
+		
+	</Selector>	
+</EditableEditorHeader>
+	

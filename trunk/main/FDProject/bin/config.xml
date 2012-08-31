@@ -1,0 +1,9 @@
+﻿<EditableEditorHeader version = "031" >
+	<StringPool ADD = "增加"  COPY = "拷贝至剪贴板" EDIT = "编辑" FOLD = "收起" DEL = "删除" EXPORT = "导出"
+	NEW = "新建" OPEN = "打开" SAVE = "保存" CANCEL="取消" RETRY="重试"
+	CLASS_INSRANCE_IS_USED = "类 '%1' 的实例 '%2' 被使用中!!!"
+	CLASS_INSRANCE_IS_USING_THIS_CLASS  = "类 '%1' 的实例 '%2' 正在使用该实例!!!"
+	/>
+
+	
+</EditableEditorHeader>

@@ -1,0 +1,19 @@
+<EditableEditorHeader>
+  
+	<class className = "PTB_0x0300A7_OnCourageRewardNotify">
+		
+		
+	
+		<item class = "ProtocolEditor_comment" name = "" text="~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate" name = "" text="回包信息"/>
+		<item class = "ENTER" name = ""/>
+		
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="item"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:ItemInfoChanged32[0] 说明:活动结束获得的道具"/>
+		<item class = "ENTER" name = ""/>
+		
+		
+	</class>
+
+</EditableEditorHeader>

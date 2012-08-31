@@ -1,0 +1,25 @@
+<EditableEditorHeader>
+  
+	<class className = "CGI_CAKEPKGAME_CMD0_QuertStatus">
+		
+		
+	
+		<item class = "ProtocolEditor_comment" name = "" text="~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate" name = "" text="回包信息"/>
+		<item class = "ENTER" name = ""/>
+		
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="retCode"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:返回码 说明:返回码"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="giftStatus"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u8 说明:1魔法材料消耗的太少不能领取, 2已经领过了"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="status"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u8 说明:ui状态，0表示玩家今天没有操作过该UI，1表示玩家支持了左边，2表示玩家支持了右边"/>
+		<item class = "ENTER" name = ""/>
+		
+		
+	</class>
+
+</EditableEditorHeader>

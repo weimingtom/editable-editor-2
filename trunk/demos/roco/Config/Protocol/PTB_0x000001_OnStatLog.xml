@@ -1,0 +1,24 @@
+<EditableEditorHeader>
+  
+	<class className = "PTB_0x000001_OnStatLog">
+		<item class = "ProtocolEditor_Indicate" name = "" text="id:u32"/>
+		<item class = "ProtocolEditor_u32" name = "id" />
+		<item class = "ProtocolEditor_comment" name = "" text=""/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate" name = "" text="cmd:u32"/>
+		<item class = "ProtocolEditor_u32" name = "cmd" />
+		<item class = "ProtocolEditor_comment" name = "" text=""/>
+		<item class = "ENTER" name = ""/>
+		
+		
+	
+		<item class = "ProtocolEditor_comment" name = "" text="~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate" name = "" text="回包信息"/>
+		<item class = "ENTER" name = ""/>
+		
+		
+		
+	</class>
+
+</EditableEditorHeader>

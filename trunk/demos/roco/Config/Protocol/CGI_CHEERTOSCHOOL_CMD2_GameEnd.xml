@@ -1,0 +1,16 @@
+<EditableEditorHeader>
+  
+	<class className = "CGI_CHEERTOSCHOOL_CMD2_GameEnd">
+		
+		
+	
+		<item class = "ProtocolEditor_comment" name = "" text="~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate" name = "" text="回包信息"/>
+		<item class = "ENTER" name = ""/>
+		
+		
+		
+	</class>
+
+</EditableEditorHeader>

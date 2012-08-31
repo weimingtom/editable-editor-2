@@ -1,0 +1,25 @@
+<EditableEditorHeader>
+  
+	<class className = "CGI_PANNUTRITIONALMEALS_CMD1_ApplyPanMealPlay">
+		
+		
+	
+		<item class = "ProtocolEditor_comment" name = "" text="~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate" name = "" text="回包信息"/>
+		<item class = "ENTER" name = ""/>
+		
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="retCode"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:返回码 说明:value=0 操作成功	 -1 服务器出错1  对不起，你已经开启过转盘了哦	"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="currentItem"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u32 说明:当前已经转到的物品索引 内圈0~8 外圈0~8  当为0时标识未打开过转盘"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="currentItemEnough"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u32 说明:当前物品是否足够 0 不够 1 足够"/>
+		<item class = "ENTER" name = ""/>
+		
+		
+	</class>
+
+</EditableEditorHeader>

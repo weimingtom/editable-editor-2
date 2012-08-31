@@ -1,0 +1,34 @@
+<EditableEditorHeader>
+  
+	<class className = "SKT_0x0300A9_QueryBraveBigWheelStatus">
+		
+		
+	
+		<item class = "ProtocolEditor_comment" name = "" text="~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate" name = "" text="回包信息"/>
+		<item class = "ENTER" name = ""/>
+		
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="retCode"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:返回码 说明:返回码"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="isInGameTime"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:s32 说明:返回码"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="isFirstOpen"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:s32 说明:活动时间内是否第一次打开UI"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="ticketNum"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:s32 说明:礼券的个数"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="lotteryTimes"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:s32 说明:当日已抽奖次数"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="lotteryRemain"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:s32 说明:当日剩余抽奖次数"/>
+		<item class = "ENTER" name = ""/>
+		
+		
+	</class>
+
+</EditableEditorHeader>

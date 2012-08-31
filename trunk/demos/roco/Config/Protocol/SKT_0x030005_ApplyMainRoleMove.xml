@@ -1,0 +1,35 @@
+<EditableEditorHeader>
+  
+	<class className = "SKT_0x030005_ApplyMainRoleMove">
+		<item class = "ProtocolEditor_Indicate" name = "" text="sceneId:u16"/>
+		<item class = "ProtocolEditor_u16" name = "sceneId" />
+		<item class = "ProtocolEditor_comment" name = "" text=""/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate" name = "" text="moveType:u8"/>
+		<item class = "ProtocolEditor_u8" name = "moveType" />
+		<item class = "ProtocolEditor_comment" name = "" text="移动类型，广播时透传 (貌似看到的都是0)"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate" name = "" text="pathLength:u16"/>
+		<item class = "ProtocolEditor_u16" name = "pathLength" />
+		<item class = "ProtocolEditor_comment" name = "" text="路径节点数"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate" name = "" text="pathArray:Point[pathLength]"/>
+		<item class = "ProtocolEditor_Indicate" name = "" text="不支持编辑"/>
+		<item class = "ProtocolEditor_comment" name = "" text="坐标数组"/>
+		<item class = "ENTER" name = ""/>
+		
+		
+	
+		<item class = "ProtocolEditor_comment" name = "" text="~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate" name = "" text="回包信息"/>
+		<item class = "ENTER" name = ""/>
+		
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="retCode"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:返回码 说明:返回信息"/>
+		<item class = "ENTER" name = ""/>
+		
+		
+	</class>
+
+</EditableEditorHeader>

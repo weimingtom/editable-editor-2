@@ -1,0 +1,45 @@
+﻿<EditableEditorHeader>
+<Selector className = "GameSelector" valueType = "int" width = "200" showValue = "true">
+	<item text = "2000 魔法商店临时工" value = "2000"/>
+	<item text = "2001 鸟儿一样飞翔" value = "2001"/>
+	<item text = "2002 宠物园献爱心" value = "2002"/>
+	<item text = "2003 魔法守护" value = "2003"/>
+	<item text = "2004 时尚小裁缝" value = "2004"/>
+	<item text = "2005 小小炼金师" value = "2005"/>
+	<item text = "2006 小小代课老师" value = "2006"/>
+	<item text = "2007 骑士的荣耀" value = "2007"/>
+	<item text = "2008 洛克山营救" value = "2008"/>
+	<item text = "2009 马戏团的掌声" value = "2009"/>
+	<item text = "2010 魔法阿凡达" value = "2010"/>
+	<item text = "2011 叮叮甜点" value = "2011"/>
+	<item text = "2012 瞄准扔飞镖" value = "2012"/>
+	<item text = "2013 赞美的乐章" value = "2013"/>
+	<item text = "2014 修理大考验" value = "2014"/>
+	<item text = "2015 修补书籍" value = "2015"/>
+	<item text = "2016 创意小画家" value = "2016"/>
+	<item text = "2017 娃娃总动员" value = "2017"/>
+	<item text = "2018 梦幻星空" value = "2018"/>
+	<item text = "2019 野外拍摄" value = "2019"/>
+	<item text = "2020 金矿迷踪" value = "2020"/>
+	<item text = "2021 城堡守护者" value = "2021"/>
+	<item text = "2022 荷叶一点通" value = "2022"/>
+	<item text = "2023 记忆力大考验" value = "2023"/>
+	<item text = "2024 阳光沙滩球" value = "2024"/>
+	<item text = "2025 奇妙画笔" value = "2025"/>
+	<item text = "2026 漂流探险" value = "2026"/>
+	<item text = "2027 文明小使者" value = "2027"/>
+	<item text = "2029 大门解迷" value = "2029"/>
+	<item text = "2031 动感足" value = "2031"/>
+	<item text = "2032 海洋拼拼" value = "2032"/>
+	<item text = "2033 魔法手舞" value = "2033"/>
+	
+	<item text = "3001 砖块围城" value = "3001"/>
+	<item text = "3002 魔力种子" value = "3002"/>
+</Selector>	
+	
+<Selector className = "GameTypeSelector" valueType = "int" width = "100" showValue = "false">
+	<item text = "场景游戏" value = "1"/>
+	<item text = "单人小游戏" value = "2"/>
+	<item text = "伪多人游戏" value = "3"/>
+</Selector>
+</EditableEditorHeader>

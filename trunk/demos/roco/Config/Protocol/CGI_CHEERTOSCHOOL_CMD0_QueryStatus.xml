@@ -1,0 +1,28 @@
+<EditableEditorHeader>
+  
+	<class className = "CGI_CHEERTOSCHOOL_CMD0_QueryStatus">
+		
+		
+	
+		<item class = "ProtocolEditor_comment" name = "" text="~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate" name = "" text="回包信息"/>
+		<item class = "ENTER" name = ""/>
+		
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="retCode"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:返回码 说明:返回码，0表示成功。"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="openCardsNumLeft"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u8 说明:玩家当日剩余翻牌次数 --------unsign char"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="powerNum"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u8 说明:高4位为玩家能量点数量，低4位表示能量箱打开情况[1表示已经打开，0表示没有打开]：0，1，2位分别对应2，5，10的箱子。第3位无效位 --------unsign char"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="allCardsFlag"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u16 说明:每张牌的开关，每一位对应一张牌[1表示已经翻开，0表示还没有翻开]，低位开始，对应的牌图从左到右共15位。第16位无效 --------unsign short"/>
+		<item class = "ENTER" name = ""/>
+		
+		
+	</class>
+
+</EditableEditorHeader>

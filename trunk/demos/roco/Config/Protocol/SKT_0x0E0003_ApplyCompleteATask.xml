@@ -1,0 +1,53 @@
+<EditableEditorHeader>
+  
+	<class className = "SKT_0x0E0003_ApplyCompleteATask">
+		<item class = "ProtocolEditor_Indicate" name = "" text="taskTaskId:u16"/>
+		<item class = "ProtocolEditor_u16" name = "taskTaskId" />
+		<item class = "ProtocolEditor_comment" name = "" text="任务id"/>
+		<item class = "ENTER" name = ""/>
+		
+		
+	
+		<item class = "ProtocolEditor_comment" name = "" text="~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate" name = "" text="回包信息"/>
+		<item class = "ENTER" name = ""/>
+		
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="retCode"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:返回码 说明:0成功，非0失败"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="moneyAdd"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:s32 说明:金钱"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="expAdd"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:s32 说明:经验"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="honorAdd"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:s32 说明:荣誉"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="powerAdd"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:s32 说明:体能"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="intellectAdd"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:s32 说明:智慧"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="charmAdd"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:s32 说明:艺术"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="itemInfoChangedLength"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u16 说明:物品数组长度"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="itemInfoChangedArray"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:ItemInfoChanged32[itemInfoChangedLength] 说明:物品数组"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="taskInfoListLength"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u16 说明:任务信息长度"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="taskInfoListArray"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:TaskInfo[taskInfoListLength] 说明:任务信息数组"/>
+		<item class = "ENTER" name = ""/>
+		
+		
+	</class>
+
+</EditableEditorHeader>

@@ -1,0 +1,37 @@
+<EditableEditorHeader>
+  
+	<class className = "CGI_PANNUTRITIONALMEALS_CMD0_QueryPanMealStatus">
+		
+		
+	
+		<item class = "ProtocolEditor_comment" name = "" text="~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate" name = "" text="回包信息"/>
+		<item class = "ENTER" name = ""/>
+		
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="retCode"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:返回码 说明:返回码 value=0"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="currentTime"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:s32 说明:当前时间:早中午分别为0,1,2"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="currentSeed"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:s32 说明:是否已经领取免费种子"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="currentItem"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:s32 说明:当前已经转到的物品索引 内圈0~8 外圈0~8  当为0时标识未打开过转盘"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="currentItemEnough"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:s32 说明:当前物品是否足够 0 不够 1 足够"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="todayTotal"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:s32 说明:bit 1 2 4代表 早中晚"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="totalComplete"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:s32 说明:-1 不更改 0 1 2表示 1 2 3天"/>
+		<item class = "ENTER" name = ""/>
+		
+		
+	</class>
+
+</EditableEditorHeader>

@@ -1,0 +1,32 @@
+<EditableEditorHeader>
+  
+	<class className = "SKT_0x0C0001_QueryTaskConditionStatus">
+		<item class = "ProtocolEditor_Indicate" name = "" text="taskTaskId:u32"/>
+		<item class = "ProtocolEditor_u32" name = "taskTaskId" />
+		<item class = "ProtocolEditor_comment" name = "" text="任务ID"/>
+		<item class = "ENTER" name = ""/>
+		
+		
+	
+		<item class = "ProtocolEditor_comment" name = "" text="~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate" name = "" text="回包信息"/>
+		<item class = "ENTER" name = ""/>
+		
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="retCode"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:返回码 说明:返回码,返回信息"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="taskTaskId"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u32 说明:任务ID"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="taskConditionStatusLength"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u16 说明:条件个数"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="taskConditionStatusArray"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u8[taskConditionStatusLength] 说明:条件状态数组 1：完成，0：未完成"/>
+		<item class = "ENTER" name = ""/>
+		
+		
+	</class>
+
+</EditableEditorHeader>

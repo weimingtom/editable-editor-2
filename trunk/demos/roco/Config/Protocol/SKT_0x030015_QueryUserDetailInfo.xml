@@ -1,0 +1,122 @@
+<EditableEditorHeader>
+  
+	<class className = "SKT_0x030015_QueryUserDetailInfo">
+		<item class = "ProtocolEditor_Indicate" name = "" text="qqUin:u32"/>
+		<item class = "ProtocolEditor_u32" name = "qqUin" />
+		<item class = "ProtocolEditor_comment" name = "" text="号码"/>
+		<item class = "ENTER" name = ""/>
+		
+		
+	
+		<item class = "ProtocolEditor_comment" name = "" text="~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate" name = "" text="回包信息"/>
+		<item class = "ENTER" name = ""/>
+		
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="retCode"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:返回码 说明:返回码"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="qqUin"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u32 说明:号码"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="birthDate"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u32 说明:生日 精确到秒 转Date要*1000"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="level"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u16 说明:等级"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="exp"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u32 说明:当前经验"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="maxExp"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u32 说明:最大经验"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="honor"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u32 说明:荣誉"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="strength"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u32 说明:武力"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="intelligence"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u32 说明:智力"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="charm"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u32 说明:魅力"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="money"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u32 说明:金钱"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="avatarVersion"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u16 说明:avatar版本号"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="avatar"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u32[9] 说明:avatar信息"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="badge"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u8 说明:徽章 每一位一个徽章"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="isVip"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:bool 说明:VIP标志位"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="vipLevel"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u8 说明:VIP等级"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="magicValue"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u32 说明:魔力值"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="vipExpireDate"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:s32 说明:VIP到期时间 精确到秒 转Date要*1000"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="vipRemainDays"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u32 说明:VIP剩余天数"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="pvpMatchWin"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u32 说明:激战赛胜利场次"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="pvpMatchLose"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u32 说明:激战赛失败场次"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="pvpMatchEscape"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u32 说明:激战赛逃跑场次"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="pvpFreePkWin"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u32 说明:自由PK赛胜利场次"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="pvpFreePkLose"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u32 说明:自由PK赛失败场次"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="pvpFreePkEscape"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u32 说明:自由PK赛逃跑场次"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="pvpFreePkConfig"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u8 说明:自由PK赛设置 0：不可邀请  1：可邀请"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="bossInfoBraveMode"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u32 说明:BOSS勇者模式信息 存储最近挑战成功的BOSS序号（从1开始）"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="bossInfoHeroMode"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u32 说明:BOSS英雄模式信息 按位存储，为1的位标识已经挑战完了，为0的标识尚未挑战，从低位到高位顺序存储"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="bossInfoTreasure"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u32 说明:BOSS宝箱信息 按位存储，每个宝箱占2为，0表示未开启，1表示开启，2表示已领取，从低位到高位顺序存储"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="skyTowerMaxFloorNum"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u8 说明:通天塔最高层数 玩家挑战过的通天塔最高层数"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="trainerLevel"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u8 说明:宠物训练师当前等级"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="trainerExp"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u32 说明:历练值"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="achieveId"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u8 说明:称号ID"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="achieveTitleLevel"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u8 说明:称号等级"/>
+		<item class = "ENTER" name = ""/>
+		
+		
+	</class>
+
+</EditableEditorHeader>

@@ -1,0 +1,30 @@
+<EditableEditorHeader>
+  
+	<class className = "SKT_0x030029_ApplyChangeAAvatar">
+		<item class = "ProtocolEditor_Indicate" name = "" text="avatarPosition:u8"/>
+		<item class = "ProtocolEditor_u8" name = "avatarPosition" />
+		<item class = "ProtocolEditor_comment" name = "" text="8：表情，9：皮肤"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate" name = "" text="avatarId:u32"/>
+		<item class = "ProtocolEditor_u32" name = "avatarId" />
+		<item class = "ProtocolEditor_comment" name = "" text="0表示随机"/>
+		<item class = "ENTER" name = ""/>
+		
+		
+	
+		<item class = "ProtocolEditor_comment" name = "" text="~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate" name = "" text="回包信息"/>
+		<item class = "ENTER" name = ""/>
+		
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="retCode"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:返回码 说明:0，-100，-111，-116"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="avatarVersion"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u16 说明:avatar版本号"/>
+		<item class = "ENTER" name = ""/>
+		
+		
+	</class>
+
+</EditableEditorHeader>
