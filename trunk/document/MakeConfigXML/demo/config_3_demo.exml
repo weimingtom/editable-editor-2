@@ -1,0 +1,16 @@
+<EditableEditorFile version="31" date="Mon May 16 15:04:51 GMT+0800 2011">
+  <classInstance class="条件_等级限制" name="条件_玩家等级>=50 , &lt;=80" instanceUID="1146143586">
+    <classInstance class="SelectorComparator" name="comparator" instanceUID="1146142078" value="GEQ" text="大于等于" selectId="2"/>
+    <classInstance class="条件结果" name="conditionResult" instanceUID="1146143585">
+      <classInstance class="InstanceSelector条件" name="resultTrue" instanceUID="1146143582" selectedInstanceUID="1147868596" text="条件_玩家等级&lt;=80" selectId="4"/>
+      <classInstance class="InstanceSelector条件" name="resultFalse" instanceUID="1146143584" selectedInstanceUID="1001" text="总不是(false)" selectId="2"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="条件_等级限制" name="条件_玩家等级&lt;=80" instanceUID="1147868596">
+    <classInstance class="SelectorComparator" name="comparator" instanceUID="1147868588" value="LEQ" text="小于等于" selectId="3"/>
+    <classInstance class="条件结果" name="conditionResult" instanceUID="1147868595">
+      <classInstance class="InstanceSelector条件" name="resultTrue" instanceUID="1147868592" selectedInstanceUID="1000" text="总是(true)" selectId="1"/>
+      <classInstance class="InstanceSelector条件" name="resultFalse" instanceUID="1147868594" selectedInstanceUID="1001" text="总不是(false)" selectId="2"/>
+    </classInstance>
+  </classInstance>
+</EditableEditorFile>

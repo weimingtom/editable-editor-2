@@ -1,0 +1,22 @@
+<EditableEditorFile version="31" date="Mon May 16 16:40:16 GMT+0800 2011">
+  <classInstance class="事件_弹出对话框" name="事件_弹出进入的家具店的操作提示" instanceUID="1101830089">
+    <classInstance class="TextFiledIInputArea" name="content" instanceUID="1101830088" text="欢迎来到家具店，在这里XXXXXXX"/>
+  </classInstance>
+  <classInstance class="触发器_进入场景" name="进入家具店" instanceUID="1108961193">
+    <classInstance class="SelectorComparator" name="comparator" instanceUID="1108961191" value="EQ" text="等于" selectId="1"/>
+    <classInstance class="SelectorSceneId" name="sceneId" instanceUID="1108961192" value="3" text="3 家具店" selectId="3"/>
+  </classInstance>
+  <classInstance class="任务NPC" name="家具店的测试NPC" instanceUID="1018565411">
+    <classInstance class="SelectorNpcId" name="npcId" instanceUID="1018563902"/>
+    <classInstance class="SelectorSceneId" name="sceneId" instanceUID="1018563905"/>
+    <classInstance class="InstanceSelector条件" name="resultTrue" instanceUID="1018563907" selectedInstanceUID="1000" text="总是(true)" selectId="1"/>
+  </classInstance>
+  <classInstance class="任务NPC" name="家具店的测试NPC2" instanceUID="1022082622">
+    <classInstance class="SelectorNpcId" name="npcId" instanceUID="1022081113"/>
+    <classInstance class="SelectorSceneId" name="sceneId" instanceUID="1022082616"/>
+    <classInstance class="InstanceSelector条件" name="resultTrue" instanceUID="1022082618" selectedInstanceUID="1000" text="总是(true)" selectId="1"/>
+  </classInstance>
+  <classInstance class="触发器_事件" name="进入家具店弹出的欢迎文字" instanceUID="927973600">
+    <classInstance class="InstanceSelector任务NPC" name="npc" instanceUID="927973599" selectedInstanceUID="1022082622" text="家具店的测试NPC2" selectId="2"/>
+  </classInstance>
+</EditableEditorFile>
