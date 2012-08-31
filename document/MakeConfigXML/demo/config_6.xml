@@ -1,0 +1,295 @@
+﻿<EditableEditorHeader version = "031" >
+	<StringPool ADD = "增加"  COPY = "拷贝至剪贴板" EDIT = "编辑" FOLD = "收起" NEW = "新建" OPEN = "打开" SAVE = "保存"/>
+
+	<TextField className = "TextFiledIndicate" editable = "false"	width = "0" height = "12" border = "false" background = "false" selectable = "false"/>
+	<TextField className = "TextFiledInputNumber"	editable = "true"	width = "28" restrict = "0-9\-" defaultText = "输入数字"/>
+	<TextField className = "TextFiledIInputArea"	editable = "true" width = "260" height = "60"/>
+	<TextField className = "LINE" editable = "false" width = "0" height = "12" border = "false" background = "false" selectable = "false" defaultText = "-----------------------------------------------------"/>
+	
+	<Selector className = "SelectorNpcId" valueType = "int" width = "200" showValue = "true">
+		<item value = "100100"	text = "格里芬院长" />
+		<item value = "100200"	text = "莫尼亚克社长" />
+		<item value = "109700"	text = "托比" />
+		<item value = "109800"	text = "冰封骑士" />
+		<item value = "109900"	text = "乐乐" />
+		<item value = "110000"	text = "艾琳" />
+		<item value = "110100"	text = "杰克" />
+	</Selector>
+		
+	<Selector className = "SelectorSceneId" valueType = "int" width = "200" showValue = "false">
+		<item text = "1 商店街" value = "1"/>
+		<item text = "2 皮卡服装店" value = "2"/>
+		<item text = "3 家具店" value = "3"/>
+		<item text = "4 博得材料屋" value = "4"/>
+		<item text = "5 魔法学院" value = "5"/>
+		<item text = "6 教学楼" value = "6"/>
+		<item text = "7 图书馆" value = "7"/>
+		<item text = "8 皇家研究院" value = "8"/>
+		<item text = "9 实验工坊" value = "9"/>
+		<item text = "10 奇妙屋" value = "10"/>
+		<item text = "11 观星台" value = "11"/>
+		<item text = "12 体育场" value = "12"/>
+		<item text = "13 王国城堡" value = "13"/>
+	</Selector>
+	
+	
+	<Class className = "任务NPC">
+		<item class = "TextFiledIndicate" name = "" text = "NPC名字" />
+		<item class = "SelectorNpcId" name = "npcId" export="value,u32"/>
+		<item class = "ENTER" name = "" />
+		<item class = "LINE" name = "" />
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiledIndicate" name = "" text = "出现场景"/>
+		<item class = "SelectorSceneId" name = "sceneId"  export="value,u16"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiledIndicate" name = "" text = "出现条件" />
+		<item class = "InstanceSelector条件" name = "resultTrue" default = "1" export="instanceUID,u32"/>
+		<item class = "ENTER" name = "" />
+		<item class = "LINE" name = "" />
+		<item class = "ENTER" name = "" />
+		
+		<item class = "TextFiledIndicate" name = "" text = "触发器_事件列表" />
+		<item class = "ENTER" name = "" />
+		<item class = "InstanceSelector触发器_事件_绑定NPC" name = "" />
+
+	</Class>
+	
+	<ClassCreater className = "ClassCreater任务NPC" width = "180" valueType = "String" >
+		<item class = "任务NPC"/>
+	</ClassCreater>
+	<InstanceSelector className = "InstanceSelector任务NPC" valueType = "String" width = "200" editable = "true">
+		<item class = "任务NPC"/>
+	</InstanceSelector>
+	
+	
+	<Selector className = "SelectorTaskId" valueType = "int" width = "200" showValue = "false">	
+		<item value = "67174406"	text = "67174406 格里芬书稿" />
+		<item value = "67174413"	text = "67174413 古老的圣杯" />
+		<item value = "67174414"	text = "67174414 失传的琴谱" />
+		<item value = "67174415"	text = "67174415 遗失的王冠钻石" />
+	</Selector>
+	
+	
+	<Selector className = "SelectorItem" valueType = "int" width = "200" showValue = "true">	
+		<item value = "33619969"	text = "碧水玲珑蛋" />
+	</Selector>
+
+	<Selector className = "SelectorComparator" valueType = "String" width = "80">
+		<item value = "EQ" text = "等于" />
+		<item value = "GEQ" text = "大于等于" />
+		<item value = "LEQ" text = "小于等于" />
+		<item value = "GT" text = "大于" />
+		<item value = "LS" text = "小于" />
+		<item value = "NEQ" text = "不小于" />
+		<item value = "ALWAYS" text = "总符合" />
+		<item value = "NEVER" text = "总不符合" />
+	</Selector>
+	
+	
+	
+	
+	<Class className = "ConditionAlways"/>
+	<ClassInstance class = "ConditionAlways" name = "总是(true)" instanceUID = "1000"/>
+	<Class className = "ConditionNever"/>
+	<ClassInstance class = "ConditionNever" name = "总不是(false)" instanceUID = "1001"/>
+	
+	
+	<Class className = "条件结果">
+		<item class = "TextFiledIndicate" name = "" text = "满足时返回"/>
+		<item class = "InstanceSelector条件" name = "resultTrue" default = "1"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiledIndicate" name = "" text = "不满足时返回"/>
+		<item class = "InstanceSelector条件" name = "resultFalse"  default = "2"/>
+	</Class>
+	
+	
+	<Selector className = "SelectorTaskStatus" valueType = "int" width = "200" showValue = "false">	
+		<item value = "0"	text = "未接受" />
+		<item value = "1"	text = "未满足完成条件" />
+		<item value = "2"	text = "满足完成条件,未递交" />
+		<item value = "3"	text = "已递交" />
+	</Selector>
+	
+	<Class className = "条件_任务条件">
+		<item class = "TextFiledIndicate" name = "" text = "任务" />
+		<item class = "SelectorTaskId" name = "taskId" />
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiledIndicate" name = "" text = "状态" />
+		<item class = "SelectorTaskStatus" name = "taskStatus" />
+		
+		<item class = "ENTER" name = "" />
+		<item class = "LINE" name = ""/>
+		<item class = "ENTER" name = "" />
+		<item class = "条件结果" name = "conditionResult" />
+	</Class>
+	
+	<Class className = "条件_等级限制">
+		<item class = "TextFiledIndicate" name = "" text = "当玩家等级" />
+		<item class = "SelectorComparator" name = "comparator" />
+		<item class = "TextFiledInputNumber" name = "" text = "0" />
+		
+		<item class = "ENTER" name = "" />
+		<item class = "LINE" name = ""/>
+		<item class = "ENTER" name = "" />
+		<item class = "条件结果" name = "conditionResult" />
+	</Class>
+	
+	
+	
+	<InstanceSelector className = "InstanceSelector条件" valueType = "String" width = "200" editable = "true">
+		<item class = "ConditionNever"/>
+		<item class = "ConditionAlways"/>
+		<item class = "条件_任务条件"/>
+		<item class = "条件_等级限制"/>
+	</InstanceSelector>
+	
+	<ClassCreater className = "ClassCreater条件"  valueType = "String" width = "200">
+		<item class = "条件_任务条件"/>
+		<item class = "条件_等级限制"/>
+	</ClassCreater>
+	
+	
+	
+	
+	
+	<Class className = "EventNothing"></Class>
+	<ClassInstance class = "EventNothing" name = "无事件" instanceUID = "3000"/>
+	
+	<Class className = "事件_弹出对话框">
+		<item class = "TextFiledIndicate" name = "" text = "对话内容"/>
+		<item class = "ENTER" name = "" />
+		<item class= "TextFiledIInputArea" name = "content"/>
+	</Class>
+	
+	<Class className = "事件_打开购买面板">
+		<item class = "TextFiledIndicate" name = "" text = "物品ID"/>
+		<item class = "ENTER" name = "" />
+		<item class= "SelectorItem" name = "itemId"/>
+	</Class>
+	
+	<Class className = "事件_打开APP"/>
+	<Class className = "事件_打开Plugin"/>
+	<Class className = "事件_跳转场景"/>
+	<Class className = "事件_开始战斗"/>
+	
+	
+	<ClassCreater className = "ClassCreater事件" width = "320" valueType = "String" >
+		<item class = "事件_弹出对话框"/>
+		<item class = "事件_打开APP"/>
+		<item class = "事件_跳转场景"/>
+		<item class = "事件_开始战斗"/>
+		<item class = "事件_打开购买面板"/>
+	</ClassCreater>
+	
+	<InstanceSelector className = "InstanceSelector事件" valueType = "String" width = "270" editable = "true">
+		<item class = "EventNothing"/>
+		<item class = "事件_弹出对话框"/>
+		<item class = "事件_打开APP"/>
+		<item class = "事件_跳转场景"/>
+		<item class = "事件_开始战斗"/>
+		<item class = "事件_打开购买面板"/>
+	</InstanceSelector>
+	
+	
+	
+	<ClassCreater className = "ClassCreater触发器_事件" width = "320" valueType = "String" >
+		<item class = "触发器_事件"/>
+	</ClassCreater>
+	
+	<InstanceSelector className = "InstanceSelector触发器_事件" valueType = "String" width = "270" editable = "true">
+		<item class = "触发器_事件"/>
+	</InstanceSelector>
+	
+	
+	<InstanceSelector className = "InstanceSelector触发器_事件_绑定NPC" valueType = "String" width = "270" editable = "true">
+		<item class = "触发器_事件" condition = "npc.selectedInstanceUID == parent.instanceUID"/> 
+	</InstanceSelector>
+	
+	
+	<Class className = "触发器_进入场景">
+		<item class = "TextFiledIndicate" name = "" text = "场景ID"/>
+		<item class = "SelectorComparator" name = "comparator" text = "场景ID"/>
+		<item class = "SelectorSceneId" name = "sceneId"  export="value,u16"/>
+	</Class>
+	
+	
+	<Class className = "触发器_离开场景"/>
+	<Class className = "触发器_ENTER_FRAME"/>
+	<Class className = "触发器_玩家行走"/>
+	<Class className = "触发器_鼠标悬停"/>
+	<Class className = "触发器_鼠标CLICK"/>
+	
+	<ClassCreater className = "ClassCreater触发器" width = "320" valueType = "String" >
+		<item class = "触发器_进入场景"/>
+		<item class = "触发器_离开场景"/>
+		<item class = "触发器_ENTER_FRAME"/>
+		<item class = "触发器_玩家行走"/>
+		<item class = "触发器_鼠标悬停"/>
+		<item class = "触发器_鼠标CLICK"/>
+	</ClassCreater>
+	
+	<InstanceSelector className = "InstanceSelector触发器" valueType = "String" width = "270" editable = "true">
+		<item class = "触发器_进入场景"/>
+		<item class = "触发器_离开场景"/>
+		<item class = "触发器_ENTER_FRAME"/>
+		<item class = "触发器_玩家行走"/>
+		<item class = "触发器_鼠标悬停"/>
+		<item class = "触发器_鼠标CLICK"/>
+	</InstanceSelector>	
+	
+	<Class className = "触发器_事件">
+		<item class = "TextFiledIndicate" name = "" text = "当"/>
+		<item class = "InstanceSelector触发器" name = "" />
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiledIndicate" name = "" text = "时执行"/>
+		<item class = "InstanceSelector事件" name = "" default = "1"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiledIndicate" name = "" text = "绑定NPC ID" />
+		<item class = "InstanceSelector任务NPC" name = "npc"/>
+	</Class>
+	
+	
+	<Page name = "任务NPC">
+		<classInstance class = "ClassCreater任务NPC" name = "增加一个'任务NPC'" default = "0"/>
+		<classInstance class = "ENTER" name = "" />
+		<classInstance class = "LINE" name = "" />
+		<classInstance class = "ENTER" name = "" />
+		<classInstance class = "InstanceSelector任务NPC" name = "选择'任务NPC'" />
+	</Page>
+	
+	<Page name = "条件">
+		<classInstance class = "ClassCreater条件" name = "增加一个'条件'" default = "0"/>
+		<classInstance class = "ENTER" name = "" />
+		<classInstance class = "LINE" name = "" />
+		<classInstance class = "ENTER" name = "" />
+		<classInstance class = "InstanceSelector条件" name = "选择'条件'" />
+	</Page>
+	
+	<Page name = "事件">
+		<classInstance class = "ClassCreater事件" name = "增加一个'事件'" default = "0"/>
+		<classInstance class = "ENTER" name = "" />
+		<classInstance class = "LINE" name = "" />
+		<classInstance class = "ENTER" name = "" />
+		<classInstance class = "InstanceSelector事件" name = "选择'事件'" />
+	</Page>
+	
+	<Page name = "触发器">
+		<classInstance class = "ClassCreater触发器" name = "增加一个'触发器'" default = "0"/>
+		<classInstance class = "ENTER" name = "" />
+		<classInstance class = "LINE" name = "" />
+		<classInstance class = "ENTER" name = "" />
+		<classInstance class = "InstanceSelector触发器" name = "选择'触发器'" />
+	</Page>
+	
+	<Page name = "触发器-事件">
+		<classInstance class = "ClassCreater触发器_事件" name = "增加一个'触发器-事件'" default = "0"/>
+		<classInstance class = "ENTER" name = "" />
+		<classInstance class = "LINE" name = "" />
+		<classInstance class = "ENTER" name = "" />
+		<classInstance class = "InstanceSelector触发器_事件" name = "选择'触发器-事件'" />
+	</Page>
+	
+	
+	
+	
+</EditableEditorHeader>

@@ -1,0 +1,4 @@
+﻿<EditableEditorHeader version = "031" >
+	<StringPool ADD = "增加"  COPY = "拷贝至剪贴板" EDIT = "编辑" FOLD = "收起" NEW = "新建" OPEN = "打开" SAVE = "保存"/>
+
+</EditableEditorHeader>

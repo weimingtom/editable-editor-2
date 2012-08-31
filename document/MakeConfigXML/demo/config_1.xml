@@ -1,0 +1,60 @@
+﻿<EditableEditorHeader version = "031" >
+	<StringPool ADD = "增加"  COPY = "拷贝至剪贴板" EDIT = "编辑" FOLD = "收起" NEW = "新建" OPEN = "打开" SAVE = "保存"/>
+
+	<TextField className = "TextFiledIndicate" editable = "false"	width = "0" height = "12" border = "false" background = "false" selectable = "false"/>
+	<TextField className = "TextFiledInputNumber"	editable = "true"	width = "28" restrict = "0-9\-" defaultText = "输入数字"/>
+	<TextField className = "TextFiledIInputArea"	editable = "true" width = "260" height = "60"/>
+	<TextField className = "LINE" editable = "false" width = "0" height = "12" border = "false" background = "false" selectable = "false" defaultText = "-----------------------------------------------------"/>
+	
+	<Selector className = "SelectorNpcId" valueType = "int" width = "200" showValue = "true">
+		<item value = "100100"	text = "格里芬院长" />
+		<item value = "100200"	text = "莫尼亚克社长" />
+		<item value = "109700"	text = "托比" />
+		<item value = "109800"	text = "冰封骑士" />
+		<item value = "109900"	text = "乐乐" />
+		<item value = "110000"	text = "艾琳" />
+		<item value = "110100"	text = "杰克" />
+	</Selector>
+		
+	<Selector className = "SelectorSceneId" valueType = "int" width = "200" showValue = "false">
+		<item text = "1 商店街" value = "1"/>
+		<item text = "2 皮卡服装店" value = "2"/>
+		<item text = "3 家具店" value = "3"/>
+		<item text = "4 博得材料屋" value = "4"/>
+		<item text = "5 魔法学院" value = "5"/>
+		<item text = "6 教学楼" value = "6"/>
+		<item text = "7 图书馆" value = "7"/>
+		<item text = "8 皇家研究院" value = "8"/>
+		<item text = "9 实验工坊" value = "9"/>
+		<item text = "10 奇妙屋" value = "10"/>
+		<item text = "11 观星台" value = "11"/>
+		<item text = "12 体育场" value = "12"/>
+		<item text = "13 王国城堡" value = "13"/>
+	</Selector>
+	
+	
+	<Class className = "任务NPC">
+		<item class = "TextFiledIndicate" name = "" text = "NPC名字" />
+		<item class = "SelectorNpcId" name = "npcId" export="value,u32"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiledIndicate" name = "" text = "出现场景"/>
+		<item class = "SelectorSceneId" name = "sceneId"  export="value,u16"/>
+	</Class>
+	
+	<ClassCreater className = "ClassCreater任务NPC" width = "180" valueType = "String" >
+		<item class = "任务NPC"/>
+	</ClassCreater>
+	<InstanceSelector className = "InstanceSelector任务NPC" valueType = "String" width = "200" editable = "true">
+		<item class = "任务NPC"/>
+	</InstanceSelector>
+	
+	<Page name = "任务NPC">
+		<classInstance class = "ClassCreater任务NPC" name = "增加一个'任务NPC'" default = "0"/>
+		<classInstance class = "ENTER" name = "" />
+		<classInstance class = "LINE" name = "" />
+		<classInstance class = "ENTER" name = "" />
+		<classInstance class = "InstanceSelector任务NPC" name = "选择'任务NPC'" />
+	</Page>
+	
+	
+</EditableEditorHeader>

@@ -1,0 +1,6 @@
+<EditableEditorFile version="31" date="Tue May 10 15:23:14 GMT+0800 2011">
+  <classInstance class="任务NPC" name="aaa" instanceUID="63274976">
+    <classInstance class="SelectorNpcId" name="npcId" instanceUID="63274973" value="109800" text="冰封骑士" selectId="4"/>
+    <classInstance class="SelectorSceneId" name="sceneId" instanceUID="63274975" value="1" text="1 商店街" selectId="1"/>
+  </classInstance>
+</EditableEditorFile>

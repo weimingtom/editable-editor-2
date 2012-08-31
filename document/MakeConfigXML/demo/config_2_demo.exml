@@ -1,0 +1,15 @@
+<EditableEditorFile version="31" date="Mon May 16 14:40:40 GMT+0800 2011">
+  <classInstance class="条件_任务条件" name="条件_任务'格里芬书稿'未接" instanceUID="1028628687">
+    <classInstance class="SelectorTaskId" name="taskId" instanceUID="1028627078" value="67174406" text="67174406 格里芬书稿" selectId="1"/>
+    <classInstance class="SelectorTaskStatus" name="taskStatus" instanceUID="1028627080" value="0" text="未接受" selectId="1"/>
+    <classInstance class="条件结果" name="conditionResult" instanceUID="1028628686">
+      <classInstance class="InstanceSelector条件" name="resultTrue" instanceUID="1028628683" selectedInstanceUID="1000" text="总是(true)" selectId="1"/>
+      <classInstance class="InstanceSelector条件" name="resultFalse" instanceUID="1028628685" selectedInstanceUID="1001" text="总不是(false)" selectId="2"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="任务NPC" name="测试用NPC" instanceUID="1030661395">
+    <classInstance class="SelectorNpcId" name="npcId" instanceUID="1030661389" value="109900" text="乐乐" selectId="5"/>
+    <classInstance class="SelectorSceneId" name="sceneId" instanceUID="1030661392" value="6" text="6 教学楼" selectId="6"/>
+    <classInstance class="InstanceSelector条件" name="resultTrue" instanceUID="1030661394" selectedInstanceUID="1028628687" text="条件_任务'格里芬书稿'未接" selectId="3"/>
+  </classInstance>
+</EditableEditorFile>
