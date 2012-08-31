@@ -1,0 +1,40 @@
+<EditableEditorHeader>
+  
+	<class className = "CGI_LOVEGIFT_CMD0_QueryStatus">
+		
+		
+	
+		<item class = "ProtocolEditor_comment" name = "" text="~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate" name = "" text="回包信息"/>
+		<item class = "ENTER" name = ""/>
+		
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="retCode"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:返回码 说明:返回码"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="hasGetFirstAward"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u32 说明:否领取过第一次点击npc奖励，0否   1是"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="hasGetAward1"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u32 说明:是否领取过奖励皮肤1  蘑菇遮阳伞  0否   1是"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="hasGetAward2"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u32 说明:否领取过奖励皮肤2  蘑菇灌溉水枪 0否   1是"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="hasGetAward3"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u32 说明:是否领取过奖励皮肤3  小蘑菇告示牌  0否   1是"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="hasGetAward4"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u32 说明:是否领取过奖励皮肤4  蘑菇小屋  0否   1是"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="sendNum"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u32 说明:已经赠送的数量"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="hasNum"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u16 说明:当前用户拥有的数量"/>
+		<item class = "ENTER" name = ""/>
+		
+		
+	</class>
+
+</EditableEditorHeader>

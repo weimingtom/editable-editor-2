@@ -1,0 +1,440 @@
+<EditableEditorHeader>
+	
+	<class className = "EventDoNothing"/>
+	<classInstance class = "EventDoNothing" name = "无事件" instanceUID = "3000"/>
+	
+	<class className = "EventAlert" >
+		<item class = "TextFiled Indicate" name = "" text = "弹出警告框 标题"/>
+		<item class = "ENTER" name = "" />
+		<item class= "Input Text Long" name = "dialogTitle"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "弹出警告框 内容"/>
+		<item class = "ENTER" name = "" />
+		<item class= "Input Text Area" name = "dialogContent"/>
+		<item class = "ENTER" name = "" />
+		<item class = "Line"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "点击回调"/>
+		<item class = "ENTER" name = "" />
+		<item class= "事件浏览器" name = "clickEvent" default = "1"/>
+	</class>
+	
+	
+	<class className = "EventSendProtocol" >
+		<item class = "TextFiled Indicate" name = "" text = "高级功能限程序使用"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "发送数据包"/>
+		<item class = "ENTER" name = "" />
+		<item class= "ProtocolList" name = "protocol"/>
+		<item class = "ENTER" name = "" />
+		<item class = "Line"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "回包内容保存:"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "当"/>
+		<item class = "Input Text Long" name = "contidion" text = "retCode['code']==0"/>
+		
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "保存"/>
+		<item class = "Input Text Long" name = "field" text = "this"/>
+		<item class = "TextFiled Indicate" name = "" text = "至变量"/>
+		
+		<item class = "ENTER" name = "" />
+		<item class= "VariableList" name = "variableId" text="不保存" />
+		
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "可以使用例如this['retCode']['code']来保存 暂不支持&& ||操作符"/>
+		
+		<item class = "ENTER" name = "" />
+		<item class = "Line"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "符合条件时执行:"/>
+		<item class = "ENTER" name = "" />
+		<item class = "事件浏览器" name = "receiveEvent" default = "1"/>
+	</class>
+	
+	
+	<class className = "EventSetVariable" >
+		<item class = "TextFiled Indicate" name = "" text = "高级功能限程序使用"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "设置变量"/>
+		<item class = "ENTER" name = "" />
+		<item class= "VariableList" name = "variableId" text="选择要设置的变量" />
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "为"/>
+		<item class = "Input Number" name = "value" text = ""/>		
+	</class>
+	
+	<class className = "EventComputeVariable" >
+		<item class = "TextFiled Indicate" name = "" text = "高级功能限程序使用"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "设置变量"/>
+		<item class = "ENTER" name = "" />
+		<item class= "VariableList" name = "variableId" text="选择要设置的变量" />
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "操作"/>
+		<item class = "OperatorSelector" name = "operator" text = "运算符"/>
+		<item class = "Input Number" name = "value" text = ""/>	
+	</class>
+	
+	<class className = "EventChangeScene" >
+		<item class = "TextFiled Indicate" name = "" text = "跳转至"/>
+		<item class = "SceneSelector" name = "sceneId" text = "场景ID"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "版本(默认为1)"/>
+		<item class= "Input Number" name = "version" text="1" />
+	</class>
+	
+	<class className = "EventOpenGame" >
+		<item class = "TextFiled Indicate" name = "" text = "打开游戏"/>
+		<item class = "GameSelector" name = "gameId" text = "游戏ID"/>
+		<item class = "ENTER" name = "" />
+		
+		<item class = "TextFiled Indicate" name = "" text = "是否显示确认面板"/>
+		<item class = "BooleanSelector" name = "showDialog" default="1" />
+		
+		<item class = "ENTER" name = "" />
+		<item class = "Line" name = "" />
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "当游戏分数"/>
+		<item class = "ComparatorSelector" name = "comparator" text = "比较器" default="2" />
+		<item class= "Input Number" name = "score" text="1" />
+		<item class = "TextFiled Indicate" name = "" text = "时执行"/>
+		<item class = "ENTER" name = "" />
+		<item class= "事件浏览器" name = "succEvent" default = "1"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "否则执行"/>
+		<item class = "ENTER" name = "" />
+		<item class= "事件浏览器" name = "failEvent" default = "1"/>
+	</class>
+	
+	
+	
+	
+	<class className = "EventOpenApp" >
+		<item class = "TextFiled Indicate" name = "" text = "打开的App路径(用/分割 可用前缀"/>
+		<item class = "TextFiled Indicate Copy" name = "" text = "pluginApp://"/>
+		<item class = "TextFiled Indicate Copy" name = "" text = "activityApp://"/>
+		<item class = "TextFiled Indicate" name = "" text = ")"/>
+		<item class = "ENTER" name = "" />
+		<item class= "Input Text Long" name = "appSrc" text = "tast/???/?????"/>
+		<item class = "TextFiled Indicate" name = "" text = ".swf"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "窗口坐标 X:"/>
+		<item class = "Input Number" name = "xPos" text = "0"/>
+		<item class = "TextFiled Indicate" name = "" text = "Y:"/>
+		<item class = "Input Number" name = "yPos" text = "0"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "模态"/>
+		<item class= "BooleanSelector" name = "isModal" text ="未配置" default="2" />
+		<item class = "TextFiled Indicate" name = "" text = "缓存"/>
+		<item class= "BooleanSelector" name = "cache" text ="未配置" default="1" />
+		
+		<item class = "ENTER" name = "" />
+		<item class = "Line" name = "" />
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "以下需要APP支持回调"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "将返回值保存至变量"/>		
+		<item class = "ENTER" name = "" />
+		<item class= "VariableList" name = "variableId" text="不保存" />
+		
+		
+		<item class = "ENTER" name = "" />
+		
+		<item class = "TextFiled Indicate" name = "" text = "然后执行事件"/>
+		<item class = "ENTER" name = "" />
+		<item class= "事件浏览器" name = "completeEvent" default = "1"/>
+	</class>
+	
+	
+	<class className = "EventOpenDialog" >
+		<item class = "TextFiled Indicate" name = "" text = "对跨框ID"/>
+		<item class = "对话框浏览器" name = "dialogId" text = "选择对跨框ID"/>
+		
+		<item class = "ENTER" name = "" />
+		<item class = "Line" name = ""/>
+		<item class = "ENTER" name = "" />
+		
+		<item class = "对话框创建器" name = "" text = "创建对跨框"/>
+
+	</class>
+	
+	
+	<class className = "EventSceneObjectGoto" >
+		<item class = "TextFiled Indicate" name = "" text = "场景物件"/>
+		<item class = "场景显示物件浏览器" name = "sceneObject" />
+		<item class = "ENTER" name = "" />
+		
+		<item class = "TextFiled Indicate" name = "" text = "帧号或帧标签"/>
+		<item class = "Input Text" name = "frame" text = "1"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "若使用帧标签,请使用引号隔开"/>
+		
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "停在那帧(gotoAndStop)"/>
+		<item class = "BooleanSelector" name = "stop" default="2" />
+	</class>
+	
+	<class className = "EventShowRewards" >
+		<item class = "TextFiled Indicate" name = "" text = "显示变量"/>
+		<item class= "VariableList" name = "variableId" text="变量" />
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "字段"/>
+		<item class = "Input Text Long" name = "field" text = "this"/>
+		
+		<item class = "ENTER" name = "" />
+		<item class = "Line"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "点击回调"/>
+		<item class = "ENTER" name = "" />
+		<item class= "事件浏览器" name = "clickEvent" default = "1"/>
+	</class>
+	
+	<class className = "EventMainRoleMoveTo" >
+		
+		<item class = "TextFiled Indicate" name = "" text = "移动到坐标 X:"/>
+		<item class = "Input Number" name = "xPos" text = "0"/>
+		<item class = "TextFiled Indicate" name = "" text = "Y:"/>
+		<item class = "Input Number" name = "yPos" text = "0"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "允许容差(cdtn):"/>
+		<item class = "Input Number" name = "cdtn" text = "1"/>
+		
+		<item class = "ENTER" name = "" />
+		<item class = "Line"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "到达后回调"/>
+		<item class = "ENTER" name = "" />
+		<item class= "事件浏览器" name = "clickEvent" default = "1"/>
+	</class>
+	
+	<class className = "EventMainRoleMoveToSceneObj" >
+		<item class = "TextFiled Indicate" name = "" text = "移动到SceneObject:"/>
+		<item class = "ENTER" name = "" />
+		<item class = "场景显示物件浏览器" name = "sceneObject" text = "SceneObject"/>
+		
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "允许容差(cdtn):"/>
+		<item class = "Input Number" name = "cdtn" text = "1"/>
+		
+		<item class = "ENTER" name = "" />
+		<item class = "Line"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "到达后回调"/>
+		<item class = "ENTER" name = "" />
+		<item class= "事件浏览器" name = "clickEvent" default = "1"/>
+	</class>
+	
+	
+	<Selector className = "CombatTypeSelector" valueType = "int" width = "200" showValue = "true">	
+		<item value = "0" text = "DEFAULT 默认战斗" />
+		<item value = "1" text = "PVE 普通战斗 打野怪" />
+		<item value = "2" text = "PVB 挑战NPC的战斗 " />
+		<item value = "3" text = "PVP 同时在线PK " />
+		<item value = "4" text = "PVH 家园离线战斗 " />
+		<item value = "5" text = "M_PVP 撮合战斗模式" />
+		<item value = "6" text = "PVZ 庄园战斗 " />
+		<item value = "7" text = "B_PVB 挑战BOSS勇者模式战斗" />
+		<item value = "8" text = "H_PVB 挑战BOSS英雄模式战斗" />
+		<item value = "9" text = "PVT 擂台战斗模式" />
+	</Selector>
+	
+	<class className = "EventOpenCombat" >
+		<item class = "TextFiled Indicate" name = "" text = "战斗类型"/>
+		<item class= "CombatTypeSelector" name = "combatType" text="战斗类型" default="3"/>
+		<item class = "ENTER" name = "" />
+		
+		<item class = "TextFiled Indicate" name = "" text = "对手ID"/>
+		<item class= "Input Number" name = "opponentID" width="120" text="0"/>
+		<item class = "ENTER" name = "" />
+		
+		<item class = "TextFiled Indicate" name = "" text = "对手名称"/>
+		<item class= "Input Text Long" name = "oppoentName" width="120" text="未知"/>
+		<item class = "ENTER" name = "" />
+		
+		<item class = "TextFiled Indicate" name = "" text = "捕获时间"/>
+		<item class= "Input Number" name = "catchTime" width="120" text="0"/>
+		<item class = "ENTER" name = "" />
+		
+		<item class = "TextFiled Indicate" name = "" text = "是否是等待.pvp一方请求，一方等待"/>
+		<item class= "BooleanSelector" name = "isWait" width="120" default="1"/>
+		
+		<item class = "ENTER" name = "" />
+		<item class = "Line"/>
+		<item class = "ENTER" name = "" />
+		
+		<item class = "TextFiled Indicate" name = "" text = "保存战斗结果"/>
+		<item class= "VariableList" name = "variableId" text="不保存" />
+		<item class = "ENTER" name = "" />
+		<item class = "Line"/>
+		
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "失败后执行( 1)"/>
+		<item class= "事件浏览器" name = "loseEvent" default = "1"/>
+		
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "胜利后执行( 2)"/>
+		<item class= "事件浏览器" name = "winEvent" default = "1"/>
+		
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "逃跑后执行( 3)"/>
+		<item class= "事件浏览器" name = "escapeEvent" default = "1"/>
+		
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "其他返回码(-1)"/>
+		<item class= "事件浏览器" name = "defaultEvent" default = "1"/>
+		
+		
+	</class>
+	
+	
+	<Include filename = "Config/Callback/CallbackSelector.xml"/>
+	
+	<class className = "EventNotifyCallback" >
+		<item class = "TextFiled Indicate" name = "" text = "CALLBACK类型"/>
+		<item class = "ENTER" name = "" />
+		<item class= "CallbackSelector" name = "callbackId"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "事件参数(String需要加引号,支持数组[])"/>
+		<item class = "ENTER" name = "" />
+		<item class= "Input Text Long" name = "parameters" text="null"/>
+	</class>
+	
+	<class className = "EventNotifyDynamicCallback" >
+		<item class = "TextFiled Indicate" name = "" text = "CALLBACK字符串(尽量详细以保证不重复)"/>
+		<item class = "ENTER" name = "" />
+		<item class= "Input Text Long" name = "callbackName"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "事件参数(String需要加引号,支持数组[])"/>
+		<item class = "ENTER" name = "" />
+		<item class= "Input Text Long" name = "parameters" text="null"/>
+	</class>
+	
+	
+	
+	<class className = "EventConditionEvent" >
+		<item class = "TextFiled Indicate" name = "" text = "如果"/>
+		<item class = "ConditionList" name = "condition" default = "1"/>
+		<item class = "ENTER" name = "" />
+		<item class = "Line" name = ""/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "当符合时执行" />
+		<item class = "事件浏览器"  name = "succEvent" default = "1"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "不符合时执行"/>
+		<item class = "事件浏览器"  name = "failEvent" default = "1"/> 
+	</class>
+	
+	<class className = "EventBatch2Event" >
+		<item class = "TextFiled Indicate" name = "" text = "他们会同时按顺序执行不会等一个事件完成"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "事件0"/>
+		<item class = "事件浏览器"  name = "event0Event" default = "1"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "事件1"/>
+		<item class = "事件浏览器"  name = "event1Event" default = "1"/> 
+		<item class = "ENTER" name = "" />
+	</class>
+	
+	
+	
+	
+	<class className = "EventBatch4Event" >
+		<item class = "TextFiled Indicate" name = "" text = "他们会同时按顺序执行不会等一个事件完成"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "事件0"/>
+		<item class = "事件浏览器"  name = "event0Event" default = "1"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "事件1"/>
+		<item class = "事件浏览器"  name = "event1Event" default = "1"/> 
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "事件2"/>
+		<item class = "事件浏览器"  name = "event2Event" default = "1"/> 
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "事件3"/>
+		<item class = "事件浏览器"  name = "event3Event" default = "1"/> 
+		<item class = "ENTER" name = "" />
+	</class>
+	
+	<class className = "EventSwitch4Event" >
+		<item class = "TextFiled Indicate" name = "" text = "如同switch case结构 仅程序使用"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "switch("/>
+		<item class= "VariableList" name = "variableId" text="选择变量" />
+		<item class = "TextFiled Indicate" name = "" text = ")"/>
+		<item class = "ENTER" name = "" />
+	
+		<item class = "TextFiled Indicate" name = "" text = "case:"/>
+		<item class = "Input Number" name = "value0" text = ""/>		
+		<item class = "事件浏览器"  name = "event0Event" default = "1"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "case:"/>
+		<item class = "Input Number" name = "value1" text = ""/>	
+		<item class = "事件浏览器"  name = "event1Event" default = "1"/> 
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "case:"/>
+		<item class = "Input Number" name = "value2" text = ""/>	
+		<item class = "事件浏览器"  name = "event2Event" default = "1"/> 
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "case:"/>
+		<item class = "Input Number" name = "value3" text = ""/>	
+		<item class = "事件浏览器"  name = "event3Event" default = "1"/> 
+		<item class = "ENTER" name = "" />
+	</class>
+	
+	
+	
+	
+	<InstanceSelector className = "事件浏览器" valueType = "String" width = "250" editable = "true">
+		<item class = "EventDoNothing"/>
+		<item class = "EventAlert"/>
+		<item class = "EventChangeScene"/>
+		<item class = "EventOpenGame"/>
+		<item class = "EventOpenApp"/>
+		<item class = "EventOpenDialog"/>
+		<item class = "EventConditionEvent"/>
+		<item class = "EventShowRewards"/>
+		<item class = "EventMainRoleMoveTo"/>
+		<item class = "EventMainRoleMoveToSceneObj"/>
+		<item class = "EventSendProtocol"/>
+		<item class = "EventSetVariable"/>
+		<item class = "EventSceneObjectGoto"/>
+		<item class = "EventComputeVariable"/>
+		<item class = "EventOpenCombat"/>
+		<item class = "EventNotifyCallback"/>
+		<item class = "EventNotifyDynamicCallback"/>
+		<item class = "EventBatch2Event"/>
+		<item class = "EventBatch4Event"/>
+		<item class = "EventSwitch4Event"/>
+	</InstanceSelector>	
+	
+	<!--InstanceSelector className = "事件浏览器_非自己" valueType = "String" width = "250" editable = "true">
+		<item class = "EventDoNothing" />
+		<item class = "EventAlert" condition = "this.instanceUID != parent.instanceUID"/>
+	</InstanceSelector-->	
+	
+	<ClassCreater className = "事件创建器" width = "200" valueType = "String" >
+		<item class = "EventAlert"/>
+		<item class = "EventChangeScene"/>
+		<item class = "EventOpenGame"/>
+		<item class = "EventOpenApp"/>
+		<item class = "EventOpenDialog"/>
+		<item class = "EventConditionEvent"/>
+		<item class = "EventShowRewards"/>
+		<item class = "EventMainRoleMoveTo"/>
+		<item class = "EventMainRoleMoveToSceneObj"/>
+		<item class = "EventSendProtocol"/>
+		<item class = "EventSetVariable"/>
+		<item class = "EventSceneObjectGoto"/>
+		<item class = "EventComputeVariable"/>
+		<item class = "EventOpenCombat"/>
+		<item class = "EventNotifyCallback"/>
+		<item class = "EventNotifyDynamicCallback"/>
+		<item class = "EventBatch2Event"/>
+		<item class = "EventBatch4Event"/>
+		<item class = "EventSwitch4Event"/>
+	</ClassCreater>
+	
+</EditableEditorHeader>
+	

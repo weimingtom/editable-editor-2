@@ -1,0 +1,147 @@
+﻿<EditableEditorHeader>
+
+<Selector className = "TaskSelector" valueType = "int" width = "200" showValue = "true" export="value=u16">
+		<item value = "1"	 text = "魔法商店临时工"/>
+		<item value = "2"	 text = "云海飞行"/>
+		<item value = "3"	 text = "城堡守护者"/>
+		<item value = "4"	 text = "遗失的残页"/>
+		<item value = "5"	 text = "华丽的封面"/>
+		<item value = "6"	 text = "出版的新书"/>
+		<item value = "7"	 text = "初来乍到"/>
+		<item value = "8"	 text = "公民登记"/>
+		<item value = "9"	 text = "入学"/>
+		<item value = "10"	 text = "新朋友"/>
+		<item value = "11"	 text = "新衣服"/>
+		<item value = "12"	 text = "第一课"/>
+		<item value = "13"	 text = "学以致用"/>
+		<item value = "14"	 text = "见习魔法师"/>
+		<item value = "15"	 text = "我想成为商人"/>
+		<item value = "16"	 text = "我想成为侦探"/>
+		<item value = "17"	 text = "我想成为探险者"/>
+		<item value = "18"	 text = "我想成为骑士"/>
+		<item value = "19"	 text = "小小代课老师"/>
+		<item value = "20"	 text = "骑士的荣耀"/>
+		<item value = "21"	 text = "洛克山营救"/>
+		<item value = "22"	 text = "马戏团的掌声"/>
+		<item value = "23"	 text = "宠物园献爱心"/>
+		<item value = "24"	 text = "创造大自然"/>
+		<item value = "25"	 text = "冰下的呼唤"/>
+		<item value = "26"	 text = "魔法阿凡达"/>
+		<item value = "27"	 text = "砖块围城"/>
+		<item value = "28"	 text = "我想成为园艺师"/>
+		<item value = "29"	 text = "我要帮拉尔夫做礼物"/>
+		<item value = "30"	 text = "我要兑换棉布"/>
+		<item value = "31"	 text = "去商店街购买地毯图纸"/>
+		<item value = "32"	 text = "去服装店做地毯"/>
+		<item value = "33"	 text = "瞄准扔飞镖"/>
+		<item value = "34"	 text = "赞美的乐章"/>
+		<item value = "39"	 text = "娃娃总动员"/>
+		<item value = "40"	 text = "创意小画家"/>
+		<item value = "41"	 text = "梦幻星空"/>
+		<item value = "42"	 text = "修理大考验"/>
+		<item value = "43"	 text = "修补书籍"/>
+		<item value = "35"	 text = "我要寻找国家宝藏"/>
+		<item value = "36"	 text = "我要寻找亚瑟头盔"/>
+		<item value = "37"	 text = "我要寻找亚瑟胸甲"/>
+		<item value = "38"	 text = "我要寻找亚瑟盾牌"/>
+		<item value = "44"	 text = "王国小公主"/>
+		<item value = "45"	 text = "给予糖果"/>
+		<item value = "46"	 text = "不上课的原因"/>
+		<item value = "47"	 text = "给公主衣服"/>
+		<item value = "48"	 text = "狗狗怕怕"/>
+		<item value = "49"	 text = "丢失的项链"/>
+		<item value = "50"	 text = "小小生的挑衅"/>
+		<item value = "51"	 text = "找出小小生（上）"/>
+		<item value = "52"	 text = "找出小小生（下）"/>
+		<item value = "53"	 text = "商店街的伪装"/>
+		<item value = "54"	 text = "约见小公主"/>
+		<item value = "55"	 text = "咨询植物枯萎的事"/>
+		<item value = "56"	 text = "植物枯萎的原因"/>
+		<item value = "57"	 text = "自然之灵"/>
+		<item value = "58"	 text = "重现生机"/>
+		<item value = "59"	 text = "吉洛斯的烦恼"/>
+		<item value = "60"	 text = "再次询问"/>
+		<item value = "61"	 text = "回忆魔法球"/>
+		<item value = "62"	 text = "回忆碎片"/>
+		<item value = "63"	 text = "宝盒真相"/>
+		<item value = "64"	 text = "危机预言信"/>
+		<item value = "65"	 text = "唯一的著作"/>
+		<item value = "66"	 text = "著作中的乾坤"/>
+		<item value = "67"	 text = "隐藏物件"/>
+		<item value = "68"	 text = "危机真相"/>
+		<item value = "69"	 text = "初次战斗"/>
+		<item value = "70"	 text = "宠物医院"/>
+		<item value = "71"	 text = "宠物道具店"/>
+		<item value = "72"	 text = "随堂测试"/>
+		<item value = "73"	 text = "辟水咒的历史"/>
+		<item value = "74"	 text = "观察海豚"/>
+		<item value = "75"	 text = "魔法鱼鳞"/>
+		<item value = "76"	 text = "宝宝从天而降"/>
+		<item value = "77"	 text = "宝宝何处来？"/>
+		<item value = "78"	 text = "熊熊的方向"/>
+		<item value = "79"	 text = "月光宝盒重现"/>
+		<item value = "80"	 text = "回归心泉"/>
+		<item value = "190"	 text = "魔法先锋队"/>
+		
+</Selector>
+
+
+<Selector className = "TaskItemSelector" valueType = "int" width = "200" showValue = "true">	
+		<item value = "67174402"	text = "67174402 皮卡设计的封面" />
+		<item value = "67174403"	text = "67174403 书籍残页1" />
+		<item value = "67174404"	text = "67174404 书籍残页2" />
+		<item value = "67174405"	text = "67174405 书籍残页3" />
+		<item value = "67174406"	text = "67174406 格里芬书稿" />
+		<item value = "67174407"	text = "67174407 账簿" />
+		<item value = "67174408"	text = "67174408 羽毛笔" />
+		<item value = "67174409"	text = "67174409 魔法算板" />
+		<item value = "67174410"	text = "67174410 望远镜" />
+		<item value = "67174411"	text = "67174411 放大镜" />
+		<item value = "67174412"	text = "67174412 凸透镜" />
+		<item value = "67174413"	text = "67174413 古老的圣杯" />
+		<item value = "67174414"	text = "67174414 失传的琴谱" />
+		<item value = "67174415"	text = "67174415 遗失的王冠钻石" />
+		<item value = "67174416"	text = "67174416 石墨" />
+		<item value = "67174417"	text = "67174417 精钢" />
+		<item value = "67174418"	text = "67174418 猫眼石" />
+		<item value = "67174419"	text = "67174419 水壶" />
+		<item value = "67174420"	text = "67174420 铲子" />
+		<item value = "67174421"	text = "67174421 园艺剪刀" />
+		<item value = "67174422"	text = "67174422 真心之水" />
+		<item value = "67174423"	text = "67174423 星光红糖" />
+		<item value = "67174424"	text = "67174424 真心话棒棒糖" />
+		<item value = "67174425"	text = "67174425 开心柔顺剂" />
+		<item value = "67174426"	text = "67174426 变色龙色素" />
+		<item value = "67174427"	text = "67174427 闪耀珍珠" />
+		<item value = "67174428"	text = "67174428 公主的学院长袍" />
+		<item value = "67174429"	text = "67174429 亚瑟头盔" />
+		<item value = "67174430"	text = "67174430 亚瑟胸甲" />
+		<item value = "67174432"	text = "67174432 结实绳结" />
+		<item value = "67174433"	text = "67174433 残损地图" />
+		<item value = "67174434"	text = "67174434 灌魔之瓶" />
+		<item value = "67174435"	text = "67174435 会飞的种子" />
+		<item value = "67174436"	text = "67174436 枯萎的植物" />
+		<item value = "67174437"	text = "67174437 泥土" />
+		<item value = "67174438"	text = "67174438 雪莲花" />
+		<item value = "67174439"	text = "67174439 自然之灵" />
+		<item value = "67174440"	text = "67174440 回忆魔法球" />
+		<item value = "67174441"	text = "67174441 月光宝盒" />
+		<item value = "67174442"	text = "67174442 大门印章" />
+		<item value = "67174443"	text = "67174443 魔法鱼鳞" />
+		<item value = "67174444"	text = "67174444 避水珠" />
+		<item value = "67174445"	text = "67174445 清除病毒工具" />
+		<item value = "67174446"	text = "67174446 气球" />
+		
+		<item value = "67305518"	text = "67305518 宠物蛋" />
+</Selector>
+</EditableEditorHeader>
+
+
+
+
+
+
+
+
+
+

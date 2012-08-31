@@ -1,0 +1,20 @@
+﻿<EditableEditorHeader>
+
+	<Selector className = "TaskStatus" valueType = "int" width = "160" export="value=u8">
+		<item value = "0" text = "未接受,不可接受" />
+		<item value = "1" text = "未接受,可接受" />
+		<item value = "2" text = "已接受" />
+		<item value = "3" text = "已递交" />
+	</Selector>
+	
+	<Selector className = "TaskConditionStatus" valueType = "int" width = "150">
+		<item value = "0" text = "未完成" />
+		<item value = "1" text = "已完成" />
+	</Selector>
+	
+	<Selector className = "TaskConditionStatus" valueType = "int" width = "150">
+		<item value = "0" text = "未完成" />
+		<item value = "1" text = "已完成" />
+	</Selector>
+</EditableEditorHeader>
+	

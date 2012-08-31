@@ -1,0 +1,20 @@
+<EditableEditorHeader>
+  
+	<class className = "SKT_0x03009F_ApplySugerMaigcHitCursedPlayer">
+		<item class = "ProtocolEditor_Indicate" name = "" text="destUin:u32"/>
+		<item class = "ProtocolEditor_u32" name = "destUin" />
+		<item class = "ProtocolEditor_comment" name = "" text="目的uin(或者说是被砸的玩家uin)"/>
+		<item class = "ENTER" name = ""/>
+		
+		
+	
+		<item class = "ProtocolEditor_comment" name = "" text="~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate" name = "" text="回包信息"/>
+		<item class = "ENTER" name = ""/>
+		
+		
+		
+	</class>
+
+</EditableEditorHeader>

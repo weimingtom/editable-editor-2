@@ -1,0 +1,23 @@
+<EditableEditorHeader>
+  
+	<class className = "CGI_LOVEGIFT_CMD1_ApplySendFlower">
+		<item class = "ProtocolEditor_Indicate" name = "" text="num:u16"/>
+		<item class = "ProtocolEditor_u16" name = "num" />
+		<item class = "ProtocolEditor_comment" name = "" text="数量"/>
+		<item class = "ENTER" name = ""/>
+		
+		
+	
+		<item class = "ProtocolEditor_comment" name = "" text="~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate" name = "" text="回包信息"/>
+		<item class = "ENTER" name = ""/>
+		
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="retCode"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:返回码 说明:返回码"/>
+		<item class = "ENTER" name = ""/>
+		
+		
+	</class>
+
+</EditableEditorHeader>

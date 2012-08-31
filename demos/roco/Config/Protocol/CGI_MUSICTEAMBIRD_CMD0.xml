@@ -1,0 +1,31 @@
+<EditableEditorHeader>
+  
+	<class className = "CGI_MUSICTEAMBIRD_CMD0">
+		
+		
+	
+		<item class = "ProtocolEditor_comment" name = "" text="~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate" name = "" text="回包信息"/>
+		<item class = "ENTER" name = ""/>
+		
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="retCode"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:返回码 说明:返回码"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="state"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u32 说明:活动状态"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="item1"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u32 说明:道具是否获得"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="item2"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u32 说明:道具是否获得"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="item3"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u32 说明:道具是否获得"/>
+		<item class = "ENTER" name = ""/>
+		
+		
+	</class>
+
+</EditableEditorHeader>

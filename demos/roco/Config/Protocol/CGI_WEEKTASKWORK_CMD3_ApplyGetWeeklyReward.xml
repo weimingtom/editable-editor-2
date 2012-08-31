@@ -1,0 +1,57 @@
+<EditableEditorHeader>
+  
+	<class className = "CGI_WEEKTASKWORK_CMD3_ApplyGetWeeklyReward">
+		<item class = "ProtocolEditor_Indicate" name = "" text="type:u32"/>
+		<item class = "ProtocolEditor_u32" name = "type" />
+		<item class = "ProtocolEditor_comment" name = "" text="周工作ID 一般是双数"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate" name = "" text="step:u32"/>
+		<item class = "ProtocolEditor_u32" name = "step" />
+		<item class = "ProtocolEditor_comment" name = "" text="0,1,2分别代表领取3天5天7天奖励"/>
+		<item class = "ENTER" name = ""/>
+		
+		
+	
+		<item class = "ProtocolEditor_comment" name = "" text="~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate" name = "" text="回包信息"/>
+		<item class = "ENTER" name = ""/>
+		
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="retCode"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:返回码 说明:&lt; 0 出错,弹出出错提示;0=成功领取相应奖励;1=已经领过相应的奖励;2=次数不够,不能领取相应的奖励;3=非周末,不能领取奖励"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="day0"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u32 说明:周日"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="day1"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u32 说明:周1"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="day2"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u32 说明:周2"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="day3"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u32 说明:周3"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="day4"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u32 说明:周4"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="day5"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u32 说明:周5"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="day6"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u32 说明:周6"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="award0"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u32 说明:3天奖励的领取情况,0代表不能领,1可以领取,2代表已领取"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="award1"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u32 说明:5天奖励的领取情况,0代表不能领,1可以领取,2代表已领取"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="award2"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u32 说明:7天奖励的领取情况,0代表不能领,1可以领取,2代表已领取"/>
+		<item class = "ENTER" name = ""/>
+		
+		
+	</class>
+
+</EditableEditorHeader>

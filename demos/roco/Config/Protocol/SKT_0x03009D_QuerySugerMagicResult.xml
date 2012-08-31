@@ -1,0 +1,37 @@
+<EditableEditorHeader>
+  
+	<class className = "SKT_0x03009D_QuerySugerMagicResult">
+		
+		
+	
+		<item class = "ProtocolEditor_comment" name = "" text="~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate" name = "" text="回包信息"/>
+		<item class = "ENTER" name = ""/>
+		
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="retCode"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:返回码 说明:返回码"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="hitDoughnutPlayerNum"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u8 说明:玩家砸中甜甜圈状态玩家的人数"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="hitSoftConePlayerNum"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u8 说明:玩家砸中甜筒状态玩家的人数"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="hitCakePlayerNum"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u8 说明:玩家砸中蛋糕状态玩家的人数"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="doughnutGiftLimit"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u8 说明:甜甜圈礼包领取次数"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="coneGiftLimit"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u8 说明:甜筒礼包领取次数"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="cakeGiftLimit"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u8 说明:蛋糕礼包领取次数"/>
+		<item class = "ENTER" name = ""/>
+		
+		
+	</class>
+
+</EditableEditorHeader>

@@ -1,0 +1,31 @@
+<EditableEditorHeader>
+  
+	<class className = "SKT_0x030006_OnARoleMove">
+		
+		
+	
+		<item class = "ProtocolEditor_comment" name = "" text="~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate" name = "" text="回包信息"/>
+		<item class = "ENTER" name = ""/>
+		
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="qqUin"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u32 说明:返回信息"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="sceneId"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u16 说明:场景ID"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="moveType"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u8 说明:移动类型"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="pathArrayLength"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u16 说明:坐标节点数"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="pathArray"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:Point[pathArrayLength] 说明:节点数组"/>
+		<item class = "ENTER" name = ""/>
+		
+		
+	</class>
+
+</EditableEditorHeader>

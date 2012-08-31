@@ -1,0 +1,26 @@
+<EditableEditorHeader>
+  
+	<class className = "CGI_CAKEPKGAME_CMD1_ApplySupport">
+		<item class = "ProtocolEditor_Indicate" name = "" text="which:u8"/>
+		<item class = "ProtocolEditor_u8" name = "which" />
+		<item class = "ProtocolEditor_comment" name = "" text="0(左边)|1(右边)"/>
+		<item class = "ENTER" name = ""/>
+		
+		
+	
+		<item class = "ProtocolEditor_comment" name = "" text="~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate" name = "" text="回包信息"/>
+		<item class = "ENTER" name = ""/>
+		
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="retCode"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:返回码 说明:返回码"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="reward"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:ItemInfoChanged[0] 说明:奖励数组"/>
+		<item class = "ENTER" name = ""/>
+		
+		
+	</class>
+
+</EditableEditorHeader>

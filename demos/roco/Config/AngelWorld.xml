@@ -1,0 +1,350 @@
+﻿<EditableEditorHeader>
+
+
+	<Selector className = "CareerWorkTypeSelector" valueType = "int" width = "150" showValue = "false" export="value=u8">
+		<item text = "探险打工_研究" value = "1"/>
+		<item text = "商人打工_算账" value = "2"/>
+		<item text = "骑士打工_站岗" value = "3"/>
+		<item text = "侦探打工_监控" value = "4"/>
+		<item text = "园艺打工_修剪" value = "5"/>
+	</Selector>
+	
+	<Selector className = "TooltipTypeSelector" valueType = "int" width = "160" showValue = "false" export="value=u8">
+		<item text = "有尖角的对白" value = "1"/>
+		<item text = "圆角矩形(默认)" value = "2"/>
+		<item text = "带游戏标识(有个摇杆)" value = "5"/>
+		<item text = "战斗类的(暗红色)" value = "10"/>
+	</Selector>
+
+	<Selector className = "IconTypeSelector" valueType = "int" width = "160" showValue = "false" export="value=u8">
+		<item text = "星星" value = "0"/>
+		<item text = "感叹号" value = "1"/>
+		<item text = "问号" value = "2"/>
+		<item text = "对话" value = "3"/>
+		<item text = "钱袋" value = "4"/>
+		<item text = "摇杆" value = "5"/>
+		<item text = "闹钟" value = "6"/>
+	</Selector>
+	
+	<Selector className = "SceneLayerSelector" valueType = "int" width = "80" export="value=u8">
+		<item value = "1" text = "背景层" />
+		<item value = "2" text = "中间层" />
+		<item value = "3" text = "天空层" />
+		<item value = "4" text = "UI层" />
+	</Selector>
+	
+	<Selector className = "LeftRightSelector" valueType = "int" width = "80" export="value=u8">
+		<item value = "1" text = "左边" />
+		<item value = "2" text = "右边" />
+	</Selector>
+	
+	
+	<Selector className = "MagicSelector" valueType = "int" width = "80" showValue = "true" export="value=u16">
+		<item value = "1027" text = "星星魔法" />
+	</Selector>
+	
+	<InstanceSelector className = "对话框选项符合条件" valueType = "String" width = "200" editable = "true" >
+		<item class = "DialogBoardItem" condition = "dialog.selectedInstanceUID == parent.instanceUID"/>
+	</InstanceSelector>
+	<InstanceSelector className = "对话框按钮符合条件" valueType = "String" width = "200" editable = "true" >
+		<item class = "DialogBoardButton" condition = "dialog.selectedInstanceUID == parent.instanceUID"/>
+	</InstanceSelector>
+	
+	<InstanceSelector className = "魔法事件符合条件" valueType = "String" width = "200" editable = "true" >
+		<item class = "MagicEventCallback" condition = "sceneObject.selectedInstanceUID == parent.instanceUID"/>
+	</InstanceSelector>
+	
+	<class className = "DialogBoardScene">
+		<item class = "TextFiled Indicate" name = "" text = "对话框ID:"/>
+		<item class = "Input Text" name = "dialogId" text="00_1_000000_0"/>	
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "为 场景ID_场景版本_NPCID_0"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "例 13_1_101000_0 为兰斯洛的对话框"/>
+		
+		<item class = "ENTER" name = "" />
+		<item class = "Line" name = ""/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "对话框中的选项"/>
+		<item class = "ENTER" name = "" />
+		<item class = "对话框选项符合条件" text = "浏览对话框中的选项"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "对话框中的按钮"/>
+		<item class = "ENTER" name = "" />
+		<item class = "对话框按钮符合条件" text = "浏览对话框中的按钮"/>
+
+	</class>
+	
+	<class className = "DialogBoard">
+		<item class = "TextFiled Indicate" name = "" text = "对话内容 (提示 对话框ID将自动生成)"/>
+		
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "资源文件名:(可在非npc路径)"/>
+		<item class = "ENTER" name = "" />
+		<item class = "Input Text Long" name = "preview" text="res/npc/100200/preview.png" />
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "NPC对话框显示名:"/>
+		<item class = "Input Tips" name = "name" text = "显示名" />
+		
+		<item class = "ENTER" name = "" />
+		<item class= "Input Text Area" name = "dialogContent"/>
+
+		<item class = "ENTER" name = "" />
+		<item class = "Line" name = ""/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "对话框中的选项"/>
+		<item class = "ENTER" name = "" />
+		<item class = "对话框选项符合条件" text = "浏览对话框中的选项"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "对话框中的按钮"/>
+		<item class = "ENTER" name = "" />
+		<item class = "对话框按钮符合条件" text = "浏览对话框中的按钮"/>
+		
+
+	</class>
+	
+	
+	<class className = "MouseEventCallback">
+		<item class = "TextFiled Indicate" name = "" text = "点击事件"/>
+		<item class = "事件浏览器" name = "clickEvent" text = "选择点击事件" default = "1"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "按下事件"/>
+		<item class = "事件浏览器" name = "pressEvent" text = "选择按下事件" default = "1"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "弹起事件"/>
+		<item class = "事件浏览器" name = "releaseEvent" text = "选择弹起事件" default = "1"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "划过事件"/>
+		<item class = "事件浏览器" name = "overEvent" text = "选择划过事件" default = "1"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "划出事件"/>
+		<item class = "事件浏览器" name = "outEvent" text = "选择划出事件" default = "1"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "双击事件"/>
+		<item class = "事件浏览器" name = "doubleClickEvent" text = "选择双击事件" default = "1"/>
+	</class>
+	
+	
+	<class className = "MagicEventCallback">
+		<item class = "TextFiled Indicate" name = "" text = "魔法事件"/>
+		<item class = "MagicSelector" name = "magicId" text = "魔法ID"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "必须是玩家自己施法"/>
+		<item class= "Boolean3Selector" name = "fromUser" default = "3"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "绑定物件"/>
+		<item class = "ENTER" name = "" />
+		<item class = "场景显示物件浏览器" name = "sceneObject" />
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "执行事件"/>
+		<item class = "ENTER" name = "" />
+		<item class = "事件浏览器" name = "magicEvent" text = "选择点击事件" default = "1"/>
+	</class>
+	
+	
+	
+	<class className = "DialogBoardItem">	
+		<item class = "TextFiled Indicate" name = "" text = "隶属于对话:"/>
+		<item class = "ENTER" name = "" />
+		<item class = "对话框浏览器" name = "dialog" text = "请选择所属于的对话"/>
+		<item class = "ENTER" name = "" />
+		
+		<item class = "TextFiled Indicate" name = "" text = "显示条件"/>
+		<item class = "ConditionList" name = "visibleCondition" text = "出现条件" default = "1"/>
+		
+		<item class = "ENTER" name = "" />
+		<item class = "Line" name = ""/>		
+		<item class = "ENTER" name = "" />
+		
+		<item class = "TextFiled Indicate" name = "" text = "按钮标题"/>
+		<item class= "Input Text Long" name = "label"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "按钮指示"/>
+		<item class = "IconTypeSelector" name = "iconType" text = "请选择按钮指示"/>
+		
+		
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "按钮点击事件"/>
+		<item class = "ENTER" name = "" />
+		<item class= "事件浏览器" name = "clickEvent" default = "1"/>
+		
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "点击后关闭"/>
+		<item class = "BooleanSelector" name = "close" text = "默认值" default="2"/>
+
+		
+	</class>
+	
+	
+	<class className = "DialogBoardButton">	
+		<item class = "TextFiled Indicate" name = "" text = "隶属于对话:"/>
+		<item class = "ENTER" name = "" />
+		<item class = "对话框浏览器" name = "dialog" text = "请选择所属于的对话"/>
+		<item class = "ENTER" name = "" />
+		
+		<item class = "TextFiled Indicate" name = "" text = "显示条件"/>
+		<item class = "ConditionList" name = "visibleCondition" text = "出现条件" default = "1"/>
+		
+		<item class = "ENTER" name = "" />
+		<item class = "Line" name = ""/>		
+		<item class = "ENTER" name = "" />
+		
+		<item class = "TextFiled Indicate" name = "" text = "文字"/>
+		<item class= "Input Text Long" name = "label"/>
+		<item class = "ENTER" name = "" />
+		
+		
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "文字点击事件"/>
+		<item class = "ENTER" name = "" />
+		<item class= "事件浏览器" name = "clickEvent" default = "1"/>
+		
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "点击后关闭"/>
+		<item class = "BooleanSelector" name = "close" text = "默认值" default="2"/>
+
+	</class>
+	
+	
+	<class className = "SceneObject">	
+
+
+		<item class = "TextFiled Indicate" name = "" text = "资源文件名:(可在非npc路径例如 "/>
+		<item class = "TextFiled Indicate Copy" name = "" text = "pluginRoot://"/>
+		<item class = "TextFiled Indicate Copy" name = "" text = "activityRoot://"/>
+		<item class = "TextFiled Indicate" name = "" text = ")"/>
+		
+		<item class = "ENTER" name = "" />
+		<item class = "Input Text Long" name = "resSrc" width = "180" text="res/npc/100200/100200.swf" />
+
+		
+		<item class = "ENTER" name = "" />
+		<item class = "Line" name = ""/>
+		<item class = "ENTER" name = "" />
+		
+		<item class = "TextFiled Indicate" name = "" text = "名字(可为空)"/>
+		<item class = "Input Text Long" name = "name" text="" />
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "场景ID"/>
+		<item class = "SceneSelector" name = "sceneId" width = "100" text = "场景ID"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "版本(默认为1)"/>
+		<item class= "Input Number" name = "version" text="1" />
+		<item class = "TextFiled Indicate" name = "" text = "必须自己的场景(农场家园有效)"/>
+		<item class= "Boolean3Selector" name = "myScene" default = "3"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "进场景时加载,退出时释放(节约内存)"/>
+		<item class= "BooleanSelector" name = "lazyLoad" default = "2"/>
+		<item class = "ENTER" name = "" />
+		
+		<item class = "TextFiled Indicate" name = "" text = "出现条件"/>
+		<item class = "ConditionList" name = "visibleCondition" text = "选择条件"  default = "1"  editable = "true"/>
+		<item class = "ENTER" name = "" />
+		
+		<item class = "TextFiled Indicate" name = "" text = "坐标 X:"/>
+		<item class = "Input Number" name = "xPos" text = "0"/>
+		<item class = "TextFiled Indicate" name = "" text = "Y:"/>
+		<item class = "Input Number" name = "yPos" text = "0"/>
+		<item class = "TextFiled Indicate" name = "" text = "层次"/>
+		<item class = "SceneLayerSelector" name = "sceneLayer" text="选择层次" default = "2"/>
+		
+		
+		
+		<item class = "ENTER" name = "" />
+		<item class = "Line" name = ""/>
+		<item class = "ENTER" name = "" />
+		
+		<item class = "TextFiled Indicate" name = "" text = "提示语(tooltip)"/>
+		<item class = "Input Tips" name = "tooltip"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "提示框类型"/>
+		<item class = "TooltipTypeSelector" name = "tooltipType" default = "2"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "提示框偏移 x:"/>
+		<item class = "Input Number" name = "xTooltipPos" width = "30" text = ""/>
+		<item class = "TextFiled Indicate" name = "" text = "y"/>
+		<item class = "Input Number" name = "yTooltipPos" width = "30" text = ""/>
+		
+		<item class = "ENTER" name = "" />
+		<item class = "Line" name = ""/>
+		<item class = "ENTER" name = "" />
+		
+		<item class = "MouseEventCallback" name = "mouseEvent"/>
+		
+		<item class = "ENTER" name = "" />
+		<item class = "Line" name = ""/>
+		<item class = "ENTER" name = "" />
+		
+		<item class = "TextFiled Indicate" name = "" text = "魔法事件"/>
+		<item class = "ENTER" name = "" />
+		<item class = "魔法事件符合条件" name = "" text="浏览绑定的魔法事件"/>
+		
+		<item class = "ENTER" name = "" />
+		
+	</class>
+	
+	
+	<class className = "TopBarIcon">	
+    
+    
+    <item class = "TextFiled Indicate" name = "" text = "icon资源:"/>
+		<item class = "TextFiled Indicate Copy" name = "" text = "pluginRoot://"/>
+		<item class = "TextFiled Indicate Copy" name = "" text = "activityRoot://"/>
+    <item class = "ENTER" name = "" />
+		<item class = "Input Text Long" name = "resSrc" width = "220" text="activityRoot://XXX/icons/XXX.png" />
+    <item class = "ENTER" name = "" />
+    <item class = "TextFiled Indicate" name = "" text = "出现条件"/>
+		<item class = "ConditionList" name = "visibleCondition" text = "选择条件"  default = "1"  editable = "true"/>
+		<item class = "ENTER" name = "" />
+    
+    <item class = "TextFiled Indicate" name = "" text = "出现在"/>
+		<item class = "LeftRightSelector" name = "position" default="1"/>
+		<item class = "ENTER" name = "" />
+    <item class = "TextFiled Indicate" name = "" text = "提示语(tooltip)"/>
+		<item class = "Input Tips" name = "tooltip"/>
+    
+    <item class = "ENTER" name = "" />
+		<item class = "Line" name = ""/>
+		<item class = "ENTER" name = "" />
+		
+		<item class = "TextFiled Indicate" name = "" text = "点击事件"/>
+		<item class = "事件浏览器" name = "clickEvent" text = "选择点击事件" default = "1"/>
+		<item class = "ENTER" name = "" />
+		
+	</class>
+	
+	
+	<InstanceSelector className = "对话框浏览器" valueType = "String" width = "200" editable = "true">
+		<item class = "DialogBoardScene"/>
+		<item class = "DialogBoard"/>
+		<item class = "DialogBoardItem"/>
+		<item class = "DialogBoardButton"/>
+	</InstanceSelector>	
+	
+	
+	<ClassCreater className = "对话框创建器" width = "200" valueType = "String" >
+		<item class = "DialogBoardScene"/>
+		<item class = "DialogBoard"/>
+		<item class = "DialogBoardItem"/>
+		<item class = "DialogBoardButton"/>
+	</ClassCreater>
+	
+	<InstanceSelector className = "场景显示物件浏览器" valueType = "String" width = "200" editable = "true">
+		<item class = "SceneObject"/>
+	</InstanceSelector>	
+	
+	<InstanceSelector className = "场景物件浏览器" valueType = "String" width = "200" editable = "true">
+		<item class = "SceneObject"/>
+		<item class = "MagicEventCallback"/>
+		<item class = "TopBarIcon"/>
+	</InstanceSelector>	
+	
+	
+	<ClassCreater className = "场景物件创建器" width = "200" valueType = "String" >
+		<item class = "SceneObject"/>
+		<item class = "MagicEventCallback"/>
+		<item class = "TopBarIcon"/>
+	</ClassCreater>
+	
+
+</EditableEditorHeader>	

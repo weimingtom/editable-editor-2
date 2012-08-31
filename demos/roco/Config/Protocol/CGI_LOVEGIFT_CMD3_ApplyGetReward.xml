@@ -1,0 +1,26 @@
+<EditableEditorHeader>
+  
+	<class className = "CGI_LOVEGIFT_CMD3_ApplyGetReward">
+		<item class = "ProtocolEditor_Indicate" name = "" text="id:u8"/>
+		<item class = "ProtocolEditor_u8" name = "id" />
+		<item class = "ProtocolEditor_comment" name = "" text="0  领取第一次点击npc奖励 1,2,3,4 分别表示奖励皮肤1，2，3，4   "/>
+		<item class = "ENTER" name = ""/>
+		
+		
+	
+		<item class = "ProtocolEditor_comment" name = "" text="~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate" name = "" text="回包信息"/>
+		<item class = "ENTER" name = ""/>
+		
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="retCode"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:返回码 说明:返回码"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="rewardArray"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:ItemInfoChanged[1] 说明:奖励数组"/>
+		<item class = "ENTER" name = ""/>
+		
+		
+	</class>
+
+</EditableEditorHeader>

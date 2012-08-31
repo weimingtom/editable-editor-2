@@ -1,0 +1,23 @@
+<EditableEditorHeader>
+  
+	<class className = "CGI_WEEKTASKWORK_CMD0_ApplyStartWork">
+		<item class = "ProtocolEditor_Indicate" name = "" text="type:u32"/>
+		<item class = "ProtocolEditor_u32" name = "type" />
+		<item class = "ProtocolEditor_comment" name = "" text="周工作ID 一般是双数"/>
+		<item class = "ENTER" name = ""/>
+		
+		
+	
+		<item class = "ProtocolEditor_comment" name = "" text="~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate" name = "" text="回包信息"/>
+		<item class = "ENTER" name = ""/>
+		
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="retCode"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:返回码 说明:-1出错 弹出出错提示 ,0成功开始 ,1今天已经打过了"/>
+		<item class = "ENTER" name = ""/>
+		
+		
+	</class>
+
+</EditableEditorHeader>

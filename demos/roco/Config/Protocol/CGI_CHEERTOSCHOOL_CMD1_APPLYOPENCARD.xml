@@ -1,0 +1,26 @@
+<EditableEditorHeader>
+  
+	<class className = "CGI_CHEERTOSCHOOL_CMD1_ApplyOpenCard">
+		<item class = "ProtocolEditor_Indicate" name = "" text="pos:u8"/>
+		<item class = "ProtocolEditor_u8" name = "pos" />
+		<item class = "ProtocolEditor_comment" name = "" text="icon的对应位置 "/>
+		<item class = "ENTER" name = ""/>
+		
+		
+	
+		<item class = "ProtocolEditor_comment" name = "" text="~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate" name = "" text="回包信息"/>
+		<item class = "ENTER" name = ""/>
+		
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="retCode"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:返回码 说明:0表示成功，-1表示逻辑错误"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="rewardArray"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:ItemInfoChanged 说明:奖励数组，其中Item的ID为1表示是能量"/>
+		<item class = "ENTER" name = ""/>
+		
+		
+	</class>
+
+</EditableEditorHeader>

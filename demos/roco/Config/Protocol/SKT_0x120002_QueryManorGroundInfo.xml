@@ -1,0 +1,116 @@
+<EditableEditorHeader>
+  
+	<class className = "SKT_0x120002_QueryManorGroundInfo">
+		<item class = "ProtocolEditor_Indicate" name = "" text="qqUin:u32"/>
+		<item class = "ProtocolEditor_u32" name = "qqUin" />
+		<item class = "ProtocolEditor_comment" name = "" text="进入农场玩家QQ UIN"/>
+		<item class = "ENTER" name = ""/>
+		
+		
+	
+		<item class = "ProtocolEditor_comment" name = "" text="~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate" name = "" text="回包信息"/>
+		<item class = "ENTER" name = ""/>
+		
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="retCode"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:返回码 说明:return code"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="qqUin"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u32 说明:进入农场玩家QQ UIN"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="manorLevel"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u16 说明:玩家等级"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="manorExp"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u32 说明:玩家经验"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="goldMassNum"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u16 说明:农场地上金钱堆数"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="goldMoneyNum"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u32 说明:农场地上金钱数"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="guideType"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u16 说明:新手引导步骤Type 1：收获 2：播种  3：开垦  4：放置驻守  type=0，引导已经结束"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="petStatus"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u8 说明:打过的结果 1：没打过  2：农场主人打败了（来访者胜利） 3：农场主人打胜利"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="scarecrowExp"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u32 说明:稻草人经验"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="scarecrowLevel"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u8 说明:稻草人等级"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="scarecrowId"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u32 说明:稻草人的衣服id"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="homeId"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u32 说明:农场屋子的avatar id"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="parasolId"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u32 说明:遮阳伞的avatar id"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="beautifyId"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u32 说明:农场装饰物（稻草）的avatar id"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="billboardId"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u32 说明:农场宣传板的avatar id"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="scarecrowEverPlay"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u8 说明:今天是否玩过"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="scarecrowNextExp"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u32 说明:下一级的经验"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="scarecrowGiftGotten"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u8 说明:今天是否领取过每日10个的玩具,对玩家自己有效,  0 没有领取过， 1 已经领取过了"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="proficiencyA"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u8 说明:"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="proficiencyAExp"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u16 说明:"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="proficiencyAExpPre"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u16 说明:"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="proficiencyAExpnext"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u16 说明:"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="proficiencyB"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u8 说明:"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="proficiencyBExp"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u16 说明:"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="proficiencyBExpPre"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u16 说明:"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="proficiencyBExpnext"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u16 说明:"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="proficiencyC"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u8 说明:"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="proficiencyCExp"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u16 说明:"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="proficiencyCExpPre"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u16 说明:"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="proficiencyCExpnext"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u16 说明:"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="proficiencItem"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u32 说明:按位表示，从低位到高位，1-9位表示熟练度a 2-10级的领将状态，10-18位表示熟练度b 2-10级的领将状态,19-27位表示熟练度b 2-10级的领将状态,1表示可以领取，0表示领过或者不能领取."/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="groundInfoArray"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:ManorGroundInfo[16] 说明:土地结构数组"/>
+		<item class = "ENTER" name = ""/>
+		
+		
+	</class>
+
+</EditableEditorHeader>

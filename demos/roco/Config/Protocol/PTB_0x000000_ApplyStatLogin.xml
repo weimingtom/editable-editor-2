@@ -1,0 +1,20 @@
+<EditableEditorHeader>
+  
+	<class className = "PTB_0x000000_ApplyStatLogin">
+		<item class = "ProtocolEditor_Indicate" name = "" text="key:String"/>
+		<item class = "ProtocolEditor_string" name = "key" />
+		<item class = "ProtocolEditor_comment" name = "" text=""/>
+		<item class = "ENTER" name = ""/>
+		
+		
+	
+		<item class = "ProtocolEditor_comment" name = "" text="~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate" name = "" text="回包信息"/>
+		<item class = "ENTER" name = ""/>
+		
+		
+		
+	</class>
+
+</EditableEditorHeader>

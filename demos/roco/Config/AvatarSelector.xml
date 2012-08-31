@@ -1,0 +1,12 @@
+﻿<EditableEditorHeader>
+	<Selector className = "AvatarSelector" valueType = "int" width = "200" showValue = "true">	
+		<item value = "33619969"	text = "头部_双马尾辫发型" />
+		<item value = "33619970"	text = "头部_男式头巾" />
+		<item value = "33619972"	text = "头部_蝴蝶太阳帽" />
+		<item value = "33619973"	text = "头部_旋风鸭舌帽" />
+		<item value = "33619974"	text = "头部_黄金矿工帽子" />
+		<item value = "33751088"	text = "身体_雪人防寒服" />
+		<item value = "33751132"	text = "身体_露西亚魔导服" />
+	</Selector>
+</EditableEditorHeader>
+	

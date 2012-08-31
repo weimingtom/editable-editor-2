@@ -1,0 +1,362 @@
+﻿<EditableEditorHeader>
+
+<!-- ++++++++++++++++++++布尔返回值++++++++++++++++++++++++++++++ -->
+	<class className = "ConditionAlways"/>
+	<classInstance class = "ConditionAlways" name = "总是(true)" instanceUID = "1000"/>
+	<class className = "ConditionNever"/>
+	<classInstance class = "ConditionNever" name = "总不是(false)" instanceUID = "1001"/>
+	
+	<class className = "VariableLocal">
+		<item class = "TextFiled Indicate" name = "" text = "设定默认值"/>
+		<item class = "BooleanSelector" name = "hasDefault" text = "默认值" default="1"/>
+		<item class = "Input Number" name="defaultValue" width = "60" />
+		
+	</class>	
+	<class className = "VariableGlobal">
+		<item class = "TextFiled Indicate" name = "" text = "全局ID"/>
+		<item class = "Input Text Long" name="globalId" />
+		<item class = "ENTER" name = ""/>
+		<item class = "TextFiled Indicate" name = "" text = "设定默认值"/>
+		<item class = "BooleanSelector" name = "hasDefault" text = "有默认值" default="1"/>
+		<item class = "Input Number" name="defaultValue"  width = "60" />
+	</class>
+	
+	
+	<Selector className = "BooleanSelector" valueType = "int" width = "70" export="value=u8">
+		<item value = "0" text = "否" />
+		<item value = "1" text = "是" />
+	</Selector>
+	
+	<Selector className = "OperatorSelector" valueType = "String" width = "70" export="value=string">
+		<item value = "+" text = "+" />
+		<item value = "-" text = "-" />
+		<item value = "*" text = "*" />
+		<item value = "/" text = "/" />
+		<item value = "^" text = "乘方" />
+	</Selector>
+	
+	
+	<classInstance class="VariableGlobal" name="QQ_UIN" instanceUID="5000">
+		<classInstance class="Input Text Long" name="globalId" text="__global_MainRoleData_uin"/>
+	</classInstance>
+	
+	<classInstance class="VariableGlobal" name="CUR_SCENE" instanceUID="5001">
+		<classInstance class="Input Text Long" name="globalId" text="__global_getGlobalVal_CUR_SCENE_sceneID"/>
+	</classInstance>
+	
+	
+	<Selector className = "ComparatorSelector" valueType = "int" width = "90" export="value=u8">
+		<!--
+		<item value = "EQ" text = "等于" />
+		<item value = "GEQ" text = "大于等于" />
+		<item value = "LEQ" text = "小于等于" />
+		<item value = "GT" text = "大于" />
+		<item value = "LS" text = "小于" />
+		<item value = "NEQ" text = "不小于" />
+		-->
+
+		<item value = "2" text = "等于" />
+		<item value = "3" text = "大于等于" />
+		<item value = "1" text = "小于等于" />
+		<item value = "4" text = "大于" />
+		<item value = "0" text = "小于" />
+		<item value = "5" text = "不等于" />
+	</Selector>
+	
+	
+	<Selector className = "ComparatorPlusSelector" valueType = "int" width = "90" export="value=u8">
+		<item value = "2" text = "等于" />
+		<item value = "3" text = "大于等于" />
+		<item value = "1" text = "小于等于" />
+		<item value = "4" text = "大于" />
+		<item value = "0" text = "小于" />
+		<item value = "5" text = "不小于" />
+		<item value = "6" text = "均可" />
+		<item value = "7" text = "均否" />
+	</Selector>
+	
+	
+	
+	
+	<Selector className = "BooleanSelector" valueType = "int" width = "80" export="value=u8">
+		<item value = "0" text = "否" />
+		<item value = "1" text = "是" />
+	</Selector>
+	
+	<Selector className = "Boolean3Selector" valueType = "int" width = "80" export="value=u8">
+		<item value = "0" text = "否" />
+		<item value = "1" text = "是" />
+		<item value = "2" text = "均可" />
+	</Selector>
+	
+	<class className = "ConditionTaskStatus">
+		<item class = "TaskSelector" name = "taskTaskId" />
+		<item class = "ENTER" name = "" />
+		<item class = "TaskStatus" name = "taskStatus" />
+		
+		<item class = "ENTER" name = "" />
+		<item class = "Line" name = ""/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "符合时返回true , 不符合返回false"/>
+		<item class = "BooleanSelector" name = "fitReturnTrue" default = "2"/>
+		
+	</class>
+	
+	<class className = "ConditionWearAvatar">
+		<item class = "TextFiled Indicate" name = "" text = "选择穿着的服饰"/>
+		<item class = "AvatarSelector" name = "avatorId" />
+		<item class = "ENTER" name = "" />
+		
+		<item class = "ENTER" name = "" />
+		<item class = "Line" name = ""/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "符合时返回true , 不符合返回false"/>
+		<item class = "BooleanSelector" name = "fitReturnTrue" default = "2"/>
+	</class>
+	
+	<class className = "ConditionVariable">
+		<item class = "TextFiled Indicate" name = "" text = "当变量"/>
+		<item class = "VariableList" name = "variableId" />
+		<item class = "ENTER" name = "" />
+		
+		<item class = "ComparatorSelector"  name = "comparator"/>
+		<item class = "Input Number" name = "value" width="100" />
+		
+		
+		<item class = "ENTER" name = "" />
+		<item class = "Line" name = ""/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "符合时返回true , 不符合返回false"/>
+		<item class = "BooleanSelector" name = "fitReturnTrue" default = "2"/>
+	</class>
+	
+	
+	<class className = "ConditionVariablePlus">
+		<item class = "TextFiled Indicate" name = "" text = "当变量"/>
+		<item class = "VariableList" name = "variableIdLeft" text = "变量"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "域"/>
+		<item class = "Input Text Long" name = "fieldLeft" text = "this"/>
+		
+		<item class = "ENTER" name = "" />
+		
+		<item class = "ComparatorSelector"  name = "comparator"/>
+		
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "变量"/>
+		<item class = "VariableList" name = "variableIdRight" text = "直接数"/>
+		<item class = "ENTER" name = "" />
+		<item class = "Input Text Long" name = "fieldRight" text = "0"/>
+		
+		
+		<item class = "ENTER" name = "" />
+		<item class = "Line" name = ""/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "符合时返回true , 不符合返回false"/>
+		<item class = "BooleanSelector" name = "fitReturnTrue" default = "2"/>
+	</class>
+	
+	<class className = "ConditionTwoConditionAnd">
+		
+		<item class = "TextFiled Indicate" name = "" text = "条件0&&条件1"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "条件0"/>
+		<item class = "ConditionListNotSelf" name = "condition0" default = "1"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "条件1"/>
+		<item class = "ConditionListNotSelf" name = "condition1"  default = "1"/>
+		
+		
+		<item class = "ENTER" name = "" />
+		<item class = "Line" name = ""/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "符合时返回true , 不符合返回false"/>
+		<item class = "BooleanSelector" name = "fitReturnTrue" default = "2"/>
+		
+	</class>
+	
+	<class className = "ConditionTwoConditionOr">
+		<item class = "TextFiled Indicate" name = "" text = "条件0 || 条件1"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "条件0"/>
+		<item class = "ConditionListNotSelf" name = "condition0" default = "1"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "条件1"/>
+		<item class = "ConditionListNotSelf" name = "condition1"  default = "1"/>
+		
+		
+		<item class = "ENTER" name = "" />
+		<item class = "Line" name = ""/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "符合时返回true , 不符合返回false"/>
+		<item class = "BooleanSelector" name = "fitReturnTrue" default = "2"/>
+	</class>
+	
+	
+	<class className = "ConditionTwoConditionXor">
+		<item class = "TextFiled Indicate" name = "" text = "条件0 ^ 条件1"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "条件0"/>
+		<item class = "ConditionListNotSelf" name = "condition0" default = "1"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "条件1"/>
+		<item class = "ConditionListNotSelf" name = "condition1"  default = "1"/>
+		
+		
+		<item class = "ENTER" name = "" />
+		<item class = "Line" name = ""/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "符合时返回true , 不符合返回false"/>
+		<item class = "BooleanSelector" name = "fitReturnTrue" default = "2"/>
+	</class>
+	
+	<class className = "ConditionServerTime">
+		
+		<item class = "TextFiled Indicate" name = "" text="month"/>
+		<item class = "ComparatorPlusSelector" name = "monthComparator" default = "7"/>
+		<item class = "Input Number" name = "monthValue" text= "0"/>
+		<item class = "TextFiled Indicate" name = "" text="0=1月, 1=2月"/>
+		<item class = "ENTER" name = ""/>
+		
+		<item class = "TextFiled Indicate" name = "" text="date"/>
+		<item class = "ComparatorPlusSelector" name = "dateComparator" default = "7"/>
+		<item class = "Input Number" name = "dateValue" text= "0"/>
+		<item class = "TextFiled Indicate" name = "" text="日子 1~31"/>
+		<item class = "ENTER" name = ""/>
+		
+		<item class = "TextFiled Indicate" name = "" text="hours"/>
+		<item class = "ComparatorPlusSelector" name = "hoursComparator" default = "7"/>
+		<item class = "Input Number" name = "hoursValue" text= "0"/>
+		<item class = "TextFiled Indicate" name = "" text="0 ~ 23"/>
+		<item class = "ENTER" name = ""/>
+		
+		<item class = "TextFiled Indicate" name = "" text="minutes"/>
+		<item class = "ComparatorPlusSelector" name = "minutesComparator" default = "7"/>
+		<item class = "Input Number" name = "minutesValue" text= "0"/>
+		<item class = "TextFiled Indicate" name = "" text="0 ~ 59"/>
+		<item class = "ENTER" name = ""/>
+		
+		<item class = "TextFiled Indicate" name = "" text="day"/>
+		<item class = "ComparatorPlusSelector" name = "dayComparator" default = "7"/>
+		<item class = "Input Number" name = "dayValue" text= "0"/>
+		<item class = "TextFiled Indicate" name = "" text="星期几 周日=0 周一=1"/>
+		<item class = "ENTER" name = ""/>
+		
+		<item class = "TextFiled Indicate" name = "" text="dayOfYear"/>
+		<item class = "ComparatorPlusSelector" name = "dayOfYearComparator" default = "7"/>
+		<item class = "Input Number" name = "dayOfYearValue" text= "0"/>
+		<item class = "TextFiled Indicate" name = "" text="一年第几天"/>
+		
+		
+		<item class = "ENTER" name = "" />
+		<item class = "Line" name = ""/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "符合时返回true , 不符合返回false"/>
+		<item class = "BooleanSelector" name = "fitReturnTrue" default = "2"/>
+	</class>
+	
+	
+	
+	
+	<class className = "ConditionServerTimeZone">
+		
+		<item class = "TextFiled Indicate" name = "" text="钟点 "/>
+		<item class = "ENTER" name = ""/>
+		<item class = "TextFiled Indicate" name = "" text="大于等于"/>
+		<item class = "Input Number" name = "hoursValueMin" text= "0"/>
+		<item class = "TextFiled Indicate" name = "" text="小于等于"/>
+		<item class = "Input Number" name = "hoursValueMax" text= "23"/>
+		<item class = "TextFiled Indicate" name = "" text="0 ~ 23"/>
+		<item class = "ENTER" name = ""/>
+		
+		
+		<item class = "TextFiled Indicate" name = "" text="礼拜 "/>
+		<item class = "ENTER" name = ""/>
+		<item class = "TextFiled Indicate" name = "" text="大于等于"/>
+		<item class = "Input Number" name = "dayValueMin" text= "1"/>
+		<item class = "TextFiled Indicate" name = "" text="小于等于"/>
+		<item class = "Input Number" name = "dayValueMax" text= "7"/>
+		<item class = "TextFiled Indicate" name = "" text="星期几 周一=1 周日=7"/>
+		<item class = "ENTER" name = ""/>
+		
+		<item class = "Line" name = ""/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "符合时返回true , 不符合返回false"/>
+		<item class = "BooleanSelector" name = "fitReturnTrue" default = "2"/>
+	</class>
+	
+	
+	
+	
+	
+	
+	
+	<InstanceSelector className = "ConditionList" valueType = "String" width = "200" editable = "true" >
+		<item class = "ConditionNever"/>
+		<item class = "ConditionAlways"/>
+		<item class = "ConditionTaskStatus"/>
+		<item class = "ConditionWearAvatar"/>
+		<item class = "ConditionVariable"/>
+		<item class = "ConditionVariablePlus"/>
+		<item class = "ConditionTwoConditionAnd"/>
+		<item class = "ConditionTwoConditionOr"/>
+		<item class = "ConditionTwoConditionXor"/>
+		<item class = "ConditionServerTime"/>
+	</InstanceSelector>
+	
+	
+	<InstanceSelector className = "ConditionListNotSelf" valueType = "String" width = "200" editable = "true" condition="instanceUID != parent.instanceUID">
+		<item class = "ConditionNever"/>
+		<item class = "ConditionAlways"/>
+		<item class = "ConditionTaskStatus"/>
+		<item class = "ConditionWearAvatar"/>
+		<item class = "ConditionVariable"/>
+		<item class = "ConditionVariablePlus"/>
+		<item class = "ConditionTwoConditionAnd"/>
+		<item class = "ConditionTwoConditionOr"/>
+		<item class = "ConditionServerTime"/>
+		<item class = "ConditionServerTimeZone"/>
+	</InstanceSelector>
+	
+	<InstanceSelector className = "ConditionEditableList" valueType = "String" width = "200" editable = "true">
+		<item class = "ConditionTaskStatus"/>
+		<item class = "ConditionWearAvatar"/>
+		<item class = "ConditionVariable"/>
+		<item class = "ConditionVariablePlus"/>
+		<item class = "ConditionTwoConditionAnd"/>
+		<item class = "ConditionTwoConditionOr"/>
+		<item class = "ConditionTwoConditionXor"/>
+		<item class = "ConditionServerTime"/>
+		<item class = "ConditionServerTimeZone"/>
+	</InstanceSelector>
+	
+	<ClassCreater className = "ConditionEditableCreater"  valueType = "String" width = "200">
+		<item class = "ConditionTaskStatus"/>
+		<item class = "ConditionWearAvatar"/>
+		<item class = "ConditionVariable"/>
+		<item class = "ConditionVariablePlus"/>
+		<item class = "ConditionTwoConditionAnd"/>
+		<item class = "ConditionTwoConditionOr"/>
+		<item class = "ConditionTwoConditionXor"/>
+		<item class = "ConditionServerTime"/>
+		<item class = "ConditionServerTimeZone"/>
+	</ClassCreater>
+	
+	
+	
+	
+	<ClassCreater className = "VariableCreater"  valueType = "String" width = "150">
+		<item class = "VariableLocal"/>
+		<item class = "VariableGlobal"/>
+	</ClassCreater>
+	
+	<InstanceSelector className = "VariableList" valueType = "String" width = "150" editable = "true">
+		<item class = "VariableLocal"/>
+		<item class = "VariableGlobal"/>
+	</InstanceSelector>
+	
+	
+	
+	
+</EditableEditorHeader>
+

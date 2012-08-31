@@ -1,0 +1,32 @@
+<EditableEditorHeader>
+  
+	<class className = "SKT_0x0C0002_ApplyATaskConditionComplete">
+		<item class = "ProtocolEditor_Indicate" name = "" text="taskConditionNpcId:u32"/>
+		<item class = "ProtocolEditor_u32" name = "taskConditionNpcId" />
+		<item class = "ProtocolEditor_comment" name = "" text="任务NPC ID"/>
+		<item class = "ENTER" name = ""/>
+		
+		
+	
+		<item class = "ProtocolEditor_comment" name = "" text="~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate" name = "" text="回包信息"/>
+		<item class = "ENTER" name = ""/>
+		
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="retCode"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:返回码 说明:任务NPC触发应答包"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="taskConditionNpcId"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u32 说明:任务NPC ID"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="itemInfoChangedLength"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u16 说明:物品数组长度"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="itemInfoChangedArray"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:ItemInfoChanged[itemInfoChangedLength] 说明:物品数组"/>
+		<item class = "ENTER" name = ""/>
+		
+		
+	</class>
+
+</EditableEditorHeader>

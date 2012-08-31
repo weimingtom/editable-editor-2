@@ -1,0 +1,22 @@
+<EditableEditorHeader>
+  
+	<class className = "PTB_0x0300A5_OnCourageHpNotify">
+		
+		
+	
+		<item class = "ProtocolEditor_comment" name = "" text="~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate" name = "" text="回包信息"/>
+		<item class = "ENTER" name = ""/>
+		
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="trueHp"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u32 说明:真的NPC的当前血量"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="falseHp"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u32 说明:假的NPC的当前血量"/>
+		<item class = "ENTER" name = ""/>
+		
+		
+	</class>
+
+</EditableEditorHeader>

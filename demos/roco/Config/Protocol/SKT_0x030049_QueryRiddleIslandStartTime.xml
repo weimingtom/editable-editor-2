@@ -1,0 +1,19 @@
+<EditableEditorHeader>
+  
+	<class className = "SKT_0x030049_QueryRiddleIslandStartTime">
+		
+		
+	
+		<item class = "ProtocolEditor_comment" name = "" text="~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate" name = "" text="回包信息"/>
+		<item class = "ENTER" name = ""/>
+		
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="time"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:s16 说明:距离5分钟倒计时结束差多少秒，负数表示不在倒计时阶段"/>
+		<item class = "ENTER" name = ""/>
+		
+		
+	</class>
+
+</EditableEditorHeader>

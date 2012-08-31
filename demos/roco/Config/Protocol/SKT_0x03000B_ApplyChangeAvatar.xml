@@ -1,0 +1,26 @@
+<EditableEditorHeader>
+  
+	<class className = "SKT_0x03000B_ApplyChangeAvatar">
+		<item class = "ProtocolEditor_Indicate" name = "" text="avatar:u32[9]"/>
+		<item class = "ProtocolEditor_Indicate" name = "" text="不支持编辑"/>
+		<item class = "ProtocolEditor_comment" name = "" text="数组元素为每个装备位的ID:UINT"/>
+		<item class = "ENTER" name = ""/>
+		
+		
+	
+		<item class = "ProtocolEditor_comment" name = "" text="~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate" name = "" text="回包信息"/>
+		<item class = "ENTER" name = ""/>
+		
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="retCode"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:返回码 说明:返回信息"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="avatarVersion"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u16 说明:avatar版本号"/>
+		<item class = "ENTER" name = ""/>
+		
+		
+	</class>
+
+</EditableEditorHeader>

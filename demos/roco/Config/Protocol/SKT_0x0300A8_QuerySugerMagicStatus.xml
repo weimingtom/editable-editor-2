@@ -1,0 +1,19 @@
+<EditableEditorHeader>
+  
+	<class className = "SKT_0x0300A8_QuerySugerMagicStatus">
+		
+		
+	
+		<item class = "ProtocolEditor_comment" name = "" text="~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate" name = "" text="回包信息"/>
+		<item class = "ENTER" name = ""/>
+		
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="status"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u8 说明:0活动未开启；1活动进行中"/>
+		<item class = "ENTER" name = ""/>
+		
+		
+	</class>
+
+</EditableEditorHeader>

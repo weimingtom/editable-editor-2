@@ -1,0 +1,29 @@
+<EditableEditorHeader>
+  
+	<class className = "SKT_0x110213_QueryQQSimpleInfoHome">
+		<item class = "ProtocolEditor_Indicate" name = "" text="ip:u32"/>
+		<item class = "ProtocolEditor_u32" name = "ip" />
+		<item class = "ProtocolEditor_comment" name = "" text="客户端IP"/>
+		<item class = "ENTER" name = ""/>
+		
+		
+	
+		<item class = "ProtocolEditor_comment" name = "" text="~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate" name = "" text="回包信息"/>
+		<item class = "ENTER" name = ""/>
+		
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="retCode"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:返回码 说明:"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="friendLength"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u16 说明:好友列表信息数组长度"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="friendArray"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:QQSimpleInfoHome[friendLength] 说明:好友列表信息数组"/>
+		<item class = "ENTER" name = ""/>
+		
+		
+	</class>
+
+</EditableEditorHeader>

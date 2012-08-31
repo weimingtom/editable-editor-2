@@ -1,0 +1,28 @@
+<EditableEditorHeader>
+  
+	<class className = "CGI_PANNUTRITIONALMEALS_CMD3_ApplyPanMealRewards">
+		
+		
+	
+		<item class = "ProtocolEditor_comment" name = "" text="~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate" name = "" text="回包信息"/>
+		<item class = "ENTER" name = ""/>
+		
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="retCode"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:返回码 说明:value=0 操作成功  -1 服务器出错 1 对不起， 你已经供应过本次餐了哦! 2 对不起，你还没有开启转盘哦!"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="todayTotal"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u32 说明:当天供应情况"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="totalComplete"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:s32 说明:-1 不更改 0 1 2表示 1 2 3天"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="rewards"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:ItemInfoChanged[0] 说明:奖励内容"/>
+		<item class = "ENTER" name = ""/>
+		
+		
+	</class>
+
+</EditableEditorHeader>

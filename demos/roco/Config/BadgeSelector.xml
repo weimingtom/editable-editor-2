@@ -1,0 +1,12 @@
+﻿<EditableEditorHeader>
+	<Selector className = "BadgeSelector" valueType = "int" width = "200" showValue = "false">
+		<item value = "1"	text = "草系徽章(罗兰)" />
+		<item value = "2"	text = "水系徽章(乐乐)" />
+		<item value = "3"	text = "岩系徽章(托比)" />
+		<item value = "4"	text = "火系徽章(科伦尔与科伦斯)" />
+		<item value = "5"	text = "冰系徽章(冰封骑士)" />
+		<item value = "6 "	text = "电系徽章(桑德)" />
+		<item value = "7 "	text = "翼系徽章(雷欧)" />
+		<item value = "8 "	text = "幽灵系徽章(露西亚)" />
+	</Selector>
+</EditableEditorHeader>

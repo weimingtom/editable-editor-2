@@ -1,0 +1,148 @@
+<EditableEditorHeader>
+	
+	
+	<class className = "TriggerOnScriptInited" >
+		<item class = "TextFiled Indicate" name = "" text = "当此脚本初始化完毕时"/>
+		<item class = "ENTER" name = "" />
+		<item class= "事件浏览器" name = "triggerEvent" default = "1"/>
+	</class>
+
+	<class className = "TriggerOnReceivedAProtocol">
+		
+		<item class = "TextFiled Indicate" name = "" text = "协议号"/>
+		<item class = "ProtocolIdSelector" name = "protocolId"/>
+		<item class = "ENTER" name = "" />
+		<item class = "Line"/>
+		<item class = "ENTER" name = "" />
+		
+		<item class = "TextFiled Indicate" name = "" text = "回包内容保存:"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "当"/>
+		<item class = "Input Text Long" name = "contidion" text = "retCode['code']==0"/>
+		
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "保存"/>
+		<item class = "Input Text Long" name = "field" text = "this"/>
+		<item class = "TextFiled Indicate" name = "" text = "至变量"/>
+		
+		<item class = "ENTER" name = "" />
+		<item class= "VariableList" name = "variableId" text="不保存" />
+		
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "可以使用例如this['retCode']['code']来保存 暂不支持&& ||操作符"/>
+		
+		<item class = "ENTER" name = "" />
+		<item class = "Line"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "符合条件时执行:"/>
+		<item class = "ENTER" name = "" />
+		<item class = "事件浏览器" name = "triggerEvent" default = "1"/>
+		
+		
+	</class>
+	
+	
+	<class className = "TriggerOnVariableChanged">
+		<item class = "TextFiled Indicate" name = "" text = "当"/>
+		<item class= "VariableList" name = "variableId" text="变量" />
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "改变时执行"/>
+		<item class = "ENTER" name = "" />
+		<item class = "事件浏览器" name = "triggerEvent" default = "1"/>
+	</class>	
+	
+	<class className = "TriggerOnConditionChanged">
+		<item class = "TextFiled Indicate" name = "" text = "当"/>
+		<item class= "ConditionEditableList" name = "conditionId" text="条件" />
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "改变时"/>
+		
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "如果条件变化后为True执行"/>
+		<item class = "ENTER" name = "" />
+		<item class = "事件浏览器" name = "triggerTrueEvent" default = "1"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "如果条件变化后为False执行"/>
+		<item class = "ENTER" name = "" />
+		<item class = "事件浏览器" name = "triggerFalseEvent" default = "1"/>
+	</class>	
+	
+	<class className = "TriggerOnEnterScene">
+		<item class = "TextFiled Indicate" name = "" text = "当进入场景:旧场景可为空"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "旧场景"/>
+		<item class = "SceneSelector" name = "oldSceneId" width = "100" text = "无所谓"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "版本(默认为1)"/>
+		<item class= "Input Number" name = "oldSceneVersion" text="1" />
+		<item class = "TextFiled Indicate" name = "" text = "必须自己的场景(农场家园有效)"/>
+		<item class= "Boolean3Selector" name = "myOldScene" default = "3"/>
+		<item class = "ENTER" name = "" />
+		
+		<item class = "TextFiled Indicate" name = "" text = "新场景"/>
+		<item class = "SceneSelector" name = "newSceneId" width = "100" text = "必填不为空"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "版本(默认为1)"/>
+		<item class= "Input Number" name = "newSceneVersion" text="1" />
+		<item class = "TextFiled Indicate" name = "" text = "必须自己的场景(农场家园有效)"/>
+		<item class= "Boolean3Selector" name = "myNewScene" default = "3"/>
+
+		<item class = "ENTER" name = "" />
+		<item class = "Line"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "符合条件时执行:"/>
+		<item class = "ENTER" name = "" />
+		<item class = "事件浏览器" name = "triggerEvent" default = "1"/>
+	</class>	
+	
+		<class className = "TriggerOnLeaveScene">
+		<item class = "TextFiled Indicate" name = "" text = "当离开场景:新场景可为空"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "旧场景"/>
+		<item class = "SceneSelector" name = "oldSceneId" width = "100" text = "必填不为空"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "版本(默认为1)"/>
+		<item class= "Input Number" name = "oldSceneVersion" text="1" />
+		<item class = "TextFiled Indicate" name = "" text = "必须自己的场景(农场家园有效)"/>
+		<item class= "Boolean3Selector" name = "myOldScene" default = "3"/>
+		<item class = "ENTER" name = "" />
+		
+		<item class = "TextFiled Indicate" name = "" text = "新场景"/>
+		<item class = "SceneSelector" name = "newSceneId" width = "100" text = "无所谓"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "版本(默认为1)"/>
+		<item class= "Input Number" name = "newSceneVersion" text="1" />
+		<item class = "TextFiled Indicate" name = "" text = "必须自己的场景(农场家园有效)"/>
+		<item class= "Boolean3Selector" name = "myNewScene" default = "3"/>
+		
+		<item class = "ENTER" name = "" />
+		<item class = "Line"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "符合条件时执行:"/>
+		<item class = "ENTER" name = "" />
+		<item class = "事件浏览器" name = "triggerEvent" default = "1"/>
+	</class>	
+	
+	
+	<InstanceSelector className = "触发器浏览器" valueType = "String" width = "250" editable = "true">
+		<item class = "TriggerOnScriptInited"/>
+		<item class = "TriggerOnReceivedAProtocol"/>
+		<item class = "TriggerOnVariableChanged"/>
+		<item class = "TriggerOnConditionChanged"/>
+		<item class = "TriggerOnEnterScene"/>
+		<item class = "TriggerOnLeaveScene"/>
+	</InstanceSelector>	
+	
+
+	
+	<ClassCreater className = "触发器创建器" width = "200" valueType = "String" >
+		<item class = "TriggerOnScriptInited"/>
+		<item class = "TriggerOnReceivedAProtocol"/>
+		<item class = "TriggerOnVariableChanged"/>
+		<item class = "TriggerOnConditionChanged"/>
+		<item class = "TriggerOnEnterScene"/>
+		<item class = "TriggerOnLeaveScene"/>
+	</ClassCreater>
+	
+</EditableEditorHeader>
+	

@@ -1,0 +1,22 @@
+<EditableEditorHeader>
+  
+	<class className = "CGI_PANNUTRITIONALMEALS_CMD4_ApplyPanMealFinal">
+		
+		
+	
+		<item class = "ProtocolEditor_comment" name = "" text="~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate" name = "" text="回包信息"/>
+		<item class = "ENTER" name = ""/>
+		
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="retCode"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:返回码 说明:value=0 操作成功 -1 服务器出错  1  对不起，你已经领取过稻草人奖励了哦！ 2  对不起，必须当天三次全部供应正确才能领取该奖励哦!"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="rewards"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:ItemInfoChanged[0] 说明:奖励内容"/>
+		<item class = "ENTER" name = ""/>
+		
+		
+	</class>
+
+</EditableEditorHeader>

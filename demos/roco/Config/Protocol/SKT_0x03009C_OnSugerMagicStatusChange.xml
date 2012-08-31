@@ -1,0 +1,31 @@
+<EditableEditorHeader>
+  
+	<class className = "SKT_0x03009C_OnSugerMagicStatusChange">
+		
+		
+	
+		<item class = "ProtocolEditor_comment" name = "" text="~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate" name = "" text="回包信息"/>
+		<item class = "ENTER" name = ""/>
+		
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="sceneId"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u16 说明:场景ID"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="status"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u8 说明:1：活动开始（播放进入动画）2：变形开始（散落糖果动画）3：玩家砸中的人头数广播 4：活动结束（播放退场动画）"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="hitDoughnutPlayerNum"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u8 说明:玩家砸中甜甜圈状态玩家的人数"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="hitSoftConePlayerNum"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u8 说明:玩家砸中甜筒状态玩家的人数"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="hitCakePlayerNum"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u8 说明:玩家砸中蛋糕状态玩家的人数"/>
+		<item class = "ENTER" name = ""/>
+		
+		
+	</class>
+
+</EditableEditorHeader>

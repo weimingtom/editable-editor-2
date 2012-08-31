@@ -1,0 +1,469 @@
+﻿<EditableEditorHeader>
+
+<Selector className = "D_NPCSelector" valueType = "int" width = "200" showValue = "true">
+		<item value = "100100"	text = "100100 格里芬院长" />
+		<item value = "100200"	text = "100200 莫尼亚克社长" />
+		<item value = "100300"	text = "100300 遗失的残页1" />
+		<item value = "100400"	text = "100400 遗失的残页2" />
+		<item value = "100500"	text = "100500 遗失的残页3" />
+		<item value = "100600"	text = "100600 格里芬的书稿" />
+		<item value = "100700"	text = "100700 洛克王国编年史（一）" />
+		<item value = "100800"	text = "100800 皮卡" />
+		<item value = "100900"	text = "100900 麦斯威尔" />
+		<item value = "101000"	text = "101000 兰斯洛" />
+		<item value = "101100"	text = "101100 艾迪" />
+		<item value = "101200"	text = "101200 古拉拉" />
+		<item value = "101300"	text = "101300 罗宾" />
+		<item value = "101400"	text = "101400 拉尔夫" />
+		<item value = "101500"	text = "101500 博得" />
+		<item value = "101600"	text = "101600 吉洛斯" />
+		<item value = "101700"	text = "101700 洛克王国登记表" />
+		<item value = "101800"	text = "101800 王国招工手册" />
+		<item value = "101900"	text = "101900 杰瑞西" />
+		<item value = "101901"	text = "101901 杰瑞西-我要上课" />
+		<item value = "102000"	text = "102000 小偷" />
+		<item value = "102100"	text = "102100 学院守卫" />
+		<item value = "102200"	text = "102200 万事通" />
+		<item value = "102300"	text = "102300 乔巴" />
+		<item value = "102400"	text = "102400 莎莉" />
+		<item value = "102500"	text = "102500 猫头鹰" />
+		<item value = "102600"	text = "102600 罗伦斯" />
+		<item value = "102700"	text = "102700 账簿" />
+		<item value = "102800"	text = "102800 羽毛笔" />
+		<item value = "102900"	text = "102900 魔法算板" />
+		<item value = "103000"	text = "103000 望远镜" />
+		<item value = "103100"	text = "103100 放大镜" />
+		<item value = "103200"	text = "103200 凸透镜" />
+		<item value = "103300"	text = "103300 石墨" />
+		<item value = "103400"	text = "103400 精钢" />
+		<item value = "103500"	text = "103500 猫眼石" />
+		<item value = "103600"	text = "103600 爱因斯坦" />
+		<item value = "103700"	text = "103700 洛克王国史话" />
+		<item value = "103800"	text = "103800 水壶" />
+		<item value = "103900"	text = "103900 铲子" />
+		<item value = "104000"	text = "104000 园艺剪刀" />
+		<item value = "104100"	text = "104100 菲尔特" />
+		<item value = "104200"	text = "104200 天平" />
+		<item value = "104300"	text = "104300 凯里" />
+		<item value = "104400"	text = "104400 真心之水" />
+		<item value = "104500"	text = "104500 星光红糖" />
+		<item value = "104600"	text = "104600 真心话棒棒糖" />
+		<item value = "104700"	text = "104700 工坊锅子" />
+		<item value = "104800"	text = "104800 开心柔顺剂" />
+		<item value = "104900"	text = "104900 变色龙色素" />
+		<item value = "105000"	text = "105000 闪耀珍珠" />
+		<item value = "105100"	text = "105100 爱德华" />
+		<item value = "105200"	text = "105200 夏洛克" />
+		<item value = "105300"	text = "105300 哥顿" />
+		<item value = "105400"	text = "105400 可丽希亚" />
+		<item value = "105500"	text = "105500 盾牌" />
+		<item value = "105600"	text = "105600 卷轴前篇" />
+		<item value = "105700"	text = "105700 拼图" />
+		<item value = "105800"	text = "105800 绳子" />
+		<item value = "105900"	text = "105900 铁揪" />
+		<item value = "106000"	text = "106000 被赶走的小狗" />
+		<item value = "106100"	text = "106100 卷轴后篇" />
+		<item value = "106200"	text = "106200 小小生到此一游" />
+		<item value = "106300"	text = "106300 小小生的挑衅" />
+		<item value = "106400"	text = "106400 宠物园的提示" />
+		<item value = "106500"	text = "106500 人鱼湾的提示" />
+		<item value = "106600"	text = "106600 最后的小偷" />
+		<item value = "106700"	text = "106700 冰面" />
+		<item value = "106800"	text = "106800 亚瑟传奇" />
+		<item value = "106900"	text = "106900 工坊锅子2" />
+		<item value = "107000"	text = "107000 洁西卡" />
+		<item value = "107100"	text = "107100 EC" />
+		<item value = "107200"	text = "107200 守门人" />
+		<item value = "107300"	text = "107300 罗兰" />
+		<item value = "107400"	text = "107400 可丽希亚2" />
+		<item value = "107500"	text = "107500 植物研究日记" />
+		<item value = "107600"	text = "107600 枯萎的植物" />
+		<item value = "107700"	text = "107700 显微镜" />
+		<item value = "107800"	text = "107800 污水管破裂" />
+		<item value = "107900"	text = "107900 会飞的种子" />
+		<item value = "108000"	text = "108000 雪莲花" />
+		<item value = "108100"	text = "108100 灌魔之瓶" />
+		<item value = "108200"	text = "108200 花洒" />
+		<item value = "108300"	text = "108300 公主和杰瑞西的对话气泡" />
+		<item value = "108400"	text = "108400 枯萎植物的泥土" />
+		<item value = "108500"	text = "108500 水管" />
+		<item value = "108600"	text = "108600 可丽希亚3" />
+		<item value = "108700"	text = "108700 污水2" />
+		<item value = "108800"	text = "108800 污水3" />
+		<item value = "108900"	text = "108900 污水4" />
+		<item value = "109000"	text = "109000 污水5" />
+		<item value = "109100"	text = "109100 卡拉" />
+		<item value = "109200"	text = "109200 森美" />
+		<item value = "109300"	text = "109300 月光宝盒真相探讨" />
+		<item value = "109400"	text = "109400 可丽希亚的宝盒秘密" />
+		<item value = "109500"	text = "109500 莎莉的宝盒秘密" />
+		<item value = "109600"	text = "109600 知道错了" />
+		<item value = "109700"	text = "109700 托比" />
+		<item value = "109800"	text = "109800 冰封骑士" />
+		<item value = "109900"	text = "109900 乐乐" />
+		<item value = "110000"	text = "110000 艾琳" />
+		<item value = "110100"	text = "110100 杰克" />
+		<item value = "110200"	text = "110200 克里斯" />
+		<item value = "110300"	text = "110300 危机预言信" />
+		<item value = "110400"	text = "110400 洛克王国史话" />
+		<item value = "110500"	text = "110500 商店街路灯底座" />
+		<item value = "110600"	text = "110600 彼得大道路灯底座" />
+		<item value = "110700"	text = "110700 皇家研究院路灯底座" />
+		<item value = "110800"	text = "110800 火魔法棒" />
+		<item value = "110900"	text = "110900 王国城堡烟花" />
+		<item value = "111000"	text = "111000 斯洛" />
+		<item value = "111100"	text = "111100 露西亚" />
+		<item value = "111200"	text = "111200 奥芬" />
+		<item value = "111300"	text = "111300 雷欧" />
+		<item value = "111400"	text = "111400 盖茨" />
+		<item value = "111500"	text = "111500 黑轮" />
+		<item value = "111600"	text = "111600 理查" />
+		<item value = "111700"	text = "111700 桑德" />
+		<item value = "111800"	text = "111800 科伦尔" />
+		<item value = "111900"	text = "111900 科伦斯" />
+		<item value = "112000"	text = "112000 黑衣人" />
+		<item value = "112001"	text = "112001 萌萌" />
+		<item value = "112002"	text = "112002 沃尔克" />
+		<item value = "112003"	text = "112003 安妮" />
+		<item value = "112004"	text = "112004 珍妮佛" />
+		<item value = "112500"	text = "112500 泡泡" />
+		<item value = "112600"	text = "112600 海豚动画" />
+		<item value = "112700"	text = "112700 大尾鱼动画" />
+		<item value = "112800"	text = "112800 新手任务箭头" />
+		<item value = "112900"	text = "112900 城堡信封" />
+		<item value = "113000"	text = "113000 学院信封" />
+		<item value = "113100"	text = "113100 商店街信封" />
+		<item value = "113200"	text = "113200 跳跳集市信封" />
+		<item value = "113300"	text = "113300 皇家研究院信封" />
+		<item value = "113400"	text = "113400 宠物园信封" />
+		<item value = "113500"	text = "113500 人鱼湾信封" />
+		<item value = "113600"	text = "113600 矿洞信封" />
+		<item value = "113700"	text = "113700 照顾熊宝宝" />
+		<item value = "113800"	text = "113800 爱因斯坦的回答" />
+		<item value = "113900"	text = "113900 格里芬的回答" />
+		<item value = "114000"	text = "114000 修理宝盒" />
+		<item value = "114100"	text = "114100 回归心泉" />
+		<item value = "114200"	text = "114200 彼得大道小信封" />
+		<item value = "114300"	text = "114300 瑞可" />
+		<item value = "114400"	text = "114400 动力猿" />
+		<item value = "114500"	text = "114500 火山口信封" />
+		<item value = "114600"	text = "114600 熊妈妈" />
+		<item value = "114700"	text = "114700 熊宝宝" />
+		<item value = "114800"	text = "114800 熊宝宝百科全书" />
+		<item value = "114900"	text = "114900 希罗" />
+		<item value = "115000"	text = "115000 欧利文" />
+		<item value = "115100" text = "115100 OR-007身体1"/>
+		<item value = "115200" text = "115200 OR-007头部"/>
+		<item value = "115300" text = "115300 OR-007腿部"/>
+		<item value = "115400" text = "115400 OR-OO7感染"/>
+		<item value = "115500" text = "115500 OR-OO7恢复 "/>
+		<item value = "115600" text = "115600 大转盘"/>
+		<item value = "115700" text = "115700 OR-007身体2"/>
+		<item value = "115800" text = "115800 病毒源头"/>
+		<item value = "115900" text = "115900 萨拉"/>
+		<item value = "116000" text = "116000 电圈怪"/>
+		<item value = "116100" text = "116100 闪电云"/>
+		<item value = "116200" text = "116200 OR-007身体恢复"/>
+		<item value = "116300" text = "116300 OR-007头部恢复"/>
+		<item value = "116400" text = "116400 OR-007腿部恢复"/>
+		<item value = "116500" text = "116500 清除的身体"/>
+		<item value = "116600" text = "116600 森美"/>
+		<item value = "116700" text = "116700 奇诺"/>
+		<item value = "116800" text = "116800 诺奇"/>
+		<item value = "116900" text = "116900 弗兰肯"/>
+		<item value = "117000" text = "117000 小火龙"/>
+		<item value = "117100" text = "117100 氢气实验"/>
+		<item value = "117200" text = "117200 威尔伯.莱特"/>
+		<item value = "117300" text = "117300 奥维尔.莱特"/>
+		<item value = "117400" text = "117400 木桶寄生种子"/>
+		<item value = "117500" text = "117500 恢复寄生种子"/>
+		<item value = "117600" text = "117600 旋风离开"/>
+		<item value = "117700" text = "117700 旋风进入"/>
+		<item value = "117800" text = "117800 水晶球海底"/>
+		<item value = "117900" text = "117900 鲨鱼变机器"/>
+		<item value = "118000" text = "118000 超声波仪器"/>
+		<item value = "118100" text = "118100 通透鱼"/>
+		<item value = "118200" text = "118200 水晶球火山口"/>
+		<item value = "118300" text = "118300 超声波仪器未打开"/>
+		<item value = "118400" text = "118400 宠物箱子"/>
+		<item value = "118500" text = "118500 卡贝"/>
+		<item value = "118600" text = "118600 奥古斯汀"/>
+		<item value = "118700" text = "118700 奥古斯汀（升级版）"/>
+		<item value = "118800" text = "118800 安德鲁1"/>
+		<item value = "118801" text = "118801 安德鲁2"/>
+		<item value = "118900" text = "118900 帕特里克1"/>
+		<item value = "118901" text = "118901 帕特里克2"/>
+		<item value = "119000" text = "119000 雅各布1"/>
+		<item value = "119001" text = "119001 雅各布2"/>
+		<item value = "119100" text = "119100 芭芭拉1"/>
+		<item value = "119101" text = "119101 芭芭拉2"/>
+		<item value = "119200" text = "119200 撒旦1"/>
+		<item value = "119201" text = "119201 撒旦2"/>
+		<item value = "119300" text = "119300 爱丽丝1"/>
+		<item value = "119301" text = "119301 爱丽丝2"/>
+		<item value = "119400" text = "119400 纽陀飞轮1"/>
+		<item value = "119401" text = "119401 纽陀飞轮2"/>
+		<item value = "119500" text = "119500 摩西马龙1"/>
+		<item value = "119501" text = "119501 摩西马龙2"/>
+		<item value = "119600" text = "119600 魔法阵黑衣人恩佐"/>
+		<item value = "119700" text = "119700 030-采集-小报纸"/>
+		<item value = "119800" text = "119800 紫水晶球"/>
+		<item value = "119900" text = "119900 屎壳郎"/>
+		<item value = "120000" text = "120000 蜗石贝"/>
+		<item value = "120100" text = "120100 裂开的地面"/>
+		<item value = "120200" text = "120200 失传的封印托比"/>
+		<item value = "120300" text = "120300 火焰石"/>
+		<item value = "120400" text = "120400 寒冰石"/>
+		<item value = "120500" text = "120500 展翼石"/>
+		<item value = "120600" text = "120600 长眠之地"/>
+		<item value = "120700" text = "120700 制造魔法阵"/>
+		<item value = "120800" text = "120800 失传封印小布石/喵喵"/>
+		<item value = "120900" text = "120900 火花"/>
+		<item value = "121000" text = "121000 水蓝蓝"/>
+		<item value = "121100" text = "121100 "/>
+		<item value = "121200" text = "121200 "/>
+		<item value = "121300" text = "121300 "/>
+		<item value = "121400" text = "121400 夜影回路宠物"/>
+		<item value = "121500" text = "121500 黑光秘道水晶球"/>
+		<item value = "121600" text = "121600 竖琴"/>
+		<item value = "121700" text = "121700 树钟"/>
+		<item value = "121800" text = "121800 夜半琴声黑衣人"/>
+		<item value = "121900" text = "121900 水晶犬"/>
+		<item value = "122000" text = "122000 液化术的果冻宠物"/>
+		<item value = "122100" text = "122100 安格"/>
+		<item value = "122200" text = "122200 失传封印小布石（新）"/>
+		<item value = "122300" text = "122300 拉瓦"/>
+		<item value = "122400" text = "122400 记忆石"/>
+		<item value = "122500" text = "122500 图书馆的蓝皮档案"/>
+		<item value = "122600" text = "122600 微光实验室的桌子"/>
+		<item value = "122700" text = "122700 黑光密道的空灵兽"/>
+		<item value = "122800" text = "122800 微光实验室的黑衣人"/>
+		<item value = "122900" text = "122900 微光实验室的空灵兽"/>
+		<item value = "123000" text = "123000 和罗兰说话的空灵兽"/>
+		<item value = "123100" text = "123100 剪子与除草动画"/>
+		<item value = "123200" text = "123200 灵兽迷踪用的守门人"/>
+		<item value = "123300" text = "123300 笨笨"/>
+		<item value = "123400" text = "123400 彼得大道广告牌海报"/>
+		<item value = "123500" text = "123500 商店街广告牌海报"/>
+		<item value = "123600" text = "123600 宠物园广告牌海报"/>
+		<item value = "123700" text = "123700 天空城广告牌海报"/>
+		<item value = "123800" text = "123800 皇家研究院广告牌海报"/>
+		<item value = "123900" text = "123900 雪人谷广告牌海报"/>
+		<item value = "124000" text = "124000 格鲁提移动化石"/>
+		<item value = "124100" text = "124100 格鲁提战败"/>
+		<item value = "124200" text = "124200 伯瑞斯出场"/>
+		<item value = "124300" text = "124300 黑衣人喽啰出场"/>
+		<item value = "124400" text = "124400 大地图跳转"/>
+		<item value = "124500" text = "124500 基地守卫搬运化石"/>
+		<item value = "124600" text = "124600 基地守卫逃走"/>
+		<item value = "124700" text = "124700 魔法阵"/>
+		<item value = "124800" text = "124800 打工进度条"/>
+		<item value = "124900" text = "124900 骨头龙肆虐"/>
+		<item value = "125000" text = "125000 骨头龙败走"/>
+		<item value = "125100" text = "125100 骨头龙进入魔法阵"/>
+		<item value = "125200" text = "125200 黑衣人治疗骨头龙"/>
+		<item value = "125300" text = "125300 骨头龙实体化"/>
+		<item value = "125400" text = "125400 祭坛被破坏"/>
+		<item value = "125500" text = "125500 化石失窃黑衣人"/>
+		<item value = "125600" text = "125600 伯瑞斯"/>
+		<item value = "125700" text = "125700 先遣队员"/>
+		<item value = "125800" text = "125800 波诺"/>
+		<item value = "125900" text = "125900 阿米尔"/>
+		<item value = "126000" text = "126000 矿山口化石坑"/>
+		<item value = "126100" text = "126100 假龙怂恿叛变"/>
+		<item value = "126200" text = "126200 龙之碎片的真相"/>
+		<item value = "126300" text = "126300 黑衣人劫持龙骨"/>
+		<item value = "126400" text = "126400 真龙之王（真）"/>
+		<item value = "126500" text = "126500 远航飞艇"/>
+		<item value = "126600" text = "126600 卡卡西"/>
+		<item value = "126700" text = "126700 中秋版瑞可"/>
+		<item value = "126800" text = "126800 龙守望远航飞艇"/>
+		<item value = "126900" text = "126900 龙族之王"/>
+		<item value = "127000" text = "127000 黑衣人"/>
+		<item value = "127100" text = "127100 阿基拉"/>
+		<item value = "127200" text = "127200 OR-008"/>
+		<item value = "127300" text = "127300 黑衣人"/>
+		<item value = "127400" text = "127400 龙族之王2"/>
+		<item value = "127500" text = "127500 龙族之王3"/>
+		<item value = "127600" text = "127600 萨尔"/>
+		<item value = "127800" text = "127800 龙族之王4"/>
+		<item value = "127900" text = "127900 海盗小纸条"/>
+		<item value = "128000" text = "128000 欢乐谷广告牌"/>
+		<item value = "128100" text = "128100 龙之碎片1"/>
+		<item value = "128200" text = "128200 海德"/>
+		<item value = "128300" text = "128300 龙之碎片2"/>
+		<item value = "128400" text = "128400 兔子王国城堡小纸条"/>
+		<item value = "128500" text = "128500 彼得大道机械宝箱"/>
+		<item value = "128600" text = "128600 王国城堡ROCO TIMES"/>
+		<item value = "128700" text = "128700 阿基拉"/>
+		<item value = "128800" text = "128800 龙族之王"/>
+		<item value = "128900" text = "128900 服装店杂志1"/>
+		<item value = "129000" text = "129000 服装店杂志2"/>
+		<item value = "129100" text = "129100 吸血鬼的传说"/>
+		<item value = "129200" text = "129200 塔防攻击第一帧"/>
+		<item value = "129201" text = "129201 塔防攻击第二帧"/>
+		<item value = "129300" text = "129300 林中机关"/>
+		<item value = "129301" text = "129301 帕尔萨斯石像"/>
+		<item value = "129400" text = "129400 石像群"/>
+		<item value = "129500" text = "129500 镜像世界1"/>
+		<item value = "129501" text = "129501 镜像世界2"/>
+		<item value = "129600" text = "129600 帕尔萨斯逃离"/>
+		<item value = "129700" text = "129700 移动中的帕尔萨斯"/>
+		<item value = "129800" text = "129800 狂躁的帕尔萨斯"/>
+		<item value = "129801" text = "129801 温顺的帕尔萨斯"/>
+		<item value = "129900" text = "129900 古堡花园南瓜灯"/>
+		<item value = "130000" text = "130000 守卫古堡帕尔萨斯"/>
+		<item value = "130100" text = "130100 古堡花园南瓜豌豆"/>
+		<item value = "130200" text = "130200 古堡大厅海蓝水晶"/>
+		<item value = "130300" text = "130300 古堡内厅元素种子"/>
+		<item value = "130400" text = "130400 古堡内厅合成卷轴"/>
+		<item value = "130500" text = "130500 花园红点伊童石像鬼"/>
+		<item value = "130600" text = "130600 花园红点布拉琪石像鬼"/>
+		<item value = "130700" text = "130700 花园红点瓦尔基利亚石像鬼"/>
+		<item value = "130800" text = "130800 花园红点奥丁石像鬼"/>
+		<item value = "130900" text = "130900 露台南瓜灯"/>
+		<item value = "131000" text = "131000 露台帕尔萨斯"/>
+		<item value = "131100" text = "131100 露台黑衣人"/>
+		<item value = "131200" text = "131200 马尔奇"/>
+		<item value = "131300" text = "131300 古堡花园十字架"/>
+		<item value = "131400" text = "131400 来自森林的幽灵"/>
+		<item value = "131500" text = "131500 "/>
+		<item value = "131600" text = "131600 古堡内厅蝙蝠"/>
+		<item value = "131700" text = "131700 佐亚"/>
+		<item value = "131800" text = "131800 成长果树的树叶"/>
+		<item value = "131900" text = "131900 打幽灵小纸条"/>
+		<item value = "132000" text = "132000 内厅帕尔萨斯"/>
+		<item value = "132100" text = "132100 开启密室"/>
+		<item value = "132200" text = "132200 伯爵灵魂"/>
+		<item value = "132300" text = "132300 火山水晶"/>
+		<item value = "132400" text = "132400 雪山水晶"/>
+		<item value = "132500" text = "132500 雷霆水晶"/>
+		<item value = "132600" text = "132600 古堡露台的阿亚拉拉"/>
+		<item value = "132700" text = "132700 两只宠物（恶魔系）1"/>
+		<item value = "132800" text = "132800 水蓝蓝1"/>
+		<item value = "132900" text = "132900 残页"/>
+		<item value = "133000" text = "133000 武使徒和武使徒的宠物"/>
+		<item value = "133100" text = "133100 洞穴上的壁画"/>
+		<item value = "133200" text = "133200 马特"/>
+		<item value = "133300" text = "133300 八字毛球"/>
+		<item value = "133400" text = "133400 武使徒的宠物阿亚拉拉 "/>
+		<item value = "133500" text = "133500 变异宠物1"/>
+		<item value = "133600" text = "133600 苏摩尔1"/>
+		<item value = "133700" text = "133700 变异宠物2"/>
+		<item value = "133800" text = "133800 龙头"/>
+		<item value = "133900" text = "133900 武使徒出现消失"/>
+		<item value = "134000" text = "134000 两个水晶球"/>
+		<item value = "134100" text = "134100 书"/>
+		<item value = "134200" text = "134200 水晶球"/>
+		<item value = "134300" text = "134300 恢复后的卡秋莎"/>
+		<item value = "134400" text = "134400 西格的宠物"/>
+		<item value = "134500" text = "134500 甜甜布丁"/>
+		<item value = "134600" text = "134600 提普斯"/>
+		<item value = "134700" text = "134700 龙首望的平台"/>
+		<item value = "134800" text = "134800 彼得大道的西格"/>
+		<item value = "134900" text = "134900 龙须小径的大橡树"/>
+		<item value = "135000" text = "135000 记忆倒影的西格"/>
+		<item value = "135100" text = "135100 蓝色蔷薇"/>
+		<item value = "135200" text = "135200 石碑"/>
+		<item value = "135300" text = "135300 埋藏种子之地"/>
+		<item value = "135400" text = "135400 水杯"/>
+		<item value = "135500" text = "135500 咕噜球"/>
+		<item value = "135600" text = "135600 蔷薇骑士"/>
+		<item value = "135700" text = "135700 迪兰"/>
+		<item value = "135800" text = "135800 乔布斯"/>
+		<item value = "135900" text = "135900 麋鹿被绑架"/>
+		<item value = "136000" text = "136000 失踪的麋鹿黑衣人"/>
+		<item value = "136100" text = "136100 被抓住的麋鹿"/>
+		<item value = "136200" text = "136200 七彩鹿的秘密"/>
+		<item value = "136300" text = "136300 七彩鹿的秘密2"/>
+		<item value = "136400" text = "136400 麋鹿经过"/>
+		<item value = "136500" text = "136500 变成麋鹿"/>
+		<item value = "136600" text = "136600 引诱黑衣人"/>
+		<item value = "136700" text = "136700 麋鹿-跳转魔法阵"/>
+		<item value = "136800" text = "136800 带走七彩鹿"/>
+		<item value = "136900" text = "136900 明星神宠UI板"/>
+		<item value = "137000" text = "137000 圣诞树000"/>
+		<item value = "137001" text = "137001 圣诞树001"/>
+		<item value = "137002" text = "137002 圣诞树002"/>
+		<item value = "137003" text = "137003 圣诞树003"/>
+		<item value = "137100" text = "137100 A鹿NPCID"/>
+		<item value = "137200" text = "137200 B鹿NPCID"/>
+		<item value = "137300" text = "137300 飞天载物AB鹿"/>
+		<item value = "137400" text = "137400 步步生花AB鹿"/>
+		<item value = "137500" text = "137500 轻风山AB鹿"/>
+		<item value = "137600" text = "137600 圣诞老人AB鹿"/>
+		<item value = "137700" text = "137700 真假麋鹿黑衣人"/>
+		<item value = "137800" text = "137800 圣诞树"/>
+		<item value = "137900" text = "137900 酷拉小纸片"/>
+		<item value = "138000" text = "138000 真麋鹿"/>
+		<item value = "138100" text = "138100 假麋鹿"/>
+		<item value = "138200" text = "138200 阿基拉"/>
+		<item value = "138201" text = "138201 机器运转场景动画"/>
+		<item value = "138202" text = "138202 机器+礼物"/>
+		<item value = "138300" text = "138300 礼盒1"/>
+		<item value = "138400" text = "138400 礼盒2 "/>
+		<item value = "138500" text = "138500 礼物3 "/>
+		<item value = "138600" text = "138600 活动日历"/>
+		<item value = "138700" text = "138700 觉悟的麋鹿"/>
+		<item value = "138800" text = "138800 阿基拉2"/>
+		<item value = "138900" text = "138900 思念幻影一"/>
+		<item value = "138901" text = "138901 思念幻影二"/>
+		<item value = "139000" text = "139000 幻影连连看"/>
+		<item value = "139100" text = "139100 克莱尔"/>
+		<item value = "139200" text = "139200 特伦斯的照片"/>
+		<item value = "139300" text = "139300 雪精灵出场"/>
+		<item value = "139400" text = "139400 冰封骑士原型"/>
+		<item value = "139500" text = "139500 漫天萤火虫"/>
+		<item value = "139600" text = "139600 节日烟火"/>
+		<item value = "139700" text = "139700 先遣队员"/>
+		<item value = "139800" text = "139800 招生广告牌"/>
+		<item value = "139900" text = "139900 雷霆峡谷帽子"/>
+		<item value = "140000" text = "140000 商船"/>
+		<item value = "140100" text = "140100 投资客"/>
+		<item value = "140200" text = "140200 假伯瑞斯"/>
+		<item value = "140300" text = "140300 队长厮打动画"/>
+		<item value = "140400" text = "140400 鲁菲"/>
+		<item value = "140500" text = "140500 仙鹤"/>
+		<item value = "140600" text = "140600 行者药师"/>
+		<item value = "140700" text = "140700 黑色广告1"/>
+		<item value = "140800" text = "140800 黑色广告2"/>
+		<item value = "140900" text = "140900 黑色广告3"/>
+		<item value = "141000" text = "141000 黑色广告4"/>
+		<item value = "141100" text = "141100 玄玉岛历史图书"/>
+		<item value = "141200" text = "141200 跳跳集市的呱呱"/>
+		<item value = "141300" text = "141300 梦游仙桃老人"/>
+		<item value = "141400" text = "141400 呱呱拔兔毛"/>
+		<item value = "141500" text = "141500 兔仙人"/>
+		<item value = "141600" text = "141600 仙鹤族长"/>
+		<item value = "141700" text = "141700 霹雳球"/>
+		<item value = "141800" text = "141800 受伤的呱呱"/>
+		<item value = "141900" text = "141900 绿色皮划艇"/>
+		<item value = "142000" text = "142000 哭泣的呱呱"/>
+		<item value = "142100" text = "142100 漂来的桃子 "/>
+		<item value = "142200" text = "142200 飘来的灵芝"/>
+		<item value = "142300" text = "142300 飘来的药箱"/>
+		<item value = "142400" text = "142400 飘来的宝箱"/>
+		<item value = "142500" text = "142500 魔镜1"/>
+		<item value = "142600" text = "142600 魔镜2"/>
+		<item value = "142700" text = "142700 石碑"/>
+		<item value = "142800" text = "142800 弗瑞"/>
+		<item value = "142900" text = "142900 呱呱"/>
+		<item value = "143000" text = "143000 八卦镜-城堡大厅"/>
+		<item value = "143100" text = "143100 八卦镜-王国城堡"/>
+		<item value = "143200" text = "143200 八卦镜-魔法学院"/>
+		<item value = "143300" text = "143300 八卦镜-体育场"/>
+		<item value = "143400" text = "143400 八卦镜-主体乐园"/>
+		<item value = "143500" text = "143500 八卦镜-雪人谷"/>
+		<item value = "143600" text = "143600 八卦镜-怀特冰川"/>
+		<item value = "143700" text = "143700 八卦镜-怀特冰山1"/>
+		<item value = "143800" text = "143800 八卦镜-怀特冰山2"/>
+		<item value = "143900" text = "143900 石头碎裂"/>
+		<item value = "144000" text = "144000 密室的黑衣人"/>
+		<item value = "144100" text = "144100 呱呱--云海古道"/>
+		<item value = "144200" text = "144200 遗落的灵芝"/>
+		<item value = "144300" text = "144300 美味的仙桃"/>
+		<item value = "144400" text = "144400 特别的石头"/>
+		<item value = "144500" text = "144500 开始的呱呱"/>
+		<item value = "144600" text = "144600 入口的宝箱"/>
+	</Selector>
+</EditableEditorHeader>

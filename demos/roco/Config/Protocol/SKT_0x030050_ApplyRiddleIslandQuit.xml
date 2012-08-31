@@ -1,0 +1,32 @@
+<EditableEditorHeader>
+  
+	<class className = "SKT_0x030050_ApplyRiddleIslandQuit">
+		<item class = "ProtocolEditor_Indicate" name = "" text="currentPos:s32"/>
+		<item class = "ProtocolEditor_s32" name = "currentPos" />
+		<item class = "ProtocolEditor_comment" name = "" text="0-4，对应不选、A到D选项"/>
+		<item class = "ENTER" name = ""/>
+		
+		
+	
+		<item class = "ProtocolEditor_comment" name = "" text="~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate" name = "" text="回包信息"/>
+		<item class = "ENTER" name = ""/>
+		
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="retCode"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:返回码 说明:返回码"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="rightAnswerNum"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u32 说明:回答问题正确数"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="rewardLength"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u16 说明:"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="rewardArray"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:ItemInfoChanged[rewardLength] 说明:数组元素为：物品ID:UINT，物品个数:USHORT"/>
+		<item class = "ENTER" name = ""/>
+		
+		
+	</class>
+
+</EditableEditorHeader>

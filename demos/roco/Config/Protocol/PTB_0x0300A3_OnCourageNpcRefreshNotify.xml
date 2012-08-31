@@ -1,0 +1,25 @@
+<EditableEditorHeader>
+  
+	<class className = "PTB_0x0300A3_OnCourageNpcRefreshNotify">
+		
+		
+	
+		<item class = "ProtocolEditor_comment" name = "" text="~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate" name = "" text="回包信息"/>
+		<item class = "ENTER" name = ""/>
+		
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="trueNpcId"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u32 说明:显示真诗句的NPC ID"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="falseNpcId"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u32 说明:显示假诗句的NPC ID"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="verseIndex"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u32 说明:诗句的索引（1---10）"/>
+		<item class = "ENTER" name = ""/>
+		
+		
+	</class>
+
+</EditableEditorHeader>

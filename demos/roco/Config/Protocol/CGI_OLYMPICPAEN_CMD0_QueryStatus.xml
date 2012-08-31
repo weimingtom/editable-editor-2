@@ -1,0 +1,25 @@
+<EditableEditorHeader>
+  
+	<class className = "CGI_OLYMPICPAEN_CMD0_QueryStatus">
+		
+		
+	
+		<item class = "ProtocolEditor_comment" name = "" text="~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate" name = "" text="回包信息"/>
+		<item class = "ENTER" name = ""/>
+		
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="retCode"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:返回码 说明:value=0表示OK,非0表示失败"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="fight"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u8 说明:fight表示今天是否挑战过了,0-没有,1-已经挑战过了"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="movie"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u8 说明:movie表示是否看过动画了,0-没看过,1-看过了"/>
+		<item class = "ENTER" name = ""/>
+		
+		
+	</class>
+
+</EditableEditorHeader>

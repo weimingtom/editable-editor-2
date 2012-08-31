@@ -1,0 +1,19 @@
+<EditableEditorHeader>
+  
+	<class className = "SKT_0x0300C8_OnCourageCupOlympicsCakeNum">
+		
+		
+	
+		<item class = "ProtocolEditor_comment" name = "" text="~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate" name = "" text="回包信息"/>
+		<item class = "ENTER" name = ""/>
+		
+		<item class = "ProtocolEditor_Indicate_S2C" name = "" text="cakeNum"/>
+		<item class = "ProtocolEditor_comment" name = "" text="类型:u32 说明:当前蛋糕数量"/>
+		<item class = "ENTER" name = ""/>
+		
+		
+	</class>
+
+</EditableEditorHeader>

@@ -1,0 +1,20 @@
+<EditableEditorHeader>
+  
+	<class className = "PTB_0x0300A4_ApplyCourageBitNpc">
+		<item class = "ProtocolEditor_Indicate" name = "" text="npcId:u32"/>
+		<item class = "ProtocolEditor_u32" name = "npcId" />
+		<item class = "ProtocolEditor_comment" name = "" text="npc id"/>
+		<item class = "ENTER" name = ""/>
+		
+		
+	
+		<item class = "ProtocolEditor_comment" name = "" text="~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"/>
+		<item class = "ENTER" name = ""/>
+		<item class = "ProtocolEditor_Indicate" name = "" text="回包信息"/>
+		<item class = "ENTER" name = ""/>
+		
+		
+		
+	</class>
+
+</EditableEditorHeader>
