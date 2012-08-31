@@ -26,7 +26,7 @@ bool readFileHead(ByteArray& ba )
 		&& ba.readByte() == 1
 		)
 	{
-		long long time = ba.readUnsignedInt(); + 0x13770000000;
+		long long time = ba.readUnsignedInt() + 0x13770000000;
 		DBG_TRACE(_T("create at time %ld") , time);
 
 		int version  = ba.readShort();
