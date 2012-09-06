@@ -1,6 +1,7 @@
 package ClassInstance 
 {
 	import Class.ClassBase;
+	import Class.ClassDynamic;
 	import Class.ClassInstanceSelector;
 	import Class.ClassInstanceSelectorMenu;
 	import Class.ClassSelector;
@@ -274,6 +275,20 @@ package ClassInstance
 			content.x = 5 ;
 			content.y = 5 ;
 			addChild(content);
+			
+			if (_classType is ClassDynamic && content is DisplayObjectContainer)
+			{
+				var _dspc : DisplayObjectContainer = DisplayObjectContainer(content);
+				
+				for (var __ci : int = 0 ; __ci < _dspc.numChildren;  __ci++)
+				{
+					var _child : ClassInstance = _dspc.getChildAt(__ci) as ClassInstance;
+					if (_child)
+						CallBackMgr.CallBackMgr_notifyEvent(CALLBACK.ON_SELECTOR_CHANGE , [_child] );
+				}
+			}
+			
+
 			
 			var date : Date = new Date();
 			

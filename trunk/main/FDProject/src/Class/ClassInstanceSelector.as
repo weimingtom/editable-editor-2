@@ -268,26 +268,41 @@ package  Class
 			var strLeftValue : String;
 			var strRightValue : String;
 			
-			if (arrSub[arrSub.length - 1] == "value")
+			var field : String;
+			field = arrSub[arrSub.length - 1];
+			if (field == "value")
 			{
 				if (!clsFind)
 					return false;
 				strLeftValue = clsFind.getChildClassInstanceValue();
 				//trace("strLeftValue " + strLeftValue);
 			}
-			else if (arrSub[arrSub.length - 1] == "selectedInstanceUID")
+			else if (field == "selectedInstanceUID")
 			{
 				if (!clsFind)
 					return false;
 				strLeftValue = ""+clsFind.getChildClassSelectedInstanceUID();
 				//trace("strLeftValue " + strLeftValue);
 			}
-			else if (arrSub[arrSub.length - 1] == "instanceUID")
+			else if (field == "instanceUID")
 			{
 				if (!clsFind)
 					return false;
 				strLeftValue = ""+clsFind.getChildClassInstanceUID();
 				//trace("strLeftValue " + strLeftValue);
+			}
+			else if (field == "className")
+			{
+				if (!clsFind)
+					strLeftValue = "";
+				else
+					strLeftValue = "" + clsFind.className;
+				//trace("strLeftValue " + strLeftValue);
+			}
+			else if (field.charAt(0) == "\'" || field.charAt(0) == "\"")
+			{
+				ASSERT(field.charAt(0) == field.charAt(field.length-1) , "not support yet " + field);
+				strLeftValue = field.substr(1 , field.length - 2);
 			}
 			else
 			{
@@ -303,19 +318,35 @@ package  Class
 				
 				clsFind = (clsFind.getChildClassInstance(arrSub[d]));
 			}
-			if (arrSub[arrSub.length - 1] == "value")
+			
+			
+			field = arrSub[arrSub.length - 1];
+			if (field == "value")
 			{
 				if (!clsFind)
 					return false;
 				strRightValue = ""+clsFind.getChildClassInstanceValue();
 				//trace("strRightValue " + strRightValue);
 			}
-			else if (arrSub[arrSub.length - 1] == "instanceUID")
+			else if (field == "instanceUID")
 			{
 				if (!clsFind)
 					return false;
 				strRightValue = ""+clsFind.getChildClassInstanceUID();
 				//trace("strRightValue " + strRightValue);
+			}
+			else if (field == "className")
+			{
+				if (!clsFind)
+					strRightValue = "";
+				else
+					strRightValue = "" + clsFind.className;
+				//trace("strLeftValue " + strLeftValue);
+			}
+			else if (field.charAt(0) == "\'" || field.charAt(0) == "\"")
+			{
+				ASSERT(field.charAt(0) == field.charAt(field.length-1) , "not support yet " + field);
+				strRightValue = field.substr(1 , field.length - 2);
 			}
 			else
 			{
@@ -408,8 +439,17 @@ package  Class
 		{
 			ASSERT(instance.referenceObject is ClassInstanceSelectorMenu);
 				var _ClassInstanceSelectorMenu : ClassInstanceSelectorMenu = ClassInstanceSelectorMenu(instance.referenceObject);
+			
+			if (String(xml.@selectedInstanceUID))
+			{
+				_ClassInstanceSelectorMenu.selectedInstanceUID = uint(String(xml.@selectedInstanceUID));
+				if (String(xml.@text))
+					ASSERT( String(xml.@text) == _ClassInstanceSelectorMenu.selectedString , "unpair data" );
+				if (String(xml.@selectId))
+					ASSERT( uint(String(xml.@selectId)) == _ClassInstanceSelectorMenu.selectedId , "unpair data" );
 				
-			if (String(xml.@selectId))
+			}	
+			else if (String(xml.@selectId))
 			{
 				var selectedId : int =  int(String(xml.@selectId));
 				
@@ -418,12 +458,6 @@ package  Class
 				
 				if (String(xml.@selectedInstanceUID))
 					ASSERT( uint(String(xml.@selectedInstanceUID)) == _ClassInstanceSelectorMenu.selectedInstanceUID , "unpair data" );
-				if (String(xml.@text))
-					ASSERT( String(xml.@text) == _ClassInstanceSelectorMenu.selectedString , "unpair data" );
-			}
-			else if (String(xml.@selectedInstanceUID))
-			{
-				_ClassInstanceSelectorMenu.selectedInstanceUID = uint(String(xml.@selectedInstanceUID));
 				if (String(xml.@text))
 					ASSERT( String(xml.@text) == _ClassInstanceSelectorMenu.selectedString , "unpair data" );
 			}
