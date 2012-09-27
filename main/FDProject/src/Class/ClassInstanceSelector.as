@@ -348,6 +348,10 @@ package  Class
 				ASSERT(field.charAt(0) == field.charAt(field.length-1) , "not support yet " + field);
 				strRightValue = field.substr(1 , field.length - 2);
 			}
+			else if (!isNaN(Number(field)))
+			{
+				strRightValue = ""+Number(field);
+			}
 			else
 			{
 				ASSERT(false , "not support yet " + arrSub[arrSub.length - 1]);
@@ -357,8 +361,28 @@ package  Class
 				return (strRightValue == strLeftValue);
 			else if (arrMain[1] == "!=")
 				return (strRightValue != strLeftValue);
-			else
-				ASSERT(false , "not support yet " + arrMain[1]);
+			else {
+				var strLeftValueNumber : Number = Number(strLeftValue);
+				var strRightValueNumber : Number = Number(strRightValue);
+				
+				if (!isNaN(strLeftValueNumber) && !isNaN(strRightValueNumber))
+				{
+					if (arrMain[1] == "<=")
+						return (strLeftValueNumber <= strRightValueNumber);
+					else if (arrMain[1] == "<")
+						return (strLeftValueNumber < strRightValueNumber);
+					else if (arrMain[1] == ">=")
+						return (strLeftValueNumber >= strRightValueNumber);
+					else if (arrMain[1] == ">")
+						return (strLeftValueNumber > strRightValueNumber);
+					else
+						ASSERT(false , "not support yet " + arrMain[1]);
+			
+				}
+				else
+					ASSERT(false , "not support yet " + arrMain[1]);
+			}
+
 			
 			
 			return false;
