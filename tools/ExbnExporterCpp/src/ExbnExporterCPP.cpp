@@ -477,6 +477,11 @@ int _tmain(int argc, _TCHAR* argv[])
 
 						output.writeMultiByte("\npublic : \n");
 						output.writeMultiByte("\n\t");
+						output.writeMultiByte("static ExbnClassBase* createInstace(unsigned int a_instanceUID) {return NEW ");
+						output.writeMultiByte(_cbs.className);
+						output.writeMultiByte("(a_instanceUID);}");
+
+						output.writeMultiByte("\n\t");
 						output.writeMultiByte(_cbs.className);
 						output.writeMultiByte("(unsigned int a_instanceUID) : ExbnClassBase(a_instanceUID) {");
 							
