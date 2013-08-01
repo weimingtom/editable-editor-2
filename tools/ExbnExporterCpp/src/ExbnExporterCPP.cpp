@@ -1,4 +1,4 @@
-#include <ByteArray.h>
+#include "../include/ByteArray.h"
 #include <stdio.h>
 
 const extern int STAGE_WIDTH;
@@ -171,9 +171,17 @@ const char* getInlineTypeType (const VariableBinStruct& vbs)
 		return  "const TCHAR*";
 	case VariableBinStruct::TYPE_INSTANCE_UID :
 		if (vbs.inlineClassId != -1 && (vbs.type == VariableBinStruct::TYPE_INSTANCE_UID))
-			return s_classPool[vbs.inlineClassId].className;
+		{	
+			static char buffer[1024];
+			int _strlen = strlen(s_classPool[vbs.inlineClassId].className);
+			memcpy_s((void *)buffer , 1024 , s_classPool[vbs.inlineClassId].className , _strlen);
+			buffer[_strlen] = '*';
+			buffer[_strlen+1] = 0;
+
+			return buffer;
+		}
 		else
-			return  "ExbnClassBase";
+			return  "ExbnClassBase*";
 	default:
 		ASSERT(false , _T("error type"));
 	}
@@ -232,7 +240,7 @@ const char* getInlineTypeRead (const VariableBinStruct& vbs)
 		if (vbs.inlineClassId != -1 && (vbs.type == VariableBinStruct::TYPE_INSTANCE_UID))
 		{	
 			static char buffer[2048];
-			sprintf_s(buffer , 2048 ,  "%s(a_env.getClassInstance(ba.readUnsignedInt()));" , s_classPool[vbs.inlineClassId].className);
+			sprintf_s(buffer , 2048 ,  "(%s*)(a_env.getClassInstance(ba.readUnsignedInt()));" , s_classPool[vbs.inlineClassId].className);
 			
 			return buffer;
 		
