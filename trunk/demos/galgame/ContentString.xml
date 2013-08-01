@@ -1,5 +1,5 @@
 <EditableEditorHeader>
-  <Selector className="ContentStringSelector" valueType="int" width="250" showValue="false" export="value=u16">
+  <Selector className="ContentStringSelector" valueType="int" width="250" showValue="false" export="value=u8_16">
     <item text="无" value="0"/>
     <item text="1 梦……#我的梦……#一直以来只存..." value="1"/>
     <item text="2 $T序章：途中" value="2"/>
