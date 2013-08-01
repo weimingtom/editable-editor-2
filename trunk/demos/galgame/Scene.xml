@@ -1,0 +1,7 @@
+﻿<EditableEditorHeader>
+	<Selector className = "SceneSelector" valueType = "String" width = "150" showValue = "false" export="value=string">
+		<item text = "无(黑屏)" value = ""/>
+		<item text = "沿用当前不改变" value = "~"/>
+		<item text = "梦境" value = "0001.png"/>
+	</Selector>
+</EditableEditorHeader>	

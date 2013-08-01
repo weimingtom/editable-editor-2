@@ -1,0 +1,43 @@
+<EditableEditorHeader>
+  <Selector className="ContentStringSelector" valueType="int" width="250" showValue="false" export="value=u16">
+    <item text="无" value="0"/>
+    <item text="1 梦……#我的梦……#一直以来只存..." value="1"/>
+    <item text="2 $T序章：途中" value="2"/>
+    <item text="3 城市，永远不会因为一个人的存在或..." value="3"/>
+    <item text="4 我不是很能理解其中的含义，甚至无..." value="4"/>
+    <item text="5 接下来是今日要闻：第一批【暗魇战..." value="5"/>
+    <item text="6 全人类社会低海拔区域的内陆迁徙计..." value="6"/>
+    <item text="7 考试真是一种伟大的存在啊……" value="7"/>
+    <item text="8 暗魇，被人类普遍喻为“只能被杀死..." value="8"/>
+    <item text="9 诶——麻烦死了，为什么不直接叫‘..." value="9"/>
+    <item text="10 这个嘛，好像至今还没有发现“使徒..." value="10"/>
+    <item text="11 诶——麻烦死了，为什么不直接叫‘..." value="11"/>
+    <item text="12 嘛……这个称呼已经比“魔能者”还..." value="12"/>
+    <item text="13 —— —— —— —— —— ——" value="13"/>
+    <item text="14 啊，这种时候的来电……除了那个逗..." value="14"/>
+    <item text="15 喂，小软。" value="15"/>
+    <item text="16 喂！我说了多少次了别叫我小软啊！..." value="16"/>
+    <item text="17 好的好的……阮源达，这下行了吧？" value="17"/>
+    <item text="18 这还差不多。这里是阮源达，现已抵..." value="18"/>
+    <item text="19 是完毕不是什么daze，你也差不..." value="19"/>
+    <item text="20 还好啦——只是一个暑假没听到你的..." value="20"/>
+    <item text="21 别对我兴奋。" value="21"/>
+    <item text="22 在中央高校与我同住一寝室的室友，..." value="22"/>
+    <item text="23 朝一，你现在在哪儿？" value="23"/>
+    <item text="24 我抬头看了一眼对面车门上方的时间。" value="24"/>
+    <item text="25 在轻轨列车上，还有4分钟到站。" value="25"/>
+    <item text="26 那还真是紧啊。" value="26"/>
+    <item text="27 是啊，时间挺紧的……不过应该来得..." value="27"/>
+    <item text="28 诶？时间是谁？" value="28"/>
+    <item text="29 ……你再逗一下试试？小软——" value="29"/>
+    <item text="30 啊哈哈——我看有些家伙已经进场先..." value="30"/>
+    <item text="31 我明白，应该不会迟到的。" value="31"/>
+    <item text="32 那行，我在操场入口这等你一起——..." value="32"/>
+    <item text="33 我条件反射的把耳机拿得离耳朵远了..." value="33"/>
+    <item text="34 会会会会会长！！我看见会、会、会..." value="34"/>
+    <item text="35 哦、哦，学生会主席是吧？我还记不..." value="35"/>
+    <item text="36 会长啊……那阮源达这回是真的兴奋..." value="36"/>
+    <item text="37 朝一！快看看我的穿着和头发，没有..." value="37"/>
+    <item text="38 滴。#我挂掉了电话。#正好，自己..." value="38"/>
+  </Selector>
+</EditableEditorHeader>
