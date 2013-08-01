@@ -1,4 +1,4 @@
-﻿#include "ByteArray.h"
+﻿#include "../include/ByteArray.h"
 
 #include "stdio.h"
 
