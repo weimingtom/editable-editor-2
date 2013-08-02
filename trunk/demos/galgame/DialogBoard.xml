@@ -10,7 +10,7 @@
 		<item class = "ENTER" name = "" />
 		<item class = "NameStringSelector" name = "name" text = "" default="1"/>
 		<item class = "ENTER" name = "" />
-		<item class = "TextFiled Indicate" name = "" text = "文本存容"/>
+		<item class = "TextFiled Indicate" name = "" text = "文本内容"/>
 		<item class = "ENTER" name = "" />
 		<item class = "ContentStringSelector" name = "content" text = "" default="1"/>
 		<item class = "ENTER" name = "" />
@@ -26,8 +26,86 @@
 		
 		<item class = "DialogBoardClick" name = "next"/>
 	</class>
+	
+	
+	<class className = "DialogBoardOption2" >
+		<item class = "TextFiled Indicate" name = "" text = "名字"/>
+		<item class = "ENTER" name = "" />
+		<item class = "NameStringSelector" name = "name" text = "" default="1"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "文本内容"/>
+		<item class = "ENTER" name = "" />
+		<item class = "ContentStringSelector" name = "content" text = "" default="1"/>
+		<item class = "ENTER" name = "" />
+		<item class = "Line" name = "" />
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "背景"/>
+		<item class = "SceneSelector" name = "scene" default="2"/>
+
+		
+		<item class = "ENTER" name = "" />
+		<item class = "Line" name = "" />
+		
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "选项1文本"/>
+		<item class = "ENTER" name = "" />
+		<item class = "ContentStringSelector" name = "optionContent0" text = "" default="1"/>
+		<item class = "ENTER" name = "" />
+		<item class = "DialogBoardClick" name = "optionContentNext0"/>
+		
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "选项2文本"/>
+		<item class = "ENTER" name = "" />
+		<item class = "ContentStringSelector" name = "optionContent1" text = "" default="1"/>
+		<item class = "ENTER" name = "" />
+		<item class = "DialogBoardClick" name = "optionContentNext1"/>
+		
+	</class>
+	
+	
+		<class className = "DialogBoardOption3" >
+		<item class = "TextFiled Indicate" name = "" text = "名字"/>
+		<item class = "ENTER" name = "" />
+		<item class = "NameStringSelector" name = "name" text = "" default="1"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "文本内容"/>
+		<item class = "ENTER" name = "" />
+		<item class = "ContentStringSelector" name = "content" text = "" default="1"/>
+		<item class = "ENTER" name = "" />
+		<item class = "Line" name = "" />
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "背景"/>
+		<item class = "SceneSelector" name = "scene" default="2"/>
+
+		
+		<item class = "ENTER" name = "" />
+		<item class = "Line" name = "" />
+		
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "选项1文本"/>
+		<item class = "ENTER" name = "" />
+		<item class = "ContentStringSelector" name = "optionContent0" text = "" default="1"/>
+		<item class = "ENTER" name = "" />
+		<item class = "DialogBoardClick" name = "optionContentNext0"/>
+		
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "选项2文本"/>
+		<item class = "ENTER" name = "" />
+		<item class = "ContentStringSelector" name = "optionContent1" text = "" default="1"/>
+		<item class = "ENTER" name = "" />
+		<item class = "DialogBoardClick" name = "optionContentNext1"/>
+		
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "选项3文本"/>
+		<item class = "ENTER" name = "" />
+		<item class = "ContentStringSelector" name = "optionContent2" text = "" default="1"/>
+		<item class = "ENTER" name = "" />
+		<item class = "DialogBoardClick" name = "optionContentNext2"/>
+		
+	</class>
+	
 	<class className = "DialogBoardTitle" >
-		<item class = "TextFiled Indicate" name = "" text = "文本存容"/>
+		<item class = "TextFiled Indicate" name = "" text = "文本内容"/>
 		<item class = "ENTER" name = "" />
 		<item class = "ContentStringSelector" name = "content" text = "" default="1"/>
 		<item class = "ENTER" name = "" />
@@ -40,12 +118,16 @@
 	<InstanceSelector className = "DialogBoardSelector" valueType = "String" width = "200" editable = "true">
 		<item class = "DialogBoard"/>
 		<item class = "DialogBoardTitle"/>
+		<item class = "DialogBoardOption2"/>
+		<item class = "DialogBoardOption3"/>
 	</InstanceSelector>
 	
 
 	<ClassCreater className = "DialogBoardCreater" width = "200" valueType = "String" >
 		<item class = "DialogBoard"/>
 		<item class = "DialogBoardTitle"/>
+		<item class = "DialogBoardOption2"/>
+		<item class = "DialogBoardOption3"/>
 	</ClassCreater>
 
 </EditableEditorHeader>	

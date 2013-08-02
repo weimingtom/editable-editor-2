@@ -15,29 +15,31 @@
     <item text="12 嘛……这个称呼已经比“魔能者”还..." value="12"/>
     <item text="13 —— —— —— —— —— ——" value="13"/>
     <item text="14 啊，这种时候的来电……除了那个逗..." value="14"/>
-    <item text="15 喂，小软。" value="15"/>
-    <item text="16 喂！我说了多少次了别叫我小软啊！..." value="16"/>
-    <item text="17 好的好的……阮源达，这下行了吧？" value="17"/>
-    <item text="18 这还差不多。这里是阮源达，现已抵..." value="18"/>
-    <item text="19 是完毕不是什么daze，你也差不..." value="19"/>
-    <item text="20 还好啦——只是一个暑假没听到你的..." value="20"/>
-    <item text="21 别对我兴奋。" value="21"/>
-    <item text="22 在中央高校与我同住一寝室的室友，..." value="22"/>
-    <item text="23 朝一，你现在在哪儿？" value="23"/>
-    <item text="24 我抬头看了一眼对面车门上方的时间。" value="24"/>
-    <item text="25 在轻轨列车上，还有4分钟到站。" value="25"/>
-    <item text="26 那还真是紧啊。" value="26"/>
-    <item text="27 是啊，时间挺紧的……不过应该来得..." value="27"/>
-    <item text="28 诶？时间是谁？" value="28"/>
-    <item text="29 ……你再逗一下试试？小软——" value="29"/>
-    <item text="30 啊哈哈——我看有些家伙已经进场先..." value="30"/>
-    <item text="31 我明白，应该不会迟到的。" value="31"/>
-    <item text="32 那行，我在操场入口这等你一起——..." value="32"/>
-    <item text="33 我条件反射的把耳机拿得离耳朵远了..." value="33"/>
-    <item text="34 会会会会会长！！我看见会、会、会..." value="34"/>
-    <item text="35 哦、哦，学生会主席是吧？我还记不..." value="35"/>
-    <item text="36 会长啊……那阮源达这回是真的兴奋..." value="36"/>
-    <item text="37 朝一！快看看我的穿着和头发，没有..." value="37"/>
-    <item text="38 滴。#我挂掉了电话。#正好，自己..." value="38"/>
+    <item text="15 $O接电话" value="15"/>
+    <item text="16 $O按断电话" value="16"/>
+    <item text="17 喂，小软。" value="17"/>
+    <item text="18 喂！我说了多少次了别叫我小软啊！..." value="18"/>
+    <item text="19 好的好的……阮源达，这下行了吧？" value="19"/>
+    <item text="20 这还差不多。这里是阮源达，现已抵..." value="20"/>
+    <item text="21 是完毕不是什么daze，你也差不..." value="21"/>
+    <item text="22 还好啦——只是一个暑假没听到你的..." value="22"/>
+    <item text="23 别对我兴奋。" value="23"/>
+    <item text="24 在中央高校与我同住一寝室的室友，..." value="24"/>
+    <item text="25 朝一，你现在在哪儿？" value="25"/>
+    <item text="26 我抬头看了一眼对面车门上方的时间。" value="26"/>
+    <item text="27 在轻轨列车上，还有4分钟到站。" value="27"/>
+    <item text="28 那还真是紧啊。" value="28"/>
+    <item text="29 是啊，时间挺紧的……不过应该来得..." value="29"/>
+    <item text="30 诶？时间是谁？" value="30"/>
+    <item text="31 ……你再逗一下试试？小软——" value="31"/>
+    <item text="32 啊哈哈——我看有些家伙已经进场先..." value="32"/>
+    <item text="33 我明白，应该不会迟到的。" value="33"/>
+    <item text="34 那行，我在操场入口这等你一起——..." value="34"/>
+    <item text="35 我条件反射的把耳机拿得离耳朵远了..." value="35"/>
+    <item text="36 会会会会会长！！我看见会、会、会..." value="36"/>
+    <item text="37 哦、哦，学生会主席是吧？我还记不..." value="37"/>
+    <item text="38 会长啊……那阮源达这回是真的兴奋..." value="38"/>
+    <item text="39 朝一！快看看我的穿着和头发，没有..." value="39"/>
+    <item text="40 滴。#我挂掉了电话。#正好，自己..." value="40"/>
   </Selector>
 </EditableEditorHeader>
