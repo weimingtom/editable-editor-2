@@ -95,9 +95,9 @@
 		private function onCompleteContent(e:Event):void 
 		{
 			var str : String = String(e.currentTarget.data);
-			while (str.indexOf('\r') != -1)
-				str = str.replace('\r' , "");
-			contentArr = str.split("\n");
+			while (str.indexOf('\n') != -1)
+				str = str.replace('\n' , "");
+			contentArr = str.split("\r");
 			
 			if (contentArr[(contentArr.length - 1)] == "")
 				contentArr.length --;
