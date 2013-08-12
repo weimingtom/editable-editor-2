@@ -1,0 +1,19 @@
+﻿<EditableEditorHeader>
+	<Selector className = "CharacterSelector" valueType = "int" width = "60" showValue = "false" export="value=u8">
+		<item text = "无" value = "0"/>
+		<item text = "青梣" value = "1"/>
+	</Selector>
+	<Selector className = "CharacterFaceSelector" valueType = "int" width = "60" showValue = "false" export="value=u8">
+		<item text = "默认" value = "0"/>
+		<item text = "笑" value = "1"/>
+	</Selector>
+
+	<class className = "StandView" >
+		<item class = "TextFiled Indicate" name = "" text = "角色"/>
+		<item class = "CharacterSelector" name = "face" default = "1"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "表情"/>
+		<item class = "CharacterFaceSelector" name = "face" default = "1"/>
+	</class>
+</EditableEditorHeader>	
+
