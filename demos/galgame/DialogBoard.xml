@@ -1,4 +1,20 @@
 ﻿<EditableEditorHeader>
+	<Selector className = "FadeOut" valueType = "int" width = "100" export="value=u8">
+		<item value = "0" text = "直接消失" />
+		<item value = "1" text = "透明渐变" />
+		<item value = "2" text = "上下合页" />
+		<item value = "3" text = "百叶窗上下" />
+		<item value = "4" text = "圆形" />
+	</Selector>
+	<Selector className = "FadeIn" valueType = "int" width = "100" export="value=u8">
+		<item value = "0" text = "直接出现" />
+		<item value = "1" text = "透明渐变" />
+		<item value = "2" text = "上下合页" />
+		<item value = "3" text = "百叶窗上下" />
+		<item value = "4" text = "圆形" />
+	</Selector>
+
+
 	<Selector className = "BooleanSelector" valueType = "int" width = "80" export="value=u8">
 		<item value = "0" text = "否" />
 		<item value = "1" text = "是" />
@@ -24,6 +40,9 @@
 		<item class = "TextFiled Indicate" name = "" text = "跳转到对话框"/>
 		<item class = "ENTER" name = "" />
 		<item class = "DialogBoardSelector" name = "dialog" text = "下一个场景"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "消失方式"/>
+		<item class = "FadeOut" name = "scene" default="2"/>
 	</class>
 
 	<class className = "DialogBoard" >
@@ -43,6 +62,9 @@
 
 		<item class = "TextFiled Indicate" name = "" text = "背景"/>
 		<item class = "SceneSelector" name = "scene" default="2"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "出现方式"/>
+		<item class = "FadeIn" name = "scene" default="1"/>
 
 		<item class = "ENTER" name = "" />
 		<item class = "Line" name = "" />
@@ -79,7 +101,10 @@
 		<item class = "ENTER" name = "" />
 		<item class = "TextFiled Indicate" name = "" text = "背景"/>
 		<item class = "SceneSelector" name = "scene" default="2"/>
-		
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "出现方式"/>
+		<item class = "FadeIn" name = "scene" default="1"/>
+
 		<item class = "ENTER" name = "" />
 		<item class = "Line" name = "" />
 		<item class = "ENTER" name = "" />
@@ -127,6 +152,9 @@
 		<item class = "ENTER" name = "" />
 		<item class = "TextFiled Indicate" name = "" text = "背景"/>
 		<item class = "SceneSelector" name = "scene" default="2"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "出现方式"/>
+		<item class = "FadeIn" name = "scene" default="1"/>
 
 		<item class = "ENTER" name = "" />
 		<item class = "Line" name = "" />
@@ -176,6 +204,10 @@
 		<item class = "ENTER" name = "" />
 		<item class = "TextFiled Indicate" name = "" text = "背景"/>
 		<item class = "SceneSelector" name = "scene" default="2"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "出现方式"/>
+		<item class = "FadeIn" name = "scene" default="1"/>
+
 		<item class = "ENTER" name = "" />
 		<item class = "Line" name = "" />
 		<item class = "ENTER" name = "" />
