@@ -7,11 +7,14 @@
 	 */
 	
 		//CONFIG::ASSERT 
-		public function ASSERT (flag : Boolean , ...args):void{
-			if (!flag)
-			{
-				DBG_TRACE(new Error().getStackTrace());
-				throw ("" + args);
+		public function ASSERT (flag : Boolean , ...args):void {
+			CONFIG::ASSERT {
+				if (!flag)
+				{
+					DBG_TRACE(new Error().getStackTrace());
+					throw ("" + args);
+					
+				}
 			}
 		}
 	 
