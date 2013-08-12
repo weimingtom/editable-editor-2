@@ -1,4 +1,25 @@
 ﻿<EditableEditorHeader>
+	<Selector className = "BooleanSelector" valueType = "int" width = "80" export="value=u8">
+		<item value = "0" text = "否" />
+		<item value = "1" text = "是" />
+	</Selector>
+	<Selector className = "Boolean3Selector" valueType = "int" width = "80" export="value=u8">
+		<item value = "0" text = "否" />
+		<item value = "1" text = "是" />
+		<item value = "2" text = "均可" />
+	</Selector>
+	<Selector className = "ComparatorSelector" valueType = "int" width = "90" export="value=u8">
+		<item value = "2" text = "等于" />
+		<item value = "3" text = "大于等于" />
+		<item value = "1" text = "小于等于" />
+		<item value = "4" text = "大于" />
+		<item value = "0" text = "小于" />
+		<item value = "5" text = "不等于" />
+	</Selector>
+		
+
+	
+	
 	<class className = "DialogBoardClick" >
 		<item class = "TextFiled Indicate" name = "" text = "跳转到对话框"/>
 		<item class = "ENTER" name = "" />
@@ -14,15 +35,29 @@
 		<item class = "ENTER" name = "" />
 		<item class = "ContentStringSelector" name = "content" text = "" default="1"/>
 		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "打字效果"/>
+		<item class = "BooleanSelector" name = "typeEffect" default = "2"/>
+		<item class = "ENTER" name = "" />
 		<item class = "Line" name = "" />
 		<item class = "ENTER" name = "" />
+
 		<item class = "TextFiled Indicate" name = "" text = "背景"/>
 		<item class = "SceneSelector" name = "scene" default="2"/>
 
+		<item class = "ENTER" name = "" />
+		<item class = "Line" name = "" />
+		<item class = "ENTER" name = "" />
+		
+		<item class = "TextFiled Indicate" name = "" text = "左立绘;中立绘;右立绘"/>
+		<item class = "ENTER" name = "" />
+		<item class = "StandView" name = "leftSV"/>
+		<item class = "StandView" name = "middleSV"/>
+		<item class = "StandView" name = "rightSV"/>
 		
 		<item class = "ENTER" name = "" />
 		<item class = "Line" name = "" />
 		<item class = "ENTER" name = "" />
+		
 		
 		<item class = "DialogBoardClick" name = "next"/>
 	</class>
@@ -37,16 +72,29 @@
 		<item class = "ENTER" name = "" />
 		<item class = "ContentStringSelector" name = "content" text = "" default="1"/>
 		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "打字效果"/>
+		<item class = "BooleanSelector" name = "typeEffect" default = "2"/>
+		<item class = "ENTER" name = "" />
 		<item class = "Line" name = "" />
 		<item class = "ENTER" name = "" />
 		<item class = "TextFiled Indicate" name = "" text = "背景"/>
 		<item class = "SceneSelector" name = "scene" default="2"/>
-
 		
 		<item class = "ENTER" name = "" />
 		<item class = "Line" name = "" />
+		<item class = "ENTER" name = "" />
+		
+		<item class = "TextFiled Indicate" name = "" text = "左立绘;中立绘;右立绘"/>
+		<item class = "ENTER" name = "" />
+		<item class = "StandView" name = "leftSV"/>
+		<item class = "StandView" name = "middleSV"/>
+		<item class = "StandView" name = "rightSV"/>
 		
 		<item class = "ENTER" name = "" />
+		<item class = "Line" name = "" />
+		<item class = "ENTER" name = "" />
+		
+		
 		<item class = "TextFiled Indicate" name = "" text = "选项1文本"/>
 		<item class = "ENTER" name = "" />
 		<item class = "ContentStringSelector" name = "optionContent0" text = "" default="1"/>
@@ -72,16 +120,28 @@
 		<item class = "ENTER" name = "" />
 		<item class = "ContentStringSelector" name = "content" text = "" default="1"/>
 		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "打字效果"/>
+		<item class = "BooleanSelector" name = "typeEffect" default = "2"/>
+		<item class = "ENTER" name = "" />
 		<item class = "Line" name = "" />
 		<item class = "ENTER" name = "" />
 		<item class = "TextFiled Indicate" name = "" text = "背景"/>
 		<item class = "SceneSelector" name = "scene" default="2"/>
 
+		<item class = "ENTER" name = "" />
+		<item class = "Line" name = "" />
+		<item class = "ENTER" name = "" />
+
+		<item class = "TextFiled Indicate" name = "" text = "左立绘;中立绘;右立绘"/>
+		<item class = "ENTER" name = "" />
+		<item class = "StandView" name = "leftSV"/>
+		<item class = "StandView" name = "middleSV"/>
+		<item class = "StandView" name = "rightSV"/>
 		
 		<item class = "ENTER" name = "" />
 		<item class = "Line" name = "" />
-		
 		<item class = "ENTER" name = "" />
+		
 		<item class = "TextFiled Indicate" name = "" text = "选项1文本"/>
 		<item class = "ENTER" name = "" />
 		<item class = "ContentStringSelector" name = "optionContent0" text = "" default="1"/>
@@ -109,9 +169,18 @@
 		<item class = "ENTER" name = "" />
 		<item class = "ContentStringSelector" name = "content" text = "" default="1"/>
 		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "打字效果"/>
+		<item class = "BooleanSelector" name = "typeEffect" default = "2"/>
+		<item class = "ENTER" name = "" />
+		<item class = "Line" name = "" />
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "背景"/>
+		<item class = "SceneSelector" name = "scene" default="2"/>
+		<item class = "ENTER" name = "" />
 		<item class = "Line" name = "" />
 		<item class = "ENTER" name = "" />
 		
+
 		<item class = "DialogBoardClick" name = "next"/>
 	</class>
 
