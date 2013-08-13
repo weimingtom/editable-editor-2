@@ -22,6 +22,7 @@
 	<Include filename = "ContentString.xml"/>
 	<Include filename = "NameString.xml"/>
 	<Include filename = "Scene.xml"/>
+	<Include filename = "Event.xml"/>
 	<Include filename = "DialogBoard.xml"/>
 	
 	
@@ -37,7 +38,13 @@
 		<classInstance class = "ENTER" name = "" />
 
 	</Page>
-	
+	<Page name = "事件列表">	
+		<classInstance class = "EventCreator" name = "请选择事件类型"/>
+		<classInstance class = "ENTER" name = "" />
+		<classInstance class = "Line" name = ""/>
+		<classInstance class = "ENTER" name = "" />
+		<classInstance class = "EventSelector" name = "事件列表"/>
+	</Page>
 	
 	<!--Plugin name = "显示场景预览" data = "Plugin/PlugRocoSceneViewer.swf" resRoot = "http://res.17roco.qq.com/res/scene/"/-->
 
