@@ -1,0 +1,5 @@
+﻿<EditableEditorHeader>
+	<Selector className = "SoundSelector" valueType = "String" width = "80" showValue = "false" export="value=string">
+		<item text = "殴打3" value = "ouda3.ogg"/>
+	</Selector>
+</EditableEditorHeader>	

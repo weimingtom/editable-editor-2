@@ -1,0 +1,156 @@
+<EditableEditorHeader>
+	
+	<class className = "EventDoNothing"/>
+	<classInstance class = "EventDoNothing" name = "无事件" instanceUID = "3000"/>
+	
+	<class className = "VariableGlobal"/>
+	<classInstance class = "VariableGlobal" name = "叶霜音好感度" instanceUID = "2000"/>
+	<classInstance class = "VariableGlobal" name = "神秘值X" instanceUID = "2001"/>
+	
+	<InstanceSelector className = "VariableList" valueType = "String" width = "150" editable = "true">
+		<item class = "VariableGlobal"/>
+	</InstanceSelector>
+	
+	<Selector className = "OperatorSelector" valueType = "int" width = "70" export="value=u8">
+		<item text = "+" value = "1" />
+		<item text = "-" value = "2" />
+		<item text = "*" value = "3" />
+		<item text = "/" value = "4" />
+		<item text = "^" value = "5" />
+	</Selector>
+	
+	<class className = "EventShakeScreen" >
+		<item class = "TextFiled Indicate" name = "" text = "延迟"/>
+		<item class = "Input Number" name = "delay" text = "0"/>	
+		<item class = "TextFiled Indicate" name = "" text = "帧"/>
+		<item class = "ENTER" name = "" />
+		
+		<item class = "TextFiled Indicate" name = "" text = "持续"/>
+		<item class = "Input Number" name = "duration" text = "30"/>	
+		<item class = "TextFiled Indicate" name = "" text = "帧"/>
+		<item class = "ENTER" name = "" />
+		
+		<item class = "TextFiled Indicate" name = "" text = "强度"/>
+		<item class = "Input Number" name = "strength" text = "3"/>	
+		<item class = "TextFiled Indicate" name = "" text = "(1-10)"/>
+		<item class = "ENTER" name = "" />
+	</class>
+	
+	<Include filename = "Sound.xml"/>
+	
+	<class className = "EventPlayBGM" >
+	</class>
+	<class className = "EventPlaySFX" >
+		<item class = "TextFiled Indicate" name = "" text = "延迟"/>
+		<item class = "Input Number" name = "delay" text = "0"/>	
+		<item class = "TextFiled Indicate" name = "" text = "帧"/>
+		<item class = "ENTER" name = "" />
+		
+		<item class = "TextFiled Indicate" name = "" text = "播放"/>
+		<item class = "SoundSelector" name = "sound" text = "选择音效"/>	
+		<item class = "ENTER" name = "" />
+		
+		<item class = "TextFiled Indicate" name = "" text = "次数"/>
+		<item class = "Input Number" name = "strength" text = "1"/>
+	</class>
+	
+	
+	<class className = "EventSetVariable" >
+		<item class = "TextFiled Indicate" name = "" text = "设置变量"/>
+		<item class = "ENTER" name = "" />
+		<item class = "VariableList" name = "variableId" text="选择要设置的变量" />
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "为"/>
+		<item class = "Input Number" name = "value" text = ""/>		
+	</class>
+
+	<class className = "EventComputeVariable" >
+		<item class = "TextFiled Indicate" name = "" text = "设置变量"/>
+		<item class = "ENTER" name = "" />
+		<item class= "VariableList" name = "variableId" text="选择要设置的变量" />
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "操作"/>
+		<item class = "OperatorSelector" name = "valueOperator" text = "运算符" default="1"/>
+		<item class = "Input Number" name = "value" text = "1"/>	
+	</class>
+	
+	<class className = "EventBatch2Event" >
+		<item class = "TextFiled Indicate" name = "" text = "他们会同时按顺序执行不会等一个事件完成"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "事件0"/>
+		<item class = "EventSelector"  name = "event0Event" default = "1"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "事件1"/>
+		<item class = "EventSelector"  name = "event1Event" default = "1"/> 
+		<item class = "ENTER" name = "" />
+	</class>
+	
+	<class className = "EventBatch4Event" >
+		<item class = "TextFiled Indicate" name = "" text = "他们会同时按顺序执行不会等一个事件完成"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "事件0"/>
+		<item class = "EventSelector"  name = "event0Event" default = "1"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "事件1"/>
+		<item class = "EventSelector"  name = "event1Event" default = "1"/> 
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "事件2"/>
+		<item class = "EventSelector"  name = "event2Event" default = "1"/> 
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "事件3"/>
+		<item class = "EventSelector"  name = "event3Event" default = "1"/> 
+		<item class = "ENTER" name = "" />
+	</class>
+	
+	<class className = "EventSwitch4Event" >
+		<item class = "TextFiled Indicate" name = "" text = "如同switch case结构 仅程序使用"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "switch("/>
+		<item class= "VariableList" name = "variableId" text="选择变量" />
+		<item class = "TextFiled Indicate" name = "" text = ")"/>
+		<item class = "ENTER" name = "" />
+	
+		<item class = "TextFiled Indicate" name = "" text = "case:"/>
+		<item class = "Input Number" name = "value0" text = ""/>		
+		<item class = "EventSelector"  name = "event0Event" default = "1"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "case:"/>
+		<item class = "Input Number" name = "value1" text = ""/>	
+		<item class = "EventSelector"  name = "event1Event" default = "1"/> 
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "case:"/>
+		<item class = "Input Number" name = "value2" text = ""/>	
+		<item class = "EventSelector"  name = "event2Event" default = "1"/> 
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "case:"/>
+		<item class = "Input Number" name = "value3" text = ""/>	
+		<item class = "EventSelector"  name = "event3Event" default = "1"/> 
+		<item class = "ENTER" name = "" />
+	</class>
+	
+	
+	<InstanceSelector className = "EventSelector" valueType = "String" width = "250" editable = "true">
+		<item class = "EventDoNothing"/>
+		<item class = "EventShakeScreen"/>
+		<item class = "EventSetVariable"/>
+		<item class = "EventComputeVariable"/>
+		<item class = "EventPlaySFX"/>
+		<item class = "EventPlayBGM"/>
+		<item class = "EventBatch2Event"/>
+		<item class = "EventBatch4Event"/>
+		<item class = "EventSwitch4Event"/>
+	</InstanceSelector>	
+	
+	<ClassCreater className = "EventCreator" width = "200" valueType = "String" >
+		<item class = "EventShakeScreen"/>
+		<item class = "EventSetVariable"/>
+		<item class = "EventComputeVariable"/>
+		<item class = "EventPlaySFX"/>
+		<item class = "EventPlayBGM"/>
+		<item class = "EventBatch2Event"/>
+		<item class = "EventBatch4Event"/>
+		<item class = "EventSwitch4Event"/>
+	</ClassCreater>
+	
+</EditableEditorHeader>
+	
