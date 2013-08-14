@@ -1,4 +1,4 @@
-<EditableEditorFile version="31" date="Wed Aug 14 19:02:08 GMT+0800 2013">
+<EditableEditorFile version="31" date="Wed Aug 14 19:17:40 GMT+0800 2013">
   <classInstance class="DialogBoard" name="DB0_1_「………………」#还差一点。#「..." instanceUID="593917319">
     <classInstance class="NameStringSelector" name="name" instanceUID="593907086" value="" text="无" selectId="1"/>
     <classInstance class="ContentStringSelector" name="content" instanceUID="593914288" value="1" text="1 「………………」#还差一点。#「..." selectId="2"/>
@@ -3258,7 +3258,7 @@
   </classInstance>
   <classInstance class="DialogBoard" name="DB0_133_乖乖闭上眼睛，背对着大树的方向，..." instanceUID="595203078">
     <classInstance class="NameStringSelector" name="name" instanceUID="595190645" value="" text="无" selectId="1"/>
-    <classInstance class="ContentStringSelector" name="content" instanceUID="595194347" value="132" text="132 「嗯。」" selectId="133"/>
+    <classInstance class="ContentStringSelector" name="content" instanceUID="595194347" value="133" text="133 乖乖闭上眼睛，背对着大树的方向，..." selectId="134"/>
     <classInstance class="BooleanSelector" name="typeEffect" instanceUID="595194749" value="1" text="是" selectId="2"/>
     <classInstance class="SceneSelector" name="scene" instanceUID="595195654" value="" text="无(黑屏)" selectId="1"/>
     <classInstance class="FadeIn" name="fadeIn" instanceUID="688551454" value="1" text="透明渐变" selectId="2"/>
