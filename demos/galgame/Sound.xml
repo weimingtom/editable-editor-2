@@ -1,5 +1,12 @@
 ﻿<EditableEditorHeader>
-	<Selector className = "SoundSelector" valueType = "String" width = "80" showValue = "false" export="value=string">
-		<item text = "殴打3" value = "ouda3.ogg"/>
+	<Selector className = "SoundSelector" valueType = "String" width = "80" showValue = "true" export="value=string">
+		<item text = "殴打3" value = "SFX/SFX001.ogg"/>
+		<item text = "猫" value = "SFX/SFX002.ogg"/>
+	</Selector>
+	
+	<Selector className = "BGMSelector" valueType = "String" width = "100" showValue = "true" export="value=string">
+		<item text = "无" value = ""/>
+		<item text = "早春散步" value = "BGM/BGM001.ogg"/>
+		<item text = "阿鲁卡斯" value = "BGM/BGM002.ogg"/>
 	</Selector>
 </EditableEditorHeader>	
