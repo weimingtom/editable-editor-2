@@ -1,4 +1,4 @@
-<EditableEditorHeader>
+﻿<EditableEditorHeader>
 	
 	<class className = "EventDoNothing"/>
 	<classInstance class = "EventDoNothing" name = "无事件" instanceUID = "3000"/>
@@ -39,7 +39,19 @@
 	<Include filename = "Sound.xml"/>
 	
 	<class className = "EventPlayBGM" >
+		<item class = "TextFiled Indicate" name = "" text = "延迟"/>
+		<item class = "Input Number" name = "delay" text = "0"/>	
+		<item class = "TextFiled Indicate" name = "" text = "帧"/>
+		<item class = "ENTER" name = "" />
+		
+		<item class = "TextFiled Indicate" name = "" text = "播放"/>
+		<item class = "BGMSelector" name = "sound" text = "选择背景音乐"/>	
+		<item class = "ENTER" name = "" />
+		
+		<item class = "TextFiled Indicate" name = "" text = "循环"/>
+		<item class = "BooleanSelector" name = "loop" default="2"/>
 	</class>
+
 	<class className = "EventPlaySFX" >
 		<item class = "TextFiled Indicate" name = "" text = "延迟"/>
 		<item class = "Input Number" name = "delay" text = "0"/>	
@@ -51,7 +63,7 @@
 		<item class = "ENTER" name = "" />
 		
 		<item class = "TextFiled Indicate" name = "" text = "次数"/>
-		<item class = "Input Number" name = "strength" text = "1"/>
+		<item class = "Input Number" name = "times" text = "1"/>
 	</class>
 	
 	

@@ -1,4 +1,4 @@
-<EditableEditorFile version="31" date="Wed Aug 14 01:52:18 GMT+0800 2013">
+<EditableEditorFile version="31" date="Wed Aug 14 19:02:08 GMT+0800 2013">
   <classInstance class="DialogBoard" name="DB0_1_「………………」#还差一点。#「..." instanceUID="593917319">
     <classInstance class="NameStringSelector" name="name" instanceUID="593907086" value="" text="无" selectId="1"/>
     <classInstance class="ContentStringSelector" name="content" instanceUID="593914288" value="1" text="1 「………………」#还差一点。#「..." selectId="2"/>
@@ -130,7 +130,7 @@
     <classInstance class="BooleanSelector" name="typeEffect" instanceUID="593942365" value="1" text="是" selectId="2"/>
     <classInstance class="SceneSelector" name="scene" instanceUID="593942970" value="CG/0001.jpg" text="CG0001" selectId="6"/>
     <classInstance class="FadeIn" name="fadeIn" instanceUID="687283070" value="0" text="直接出现" selectId="1"/>
-    <classInstance class="EventSelector" name="event" instanceUID="915757609" selectedInstanceUID="3000" text="无事件" selectId="1"/>
+    <classInstance class="EventSelector" name="event" instanceUID="915757609" selectedInstanceUID="1148932304" text="播放早春" selectId="10"/>
     <classInstance class="StandView" name="leftSV" instanceUID="593943377">
       <classInstance class="CharacterSelector" name="character" instanceUID="593943174" value="0" text="无" selectId="1"/>
       <classInstance class="CharacterFaceSelector" name="face" instanceUID="593943376" value="0" text="默认" selectId="1"/>
@@ -3253,16 +3253,16 @@
     <classInstance class="DialogBoardClick" name="next" instanceUID="595186842">
       <classInstance class="DialogBoardSelector" name="dialog" instanceUID="595186339" selectedInstanceUID="595203078" text="DB0_133_乖乖闭上眼睛，背对着大树的方向，..." selectId="131"/>
       <classInstance class="FadeOut" name="fadeOut" instanceUID="595186841" value="2" text="上下合页" selectId="3"/>
-      <classInstance class="EventSelector" name="event" instanceUID="917426530" selectedInstanceUID="3000" text="无事件" selectId="1"/>
+      <classInstance class="EventSelector" name="event" instanceUID="917426530" selectedInstanceUID="1153928612" text="停止背景音乐" selectId="11"/>
     </classInstance>
   </classInstance>
   <classInstance class="DialogBoard" name="DB0_133_乖乖闭上眼睛，背对着大树的方向，..." instanceUID="595203078">
     <classInstance class="NameStringSelector" name="name" instanceUID="595190645" value="" text="无" selectId="1"/>
-    <classInstance class="ContentStringSelector" name="content" instanceUID="595194347" value="133" text="133 乖乖闭上眼睛，背对着大树的方向，..." selectId="134"/>
+    <classInstance class="ContentStringSelector" name="content" instanceUID="595194347" value="132" text="132 「嗯。」" selectId="133"/>
     <classInstance class="BooleanSelector" name="typeEffect" instanceUID="595194749" value="1" text="是" selectId="2"/>
     <classInstance class="SceneSelector" name="scene" instanceUID="595195654" value="" text="无(黑屏)" selectId="1"/>
     <classInstance class="FadeIn" name="fadeIn" instanceUID="688551454" value="1" text="透明渐变" selectId="2"/>
-    <classInstance class="EventSelector" name="event" instanceUID="917437246" selectedInstanceUID="3000" text="无事件" selectId="1"/>
+    <classInstance class="EventSelector" name="event" instanceUID="917437246" selectedInstanceUID="1155352620" text="播放阿鲁卡斯" selectId="12"/>
     <classInstance class="StandView" name="leftSV" instanceUID="595196561">
       <classInstance class="CharacterSelector" name="character" instanceUID="595196158" value="0" text="无" selectId="1"/>
       <classInstance class="CharacterFaceSelector" name="face" instanceUID="595196560" value="0" text="默认" selectId="1"/>
@@ -3437,7 +3437,7 @@
     <classInstance class="BooleanSelector" name="typeEffect" instanceUID="595309294" value="1" text="是" selectId="2"/>
     <classInstance class="SceneSelector" name="scene" instanceUID="595310399" value="~" text="沿用当前不改变" selectId="2"/>
     <classInstance class="FadeIn" name="fadeIn" instanceUID="688664699" value="0" text="直接出现" selectId="1"/>
-    <classInstance class="EventSelector" name="event" instanceUID="917594533" selectedInstanceUID="3000" text="无事件" selectId="1"/>
+    <classInstance class="EventSelector" name="event" instanceUID="917594533" selectedInstanceUID="1156069328" text="播放猫叫" selectId="13"/>
     <classInstance class="StandView" name="leftSV" instanceUID="595311506">
       <classInstance class="CharacterSelector" name="character" instanceUID="595311103" value="0" text="无" selectId="1"/>
       <classInstance class="CharacterFaceSelector" name="face" instanceUID="595311405" value="0" text="默认" selectId="1"/>
@@ -3737,7 +3737,7 @@
     <classInstance class="BooleanSelector" name="typeEffect" instanceUID="595517114" value="1" text="是" selectId="2"/>
     <classInstance class="SceneSelector" name="scene" instanceUID="595518619" value="~" text="沿用当前不改变" selectId="2"/>
     <classInstance class="FadeIn" name="fadeIn" instanceUID="688836819" value="0" text="直接出现" selectId="1"/>
-    <classInstance class="EventSelector" name="event" instanceUID="917848925" selectedInstanceUID="3000" text="无事件" selectId="1"/>
+    <classInstance class="EventSelector" name="event" instanceUID="917848925" selectedInstanceUID="953048496" text="震动20延迟15" selectId="9"/>
     <classInstance class="StandView" name="leftSV" instanceUID="595520026">
       <classInstance class="CharacterSelector" name="character" instanceUID="595519423" value="0" text="无" selectId="1"/>
       <classInstance class="CharacterFaceSelector" name="face" instanceUID="595519825" value="0" text="默认" selectId="1"/>
@@ -3787,7 +3787,7 @@
     <classInstance class="BooleanSelector" name="typeEffect" instanceUID="595551984" value="1" text="是" selectId="2"/>
     <classInstance class="SceneSelector" name="scene" instanceUID="595552789" value="~" text="沿用当前不改变" selectId="2"/>
     <classInstance class="FadeIn" name="fadeIn" instanceUID="688867789" value="0" text="直接出现" selectId="1"/>
-    <classInstance class="EventSelector" name="event" instanceUID="917891407" selectedInstanceUID="3000" text="无事件" selectId="1"/>
+    <classInstance class="EventSelector" name="event" instanceUID="917891407" selectedInstanceUID="953048496" text="震动20延迟15" selectId="9"/>
     <classInstance class="StandView" name="leftSV" instanceUID="595553796">
       <classInstance class="CharacterSelector" name="character" instanceUID="595553293" value="0" text="无" selectId="1"/>
       <classInstance class="CharacterFaceSelector" name="face" instanceUID="595553695" value="0" text="默认" selectId="1"/>
@@ -3806,13 +3806,13 @@
       <classInstance class="EventSelector" name="event" instanceUID="917900832" selectedInstanceUID="3000" text="无事件" selectId="1"/>
     </classInstance>
   </classInstance>
-  <classInstance class="EventShakeScreen" name="震动90帧0延迟" instanceUID="919144744">
+  <classInstance class="EventShakeScreen" name="震动45帧0延迟" instanceUID="919144744">
     <classInstance class="Input Number" name="delay" instanceUID="919143136" text="0"/>
-    <classInstance class="Input Number" name="duration" instanceUID="919143839" text="90"/>
+    <classInstance class="Input Number" name="duration" instanceUID="919143839" text="45"/>
     <classInstance class="Input Number" name="strength" instanceUID="919144342" text="5"/>
   </classInstance>
   <classInstance class="EventBatch2Event" name="掉下树事件" instanceUID="920085754">
-    <classInstance class="EventSelector" name="event0Event" instanceUID="920080447" selectedInstanceUID="919144744" text="震动90帧0延迟" selectId="2"/>
+    <classInstance class="EventSelector" name="event0Event" instanceUID="920080447" selectedInstanceUID="919144744" text="震动45帧0延迟" selectId="2"/>
     <classInstance class="EventSelector" name="event1Event" instanceUID="920082149" selectedInstanceUID="986588076" text="播放殴打3" selectId="7"/>
   </classInstance>
   <classInstance class="EventComputeVariable" name="叶霜音好感度+1" instanceUID="923261660">
@@ -3831,12 +3831,37 @@
   </classInstance>
   <classInstance class="EventPlaySFX" name="播放殴打3" instanceUID="986588076">
     <classInstance class="Input Number" name="delay" instanceUID="986586670" text="0"/>
-    <classInstance class="SoundSelector" name="sound" instanceUID="986587473" value="ouda3.ogg" text="殴打3" selectId="1"/>
-    <classInstance class="Input Number" name="strength" instanceUID="986587875" text="1"/>
+    <classInstance class="SoundSelector" name="sound" instanceUID="986587473" value="SFX/SFX001.ogg" text="殴打3" selectId="1"/>
+    <classInstance class="Input Number" name="times" instanceUID="986587875" text="1"/>
   </classInstance>
   <classInstance class="EventShakeScreen" name="震动30帧" instanceUID="1008675286">
     <classInstance class="Input Number" name="delay" instanceUID="1008673678" text="0"/>
     <classInstance class="Input Number" name="duration" instanceUID="1008674281" text="30"/>
     <classInstance class="Input Number" name="strength" instanceUID="1008674884" text="3"/>
+  </classInstance>
+  <classInstance class="EventShakeScreen" name="震动20延迟15" instanceUID="953048496">
+    <classInstance class="Input Number" name="delay" instanceUID="953045088" text="6"/>
+    <classInstance class="Input Number" name="duration" instanceUID="953046191" text="20"/>
+    <classInstance class="Input Number" name="strength" instanceUID="953047794" text="2"/>
+  </classInstance>
+  <classInstance class="EventPlayBGM" name="播放早春" instanceUID="1148932304">
+    <classInstance class="Input Number" name="delay" instanceUID="1148930498" text="0"/>
+    <classInstance class="BGMSelector" name="sound" instanceUID="1148931201" value="BGM/BGM001.ogg" text="早春散步" selectId="2"/>
+    <classInstance class="BooleanSelector" name="loop" instanceUID="1148931903" value="1" text="是" selectId="2"/>
+  </classInstance>
+  <classInstance class="EventPlayBGM" name="停止背景音乐" instanceUID="1153928612">
+    <classInstance class="Input Number" name="delay" instanceUID="1153927106" text="0"/>
+    <classInstance class="BGMSelector" name="sound" instanceUID="1153927909" value="" text="无" selectId="1"/>
+    <classInstance class="BooleanSelector" name="loop" instanceUID="1153928411" value="1" text="是" selectId="2"/>
+  </classInstance>
+  <classInstance class="EventPlayBGM" name="播放阿鲁卡斯" instanceUID="1155352620">
+    <classInstance class="Input Number" name="delay" instanceUID="1155351114" text="0"/>
+    <classInstance class="BGMSelector" name="sound" instanceUID="1155351817" value="BGM/BGM002.ogg" text="阿鲁卡斯" selectId="3"/>
+    <classInstance class="BooleanSelector" name="loop" instanceUID="1155352319" value="1" text="是" selectId="2"/>
+  </classInstance>
+  <classInstance class="EventPlaySFX" name="播放猫叫" instanceUID="1156069328">
+    <classInstance class="Input Number" name="delay" instanceUID="1156067922" text="0"/>
+    <classInstance class="SoundSelector" name="sound" instanceUID="1156068725" value="SFX/SFX002.ogg" text="猫" selectId="2"/>
+    <classInstance class="Input Number" name="times" instanceUID="1156069227" text="1"/>
   </classInstance>
 </EditableEditorFile>
