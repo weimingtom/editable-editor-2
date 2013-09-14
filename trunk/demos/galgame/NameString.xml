@@ -1,8 +1,13 @@
 <EditableEditorHeader>
   <Selector className="NameStringSelector" valueType="String" width="150" showValue="false" export="value=string">
     <item text="无" value=""/>
-    <item text="青梣" value="青梣"/>
-    <item text="叶霜音" value="叶霜音"/>
-    <item text="铃声" value="铃声"/>
+    <item text="声音" value="声音"/>
+    <item text="许睦" value="许睦"/>
+    <item text="少女" value="少女"/>
+    <item text="云静盈" value="云静盈"/>
+    <item text="黄怡敏" value="黄怡敏"/>
+    <item text="母亲" value="母亲"/>
+    <item text="父亲" value="父亲"/>
+    <item text="？？？" value="？？？"/>
   </Selector>
 </EditableEditorHeader>
