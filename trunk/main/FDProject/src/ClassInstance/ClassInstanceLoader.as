@@ -54,7 +54,7 @@ package ClassInstance
 						if (_ci)
 						{	
 							_ci.classType.formXML(_ci , _cl.m_xml);
-							log("classInstance name" + _ci.instanceName +"(" + _ci.instanceUID + ") formXML");
+							log("classInstance name <" + _ci.instanceName +"> (" + _ci.instanceUID + ") formXML");
 						}
 						_cl.m_classBase = null;
 						_cl.m_xml = null;
@@ -67,12 +67,16 @@ package ClassInstance
 				}
 				else
 				{
+					var _startTime : Number;
+					var _endTime : Number;
 					
 					for each (_cl in s_loaderArray)
 					{
 						if (_cl.m_step == 1)
 							continue;
 							
+						_startTime = getTimer();
+						
 						_ci = new  ClassInstance( _cl.m_classBase ,  _cl.m_xml.@name );
 						_cl.m_classBase.init(_ci , _cl.m_xml);
 						
@@ -81,10 +85,13 @@ package ClassInstance
 							_ci.instanceUID = uint(String(_cl.m_xml.@instanceUID));
 						}	
 						_cl.m_step = 1;
+						_endTime = getTimer();
 						
-						log("classInstance name" + _ci.instanceName +" created");
+						log("classInstance name <" + _ci.instanceName +"> created cost time " + (_endTime - _startTime));
 						
-						if (getTimer() - _t > 500)
+						
+						 
+						if (_endTime - _t > 500)
 							break;
 					}
 					
