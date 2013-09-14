@@ -197,11 +197,11 @@ package
 			if (pageFunction != null)
 			{	
 				var _xml : XML = new XML( < Page name = "LOG" ></Page>);
-				var _page : DisplayObjectContainer = pageFunction(_xml);
+				var _page : Page = pageFunction(_xml);
 				
 				if (EditableEditor2.s_logTF)
 				{
-					_page.addChild(EditableEditor2.s_logTF);
+					_page.addItem(EditableEditor2.s_logTF);
 				}
 				
 			}

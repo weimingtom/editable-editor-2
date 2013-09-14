@@ -153,7 +153,7 @@ package UISuit.UIComponent
 
 		public  function getItemAt( _id : int ) : DisplayObject
 		{
-			return m_itemContainer.getChildAt[_id];// m_itemList[_id];
+			return m_itemContainer.getChildAt(_id);// m_itemList[_id];
 		}
 	}
 }
