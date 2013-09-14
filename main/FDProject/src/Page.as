@@ -3,6 +3,7 @@ package
 	import Class.ClassBase;
 	import Class.ClassMgr;
 	import ClassInstance.ClassInstance;
+	import flash.display.DisplayObject;
 	import flash.display.Sprite;
 	import UISuit.UIComponent.BSSButton;
 	import UISuit.UIComponent.BSSItemList;
@@ -20,6 +21,13 @@ package
 		
 		
 		private var content : BSSItemListScrollBar;// = new BSSItemListScrollBar(BSSScrollBar.createSimpleBSSScrollBar( 18 , true));
+		
+		public function addItem(_dsp : DisplayObject) : void
+		{
+			var contentWH : SpriteWH = content.getItemAt(0) as SpriteWH;
+			if (contentWH)
+				contentWH.addChild(_dsp);
+		}
 		
 		public function Page(__xml : XML) 
 		{

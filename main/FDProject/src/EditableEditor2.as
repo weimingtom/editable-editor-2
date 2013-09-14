@@ -46,7 +46,7 @@
 			//s_logTF.border = true;
 			
 			s_logTF.x = 10;
-			s_logTF.y = 40;
+			s_logTF.y = 10;
 			
 			//ins = this;
 			if (stage) init();
