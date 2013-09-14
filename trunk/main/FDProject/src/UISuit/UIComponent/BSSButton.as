@@ -521,6 +521,7 @@ package   UISuit.UIComponent   {
 
 			}
 			
+			if (off)
 			for each (var btnDsp :DisplayObject in stBtnArray)
 			{
 				//trace("before " , btnDsp.height);
