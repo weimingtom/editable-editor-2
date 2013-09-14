@@ -44,8 +44,14 @@ package  ClassInstance
 			{
 				ASSERT(false , "unpair config version and file version");
 			}
-				
+			
+			
 			var list : XMLList = xml.elements();
+			
+			ClassInstanceLoader.s_loaderArray = new Vector.<ClassInstanceLoader>();
+			
+			
+			
 			for each (var subXml : XML in list)
 			{
 				if (subXml.name() == "classInstance" || subXml.name() == "ClassInstance" )
@@ -57,13 +63,17 @@ package  ClassInstance
 					
 						var className : String = subXml.attribute("class");
 						var classBase : ClassBase = ClassMgr.findClass(className);
+						
+						new ClassInstanceLoader(classBase ,  subXml );
+						/*
 						var ci : ClassInstance = new  ClassInstance( classBase ,  subXml.@name );
 						classBase.init(ci , subXml);
 						
 						if (String(subXml.@instanceUID))
 						{	
 							ci.instanceUID = uint(String(subXml.@instanceUID));
-						}	
+						}
+						*/	
 				}
 				else
 				{
@@ -74,7 +84,8 @@ package  ClassInstance
 			/////////////////////////////////////////////////////
 			//pass two
 			
-			for each ( subXml  in list)
+			/*
+			for each ( subXml in list)
 			{
 				if (subXml.name() == "classInstance" || subXml.name() == "ClassInstance")
 				{
@@ -82,11 +93,16 @@ package  ClassInstance
 						ci = findInstanceByUid(uint(subXml.@instanceUID) , subXml.attribute("class"));
 					else
 						ci = findInstanceByName(subXml.@name , subXml.attribute("class"));
-					ci.classType.formXML(ci , subXml);
+					if (ci)
+						ci.classType.formXML(ci , subXml);
 				}
 			}
+			*/
+			
+			ClassInstanceLoader.load();
+			
 		}
-		private static function findInstanceByUid( insUID : uint ,className : String)
+		internal static function findInstanceByUid( insUID : uint ,className : String)
 		: ClassInstance
 		{
 			var ci : ClassInstance;
@@ -102,7 +118,7 @@ package  ClassInstance
 			return null;
 		}
 		
-		private static function findInstanceByName(insName : String ,className : String)
+		internal static function findInstanceByName(insName : String ,className : String)
 		: ClassInstance
 		{
 			var ci : ClassInstance;

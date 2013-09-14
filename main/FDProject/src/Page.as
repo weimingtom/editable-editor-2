@@ -25,7 +25,7 @@ package
 		{
 			
 			var scrollBar : BSSScrollBar = BSSScrollBar.createSimpleBSSScrollBar( 16 , true);
-			scrollBar.x = EditableEditor2.STAGE_WIDTH - 20;
+			scrollBar.x = EditableEditor2.STAGE_WIDTH - 30;
 			//scrollBar.y = 600;
 			content = new BSSItemListScrollBar(scrollBar);
 		
@@ -64,7 +64,7 @@ package
 			addChild(content);
 			
 			content.width = scrollBar.x;
-			content.height = EditableEditor2.STAGE_HEIGHT - 145;
+			content.height = EditableEditor2.STAGE_HEIGHT - 65;
 			content.x = 5;
 			content.y = 35;
 			content.visible = false;

@@ -4,33 +4,33 @@
 <flex-config>
   <target-player>10.0.0</target-player>
   <compiler>
-    <define>
+    <define append="true">
       <name>CONFIG::debug</name>
-      <value>false</value>
-    </define>
-    <define>
-      <name>CONFIG::release</name>
       <value>true</value>
     </define>
-    <define>
-      <name>CONFIG::timeStamp</name>
-      <value>'2012-8-31'</value>
+    <define append="true">
+      <name>CONFIG::release</name>
+      <value>false</value>
     </define>
-    <define>
+    <define append="true">
+      <name>CONFIG::timeStamp</name>
+      <value>'2013/9/14'</value>
+    </define>
+    <define append="true">
       <name>CONFIG::Debug</name>
       <value>true</value>
     </define>
-    <define>
+    <define append="true">
       <name>CONFIG::ASSERT</name>
       <value>true</value>
     </define>
     <source-path append="true">
-      <path-element>D:\FlashProject\trunk\tools\EditableEditor2\src</path-element>
-      <path-element>G:\shared\programme\FlashDevelop32\Library\AS3\classes</path-element>
+      <path-element>E:\Work\FDProject\editable-editor-2\main\FDProject\src</path-element>
+      <path-element>D:\shared\programme\FlashDevelop\Library\AS3\classes</path-element>
     </source-path>
   </compiler>
   <file-specs>
-    <path-element>D:\FlashProject\trunk\tools\EditableEditor2\src\EditableEditor2.as</path-element>
+    <path-element>E:\Work\FDProject\editable-editor-2\main\FDProject\src\EditableEditor2.as</path-element>
   </file-specs>
   <default-background-color>#DDDDDD</default-background-color>
   <default-frame-rate>30</default-frame-rate>
