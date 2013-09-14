@@ -15,6 +15,7 @@
 	import flash.net.FileFilter;
 	import flash.net.FileReference;
 	import flash.system.System;
+	import flash.text.TextField;
 	import flash.utils.ByteArray;
 	import Plug.PlugMgr;
 	import UISuit.UIComponent.BSSButton;
@@ -30,15 +31,23 @@
 
 	public class EditableEditor2 extends Sprite 
 	{
-		public static const STAGE_WIDTH : int = 1040;
-		public static const STAGE_HEIGHT : int = 860;
+		public static const STAGE_WIDTH : int = 1100;
+		public static const STAGE_HEIGHT : int = 780;
 		
 		//public static var ins : EditableEditor2;
-		
+		public static var s_logTF : TextField;
 		
 
 		public function EditableEditor2() : void 
 		{
+			s_logTF = new TextField();
+			s_logTF.width = STAGE_WIDTH - 45;
+			s_logTF.height = STAGE_HEIGHT - 80;
+			//s_logTF.border = true;
+			
+			s_logTF.x = 10;
+			s_logTF.y = 40;
+			
 			//ins = this;
 			if (stage) init();
 			else addEventListener(Event.ADDED_TO_STAGE, init);
@@ -151,7 +160,9 @@
 				tb.btnCopy.releaseFunction = onCopy;
 				tb.btnExport.releaseFunction = onExport;
 				
-				if (Page.s_pageArray.length == 1)
+				
+				
+				if (Page.s_pageArray.length <= 1)
 				{
 					Page.s_pageBtnArray[0].releaseFunction(Page.s_pageBtnArray[0]);
 					Page.s_pageBtnArray[0].visible = false;
@@ -185,9 +196,11 @@
 		}
 		
 		private function pageFunction(xml : XML)
-		: void 
+		: Page 
 		{
-			addChild(new Page(xml)).y = 28;
+			var _page : Page = new Page(xml);
+			addChild(_page).y = 28;
+			return _page;
 		}
 		
 		private static function switchLayer(e : MouseEvent)

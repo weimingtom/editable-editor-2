@@ -5,6 +5,7 @@ package
 	import Class.ClassMgr;
 	import ClassInstance.ClassInstance;
 	import Debugger.DBG_TRACE;
+	import flash.display.DisplayObjectContainer;
 	import flash.events.Event;
 	import flash.net.URLLoader;
 	import flash.net.URLRequest;
@@ -89,6 +90,8 @@ package
 			
 			onXMLLoaded();
 		}
+		
+		
 		
 		internal function dealXmlConfig(xml : XML)
 		: void 
@@ -190,6 +193,19 @@ package
 					ASSERT(false , "unknow item " + subXml.name())
 				}
 			}
+			
+			if (pageFunction != null)
+			{	
+				var _xml : XML = new XML( < Page name = "LOG" ></Page>);
+				var _page : DisplayObjectContainer = pageFunction(_xml);
+				
+				if (EditableEditor2.s_logTF)
+				{
+					_page.addChild(EditableEditor2.s_logTF);
+				}
+				
+			}
+			
 		}		///////////////////////////////////////////
 		
 	}
