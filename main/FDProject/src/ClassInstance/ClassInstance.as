@@ -284,7 +284,9 @@ package ClassInstance
 				{
 					var _child : ClassInstance = _dspc.getChildAt(__ci) as ClassInstance;
 					if (_child && _child.classType is ClassDynamic)
+					{	
 						CallBackMgr.CallBackMgr_notifyEvent(CALLBACK.ON_SELECTOR_CHANGE , [_child] );
+					}
 				}
 			}
 			
