@@ -16,7 +16,7 @@
 	public class TextProcess extends Sprite 
 	{
 		
-		public function Main():void 
+		public function TextProcess() 
 		{
 			if (stage) init();
 			else addEventListener(Event.ADDED_TO_STAGE, init);
@@ -51,12 +51,12 @@
 			//trace(arr[1]);
 			
 			var xmlName : String = 	'<EditableEditorHeader>	<Selector className = "NameStringSelector" valueType = "String" width = "150" showValue = "false" export="value=string"><item text = "无" value = ""/>';
-					
+			var str_i : int = 0;;		
 			for each (var nameStr : String in nameArr )
 			{
 				if (nameStr == "")
 				{
-					throw("异常，名字含有空的字符");
+					throw("异常，名字含有空的字符 line " + str_i);
 				}
 				
 				if (nameArrIndex.indexOf(nameStr) == -1)
@@ -65,6 +65,8 @@
 					xmlName += '<item text = "' + nameStr + '" value = "' + nameStr +'"/>'
 					nameArrIndex.push(nameStr);
 				}
+				
+				str_i++;
 			}
 					
 			
