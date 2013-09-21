@@ -36,7 +36,7 @@
 		<item class = "ENTER" name = "" />
 	</class>
 	
-	<Include filename = "Sound.xml"/>
+	
 	
 	<class className = "EventPlayBGM" >
 		<item class = "TextFiled Indicate" name = "" text = "延迟"/>
@@ -84,6 +84,16 @@
 		<item class = "TextFiled Indicate" name = "" text = "操作"/>
 		<item class = "OperatorSelector" name = "valueOperator" text = "运算符" default="1"/>
 		<item class = "Input Number" name = "value" text = "1"/>	
+	</class>
+	
+	<class className = "EventSwitchScript" >
+		<item class = "TextFiled Indicate" name = "" text = "切换至脚本"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "脚本编号"/>
+		<item class = "Input Number" name = "script" text = "1"/>	
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "页码编号"/>
+		<item class = "Input Number" name = "page" text = "1" default="0"/>	
 	</class>
 	
 	<class className = "EventBatch2Event" >
