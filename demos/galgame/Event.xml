@@ -93,7 +93,7 @@
 		<item class = "Input Number" name = "script" text = "1"/>	
 		<item class = "ENTER" name = "" />
 		<item class = "TextFiled Indicate" name = "" text = "页码编号"/>
-		<item class = "Input Number" name = "page" text = "1" default="0"/>	
+		<item class = "Input Number" name = "page" text = "0"/>	
 	</class>
 	
 	<class className = "EventBatch2Event" >
@@ -158,6 +158,7 @@
 		<item class = "EventComputeVariable"/>
 		<item class = "EventPlaySFX"/>
 		<item class = "EventPlayBGM"/>
+		<item class = "EventSwitchScript"/>
 		<item class = "EventBatch2Event"/>
 		<item class = "EventBatch4Event"/>
 		<item class = "EventSwitch4Event"/>
@@ -169,6 +170,7 @@
 		<item class = "EventComputeVariable"/>
 		<item class = "EventPlaySFX"/>
 		<item class = "EventPlayBGM"/>
+		<item class = "EventSwitchScript"/>
 		<item class = "EventBatch2Event"/>
 		<item class = "EventBatch4Event"/>
 		<item class = "EventSwitch4Event"/>

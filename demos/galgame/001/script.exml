@@ -1,4 +1,4 @@
-<EditableEditorFile version="31" date="Sat Sep 21 21:34:14 GMT+0800 2013">
+<EditableEditorFile version="31" date="Sat Sep 21 22:10:46 GMT+0800 2013">
   <classInstance class="DialogBoard" name="DB0_1_………许睦同学？还在睡吗？#……..." instanceUID="2265372935">
     <classInstance class="NameStringSelector" name="name" instanceUID="2265359296" value="声音" text="声音" selectId="2"/>
     <classInstance class="ContentStringSelector" name="content" instanceUID="2265367998" value="1" text="1 ………许睦同学？还在睡吗？#……..." selectId="2"/>
@@ -3695,13 +3695,17 @@
     </classInstance>
     <classInstance class="DialogBoardClick" name="next" instanceUID="2269128161">
       <classInstance class="DialogBoardSelector" name="dialog" instanceUID="2269120855"/>
-      <classInstance class="FadeOut" name="fadeOut" instanceUID="2269122057" value="1" text="透明渐变" selectId="2"/>
-      <classInstance class="EventSelector" name="event" instanceUID="2269127460" selectedInstanceUID="3000" text="无事件" selectId="1"/>
+      <classInstance class="FadeOut" name="fadeOut" instanceUID="2269122057" value="0" text="直接消失" selectId="1"/>
+      <classInstance class="EventSelector" name="event" instanceUID="2269127460" selectedInstanceUID="2221810978" text="切换到脚本2" selectId="3"/>
     </classInstance>
   </classInstance>
   <classInstance class="EventShakeScreen" name="震动1秒" instanceUID="2275834772">
     <classInstance class="Input Number" name="delay" instanceUID="2275831064" text="0"/>
     <classInstance class="Input Number" name="duration" instanceUID="2275832367" text="30"/>
     <classInstance class="Input Number" name="strength" instanceUID="2275833870" text="5"/>
+  </classInstance>
+  <classInstance class="EventSwitchScript" name="切换到脚本2" instanceUID="2221810978">
+    <classInstance class="Input Number" name="script" instanceUID="2221809275" text="2"/>
+    <classInstance class="Input Number" name="page" instanceUID="2221810477" text="0"/>
   </classInstance>
 </EditableEditorFile>
