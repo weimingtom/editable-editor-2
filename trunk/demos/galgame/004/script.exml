@@ -1,0 +1,1034 @@
+<EditableEditorFile version="31">
+  <classInstance class="DialogBoard" name="DB0_1_睁开眼睛，眼前是云静盈写满担忧的...">
+    <classInstance class="NameStringSelector" name="name" value=""/>
+    <classInstance class="ContentStringSelector" name="content" value="1" text="睁开眼睛，眼前是云静盈写满担忧的..."/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="2"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_2_啊，好痛………">
+    <classInstance class="NameStringSelector" name="name" value="许睦"/>
+    <classInstance class="ContentStringSelector" name="content" value="2" text="啊，好痛………"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="3"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_3_哎？哪里痛？">
+    <classInstance class="NameStringSelector" name="name" value="云静盈"/>
+    <classInstance class="ContentStringSelector" name="content" value="3" text="哎？哪里痛？"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="4"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_4_嗯………搞不清楚了，大概哪里都痛...">
+    <classInstance class="NameStringSelector" name="name" value="许睦"/>
+    <classInstance class="ContentStringSelector" name="content" value="4" text="嗯………搞不清楚了，大概哪里都痛..."/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="5"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_5_不会吧？难道把脑袋摔坏了，神经出...">
+    <classInstance class="NameStringSelector" name="name" value="云静盈"/>
+    <classInstance class="ContentStringSelector" name="content" value="5" text="不会吧？难道把脑袋摔坏了，神经出..."/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="6"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_6_不，我乱说的。">
+    <classInstance class="NameStringSelector" name="name" value="许睦"/>
+    <classInstance class="ContentStringSelector" name="content" value="6" text="不，我乱说的。"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="7"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_7_………">
+    <classInstance class="NameStringSelector" name="name" value="云静盈"/>
+    <classInstance class="ContentStringSelector" name="content" value="7" text="………"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="8"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_8_我试着活动了一下身体。">
+    <classInstance class="NameStringSelector" name="name" value=""/>
+    <classInstance class="ContentStringSelector" name="content" value="8" text="我试着活动了一下身体。"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="9"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_9_嗯，还好，好像没受什么大伤。">
+    <classInstance class="NameStringSelector" name="name" value="许睦"/>
+    <classInstance class="ContentStringSelector" name="content" value="9" text="嗯，还好，好像没受什么大伤。"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="10"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_10_你是真的撞到头了哦？真的是没事吧...">
+    <classInstance class="NameStringSelector" name="name" value="云静盈"/>
+    <classInstance class="ContentStringSelector" name="content" value="10" text="你是真的撞到头了哦？真的是没事吧..."/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="11"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_11_没事啦………">
+    <classInstance class="NameStringSelector" name="name" value="许睦"/>
+    <classInstance class="ContentStringSelector" name="content" value="11" text="没事啦………"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="12"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_12_真的吗？………我看你倒在坑里一动...">
+    <classInstance class="NameStringSelector" name="name" value="云静盈"/>
+    <classInstance class="ContentStringSelector" name="content" value="12" text="真的吗？………我看你倒在坑里一动..."/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="13"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_13_我这才发现，我和她都在大坑里。#...">
+    <classInstance class="NameStringSelector" name="name" value=""/>
+    <classInstance class="ContentStringSelector" name="content" value="13" text="我这才发现，我和她都在大坑里。#..."/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="14"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_14_为什么学校后山的树林会有这么大的...">
+    <classInstance class="NameStringSelector" name="name" value="许睦"/>
+    <classInstance class="ContentStringSelector" name="content" value="14" text="为什么学校后山的树林会有这么大的..."/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="15"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_15_我也不知道。">
+    <classInstance class="NameStringSelector" name="name" value="云静盈"/>
+    <classInstance class="ContentStringSelector" name="content" value="15" text="我也不知道。"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="16"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_16_该不会是妖精？">
+    <classInstance class="NameStringSelector" name="name" value="许睦"/>
+    <classInstance class="ContentStringSelector" name="content" value="16" text="该不会是妖精？"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="17"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_17_为什么妖精要挖这么大的坑啊？">
+    <classInstance class="NameStringSelector" name="name" value="云静盈"/>
+    <classInstance class="ContentStringSelector" name="content" value="17" text="为什么妖精要挖这么大的坑啊？"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="18"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_18_嘛………">
+    <classInstance class="NameStringSelector" name="name" value="许睦"/>
+    <classInstance class="ContentStringSelector" name="content" value="18" text="嘛………"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="19"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_19_………………突然之间，陷入了沉默。">
+    <classInstance class="NameStringSelector" name="name" value=""/>
+    <classInstance class="ContentStringSelector" name="content" value="19" text="………………突然之间，陷入了沉默。"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="20"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_20_………#那个………关于那个妖精…...">
+    <classInstance class="NameStringSelector" name="name" value="许睦"/>
+    <classInstance class="ContentStringSelector" name="content" value="20" text="………#那个………关于那个妖精…..."/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="21"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_21_嗯………">
+    <classInstance class="NameStringSelector" name="name" value="云静盈"/>
+    <classInstance class="ContentStringSelector" name="content" value="21" text="嗯………"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="22"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_22_是吗，那我就现在许好了。">
+    <classInstance class="NameStringSelector" name="name" value="许睦"/>
+    <classInstance class="ContentStringSelector" name="content" value="22" text="是吗，那我就现在许好了。"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="23"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_23_但是，妖精已经不在了。">
+    <classInstance class="NameStringSelector" name="name" value="云静盈"/>
+    <classInstance class="ContentStringSelector" name="content" value="23" text="但是，妖精已经不在了。"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="24"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_24_反正我确实已经见到过妖精了，它一...">
+    <classInstance class="NameStringSelector" name="name" value="许睦"/>
+    <classInstance class="ContentStringSelector" name="content" value="24" text="反正我确实已经见到过妖精了，它一..."/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="25"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_25_那样也行吗………">
+    <classInstance class="NameStringSelector" name="name" value="云静盈"/>
+    <classInstance class="ContentStringSelector" name="content" value="25" text="那样也行吗………"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="26"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_26_那么，我的愿望是………#我………...">
+    <classInstance class="NameStringSelector" name="name" value="许睦"/>
+    <classInstance class="ContentStringSelector" name="content" value="26" text="那么，我的愿望是………#我………..."/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="27"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_27_………………">
+    <classInstance class="NameStringSelector" name="name" value=""/>
+    <classInstance class="ContentStringSelector" name="content" value="27" text="………………"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="28"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_28_哎？#不是………许愿吗？">
+    <classInstance class="NameStringSelector" name="name" value="云静盈"/>
+    <classInstance class="ContentStringSelector" name="content" value="28" text="哎？#不是………许愿吗？"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="29"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_29_嗯………想了想，现在许愿还叫妖精...">
+    <classInstance class="NameStringSelector" name="name" value="许睦"/>
+    <classInstance class="ContentStringSelector" name="content" value="29" text="嗯………想了想，现在许愿还叫妖精..."/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="30"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_30_嗯………">
+    <classInstance class="NameStringSelector" name="name" value="云静盈"/>
+    <classInstance class="ContentStringSelector" name="content" value="30" text="嗯………"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="31"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_31_我啊，其实也是喜欢你的，从很久以...">
+    <classInstance class="NameStringSelector" name="name" value="许睦"/>
+    <classInstance class="ContentStringSelector" name="content" value="31" text="我啊，其实也是喜欢你的，从很久以..."/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="32"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_32_但是，初中的时候，我们几乎没有见...">
+    <classInstance class="NameStringSelector" name="name" value="云静盈"/>
+    <classInstance class="ContentStringSelector" name="content" value="32" text="但是，初中的时候，我们几乎没有见..."/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="33"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_33_是啊，那个时候，看到你不再和我一...">
+    <classInstance class="NameStringSelector" name="name" value="许睦"/>
+    <classInstance class="ContentStringSelector" name="content" value="33" text="是啊，那个时候，看到你不再和我一..."/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="34"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_34_一样的………">
+    <classInstance class="NameStringSelector" name="name" value="云静盈"/>
+    <classInstance class="ContentStringSelector" name="content" value="34" text="一样的………"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="35"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_35_………">
+    <classInstance class="NameStringSelector" name="name" value="许睦"/>
+    <classInstance class="ContentStringSelector" name="content" value="35" text="………"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="36"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_36_我们的心情是………一样的………">
+    <classInstance class="NameStringSelector" name="name" value="云静盈"/>
+    <classInstance class="ContentStringSelector" name="content" value="36" text="我们的心情是………一样的………"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="37"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_37_………啊………">
+    <classInstance class="NameStringSelector" name="name" value="许睦"/>
+    <classInstance class="ContentStringSelector" name="content" value="37" text="………啊………"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="38"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_38_这是………假的吧………#怎么会有...">
+    <classInstance class="NameStringSelector" name="name" value="云静盈"/>
+    <classInstance class="ContentStringSelector" name="content" value="38" text="这是………假的吧………#怎么会有..."/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="39"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_39_………">
+    <classInstance class="NameStringSelector" name="name" value="许睦"/>
+    <classInstance class="ContentStringSelector" name="content" value="39" text="………"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="40"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_40_太高兴了………真的，太高兴了………">
+    <classInstance class="NameStringSelector" name="name" value="云静盈"/>
+    <classInstance class="ContentStringSelector" name="content" value="40" text="太高兴了………真的，太高兴了………"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="41"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_41_眼泪从她的眼眶中流了下来。">
+    <classInstance class="NameStringSelector" name="name" value=""/>
+    <classInstance class="ContentStringSelector" name="content" value="41" text="眼泪从她的眼眶中流了下来。"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="42"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_42_终于………说出来了………#我们两...">
+    <classInstance class="NameStringSelector" name="name" value="云静盈"/>
+    <classInstance class="ContentStringSelector" name="content" value="42" text="终于………说出来了………#我们两..."/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="43"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_43_我轻轻地，将她纤细的身体抱在了怀...">
+    <classInstance class="NameStringSelector" name="name" value=""/>
+    <classInstance class="ContentStringSelector" name="content" value="43" text="我轻轻地，将她纤细的身体抱在了怀..."/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="44"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_44_嗯，是啊。#真是太好了。">
+    <classInstance class="NameStringSelector" name="name" value="许睦"/>
+    <classInstance class="ContentStringSelector" name="content" value="44" text="嗯，是啊。#真是太好了。"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="45"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_45_许睦………之前，我还以为会被拒绝...">
+    <classInstance class="NameStringSelector" name="name" value="云静盈"/>
+    <classInstance class="ContentStringSelector" name="content" value="45" text="许睦………之前，我还以为会被拒绝..."/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="46"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_46_抱歉，之前是吓到了所以是那种反应...">
+    <classInstance class="NameStringSelector" name="name" value="许睦"/>
+    <classInstance class="ContentStringSelector" name="content" value="46" text="抱歉，之前是吓到了所以是那种反应..."/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="47"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_47_我可是下定了决心，今晚一定要说出...">
+    <classInstance class="NameStringSelector" name="name" value="云静盈"/>
+    <classInstance class="ContentStringSelector" name="content" value="47" text="我可是下定了决心，今晚一定要说出..."/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="48"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_48_还真厉害，我还以为自己会一直一个...">
+    <classInstance class="NameStringSelector" name="name" value="许睦"/>
+    <classInstance class="ContentStringSelector" name="content" value="48" text="还真厉害，我还以为自己会一直一个..."/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="49"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_49_哎~~？真没气概啊。">
+    <classInstance class="NameStringSelector" name="name" value="云静盈"/>
+    <classInstance class="ContentStringSelector" name="content" value="49" text="哎~~？真没气概啊。"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="50"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_50_谁叫你那么优秀，怎么想，我这个死...">
+    <classInstance class="NameStringSelector" name="name" value="许睦"/>
+    <classInstance class="ContentStringSelector" name="content" value="50" text="谁叫你那么优秀，怎么想，我这个死..."/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="51"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_51_不要那么贬低自己啊。没有你的话，...">
+    <classInstance class="NameStringSelector" name="name" value="云静盈"/>
+    <classInstance class="ContentStringSelector" name="content" value="51" text="不要那么贬低自己啊。没有你的话，..."/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="52"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_52_你难道………一直在苦恼着？">
+    <classInstance class="NameStringSelector" name="name" value="许睦"/>
+    <classInstance class="ContentStringSelector" name="content" value="52" text="你难道………一直在苦恼着？"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="53"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_53_嗯，现在真是觉得，之前的自己太胆...">
+    <classInstance class="NameStringSelector" name="name" value="云静盈"/>
+    <classInstance class="ContentStringSelector" name="content" value="53" text="嗯，现在真是觉得，之前的自己太胆..."/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="54"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_54_她露出了温柔的笑脸。">
+    <classInstance class="NameStringSelector" name="name" value=""/>
+    <classInstance class="ContentStringSelector" name="content" value="54" text="她露出了温柔的笑脸。"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="55"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_55_是啊………我也这么觉得。">
+    <classInstance class="NameStringSelector" name="name" value="许睦"/>
+    <classInstance class="ContentStringSelector" name="content" value="55" text="是啊………我也这么觉得。"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="56"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_56_果然，我确实是，被她所吸引着。#...">
+    <classInstance class="NameStringSelector" name="name" value=""/>
+    <classInstance class="ContentStringSelector" name="content" value="56" text="果然，我确实是，被她所吸引着。#..."/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="57"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_57_不过，没想到妖精是真实存在的啊…...">
+    <classInstance class="NameStringSelector" name="name" value="许睦"/>
+    <classInstance class="ContentStringSelector" name="content" value="57" text="不过，没想到妖精是真实存在的啊…..."/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="58"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_58_从坑里爬出来后，我们两人并排走在...">
+    <classInstance class="NameStringSelector" name="name" value=""/>
+    <classInstance class="ContentStringSelector" name="content" value="58" text="从坑里爬出来后，我们两人并排走在..."/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="59"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_59_而且还偏偏在我们学校后山树林里。">
+    <classInstance class="NameStringSelector" name="name" value="许睦"/>
+    <classInstance class="ContentStringSelector" name="content" value="59" text="而且还偏偏在我们学校后山树林里。"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="60"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_60_啊，那个………我想不是那样的。">
+    <classInstance class="NameStringSelector" name="name" value="云静盈"/>
+    <classInstance class="ContentStringSelector" name="content" value="60" text="啊，那个………我想不是那样的。"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="61"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_61_哎？">
+    <classInstance class="NameStringSelector" name="name" value="许睦"/>
+    <classInstance class="ContentStringSelector" name="content" value="61" text="哎？"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="62"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_62_你好好想想，这个传言，是黄怡敏告...">
+    <classInstance class="NameStringSelector" name="name" value="云静盈"/>
+    <classInstance class="ContentStringSelector" name="content" value="62" text="你好好想想，这个传言，是黄怡敏告..."/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="63"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_63_是啊，在这之前，我从来没有听说过...">
+    <classInstance class="NameStringSelector" name="name" value="许睦"/>
+    <classInstance class="ContentStringSelector" name="content" value="63" text="是啊，在这之前，我从来没有听说过..."/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="64"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_64_还特意告诉我们今天是满月，妖精出...">
+    <classInstance class="NameStringSelector" name="name" value="云静盈"/>
+    <classInstance class="ContentStringSelector" name="content" value="64" text="还特意告诉我们今天是满月，妖精出..."/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="65"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_65_啊，难、难不成………？！">
+    <classInstance class="NameStringSelector" name="name" value="许睦"/>
+    <classInstance class="ContentStringSelector" name="content" value="65" text="啊，难、难不成………？！"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="66"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_66_嗯，所以我觉得，妖精什么的，大概...">
+    <classInstance class="NameStringSelector" name="name" value="云静盈"/>
+    <classInstance class="ContentStringSelector" name="content" value="66" text="嗯，所以我觉得，妖精什么的，大概..."/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="67"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_67_用躲在树丛后面，打开手电筒之类的...">
+    <classInstance class="NameStringSelector" name="name" value="云静盈"/>
+    <classInstance class="ContentStringSelector" name="content" value="67" text="用躲在树丛后面，打开手电筒之类的..."/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="68"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_68_是她的话………确实可能做出这种事...">
+    <classInstance class="NameStringSelector" name="name" value="许睦"/>
+    <classInstance class="ContentStringSelector" name="content" value="68" text="是她的话………确实可能做出这种事..."/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="69"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_69_她也一直在尽自己的力量，想尽一切...">
+    <classInstance class="NameStringSelector" name="name" value="云静盈"/>
+    <classInstance class="ContentStringSelector" name="content" value="69" text="她也一直在尽自己的力量，想尽一切..."/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="70"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_70_就不能用普通一点的办法吗………">
+    <classInstance class="NameStringSelector" name="name" value="许睦"/>
+    <classInstance class="ContentStringSelector" name="content" value="70" text="就不能用普通一点的办法吗………"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="71"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_71_许睦。">
+    <classInstance class="NameStringSelector" name="name" value="云静盈"/>
+    <classInstance class="ContentStringSelector" name="content" value="71" text="许睦。"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="72"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_72_嗯？">
+    <classInstance class="NameStringSelector" name="name" value="许睦"/>
+    <classInstance class="ContentStringSelector" name="content" value="72" text="嗯？"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="73"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_73_我喜欢你。">
+    <classInstance class="NameStringSelector" name="name" value="云静盈"/>
+    <classInstance class="ContentStringSelector" name="content" value="73" text="我喜欢你。"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="74"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_74_嗯，我也是，我喜欢你，云静盈。">
+    <classInstance class="NameStringSelector" name="name" value="许睦"/>
+    <classInstance class="ContentStringSelector" name="content" value="74" text="嗯，我也是，我喜欢你，云静盈。"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="75"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_75_呜啊………">
+    <classInstance class="NameStringSelector" name="name" value="云静盈"/>
+    <classInstance class="ContentStringSelector" name="content" value="75" text="呜啊………"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="76"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_76_怎、怎么了？">
+    <classInstance class="NameStringSelector" name="name" value="许睦"/>
+    <classInstance class="ContentStringSelector" name="content" value="76" text="怎、怎么了？"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="77"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_77_能………再说一遍吗？">
+    <classInstance class="NameStringSelector" name="name" value="云静盈"/>
+    <classInstance class="ContentStringSelector" name="content" value="77" text="能………再说一遍吗？"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="78"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_78_呼………真拿你没办法。">
+    <classInstance class="NameStringSelector" name="name" value="许睦"/>
+    <classInstance class="ContentStringSelector" name="content" value="78" text="呼………真拿你没办法。"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="79"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_79_我喜欢你。">
+    <classInstance class="NameStringSelector" name="name" value="许睦"/>
+    <classInstance class="ContentStringSelector" name="content" value="79" text="我喜欢你。"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="80"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_80_那，再一遍？">
+    <classInstance class="NameStringSelector" name="name" value="云静盈"/>
+    <classInstance class="ContentStringSelector" name="content" value="80" text="那，再一遍？"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="81"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_81_呃………把这种话放在嘴边的人，不...">
+    <classInstance class="NameStringSelector" name="name" value="许睦"/>
+    <classInstance class="ContentStringSelector" name="content" value="81" text="呃………把这种话放在嘴边的人，不..."/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="82"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_82_有什么关系，无论怎样我都相信你。">
+    <classInstance class="NameStringSelector" name="name" value="云静盈"/>
+    <classInstance class="ContentStringSelector" name="content" value="82" text="有什么关系，无论怎样我都相信你。"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="83"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_83_看着她认真地说出这种话，我不禁笑...">
+    <classInstance class="NameStringSelector" name="name" value=""/>
+    <classInstance class="ContentStringSelector" name="content" value="83" text="看着她认真地说出这种话，我不禁笑..."/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="84"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_84_没关系，今后时间还有很长，因为从...">
+    <classInstance class="NameStringSelector" name="name" value="许睦"/>
+    <classInstance class="ContentStringSelector" name="content" value="84" text="没关系，今后时间还有很长，因为从..."/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="85"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_85_以后想要我说的时候，我都会说的。">
+    <classInstance class="NameStringSelector" name="name" value="许睦"/>
+    <classInstance class="ContentStringSelector" name="content" value="85" text="以后想要我说的时候，我都会说的。"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="86"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_86_嗯，说话要算数哦。">
+    <classInstance class="NameStringSelector" name="name" value="云静盈"/>
+    <classInstance class="ContentStringSelector" name="content" value="86" text="嗯，说话要算数哦。"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="87"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_87_那是当然的。">
+    <classInstance class="NameStringSelector" name="name" value="许睦"/>
+    <classInstance class="ContentStringSelector" name="content" value="87" text="那是当然的。"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="88"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoardTitle" name="DBT_88_$T第二天。">
+    <classInstance class="ContentStringSelector" name="content" value="88" text="$T第二天。"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="89"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_89_啊~~许睦，你又上课睡觉了吧？#...">
+    <classInstance class="NameStringSelector" name="name" value="云静盈"/>
+    <classInstance class="ContentStringSelector" name="content" value="89" text="啊~~许睦，你又上课睡觉了吧？#..."/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="90"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_90_唔嗯………昨晚回去后睡不着，就起...">
+    <classInstance class="NameStringSelector" name="name" value="许睦"/>
+    <classInstance class="ContentStringSelector" name="content" value="90" text="唔嗯………昨晚回去后睡不着，就起..."/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="91"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_91_这样不行哦，对身体很不好的。">
+    <classInstance class="NameStringSelector" name="name" value="云静盈"/>
+    <classInstance class="ContentStringSelector" name="content" value="91" text="这样不行哦，对身体很不好的。"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="92"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_92_嗯………今晚会克制一点的。">
+    <classInstance class="NameStringSelector" name="name" value="许睦"/>
+    <classInstance class="ContentStringSelector" name="content" value="92" text="嗯………今晚会克制一点的。"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="93"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_93_不能只是今晚啊。">
+    <classInstance class="NameStringSelector" name="name" value="云静盈"/>
+    <classInstance class="ContentStringSelector" name="content" value="93" text="不能只是今晚啊。"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="94"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_94_第一节课下后的课间，她像往常一样...">
+    <classInstance class="NameStringSelector" name="name" value=""/>
+    <classInstance class="ContentStringSelector" name="content" value="94" text="第一节课下后的课间，她像往常一样..."/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="95"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_95_啊，有了………今晚我就到你家去督...">
+    <classInstance class="NameStringSelector" name="name" value="云静盈"/>
+    <classInstance class="ContentStringSelector" name="content" value="95" text="啊，有了………今晚我就到你家去督..."/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="96"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_96_到我家？！">
+    <classInstance class="NameStringSelector" name="name" value="许睦"/>
+    <classInstance class="ContentStringSelector" name="content" value="96" text="到我家？！"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="97"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_97_嗯………干脆就在你的房间过夜吧？">
+    <classInstance class="NameStringSelector" name="name" value="云静盈"/>
+    <classInstance class="ContentStringSelector" name="content" value="97" text="嗯………干脆就在你的房间过夜吧？"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="98"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_98_那怎么行？昨天才刚刚告白，进度…...">
+    <classInstance class="NameStringSelector" name="name" value="许睦"/>
+    <classInstance class="ContentStringSelector" name="content" value="98" text="那怎么行？昨天才刚刚告白，进度…..."/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="99"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_99_我说啊………#你想到哪里去了？">
+    <classInstance class="NameStringSelector" name="name" value="云静盈"/>
+    <classInstance class="ContentStringSelector" name="content" value="99" text="我说啊………#你想到哪里去了？"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="100"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_100_啊？">
+    <classInstance class="NameStringSelector" name="name" value="许睦"/>
+    <classInstance class="ContentStringSelector" name="content" value="100" text="啊？"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="101"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_101_我是说在你的房间打地铺睡觉啦，只...">
+    <classInstance class="NameStringSelector" name="name" value="云静盈"/>
+    <classInstance class="ContentStringSelector" name="content" value="101" text="我是说在你的房间打地铺睡觉啦，只..."/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="102"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_102_………这样啊………">
+    <classInstance class="NameStringSelector" name="name" value="许睦"/>
+    <classInstance class="ContentStringSelector" name="content" value="102" text="………这样啊………"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="103"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_103_许~睦~同~学~难道在想什么色色...">
+    <classInstance class="NameStringSelector" name="name" value="云静盈"/>
+    <classInstance class="ContentStringSelector" name="content" value="103" text="许~睦~同~学~难道在想什么色色..."/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="104"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_104_笨蛋，才没有呢。">
+    <classInstance class="NameStringSelector" name="name" value="许睦"/>
+    <classInstance class="ContentStringSelector" name="content" value="104" text="笨蛋，才没有呢。"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="105"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_105_啊，脸红了。">
+    <classInstance class="NameStringSelector" name="name" value="云静盈"/>
+    <classInstance class="ContentStringSelector" name="content" value="105" text="啊，脸红了。"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="106"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_106_………">
+    <classInstance class="NameStringSelector" name="name" value="许睦"/>
+    <classInstance class="ContentStringSelector" name="content" value="106" text="………"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="107"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_107_我想起来了，我们第一次见面的时候...">
+    <classInstance class="NameStringSelector" name="name" value="云静盈"/>
+    <classInstance class="ContentStringSelector" name="content" value="107" text="我想起来了，我们第一次见面的时候..."/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="108"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_108_呃………居然想起来了。">
+    <classInstance class="NameStringSelector" name="name" value="许睦"/>
+    <classInstance class="ContentStringSelector" name="content" value="108" text="呃………居然想起来了。"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="109"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_109_我就说在学校看到你的时候怎么那么...">
+    <classInstance class="NameStringSelector" name="name" value="云静盈"/>
+    <classInstance class="ContentStringSelector" name="content" value="109" text="我就说在学校看到你的时候怎么那么..."/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="110"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_110_还不是因为你………">
+    <classInstance class="NameStringSelector" name="name" value="许睦"/>
+    <classInstance class="ContentStringSelector" name="content" value="110" text="还不是因为你………"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="111"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_111_啊，两位一大早真亲密啊。">
+    <classInstance class="NameStringSelector" name="name" value="黄怡敏"/>
+    <classInstance class="ContentStringSelector" name="content" value="111" text="啊，两位一大早真亲密啊。"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="112"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_112_嗯，我们已经是恋人了哦。">
+    <classInstance class="NameStringSelector" name="name" value="云静盈"/>
+    <classInstance class="ContentStringSelector" name="content" value="112" text="嗯，我们已经是恋人了哦。"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="113"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_113_哦~………唉唉唉唉？！！#真的吗...">
+    <classInstance class="NameStringSelector" name="name" value="黄怡敏"/>
+    <classInstance class="ContentStringSelector" name="content" value="113" text="哦~………唉唉唉唉？！！#真的吗..."/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="114"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_114_是真的啦，所以别那么大惊小怪的，...">
+    <classInstance class="NameStringSelector" name="name" value="许睦"/>
+    <classInstance class="ContentStringSelector" name="content" value="114" text="是真的啦，所以别那么大惊小怪的，..."/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="115"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_115_呵呵呵，许睦真是容易害羞呢。">
+    <classInstance class="NameStringSelector" name="name" value="云静盈"/>
+    <classInstance class="ContentStringSelector" name="content" value="115" text="呵呵呵，许睦真是容易害羞呢。"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="116"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_116_我是不想太引人注目。而且学校可是...">
+    <classInstance class="NameStringSelector" name="name" value="许睦"/>
+    <classInstance class="ContentStringSelector" name="content" value="116" text="我是不想太引人注目。而且学校可是..."/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="117"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_117_反正学生爱怎样还是怎样嘛，这个年...">
+    <classInstance class="NameStringSelector" name="name" value="黄怡敏"/>
+    <classInstance class="ContentStringSelector" name="content" value="117" text="反正学生爱怎样还是怎样嘛，这个年..."/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="118"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_118_所以现在那种状况越来越多了吗……...">
+    <classInstance class="NameStringSelector" name="name" value="云静盈"/>
+    <classInstance class="ContentStringSelector" name="content" value="118" text="所以现在那种状况越来越多了吗……..."/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="119"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_119_哪种状况啊？庆幸什么东西啊？">
+    <classInstance class="NameStringSelector" name="name" value="许睦"/>
+    <classInstance class="ContentStringSelector" name="content" value="119" text="哪种状况啊？庆幸什么东西啊？"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="120"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_120_哎呀，不管怎么说，能顺利走到一起...">
+    <classInstance class="NameStringSelector" name="name" value="黄怡敏"/>
+    <classInstance class="ContentStringSelector" name="content" value="120" text="哎呀，不管怎么说，能顺利走到一起..."/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="121"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_121_这也是多亏你昨晚的帮忙。">
+    <classInstance class="NameStringSelector" name="name" value="云静盈"/>
+    <classInstance class="ContentStringSelector" name="content" value="121" text="这也是多亏你昨晚的帮忙。"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="122"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_122_昨晚？帮忙？">
+    <classInstance class="NameStringSelector" name="name" value="黄怡敏"/>
+    <classInstance class="ContentStringSelector" name="content" value="122" text="昨晚？帮忙？"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="123"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_123_那个妖精，是你弄出来的假象吧？#...">
+    <classInstance class="NameStringSelector" name="name" value="云静盈"/>
+    <classInstance class="ContentStringSelector" name="content" value="123" text="那个妖精，是你弄出来的假象吧？#..."/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="124"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_124_呃………？">
+    <classInstance class="NameStringSelector" name="name" value="黄怡敏"/>
+    <classInstance class="ContentStringSelector" name="content" value="124" text="呃………？"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="125"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_125_我倒是觉得完全没这个必要，不过你...">
+    <classInstance class="NameStringSelector" name="name" value="许睦"/>
+    <classInstance class="ContentStringSelector" name="content" value="125" text="我倒是觉得完全没这个必要，不过你..."/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="126"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_126_呃呃，等等等等………#昨天晚上我...">
+    <classInstance class="NameStringSelector" name="name" value="黄怡敏"/>
+    <classInstance class="ContentStringSelector" name="content" value="126" text="呃呃，等等等等………#昨天晚上我..."/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="127"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_127_………哎？">
+    <classInstance class="NameStringSelector" name="name" value="云静盈"/>
+    <classInstance class="ContentStringSelector" name="content" value="127" text="………哎？"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="128"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_128_你在说什么啊，那不是你，还能是谁？">
+    <classInstance class="NameStringSelector" name="name" value="许睦"/>
+    <classInstance class="ContentStringSelector" name="content" value="128" text="你在说什么啊，那不是你，还能是谁？"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="129"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_129_我怎么会知道？我只是告诉了你们妖...">
+    <classInstance class="NameStringSelector" name="name" value="黄怡敏"/>
+    <classInstance class="ContentStringSelector" name="content" value="129" text="我怎么会知道？我只是告诉了你们妖..."/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="130"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_130_那不是你编造的吗？">
+    <classInstance class="NameStringSelector" name="name" value="许睦"/>
+    <classInstance class="ContentStringSelector" name="content" value="130" text="那不是你编造的吗？"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="131"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_131_不啊，是真有这样的传言哦，只是流...">
+    <classInstance class="NameStringSelector" name="name" value="黄怡敏"/>
+    <classInstance class="ContentStringSelector" name="content" value="131" text="不啊，是真有这样的传言哦，只是流..."/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="132"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_132_那………我们昨晚看到的那个是………">
+    <classInstance class="NameStringSelector" name="name" value="云静盈"/>
+    <classInstance class="ContentStringSelector" name="content" value="132" text="那………我们昨晚看到的那个是………"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="133"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_133_真正的………妖精？">
+    <classInstance class="NameStringSelector" name="name" value="许睦"/>
+    <classInstance class="ContentStringSelector" name="content" value="133" text="真正的………妖精？"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="134"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_134_………………#………………">
+    <classInstance class="NameStringSelector" name="name" value=""/>
+    <classInstance class="ContentStringSelector" name="content" value="134" text="………………#………………"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="135"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_135_呜啊啊啊啊啊啊啊啊啊啊啊啊啊啊—...">
+    <classInstance class="NameStringSelector" name="name" value=""/>
+    <classInstance class="ContentStringSelector" name="content" value="135" text="呜啊啊啊啊啊啊啊啊啊啊啊啊啊啊—..."/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="136"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_136_今天，世界也是那么和平。">
+    <classInstance class="NameStringSelector" name="name" value=""/>
+    <classInstance class="ContentStringSelector" name="content" value="136" text="今天，世界也是那么和平。"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="137"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_137_阿嚏————！！#啊，不好，好像...">
+    <classInstance class="NameStringSelector" name="name" value="？？？"/>
+    <classInstance class="ContentStringSelector" name="content" value="137" text="阿嚏————！！#啊，不好，好像..."/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="138"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_138_快点快点，不然下节课要赶不上了哦！">
+    <classInstance class="NameStringSelector" name="name" value="云静盈"/>
+    <classInstance class="ContentStringSelector" name="content" value="138" text="快点快点，不然下节课要赶不上了哦！"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="139"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_139_谁叫你非要在课间跑到后山去确认啊...">
+    <classInstance class="NameStringSelector" name="name" value="许睦"/>
+    <classInstance class="ContentStringSelector" name="content" value="139" text="谁叫你非要在课间跑到后山去确认啊..."/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="140"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_140_不过，这样也就是说………我们真的...">
+    <classInstance class="NameStringSelector" name="name" value="云静盈"/>
+    <classInstance class="ContentStringSelector" name="content" value="140" text="不过，这样也就是说………我们真的..."/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="141"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_141_谁知道，说不定就是那样吧………">
+    <classInstance class="NameStringSelector" name="name" value="许睦"/>
+    <classInstance class="ContentStringSelector" name="content" value="141" text="谁知道，说不定就是那样吧………"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="142"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_142_太好了~">
+    <classInstance class="NameStringSelector" name="name" value="云静盈"/>
+    <classInstance class="ContentStringSelector" name="content" value="142" text="太好了~"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="143"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_143_呜啊，别突然抱上来，会摔倒吧！">
+    <classInstance class="NameStringSelector" name="name" value="许睦"/>
+    <classInstance class="ContentStringSelector" name="content" value="143" text="呜啊，别突然抱上来，会摔倒吧！"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="144"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_144_我拼命保持住两人的平衡，紧紧抱住...">
+    <classInstance class="NameStringSelector" name="name" value=""/>
+    <classInstance class="ContentStringSelector" name="content" value="144" text="我拼命保持住两人的平衡，紧紧抱住..."/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="145"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_145_那么，现在来说吧。">
+    <classInstance class="NameStringSelector" name="name" value="云静盈"/>
+    <classInstance class="ContentStringSelector" name="content" value="145" text="那么，现在来说吧。"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="146"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_146_要说什么，我们内心中都已经明了了...">
+    <classInstance class="NameStringSelector" name="name" value=""/>
+    <classInstance class="ContentStringSelector" name="content" value="146" text="要说什么，我们内心中都已经明了了..."/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="147"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_147_最喜欢你了。">
+    <classInstance class="NameStringSelector" name="name" value="云静盈"/>
+    <classInstance class="ContentStringSelector" name="content" value="147" text="最喜欢你了。"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="148"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_148_我也………最喜欢你了。">
+    <classInstance class="NameStringSelector" name="name" value="许睦"/>
+    <classInstance class="ContentStringSelector" name="content" value="148" text="我也………最喜欢你了。"/>
+  </classInstance>
+</EditableEditorFile>
