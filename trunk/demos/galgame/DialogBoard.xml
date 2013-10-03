@@ -248,9 +248,42 @@
 		<item class = "DialogBoardClick" name = "next"/>
 	</class>
 
+	
+	<class className = "DialogBoardMessage" >
+		<item class = "TextFiled Indicate" name = "" text = "文本内容"/>
+		<item class = "ENTER" name = "" />
+		<item class = "ContentStringSelector" name = "content" text = "" default="1"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "打字效果"/>
+		<item class = "BooleanSelector" name = "typeEffect" default = "2"/>
+		<item class = "ENTER" name = "" />
+		<item class = "Line" name = "" />
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "背景"/>
+		<item class = "SceneSelector" name = "scene" default="2"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "出现方式"/>
+		<item class = "FadeIn" name = "fadeIn" default="1"/>
+
+		<item class = "ENTER" name = "" />
+		<item class = "Line" name = "" />
+		<item class = "ENTER" name = "" />
+		
+		<item class = "TextFiled Indicate" name = "" text = "进场事件"/>
+		<item class = "EventSelector" name = "event" default="1"/>
+		<item class = "ENTER" name = "" />
+		<item class = "Line" name = "" />
+		<item class = "ENTER" name = "" />
+		
+
+		<item class = "DialogBoardClick" name = "next"/>
+	</class>
+
+
 	<InstanceSelector className = "DialogBoardSelector" valueType = "String" width = "200" editable = "true">
 		<item class = "DialogBoard"/>
 		<item class = "DialogBoardTitle"/>
+		<item class = "DialogBoardMessage"/>
 		<item class = "DialogBoardOption2"/>
 		<item class = "DialogBoardOption3"/>
 	</InstanceSelector>
@@ -259,6 +292,7 @@
 	<ClassCreater className = "DialogBoardCreater" width = "200" valueType = "String" >
 		<item class = "DialogBoard"/>
 		<item class = "DialogBoardTitle"/>
+		<item class = "DialogBoardMessage"/>
 		<item class = "DialogBoardOption2"/>
 		<item class = "DialogBoardOption3"/>
 	</ClassCreater>
