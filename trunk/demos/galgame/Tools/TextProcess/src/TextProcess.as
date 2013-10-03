@@ -5,6 +5,7 @@
 	import flash.net.FileReference;
 	import flash.net.URLLoader;
 	import flash.net.URLRequest;
+	import flash.system.ApplicationDomain;
 	import flash.utils.ByteArray;
 	import nochump.util.zip.ZipEntry;
 	import nochump.util.zip.ZipOutput;
@@ -15,20 +16,35 @@
 	 */
 	public class TextProcess extends Sprite 
 	{
-		
+		//public var airVersion : Boolean = false;
+		public var filePath : String = "../../";
 		public function TextProcess() 
 		{
 			if (stage) init();
 			else addEventListener(Event.ADDED_TO_STAGE, init);
 		}
 		
+		protected function startLoad():void
+		{
+			var ldr : URLLoader = new  URLLoader();
+			ldr.addEventListener(Event.COMPLETE , onComplete)
+			//throw((filePath + "STR_CHS_NAME.txt"))
+			ldr.load(new URLRequest(filePath + "STR_CHS_NAME.txt"));
+		}
+		
 		private function init(e:Event = null):void 
 		{
 			removeEventListener(Event.ADDED_TO_STAGE, init);
 			
-			var ldr : URLLoader = new  URLLoader();
-			ldr.addEventListener(Event.COMPLETE , onComplete)
-			ldr.load(new URLRequest("STR_CHS_NAME.txt"));
+			try {
+			var airVersion : Boolean = ApplicationDomain.currentDomain.getDefinition("flash.desktop.NativeApplication");
+			} catch (e:Error) { }
+			
+			if (!airVersion)
+			{
+				startLoad();
+			}
+			
 			
 			// entry point
 		}
@@ -94,7 +110,7 @@
 			
 			var ldr : URLLoader = new  URLLoader();
 			ldr.addEventListener(Event.COMPLETE , onCompleteContent)
-			ldr.load(new URLRequest("../../STR_CHS.txt"));
+			ldr.load(new URLRequest(filePath + "STR_CHS.txt"));
 		}
 		
 		private var contentArr : Array;
@@ -262,7 +278,7 @@
 			trace(xmlString);
 			
 			
-			var fileName:String = "1.exml";
+			var fileName:String = "script_empty.exml";
 			var fileData:ByteArray = new ByteArray();
 			fileData.writeUTFBytes(new XML(xmlString).toXMLString());
 			//trace(fileData[0]);
