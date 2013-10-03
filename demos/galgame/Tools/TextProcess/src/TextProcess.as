@@ -179,6 +179,10 @@
 					{
 						clsName  = "DialogBoardTitle";
 					}
+					else if (flag == "$M")
+					{
+						clsName  = "DialogBoardMessage";
+					}
 				}
 				
 				var optionNum : int = 0;
