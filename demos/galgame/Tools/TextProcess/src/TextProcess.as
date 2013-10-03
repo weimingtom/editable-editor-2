@@ -28,7 +28,7 @@
 			
 			var ldr : URLLoader = new  URLLoader();
 			ldr.addEventListener(Event.COMPLETE , onComplete)
-			ldr.load(new URLRequest("../../STR_CHS_NAME.txt"));
+			ldr.load(new URLRequest("STR_CHS_NAME.txt"));
 			
 			// entry point
 		}
