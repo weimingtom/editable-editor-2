@@ -1,4 +1,4 @@
-<EditableEditorFile version="31" date="Fri Oct 4 04:06:02 GMT+0800 2013">
+<EditableEditorFile version="31" date="Fri Oct 4 16:51:20 GMT+0800 2013">
   <classInstance class="DialogBoard" name="DB0_1_………………" instanceUID="2270607935">
     <classInstance class="NameStringSelector" name="name" instanceUID="2270594896" value="" text="无" selectId="1"/>
     <classInstance class="ContentStringSelector" name="content" instanceUID="2270600098" value="1" text="1 ………………" selectId="2"/>
@@ -1952,7 +1952,8 @@
   <classInstance class="DialogBoardMessage" name="79_$M小的时候，我总是一个人。\n..." instanceUID="3947120914">
     <classInstance class="ContentStringSelector" name="content" instanceUID="3947113094" value="79" text="79 $M小的时候，我总是一个人。\n..." selectId="80"/>
     <classInstance class="BooleanSelector" name="typeEffect" instanceUID="3947113596" value="1" text="是" selectId="2"/>
-    <classInstance class="SceneSelector" name="scene" instanceUID="3947114299" value="~" text="沿用当前不改变" selectId="2"/>
+    <classInstance class="Input Color" name="textColor" instanceUID="4286312098" text="0xFFFFFF00"/>
+    <classInstance class="SceneSelector" name="scene" instanceUID="3947114299" value="BG/0006.jpg" text="夜月" selectId="8"/>
     <classInstance class="FadeIn" name="fadeIn" instanceUID="3947114701" value="0" text="直接出现" selectId="1"/>
     <classInstance class="EventSelector" name="event" instanceUID="3947116104" selectedInstanceUID="3000" text="无事件" selectId="1"/>
     <classInstance class="DialogBoardClick" name="next" instanceUID="3947120713">
