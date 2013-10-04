@@ -16,10 +16,10 @@
 		<item text = "青空" value = "BG/0012.jpg"/>
 		<item text = "围墙晨" value = "BG/0013.jpg"/>
 		<item text = "CG0001" value = "CG/0001.png"/>
-    <item text = "CG0002" value = "CG/0002.png"/>
-    <item text = "CG0003" value = "CG/0003.png"/>
-    <item text = "CG0004" value = "CG/0004.png"/>
-    
+		<item text = "CG0002" value = "CG/0002.png"/>
+		<item text = "CG0003" value = "CG/0003.png"/>
+		<item text = "CG0004" value = "CG/0004.png"/>
+		<item text = "夜月黑" value = "BG/0014.jpg"/>
     
 	</Selector>
 </EditableEditorHeader>	
