@@ -231,6 +231,8 @@
 					xmlString += "DB0_"
 				else if (clsName == "DialogBoardTitle")
 					xmlString += "DBT_"
+				else if (clsName == "DialogBoardMessage")
+					xmlString += "DBM_"
 				else if (clsName == "DialogBoardOption2")
 					xmlString += "DB2_"
 				else if (clsName == "DialogBoardOption3")
