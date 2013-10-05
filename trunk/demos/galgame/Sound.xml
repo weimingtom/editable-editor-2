@@ -17,6 +17,6 @@
 		<item value = "BGM/gy03.ogg" text ="gy03" />
 		<item value = "BGM/BGM001.ogg" text ="BGM001" />
 		<item value = "BGM/BGM002.ogg" text ="BGM002" />
-
+		<item value = "BGM/namida.ogg" text ="namida" />
 	</Selector>
 </EditableEditorHeader>	
