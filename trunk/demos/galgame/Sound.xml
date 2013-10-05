@@ -1,12 +1,22 @@
 ﻿<EditableEditorHeader>
 	<Selector className = "SoundSelector" valueType = "String" width = "80" showValue = "true" export="value=string">
-		<item text = "殴打3" value = "SFX/SFX001.ogg"/>
-		<item text = "猫" value = "SFX/SFX002.ogg"/>
 	</Selector>
 	
 	<Selector className = "BGMSelector" valueType = "String" width = "100" showValue = "true" export="value=string">
 		<item text = "无" value = ""/>
-		<item text = "早春散步" value = "BGM/BGM001.ogg"/>
-		<item text = "阿鲁卡斯" value = "BGM/BGM002.ogg"/>
+
+		<item value = "BGM/xy.ogg" text ="xy" />
+		<item value = "BGM/drop.ogg" text ="drop" />
+		<item value = "BGM/cf.ogg" text ="cf" />
+		<item value = "BGM/sws.ogg" text ="sws" />
+		<item value = "BGM/kage.ogg" text ="kage" />
+		<item value = "BGM/BGM054.ogg" text ="BGM054" />
+		<item value = "BGM/wangx.ogg" text ="wangx" />
+		<item value = "BGM/Moonlight.ogg" text ="Moonlight" />
+		<item value = "BGM/qt03.ogg" text ="qt03" />
+		<item value = "BGM/gy03.ogg" text ="gy03" />
+		<item value = "BGM/BGM001.ogg" text ="BGM001" />
+		<item value = "BGM/BGM002.ogg" text ="BGM002" />
+
 	</Selector>
 </EditableEditorHeader>	
