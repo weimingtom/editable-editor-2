@@ -1,12 +1,13 @@
 ﻿<EditableEditorHeader>
 	<Selector className = "CharacterSelector" valueType = "int" width = "60" showValue = "false" export="value=u8">
-		<item text = "无" value = "0"/>
 		<item text = "不改变" value = "255"/>
-		<item text = "叶霜音" value = "1"/>
+		<item text = "无" value = "0"/>
+		<item text = "云静盈" value = "1"/>
+		<item text = "黄怡敏" value = "2"/>
 	</Selector>
 	<Selector className = "CharacterFaceSelector" valueType = "int" width = "60" showValue = "false" export="value=u8">
-		<item text = "默认" value = "0"/>
 		<item text = "不改变" value = "255"/>
+		<item text = "默认" value = "0"/>
 		<item text = "笑" value = "1"/>
 	</Selector>
 
