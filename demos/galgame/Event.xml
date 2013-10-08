@@ -149,6 +149,12 @@
 		<item class = "EventSelector"  name = "event3Event" default = "1"/> 
 		<item class = "ENTER" name = "" />
 	</class>
+
+	<class className = "EventSetWind" >
+		<item class = "TextFiled Indicate" name = "" text = "设置风 -100到100"/>
+		<item class = "ENTER" name = "" />
+		<item class = "Input Number" name = "wind" text = "0"/>	
+	</class>
 	
 	
 	<InstanceSelector className = "EventSelector" valueType = "String" width = "250" editable = "true">
@@ -158,6 +164,8 @@
 		<item class = "EventComputeVariable"/>
 		<item class = "EventPlaySFX"/>
 		<item class = "EventPlayBGM"/>
+		<item class = "EventSetWind"/>
+
 		<item class = "EventSwitchScript"/>
 		<item class = "EventBatch2Event"/>
 		<item class = "EventBatch4Event"/>
@@ -170,6 +178,8 @@
 		<item class = "EventComputeVariable"/>
 		<item class = "EventPlaySFX"/>
 		<item class = "EventPlayBGM"/>
+		<item class = "EventSetWind"/>
+
 		<item class = "EventSwitchScript"/>
 		<item class = "EventBatch2Event"/>
 		<item class = "EventBatch4Event"/>

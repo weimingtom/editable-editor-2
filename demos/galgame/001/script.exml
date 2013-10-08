@@ -1,4 +1,4 @@
-<EditableEditorFile version="31" date="Mon Oct 7 23:41:11 GMT+0800 2013">
+<EditableEditorFile version="31" date="Wed Oct 9 03:41:24 GMT+0800 2013">
   <classInstance class="DialogBoard" name="DB0_1_………许睦同学？还在睡吗？#……..." instanceUID="2265372935">
     <classInstance class="NameStringSelector" name="name" instanceUID="2265359296" value="声音" text="声音" selectId="2"/>
     <classInstance class="ContentStringSelector" name="content" instanceUID="2265367998" value="1" text="1 ………许睦同学？还在睡吗？#……..." selectId="2"/>
@@ -1180,7 +1180,7 @@
     <classInstance class="BooleanSelector" name="typeEffect" instanceUID="2265963227" value="1" text="是" selectId="2"/>
     <classInstance class="SceneSelector" name="scene" instanceUID="2265964130" value="BG/0004.jpg" text="学校午后" selectId="6"/>
     <classInstance class="FadeIn" name="fadeIn" instanceUID="2265964632" value="1" text="透明渐变" selectId="2"/>
-    <classInstance class="EventSelector" name="event" instanceUID="2265966735" selectedInstanceUID="144614398" text="播放背景音drop" selectId="5"/>
+    <classInstance class="EventSelector" name="event" instanceUID="2265966735" selectedInstanceUID="561048336" text="'喂' 时的事件" selectId="10"/>
     <classInstance class="StandView" name="leftSV" instanceUID="2265968142">
       <classInstance class="CharacterSelector" name="character" instanceUID="2265967539" value="255" text="不改变" selectId="1"/>
       <classInstance class="CharacterFaceSelector" name="face" instanceUID="2265967941" value="255" text="不改变" selectId="1"/>
@@ -3737,5 +3737,12 @@
     <classInstance class="Input Number" name="delay" instanceUID="181239524" text="0"/>
     <classInstance class="BGMSelector" name="sound" instanceUID="181240427" value="" text="无" selectId="1"/>
     <classInstance class="BooleanSelector" name="loop" instanceUID="181240929" value="1" text="是" selectId="2"/>
+  </classInstance>
+  <classInstance class="EventBatch2Event" name="'喂' 时的事件" instanceUID="561048336">
+    <classInstance class="EventSelector" name="event0Event" instanceUID="561042233" selectedInstanceUID="574184839" text="设置风-25" selectId="11"/>
+    <classInstance class="EventSelector" name="event1Event" instanceUID="561047735" selectedInstanceUID="144614398" text="播放背景音drop" selectId="5"/>
+  </classInstance>
+  <classInstance class="EventSetWind" name="设置风-25" instanceUID="574184839">
+    <classInstance class="Input Number" name="wind" instanceUID="574184438" text="-25"/>
   </classInstance>
 </EditableEditorFile>
