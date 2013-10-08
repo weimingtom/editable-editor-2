@@ -1,4 +1,4 @@
-<EditableEditorFile version="31" date="Wed Oct 9 03:41:24 GMT+0800 2013">
+<EditableEditorFile version="31" date="Wed Oct 9 04:00:26 GMT+0800 2013">
   <classInstance class="DialogBoard" name="DB0_1_………许睦同学？还在睡吗？#……..." instanceUID="2265372935">
     <classInstance class="NameStringSelector" name="name" instanceUID="2265359296" value="声音" text="声音" selectId="2"/>
     <classInstance class="ContentStringSelector" name="content" instanceUID="2265367998" value="1" text="1 ………许睦同学？还在睡吗？#……..." selectId="2"/>
@@ -1236,8 +1236,8 @@
       <classInstance class="CharacterFaceSelector" name="face" instanceUID="2266014623" value="255" text="不改变" selectId="1"/>
     </classInstance>
     <classInstance class="StandView" name="middleSV" instanceUID="2266016329">
-      <classInstance class="CharacterSelector" name="character" instanceUID="2266015426" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="2266016128" value="255" text="不改变" selectId="1"/>
+      <classInstance class="CharacterSelector" name="character" instanceUID="2266015426" value="2" text="黄怡敏" selectId="4"/>
+      <classInstance class="CharacterFaceSelector" name="face" instanceUID="2266016128" value="0" text="默认" selectId="2"/>
     </classInstance>
     <classInstance class="StandView" name="rightSV" instanceUID="2266017834">
       <classInstance class="CharacterSelector" name="character" instanceUID="2266017031" value="255" text="不改变" selectId="1"/>
@@ -1961,7 +1961,7 @@
       <classInstance class="CharacterFaceSelector" name="face" instanceUID="2266689312" value="255" text="不改变" selectId="1"/>
     </classInstance>
     <classInstance class="StandView" name="middleSV" instanceUID="2266691018">
-      <classInstance class="CharacterSelector" name="character" instanceUID="2266690115" value="255" text="不改变" selectId="1"/>
+      <classInstance class="CharacterSelector" name="character" instanceUID="2266690115" value="0" text="无" selectId="2"/>
       <classInstance class="CharacterFaceSelector" name="face" instanceUID="2266690717" value="255" text="不改变" selectId="1"/>
     </classInstance>
     <classInstance class="StandView" name="rightSV" instanceUID="2266692523">
