@@ -86,6 +86,17 @@
 		<item class = "Input Number" name = "value" text = "1"/>	
 	</class>
 	
+	<class className = "EventPlayFaceMotion" >
+		<item class = "TextFiled Indicate" name = "" text = "角色"/>
+		<item class= "CharacterSelector" name = "character" text="选择角色" />
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "播放表情"/>
+
+		<item class = "ENTER" name = "" />
+		<item class= "CharacterFaceMotion" name = "motionId" text="表情" />
+	</class>
+
+	
 	<class className = "EventSwitchScript" >
 		<item class = "TextFiled Indicate" name = "" text = "切换至脚本"/>
 		<item class = "ENTER" name = "" />
@@ -165,6 +176,7 @@
 		<item class = "EventPlaySFX"/>
 		<item class = "EventPlayBGM"/>
 		<item class = "EventSetWind"/>
+		<item class = "EventPlayFaceMotion"/>
 
 		<item class = "EventSwitchScript"/>
 		<item class = "EventBatch2Event"/>
@@ -179,6 +191,7 @@
 		<item class = "EventPlaySFX"/>
 		<item class = "EventPlayBGM"/>
 		<item class = "EventSetWind"/>
+		<item class = "EventPlayFaceMotion"/>		
 
 		<item class = "EventSwitchScript"/>
 		<item class = "EventBatch2Event"/>
