@@ -1,9 +1,9 @@
-<EditableEditorFile version="31" date="Sun Nov 17 19:25:17 GMT+0800 2013">
+<EditableEditorFile version="31" date="Sun Nov 24 06:34:31 GMT+0800 2013">
   <classInstance class="DialogBoard" name="DB0_1_………许睦同学？还在睡吗？#……..." instanceUID="1845076743">
     <classInstance class="NameStringSelector" name="name" instanceUID="1845065704" value="声音" text="声音" selectId="2"/>
     <classInstance class="ContentStringSelector" name="content" instanceUID="1845071906" value="1" text="1 ………许睦同学？还在睡吗？#……..." selectId="2"/>
     <classInstance class="BooleanSelector" name="typeEffect" instanceUID="1845072108" value="1" text="是" selectId="2"/>
-    <classInstance class="SceneSelector" name="scene" instanceUID="1845073411" value="~" text="沿用当前不改变" selectId="2"/>
+    <classInstance class="SceneSelector" name="scene" instanceUID="2265369203" value="BG/0001.jpg" text="教室2午后" selectId="3"/>
     <classInstance class="FadeIn" name="fadeIn" instanceUID="1845073713" value="0" text="直接出现" selectId="1"/>
     <classInstance class="EventSelector" name="event" instanceUID="1845074016" selectedInstanceUID="3000" text="无事件" selectId="1"/>
     <classInstance class="StandView" name="leftSV" instanceUID="1845074823">
@@ -728,7 +728,7 @@
     <classInstance class="NameStringSelector" name="name" instanceUID="1845295293" value="" text="无" selectId="1"/>
     <classInstance class="ContentStringSelector" name="content" instanceUID="1845297795" value="30" text="30 我现在所读的学校是我从小长大的小..." selectId="31"/>
     <classInstance class="BooleanSelector" name="typeEffect" instanceUID="1845297997" value="1" text="是" selectId="2"/>
-    <classInstance class="SceneSelector" name="scene" instanceUID="1845298500" value="~" text="沿用当前不改变" selectId="2"/>
+    <classInstance class="SceneSelector" name="scene" instanceUID="2265659551" value="BG/0002.jpg" text="楼梯口午后" selectId="4"/>
     <classInstance class="FadeIn" name="fadeIn" instanceUID="1845298802" value="0" text="直接出现" selectId="1"/>
     <classInstance class="EventSelector" name="event" instanceUID="1845299505" selectedInstanceUID="3000" text="无事件" selectId="1"/>
     <classInstance class="StandView" name="leftSV" instanceUID="1845300212">
@@ -753,7 +753,7 @@
     <classInstance class="NameStringSelector" name="name" instanceUID="1845304634" value="" text="无" selectId="1"/>
     <classInstance class="ContentStringSelector" name="content" instanceUID="1845307036" value="31" text="31 放学后的走廊空无一人，一片冷清的..." selectId="32"/>
     <classInstance class="BooleanSelector" name="typeEffect" instanceUID="1845307238" value="1" text="是" selectId="2"/>
-    <classInstance class="SceneSelector" name="scene" instanceUID="1845307841" value="~" text="沿用当前不改变" selectId="2"/>
+    <classInstance class="SceneSelector" name="scene" instanceUID="2265673792" value="BG/0003.jpg" text="走廊午后" selectId="5"/>
     <classInstance class="FadeIn" name="fadeIn" instanceUID="1845308043" value="0" text="直接出现" selectId="1"/>
     <classInstance class="EventSelector" name="event" instanceUID="1845308746" selectedInstanceUID="3000" text="无事件" selectId="1"/>
     <classInstance class="StandView" name="leftSV" instanceUID="1845309553">
@@ -1203,7 +1203,7 @@
     <classInstance class="NameStringSelector" name="name" instanceUID="1845492772" value="声音" text="声音" selectId="2"/>
     <classInstance class="ContentStringSelector" name="content" instanceUID="1845495274" value="49" text="49 喂~~" selectId="50"/>
     <classInstance class="BooleanSelector" name="typeEffect" instanceUID="1845495576" value="1" text="是" selectId="2"/>
-    <classInstance class="SceneSelector" name="scene" instanceUID="1845496179" value="~" text="沿用当前不改变" selectId="2"/>
+    <classInstance class="SceneSelector" name="scene" instanceUID="2265964130" value="BG/0004.jpg" text="学校午后" selectId="6"/>
     <classInstance class="FadeIn" name="fadeIn" instanceUID="1845496981" value="0" text="直接出现" selectId="1"/>
     <classInstance class="EventSelector" name="event" instanceUID="2265966735" selectedInstanceUID="561048336" text="'喂' 时的事件" selectId="10"/>
     <classInstance class="StandView" name="leftSV" instanceUID="1845498891">
@@ -1261,8 +1261,8 @@
       <classInstance class="CharacterFaceSelector" name="face" instanceUID="1845524072" value="255" text="不改变" selectId="1"/>
     </classInstance>
     <classInstance class="StandView" name="middleSV" instanceUID="1845524878">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1845524475" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1845524777" value="255" text="不改变" selectId="1"/>
+      <classInstance class="CharacterSelector" name="character" instanceUID="1845524475" value="2" text="黄怡敏" selectId="4"/>
+      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1845524777" value="0" text="默认" selectId="2"/>
     </classInstance>
     <classInstance class="StandView" name="rightSV" instanceUID="1845526083">
       <classInstance class="CharacterSelector" name="character" instanceUID="1845525180" value="255" text="不改变" selectId="1"/>
@@ -1361,8 +1361,8 @@
       <classInstance class="CharacterFaceSelector" name="face" instanceUID="1845571836" value="255" text="不改变" selectId="1"/>
     </classInstance>
     <classInstance class="StandView" name="middleSV" instanceUID="1845572742">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1845572239" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1845572641" value="255" text="不改变" selectId="1"/>
+      <classInstance class="CharacterSelector" name="character" instanceUID="1845572239" value="2" text="黄怡敏" selectId="4"/>
+      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1845572641" value="20" text="眯眼" selectId="9"/>
     </classInstance>
     <classInstance class="StandView" name="rightSV" instanceUID="1845573547">
       <classInstance class="CharacterSelector" name="character" instanceUID="1845573044" value="255" text="不改变" selectId="1"/>
@@ -1386,8 +1386,8 @@
       <classInstance class="CharacterFaceSelector" name="face" instanceUID="1845585977" value="255" text="不改变" selectId="1"/>
     </classInstance>
     <classInstance class="StandView" name="middleSV" instanceUID="1845586883">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1845586380" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1845586782" value="255" text="不改变" selectId="1"/>
+      <classInstance class="CharacterSelector" name="character" instanceUID="1845586380" value="2" text="黄怡敏" selectId="4"/>
+      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1845586782" value="0" text="默认" selectId="2"/>
     </classInstance>
     <classInstance class="StandView" name="rightSV" instanceUID="1845587588">
       <classInstance class="CharacterSelector" name="character" instanceUID="1845587185" value="255" text="不改变" selectId="1"/>
@@ -1436,8 +1436,8 @@
       <classInstance class="CharacterFaceSelector" name="face" instanceUID="1845611759" value="255" text="不改变" selectId="1"/>
     </classInstance>
     <classInstance class="StandView" name="middleSV" instanceUID="1845612565">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1845612062" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1845612464" value="255" text="不改变" selectId="1"/>
+      <classInstance class="CharacterSelector" name="character" instanceUID="1845612062" value="2" text="黄怡敏" selectId="4"/>
+      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1845612464" value="0" text="默认" selectId="2"/>
     </classInstance>
     <classInstance class="StandView" name="rightSV" instanceUID="1845613370">
       <classInstance class="CharacterSelector" name="character" instanceUID="1845612867" value="255" text="不改变" selectId="1"/>
@@ -1536,8 +1536,8 @@
       <classInstance class="CharacterFaceSelector" name="face" instanceUID="1845662623" value="255" text="不改变" selectId="1"/>
     </classInstance>
     <classInstance class="StandView" name="middleSV" instanceUID="1845663529">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1845663026" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1845663428" value="255" text="不改变" selectId="1"/>
+      <classInstance class="CharacterSelector" name="character" instanceUID="1845663026" value="2" text="黄怡敏" selectId="4"/>
+      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1845663428" value="21" text="神秘" selectId="10"/>
     </classInstance>
     <classInstance class="StandView" name="rightSV" instanceUID="1845664334">
       <classInstance class="CharacterSelector" name="character" instanceUID="1845663831" value="255" text="不改变" selectId="1"/>
@@ -1611,8 +1611,8 @@
       <classInstance class="CharacterFaceSelector" name="face" instanceUID="1845702946" value="255" text="不改变" selectId="1"/>
     </classInstance>
     <classInstance class="StandView" name="middleSV" instanceUID="1845703752">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1845703249" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1845703751" value="255" text="不改变" selectId="1"/>
+      <classInstance class="CharacterSelector" name="character" instanceUID="1845703249" value="2" text="黄怡敏" selectId="4"/>
+      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1845703751" value="0" text="默认" selectId="2"/>
     </classInstance>
     <classInstance class="StandView" name="rightSV" instanceUID="1845704557">
       <classInstance class="CharacterSelector" name="character" instanceUID="1845704154" value="255" text="不改变" selectId="1"/>
@@ -1661,8 +1661,8 @@
       <classInstance class="CharacterFaceSelector" name="face" instanceUID="1845730228" value="255" text="不改变" selectId="1"/>
     </classInstance>
     <classInstance class="StandView" name="middleSV" instanceUID="1845731234">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1845730731" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1845731133" value="255" text="不改变" selectId="1"/>
+      <classInstance class="CharacterSelector" name="character" instanceUID="1845730731" value="2" text="黄怡敏" selectId="4"/>
+      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1845731133" value="20" text="眯眼" selectId="9"/>
     </classInstance>
     <classInstance class="StandView" name="rightSV" instanceUID="1845732239">
       <classInstance class="CharacterSelector" name="character" instanceUID="1845731636" value="255" text="不改变" selectId="1"/>
@@ -1711,8 +1711,8 @@
       <classInstance class="CharacterFaceSelector" name="face" instanceUID="1845760810" value="255" text="不改变" selectId="1"/>
     </classInstance>
     <classInstance class="StandView" name="middleSV" instanceUID="1845761916">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1845761313" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1845761715" value="255" text="不改变" selectId="1"/>
+      <classInstance class="CharacterSelector" name="character" instanceUID="1845761313" value="2" text="黄怡敏" selectId="4"/>
+      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1845761715" value="0" text="默认" selectId="2"/>
     </classInstance>
     <classInstance class="StandView" name="rightSV" instanceUID="1845762921">
       <classInstance class="CharacterSelector" name="character" instanceUID="1845762318" value="255" text="不改变" selectId="1"/>
@@ -1786,8 +1786,8 @@
       <classInstance class="CharacterFaceSelector" name="face" instanceUID="1845807933" value="255" text="不改变" selectId="1"/>
     </classInstance>
     <classInstance class="StandView" name="middleSV" instanceUID="1845808839">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1845808236" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1845808738" value="255" text="不改变" selectId="1"/>
+      <classInstance class="CharacterSelector" name="character" instanceUID="1845808236" value="2" text="黄怡敏" selectId="4"/>
+      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1845808738" value="22" text="斜眼" selectId="11"/>
     </classInstance>
     <classInstance class="StandView" name="rightSV" instanceUID="1845809544">
       <classInstance class="CharacterSelector" name="character" instanceUID="1845809141" value="255" text="不改变" selectId="1"/>
@@ -1836,8 +1836,8 @@
       <classInstance class="CharacterFaceSelector" name="face" instanceUID="1845837315" value="255" text="不改变" selectId="1"/>
     </classInstance>
     <classInstance class="StandView" name="middleSV" instanceUID="1845838821">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1845837718" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1845838720" value="255" text="不改变" selectId="1"/>
+      <classInstance class="CharacterSelector" name="character" instanceUID="1845837718" value="2" text="黄怡敏" selectId="4"/>
+      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1845838720" value="0" text="默认" selectId="2"/>
     </classInstance>
     <classInstance class="StandView" name="rightSV" instanceUID="1845839726">
       <classInstance class="CharacterSelector" name="character" instanceUID="1845839223" value="255" text="不改变" selectId="1"/>
@@ -1855,7 +1855,7 @@
     <classInstance class="BooleanSelector" name="typeEffect" instanceUID="1845848942" value="1" text="是" selectId="2"/>
     <classInstance class="SceneSelector" name="scene" instanceUID="1845849745" value="~" text="沿用当前不改变" selectId="2"/>
     <classInstance class="FadeIn" name="fadeIn" instanceUID="1845850147" value="0" text="直接出现" selectId="1"/>
-    <classInstance class="EventSelector" name="event" instanceUID="1845851350" selectedInstanceUID="3000" text="无事件" selectId="1"/>
+    <classInstance class="EventSelector" name="event" instanceUID="1845851350" selectedInstanceUID="2805572394" text="惊讶" selectId="13"/>
     <classInstance class="StandView" name="leftSV" instanceUID="1845852457">
       <classInstance class="CharacterSelector" name="character" instanceUID="1845851954" value="255" text="不改变" selectId="1"/>
       <classInstance class="CharacterFaceSelector" name="face" instanceUID="1845852356" value="255" text="不改变" selectId="1"/>
@@ -1886,8 +1886,8 @@
       <classInstance class="CharacterFaceSelector" name="face" instanceUID="1845868097" value="255" text="不改变" selectId="1"/>
     </classInstance>
     <classInstance class="StandView" name="middleSV" instanceUID="1845869103">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1845868500" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1845869002" value="255" text="不改变" selectId="1"/>
+      <classInstance class="CharacterSelector" name="character" instanceUID="1845868500" value="2" text="黄怡敏" selectId="4"/>
+      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1845869002" value="21" text="神秘" selectId="10"/>
     </classInstance>
     <classInstance class="StandView" name="rightSV" instanceUID="1845870508">
       <classInstance class="CharacterSelector" name="character" instanceUID="1845869505" value="255" text="不改变" selectId="1"/>
@@ -1936,8 +1936,8 @@
       <classInstance class="CharacterFaceSelector" name="face" instanceUID="1845901479" value="255" text="不改变" selectId="1"/>
     </classInstance>
     <classInstance class="StandView" name="middleSV" instanceUID="1845902585">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1845901982" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1845902384" value="255" text="不改变" selectId="1"/>
+      <classInstance class="CharacterSelector" name="character" instanceUID="1845901982" value="2" text="黄怡敏" selectId="4"/>
+      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1845902384" value="20" text="眯眼" selectId="9"/>
     </classInstance>
     <classInstance class="StandView" name="rightSV" instanceUID="1845903390">
       <classInstance class="CharacterSelector" name="character" instanceUID="1845902887" value="255" text="不改变" selectId="1"/>
@@ -1961,8 +1961,8 @@
       <classInstance class="CharacterFaceSelector" name="face" instanceUID="1845917220" value="255" text="不改变" selectId="1"/>
     </classInstance>
     <classInstance class="StandView" name="middleSV" instanceUID="1845918226">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1845917723" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1845918125" value="255" text="不改变" selectId="1"/>
+      <classInstance class="CharacterSelector" name="character" instanceUID="1845917723" value="2" text="黄怡敏" selectId="4"/>
+      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1845918125" value="23" text="阴笑" selectId="12"/>
     </classInstance>
     <classInstance class="StandView" name="rightSV" instanceUID="1845919231">
       <classInstance class="CharacterSelector" name="character" instanceUID="1845918628" value="255" text="不改变" selectId="1"/>
@@ -1986,7 +1986,7 @@
       <classInstance class="CharacterFaceSelector" name="face" instanceUID="1845932561" value="255" text="不改变" selectId="1"/>
     </classInstance>
     <classInstance class="StandView" name="middleSV" instanceUID="1845933467">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1845932964" value="255" text="不改变" selectId="1"/>
+      <classInstance class="CharacterSelector" name="character" instanceUID="1845932964" value="0" text="无" selectId="2"/>
       <classInstance class="CharacterFaceSelector" name="face" instanceUID="1845933366" value="255" text="不改变" selectId="1"/>
     </classInstance>
     <classInstance class="StandView" name="rightSV" instanceUID="1845934372">
@@ -2205,7 +2205,7 @@
     <classInstance class="BooleanSelector" name="typeEffect" instanceUID="1846067816" value="1" text="是" selectId="2"/>
     <classInstance class="SceneSelector" name="scene" instanceUID="1846068619" value="~" text="沿用当前不改变" selectId="2"/>
     <classInstance class="FadeIn" name="fadeIn" instanceUID="1846069021" value="0" text="直接出现" selectId="1"/>
-    <classInstance class="EventSelector" name="event" instanceUID="1846070324" selectedInstanceUID="3000" text="无事件" selectId="1"/>
+    <classInstance class="EventSelector" name="event" instanceUID="1846070324" selectedInstanceUID="2833260402" text="设置无风" selectId="15"/>
     <classInstance class="StandView" name="leftSV" instanceUID="1846071631">
       <classInstance class="CharacterSelector" name="character" instanceUID="1846071028" value="255" text="不改变" selectId="1"/>
       <classInstance class="CharacterFaceSelector" name="face" instanceUID="1846071530" value="255" text="不改变" selectId="1"/>
@@ -2903,7 +2903,7 @@
     <classInstance class="NameStringSelector" name="name" instanceUID="1846581060" value="" text="无" selectId="1"/>
     <classInstance class="ContentStringSelector" name="content" instanceUID="1846584162" value="117" text="117 结果，我们一同来到了客厅。" selectId="118"/>
     <classInstance class="BooleanSelector" name="typeEffect" instanceUID="1846584664" value="1" text="是" selectId="2"/>
-    <classInstance class="SceneSelector" name="scene" instanceUID="1846585567" value="~" text="沿用当前不改变" selectId="2"/>
+    <classInstance class="SceneSelector" name="scene" instanceUID="2267831318" value="BG/0005.jpg" text="玄关夜" selectId="7"/>
     <classInstance class="FadeIn" name="fadeIn" instanceUID="1846586069" value="0" text="直接出现" selectId="1"/>
     <classInstance class="EventSelector" name="event" instanceUID="2267836623" selectedInstanceUID="161167522" text="播放背景音kage" selectId="8"/>
     <classInstance class="StandView" name="leftSV" instanceUID="1846589379">
@@ -2936,8 +2936,8 @@
       <classInstance class="CharacterFaceSelector" name="face" instanceUID="1846610919" value="255" text="不改变" selectId="1"/>
     </classInstance>
     <classInstance class="StandView" name="middleSV" instanceUID="1846612225">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1846611522" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1846612124" value="255" text="不改变" selectId="1"/>
+      <classInstance class="CharacterSelector" name="character" instanceUID="1846611522" value="1" text="云静盈" selectId="3"/>
+      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1846612124" value="0" text="默认" selectId="2"/>
     </classInstance>
     <classInstance class="StandView" name="rightSV" instanceUID="1846613430">
       <classInstance class="CharacterSelector" name="character" instanceUID="1846612727" value="255" text="不改变" selectId="1"/>
@@ -2986,8 +2986,8 @@
       <classInstance class="CharacterFaceSelector" name="face" instanceUID="1846651601" value="255" text="不改变" selectId="1"/>
     </classInstance>
     <classInstance class="StandView" name="middleSV" instanceUID="1846653007">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1846652204" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1846652806" value="255" text="不改变" selectId="1"/>
+      <classInstance class="CharacterSelector" name="character" instanceUID="1846652204" value="1" text="云静盈" selectId="3"/>
+      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1846652806" value="3" text="害羞" selectId="5"/>
     </classInstance>
     <classInstance class="StandView" name="rightSV" instanceUID="1846654212">
       <classInstance class="CharacterSelector" name="character" instanceUID="1846653509" value="255" text="不改变" selectId="1"/>
@@ -3036,8 +3036,8 @@
       <classInstance class="CharacterFaceSelector" name="face" instanceUID="1846693683" value="255" text="不改变" selectId="1"/>
     </classInstance>
     <classInstance class="StandView" name="middleSV" instanceUID="1846694989">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1846694286" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1846694788" value="255" text="不改变" selectId="1"/>
+      <classInstance class="CharacterSelector" name="character" instanceUID="1846694286" value="1" text="云静盈" selectId="3"/>
+      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1846694788" value="7" text="唉" selectId="13"/>
     </classInstance>
     <classInstance class="StandView" name="rightSV" instanceUID="1846696094">
       <classInstance class="CharacterSelector" name="character" instanceUID="1846695391" value="255" text="不改变" selectId="1"/>
@@ -3069,661 +3069,191 @@
       <classInstance class="CharacterFaceSelector" name="face" instanceUID="1846716734" value="255" text="不改变" selectId="1"/>
     </classInstance>
     <classInstance class="DialogBoardClick" name="next" instanceUID="1846723444">
-      <classInstance class="DialogBoardSelector" name="dialog" instanceUID="1846720838" selectedInstanceUID="1846745486" text="DB0_124_乐观开朗吗………#只是看起来是那..." selectId="124"/>
+      <classInstance class="DialogBoardSelector" name="dialog" instanceUID="1846720838" text="DB0_124_乐观开朗吗………#只是看起来是那..." selectId="124"/>
       <classInstance class="FadeOut" name="fadeOut" instanceUID="1846721340" value="1" text="透明渐变" selectId="2"/>
       <classInstance class="EventSelector" name="event" instanceUID="1846723343" selectedInstanceUID="3000" text="无事件" selectId="1"/>
     </classInstance>
   </classInstance>
-  <classInstance class="DialogBoard" name="DB0_124_乐观开朗吗………#只是看起来是那..." instanceUID="1846745486">
-    <classInstance class="NameStringSelector" name="name" instanceUID="1846727847" value="云静盈" text="云静盈" selectId="5"/>
-    <classInstance class="ContentStringSelector" name="content" instanceUID="1846730349" value="124" text="124 乐观开朗吗………#只是看起来是那..." selectId="125"/>
-    <classInstance class="BooleanSelector" name="typeEffect" instanceUID="1846730751" value="1" text="是" selectId="2"/>
-    <classInstance class="SceneSelector" name="scene" instanceUID="1846732154" value="~" text="沿用当前不改变" selectId="2"/>
-    <classInstance class="FadeIn" name="fadeIn" instanceUID="1846732656" value="0" text="直接出现" selectId="1"/>
-    <classInstance class="EventSelector" name="event" instanceUID="1846734559" selectedInstanceUID="3000" text="无事件" selectId="1"/>
-    <classInstance class="StandView" name="leftSV" instanceUID="1846736066">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1846735363" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1846735965" value="255" text="不改变" selectId="1"/>
-    </classInstance>
-    <classInstance class="StandView" name="middleSV" instanceUID="1846737171">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1846736568" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1846737070" value="255" text="不改变" selectId="1"/>
-    </classInstance>
-    <classInstance class="StandView" name="rightSV" instanceUID="1846738976">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1846738173" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1846738775" value="255" text="不改变" selectId="1"/>
-    </classInstance>
-    <classInstance class="DialogBoardClick" name="next" instanceUID="1846745285">
-      <classInstance class="DialogBoardSelector" name="dialog" instanceUID="1846742079" selectedInstanceUID="1846766627" text="DB0_125_是啊，这样平平常常地过日子，哪里..." selectId="125"/>
-      <classInstance class="FadeOut" name="fadeOut" instanceUID="1846742681" value="1" text="透明渐变" selectId="2"/>
-      <classInstance class="EventSelector" name="event" instanceUID="1846744584" selectedInstanceUID="3000" text="无事件" selectId="1"/>
+    <classInstance class="DialogBoard" name="DB0_124_乐观开朗吗………#只是看起来是那...">
+    <classInstance class="NameStringSelector" name="name" value="云静盈"/>
+    <classInstance class="ContentStringSelector" name="content" value="124" text="乐观开朗吗………#只是看起来是那..."/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="125"/>
     </classInstance>
   </classInstance>
-  <classInstance class="DialogBoard" name="DB0_125_是啊，这样平平常常地过日子，哪里..." instanceUID="1846766627">
-    <classInstance class="NameStringSelector" name="name" instanceUID="1846748588" value="许睦" text="许睦" selectId="3"/>
-    <classInstance class="ContentStringSelector" name="content" instanceUID="1846751290" value="125" text="125 是啊，这样平平常常地过日子，哪里..." selectId="126"/>
-    <classInstance class="BooleanSelector" name="typeEffect" instanceUID="1846752192" value="1" text="是" selectId="2"/>
-    <classInstance class="SceneSelector" name="scene" instanceUID="1846753095" value="~" text="沿用当前不改变" selectId="2"/>
-    <classInstance class="FadeIn" name="fadeIn" instanceUID="1846753597" value="0" text="直接出现" selectId="1"/>
-    <classInstance class="EventSelector" name="event" instanceUID="1846755500" selectedInstanceUID="3000" text="无事件" selectId="1"/>
-    <classInstance class="StandView" name="leftSV" instanceUID="1846757607">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1846756404" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1846757406" value="255" text="不改变" selectId="1"/>
-    </classInstance>
-    <classInstance class="StandView" name="middleSV" instanceUID="1846758812">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1846758109" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1846758611" value="255" text="不改变" selectId="1"/>
-    </classInstance>
-    <classInstance class="StandView" name="rightSV" instanceUID="1846760017">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1846759314" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1846759816" value="255" text="不改变" selectId="1"/>
-    </classInstance>
-    <classInstance class="DialogBoardClick" name="next" instanceUID="1846766426">
-      <classInstance class="DialogBoardSelector" name="dialog" instanceUID="1846763720" selectedInstanceUID="1846788768" text="DB0_126_是呢………#一直平平常常的………..." selectId="126"/>
-      <classInstance class="FadeOut" name="fadeOut" instanceUID="1846764322" value="1" text="透明渐变" selectId="2"/>
-      <classInstance class="EventSelector" name="event" instanceUID="1846766225" selectedInstanceUID="3000" text="无事件" selectId="1"/>
+  <classInstance class="DialogBoard" name="DB0_125_是啊，这样平平常常地过日子，哪里...">
+    <classInstance class="NameStringSelector" name="name" value="许睦"/>
+    <classInstance class="ContentStringSelector" name="content" value="125" text="是啊，这样平平常常地过日子，哪里..."/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="126"/>
     </classInstance>
   </classInstance>
-  <classInstance class="DialogBoard" name="DB0_126_是呢………#一直平平常常的………..." instanceUID="1846788768">
-    <classInstance class="NameStringSelector" name="name" instanceUID="1846770429" value="云静盈" text="云静盈" selectId="5"/>
-    <classInstance class="ContentStringSelector" name="content" instanceUID="1846773131" value="126" text="126 是呢………#一直平平常常的………..." selectId="127"/>
-    <classInstance class="BooleanSelector" name="typeEffect" instanceUID="1846773733" value="1" text="是" selectId="2"/>
-    <classInstance class="SceneSelector" name="scene" instanceUID="1846774636" value="~" text="沿用当前不改变" selectId="2"/>
-    <classInstance class="FadeIn" name="fadeIn" instanceUID="1846775638" value="0" text="直接出现" selectId="1"/>
-    <classInstance class="EventSelector" name="event" instanceUID="1846777641" selectedInstanceUID="3000" text="无事件" selectId="1"/>
-    <classInstance class="StandView" name="leftSV" instanceUID="1846779248">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1846778545" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1846779047" value="255" text="不改变" selectId="1"/>
-    </classInstance>
-    <classInstance class="StandView" name="middleSV" instanceUID="1846780953">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1846779750" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1846780352" value="255" text="不改变" selectId="1"/>
-    </classInstance>
-    <classInstance class="StandView" name="rightSV" instanceUID="1846782158">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1846781455" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1846782057" value="255" text="不改变" selectId="1"/>
-    </classInstance>
-    <classInstance class="DialogBoardClick" name="next" instanceUID="1846788567">
-      <classInstance class="DialogBoardSelector" name="dialog" instanceUID="1846785361" selectedInstanceUID="1846812609" text="DB0_127_那不是理所当然的吗？" selectId="127"/>
-      <classInstance class="FadeOut" name="fadeOut" instanceUID="1846786463" value="1" text="透明渐变" selectId="2"/>
-      <classInstance class="EventSelector" name="event" instanceUID="1846788366" selectedInstanceUID="3000" text="无事件" selectId="1"/>
+  <classInstance class="DialogBoard" name="DB0_126_是呢………#一直平平常常的………...">
+    <classInstance class="NameStringSelector" name="name" value="云静盈"/>
+    <classInstance class="ContentStringSelector" name="content" value="126" text="是呢………#一直平平常常的………..."/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="127"/>
     </classInstance>
   </classInstance>
-  <classInstance class="DialogBoard" name="DB0_127_那不是理所当然的吗？" instanceUID="1846812609">
-    <classInstance class="NameStringSelector" name="name" instanceUID="1846793870" value="许睦" text="许睦" selectId="3"/>
-    <classInstance class="ContentStringSelector" name="content" instanceUID="1846796472" value="127" text="127 那不是理所当然的吗？" selectId="128"/>
-    <classInstance class="BooleanSelector" name="typeEffect" instanceUID="1846797074" value="1" text="是" selectId="2"/>
-    <classInstance class="SceneSelector" name="scene" instanceUID="1846797977" value="~" text="沿用当前不改变" selectId="2"/>
-    <classInstance class="FadeIn" name="fadeIn" instanceUID="1846798979" value="0" text="直接出现" selectId="1"/>
-    <classInstance class="EventSelector" name="event" instanceUID="1846800982" selectedInstanceUID="3000" text="无事件" selectId="1"/>
-    <classInstance class="StandView" name="leftSV" instanceUID="1846802689">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1846801986" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1846802488" value="255" text="不改变" selectId="1"/>
-    </classInstance>
-    <classInstance class="StandView" name="middleSV" instanceUID="1846804494">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1846803191" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1846804293" value="255" text="不改变" selectId="1"/>
-    </classInstance>
-    <classInstance class="StandView" name="rightSV" instanceUID="1846805699">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1846804996" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1846805498" value="255" text="不改变" selectId="1"/>
-    </classInstance>
-    <classInstance class="DialogBoardClick" name="next" instanceUID="1846812408">
-      <classInstance class="DialogBoardSelector" name="dialog" instanceUID="1846809702" selectedInstanceUID="1846834050" text="DB0_128_………#那个………#那个啊………#" selectId="128"/>
-      <classInstance class="FadeOut" name="fadeOut" instanceUID="1846810204" value="1" text="透明渐变" selectId="2"/>
-      <classInstance class="EventSelector" name="event" instanceUID="1846812207" selectedInstanceUID="3000" text="无事件" selectId="1"/>
+  <classInstance class="DialogBoard" name="DB0_127_那不是理所当然的吗？">
+    <classInstance class="NameStringSelector" name="name" value="许睦"/>
+    <classInstance class="ContentStringSelector" name="content" value="127" text="那不是理所当然的吗？"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="128"/>
     </classInstance>
   </classInstance>
-  <classInstance class="DialogBoard" name="DB0_128_………#那个………#那个啊………#" instanceUID="1846834050">
-    <classInstance class="NameStringSelector" name="name" instanceUID="1846816311" value="云静盈" text="云静盈" selectId="5"/>
-    <classInstance class="ContentStringSelector" name="content" instanceUID="1846819113" value="128" text="128 ………#那个………#那个啊………#" selectId="129"/>
-    <classInstance class="BooleanSelector" name="typeEffect" instanceUID="1846819615" value="1" text="是" selectId="2"/>
-    <classInstance class="SceneSelector" name="scene" instanceUID="1846820618" value="~" text="沿用当前不改变" selectId="2"/>
-    <classInstance class="FadeIn" name="fadeIn" instanceUID="1846821120" value="0" text="直接出现" selectId="1"/>
-    <classInstance class="EventSelector" name="event" instanceUID="1846823223" selectedInstanceUID="3000" text="无事件" selectId="1"/>
-    <classInstance class="StandView" name="leftSV" instanceUID="1846824830">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1846824127" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1846824729" value="255" text="不改变" selectId="1"/>
-    </classInstance>
-    <classInstance class="StandView" name="middleSV" instanceUID="1846826135">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1846825332" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1846825934" value="255" text="不改变" selectId="1"/>
-    </classInstance>
-    <classInstance class="StandView" name="rightSV" instanceUID="1846827340">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1846826537" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1846827139" value="255" text="不改变" selectId="1"/>
-    </classInstance>
-    <classInstance class="DialogBoardClick" name="next" instanceUID="1846833749">
-      <classInstance class="DialogBoardSelector" name="dialog" instanceUID="1846830843" selectedInstanceUID="1846854691" text="DB0_129_嗯？#怎么了？支支吾吾的。" selectId="129"/>
-      <classInstance class="FadeOut" name="fadeOut" instanceUID="1846831445" value="1" text="透明渐变" selectId="2"/>
-      <classInstance class="EventSelector" name="event" instanceUID="1846833648" selectedInstanceUID="3000" text="无事件" selectId="1"/>
+  <classInstance class="DialogBoard" name="DB0_128_………#那个………#那个啊………">
+    <classInstance class="NameStringSelector" name="name" value="云静盈"/>
+    <classInstance class="ContentStringSelector" name="content" value="128" text="………#那个………#那个啊………"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="129"/>
     </classInstance>
   </classInstance>
-  <classInstance class="DialogBoard" name="DB0_129_嗯？#怎么了？支支吾吾的。" instanceUID="1846854691">
-    <classInstance class="NameStringSelector" name="name" instanceUID="1846837352" value="许睦" text="许睦" selectId="3"/>
-    <classInstance class="ContentStringSelector" name="content" instanceUID="1846840154" value="129" text="129 嗯？#怎么了？支支吾吾的。" selectId="130"/>
-    <classInstance class="BooleanSelector" name="typeEffect" instanceUID="1846840556" value="1" text="是" selectId="2"/>
-    <classInstance class="SceneSelector" name="scene" instanceUID="1846841659" value="~" text="沿用当前不改变" selectId="2"/>
-    <classInstance class="FadeIn" name="fadeIn" instanceUID="1846842161" value="0" text="直接出现" selectId="1"/>
-    <classInstance class="EventSelector" name="event" instanceUID="1846844164" selectedInstanceUID="3000" text="无事件" selectId="1"/>
-    <classInstance class="StandView" name="leftSV" instanceUID="1846845771">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1846844968" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1846845570" value="255" text="不改变" selectId="1"/>
-    </classInstance>
-    <classInstance class="StandView" name="middleSV" instanceUID="1846846976">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1846846273" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1846846775" value="255" text="不改变" selectId="1"/>
-    </classInstance>
-    <classInstance class="StandView" name="rightSV" instanceUID="1846848281">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1846847478" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1846848080" value="255" text="不改变" selectId="1"/>
-    </classInstance>
-    <classInstance class="DialogBoardClick" name="next" instanceUID="1846854490">
-      <classInstance class="DialogBoardSelector" name="dialog" instanceUID="1846851784" selectedInstanceUID="1846878932" text="DB0_130_其实，有一件事想请你帮忙。" selectId="130"/>
-      <classInstance class="FadeOut" name="fadeOut" instanceUID="1846852286" value="1" text="透明渐变" selectId="2"/>
-      <classInstance class="EventSelector" name="event" instanceUID="1846854289" selectedInstanceUID="3000" text="无事件" selectId="1"/>
+  <classInstance class="DialogBoard" name="DB0_129_嗯？#怎么了？支支吾吾的。">
+    <classInstance class="NameStringSelector" name="name" value="许睦"/>
+    <classInstance class="ContentStringSelector" name="content" value="129" text="嗯？#怎么了？支支吾吾的。"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="130"/>
     </classInstance>
   </classInstance>
-  <classInstance class="DialogBoard" name="DB0_130_其实，有一件事想请你帮忙。" instanceUID="1846878932">
-    <classInstance class="NameStringSelector" name="name" instanceUID="1846860193" value="云静盈" text="云静盈" selectId="5"/>
-    <classInstance class="ContentStringSelector" name="content" instanceUID="1846862895" value="130" text="130 其实，有一件事想请你帮忙。" selectId="131"/>
-    <classInstance class="BooleanSelector" name="typeEffect" instanceUID="1846863497" value="1" text="是" selectId="2"/>
-    <classInstance class="SceneSelector" name="scene" instanceUID="1846864500" value="~" text="沿用当前不改变" selectId="2"/>
-    <classInstance class="FadeIn" name="fadeIn" instanceUID="1846865002" value="0" text="直接出现" selectId="1"/>
-    <classInstance class="EventSelector" name="event" instanceUID="1846867005" selectedInstanceUID="3000" text="无事件" selectId="1"/>
-    <classInstance class="StandView" name="leftSV" instanceUID="1846868712">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1846867909" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1846868511" value="255" text="不改变" selectId="1"/>
-    </classInstance>
-    <classInstance class="StandView" name="middleSV" instanceUID="1846870017">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1846869214" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1846869816" value="255" text="不改变" selectId="1"/>
-    </classInstance>
-    <classInstance class="StandView" name="rightSV" instanceUID="1846871322">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1846870519" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1846871121" value="255" text="不改变" selectId="1"/>
-    </classInstance>
-    <classInstance class="DialogBoardClick" name="next" instanceUID="1846878731">
-      <classInstance class="DialogBoardSelector" name="dialog" instanceUID="1846875525" selectedInstanceUID="1846905773" text="DB0_131_如果我能帮上忙的话，是没问题啦…..." selectId="131"/>
-      <classInstance class="FadeOut" name="fadeOut" instanceUID="1846876127" value="1" text="透明渐变" selectId="2"/>
-      <classInstance class="EventSelector" name="event" instanceUID="1846878430" selectedInstanceUID="3000" text="无事件" selectId="1"/>
+  <classInstance class="DialogBoard" name="DB0_130_其实，有一件事想请你帮忙。">
+    <classInstance class="NameStringSelector" name="name" value="云静盈"/>
+    <classInstance class="ContentStringSelector" name="content" value="130" text="其实，有一件事想请你帮忙。"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="131"/>
     </classInstance>
   </classInstance>
-  <classInstance class="DialogBoard" name="DB0_131_如果我能帮上忙的话，是没问题啦…..." instanceUID="1846905773">
-    <classInstance class="NameStringSelector" name="name" instanceUID="1846882934" value="许睦" text="许睦" selectId="3"/>
-    <classInstance class="ContentStringSelector" name="content" instanceUID="1846888936" value="131" text="131 如果我能帮上忙的话，是没问题啦…..." selectId="132"/>
-    <classInstance class="BooleanSelector" name="typeEffect" instanceUID="1846889538" value="1" text="是" selectId="2"/>
-    <classInstance class="SceneSelector" name="scene" instanceUID="1846890541" value="~" text="沿用当前不改变" selectId="2"/>
-    <classInstance class="FadeIn" name="fadeIn" instanceUID="1846891243" value="0" text="直接出现" selectId="1"/>
-    <classInstance class="EventSelector" name="event" instanceUID="1846893546" selectedInstanceUID="3000" text="无事件" selectId="1"/>
-    <classInstance class="StandView" name="leftSV" instanceUID="1846895453">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1846894550" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1846895252" value="255" text="不改变" selectId="1"/>
-    </classInstance>
-    <classInstance class="StandView" name="middleSV" instanceUID="1846896958">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1846896055" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1846896657" value="255" text="不改变" selectId="1"/>
-    </classInstance>
-    <classInstance class="StandView" name="rightSV" instanceUID="1846898563">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1846897560" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1846898262" value="255" text="不改变" selectId="1"/>
-    </classInstance>
-    <classInstance class="DialogBoardClick" name="next" instanceUID="1846905572">
-      <classInstance class="DialogBoardSelector" name="dialog" instanceUID="1846902466" selectedInstanceUID="1846928514" text="DB0_132_学校后山的妖精传闻，你还记得吗？" selectId="132"/>
-      <classInstance class="FadeOut" name="fadeOut" instanceUID="1846903068" value="1" text="透明渐变" selectId="2"/>
-      <classInstance class="EventSelector" name="event" instanceUID="1846905271" selectedInstanceUID="3000" text="无事件" selectId="1"/>
+  <classInstance class="DialogBoard" name="DB0_131_如果我能帮上忙的话，是没问题啦…...">
+    <classInstance class="NameStringSelector" name="name" value="许睦"/>
+    <classInstance class="ContentStringSelector" name="content" value="131" text="如果我能帮上忙的话，是没问题啦…..."/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="132"/>
     </classInstance>
   </classInstance>
-  <classInstance class="DialogBoard" name="DB0_132_学校后山的妖精传闻，你还记得吗？" instanceUID="1846928514">
-    <classInstance class="NameStringSelector" name="name" instanceUID="1846909875" value="云静盈" text="云静盈" selectId="5"/>
-    <classInstance class="ContentStringSelector" name="content" instanceUID="1846912777" value="132" text="132 学校后山的妖精传闻，你还记得吗？" selectId="133"/>
-    <classInstance class="BooleanSelector" name="typeEffect" instanceUID="1846913379" value="1" text="是" selectId="2"/>
-    <classInstance class="SceneSelector" name="scene" instanceUID="1846914382" value="~" text="沿用当前不改变" selectId="2"/>
-    <classInstance class="FadeIn" name="fadeIn" instanceUID="1846914884" value="0" text="直接出现" selectId="1"/>
-    <classInstance class="EventSelector" name="event" instanceUID="1846916987" selectedInstanceUID="3000" text="无事件" selectId="1"/>
-    <classInstance class="StandView" name="leftSV" instanceUID="1846918794">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1846917891" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1846918593" value="255" text="不改变" selectId="1"/>
-    </classInstance>
-    <classInstance class="StandView" name="middleSV" instanceUID="1846920199">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1846919296" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1846919998" value="255" text="不改变" selectId="1"/>
-    </classInstance>
-    <classInstance class="StandView" name="rightSV" instanceUID="1846921504">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1846920701" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1846921303" value="255" text="不改变" selectId="1"/>
-    </classInstance>
-    <classInstance class="DialogBoardClick" name="next" instanceUID="1846928213">
-      <classInstance class="DialogBoardSelector" name="dialog" instanceUID="1846925307" selectedInstanceUID="1846951655" text="DB0_133_妖精传闻………那个会在夜晚出现在..." selectId="133"/>
-      <classInstance class="FadeOut" name="fadeOut" instanceUID="1846925909" value="1" text="透明渐变" selectId="2"/>
-      <classInstance class="EventSelector" name="event" instanceUID="1846928012" selectedInstanceUID="3000" text="无事件" selectId="1"/>
+  <classInstance class="DialogBoard" name="DB0_132_学校后山的妖精传闻，你还记得吗？">
+    <classInstance class="NameStringSelector" name="name" value="云静盈"/>
+    <classInstance class="ContentStringSelector" name="content" value="132" text="学校后山的妖精传闻，你还记得吗？"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="133"/>
     </classInstance>
   </classInstance>
-  <classInstance class="DialogBoard" name="DB0_133_妖精传闻………那个会在夜晚出现在..." instanceUID="1846951655">
-    <classInstance class="NameStringSelector" name="name" instanceUID="1846933716" value="" text="无" selectId="1"/>
-    <classInstance class="ContentStringSelector" name="content" instanceUID="1846936318" value="133" text="133 妖精传闻………那个会在夜晚出现在..." selectId="134"/>
-    <classInstance class="BooleanSelector" name="typeEffect" instanceUID="1846936820" value="1" text="是" selectId="2"/>
-    <classInstance class="SceneSelector" name="scene" instanceUID="1846937823" value="~" text="沿用当前不改变" selectId="2"/>
-    <classInstance class="FadeIn" name="fadeIn" instanceUID="1846938425" value="0" text="直接出现" selectId="1"/>
-    <classInstance class="EventSelector" name="event" instanceUID="1846940428" selectedInstanceUID="3000" text="无事件" selectId="1"/>
-    <classInstance class="StandView" name="leftSV" instanceUID="1846942235">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1846941432" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1846942034" value="255" text="不改变" selectId="1"/>
-    </classInstance>
-    <classInstance class="StandView" name="middleSV" instanceUID="1846943440">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1846942737" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1846943339" value="255" text="不改变" selectId="1"/>
-    </classInstance>
-    <classInstance class="StandView" name="rightSV" instanceUID="1846944745">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1846944042" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1846944544" value="255" text="不改变" selectId="1"/>
-    </classInstance>
-    <classInstance class="DialogBoardClick" name="next" instanceUID="1846951354">
-      <classInstance class="DialogBoardSelector" name="dialog" instanceUID="1846948548" selectedInstanceUID="1846972396" text="DB0_134_记得是记得………那个怎么了？" selectId="134"/>
-      <classInstance class="FadeOut" name="fadeOut" instanceUID="1846949150" value="1" text="透明渐变" selectId="2"/>
-      <classInstance class="EventSelector" name="event" instanceUID="1846951153" selectedInstanceUID="3000" text="无事件" selectId="1"/>
+  <classInstance class="DialogBoard" name="DB0_133_妖精传闻………那个会在夜晚出现在...">
+    <classInstance class="NameStringSelector" name="name" value=""/>
+    <classInstance class="ContentStringSelector" name="content" value="133" text="妖精传闻………那个会在夜晚出现在..."/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="134"/>
     </classInstance>
   </classInstance>
-  <classInstance class="DialogBoard" name="DB0_134_记得是记得………那个怎么了？" instanceUID="1846972396">
-    <classInstance class="NameStringSelector" name="name" instanceUID="1846955257" value="许睦" text="许睦" selectId="3"/>
-    <classInstance class="ContentStringSelector" name="content" instanceUID="1846957759" value="134" text="134 记得是记得………那个怎么了？" selectId="135"/>
-    <classInstance class="BooleanSelector" name="typeEffect" instanceUID="1846958361" value="1" text="是" selectId="2"/>
-    <classInstance class="SceneSelector" name="scene" instanceUID="1846959164" value="~" text="沿用当前不改变" selectId="2"/>
-    <classInstance class="FadeIn" name="fadeIn" instanceUID="1846959766" value="0" text="直接出现" selectId="1"/>
-    <classInstance class="EventSelector" name="event" instanceUID="1846961669" selectedInstanceUID="3000" text="无事件" selectId="1"/>
-    <classInstance class="StandView" name="leftSV" instanceUID="1846963276">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1846962573" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1846963175" value="255" text="不改变" selectId="1"/>
-    </classInstance>
-    <classInstance class="StandView" name="middleSV" instanceUID="1846964481">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1846963778" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1846964380" value="255" text="不改变" selectId="1"/>
-    </classInstance>
-    <classInstance class="StandView" name="rightSV" instanceUID="1846965786">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1846964983" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1846965485" value="255" text="不改变" selectId="1"/>
-    </classInstance>
-    <classInstance class="DialogBoardClick" name="next" instanceUID="1846972095">
-      <classInstance class="DialogBoardSelector" name="dialog" instanceUID="1846969189" selectedInstanceUID="1846994137" text="DB0_135_确实是，有人见到过妖精吧。" selectId="135"/>
-      <classInstance class="FadeOut" name="fadeOut" instanceUID="1846969791" value="1" text="透明渐变" selectId="2"/>
-      <classInstance class="EventSelector" name="event" instanceUID="1846971894" selectedInstanceUID="3000" text="无事件" selectId="1"/>
+  <classInstance class="DialogBoard" name="DB0_134_记得是记得………那个怎么了？">
+    <classInstance class="NameStringSelector" name="name" value="许睦"/>
+    <classInstance class="ContentStringSelector" name="content" value="134" text="记得是记得………那个怎么了？"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="135"/>
     </classInstance>
   </classInstance>
-  <classInstance class="DialogBoard" name="DB0_135_确实是，有人见到过妖精吧。" instanceUID="1846994137">
-    <classInstance class="NameStringSelector" name="name" instanceUID="1846977098" value="云静盈" text="云静盈" selectId="5"/>
-    <classInstance class="ContentStringSelector" name="content" instanceUID="1846979600" value="135" text="135 确实是，有人见到过妖精吧。" selectId="136"/>
-    <classInstance class="BooleanSelector" name="typeEffect" instanceUID="1846980102" value="1" text="是" selectId="2"/>
-    <classInstance class="SceneSelector" name="scene" instanceUID="1846981005" value="~" text="沿用当前不改变" selectId="2"/>
-    <classInstance class="FadeIn" name="fadeIn" instanceUID="1846981507" value="0" text="直接出现" selectId="1"/>
-    <classInstance class="EventSelector" name="event" instanceUID="1846983510" selectedInstanceUID="3000" text="无事件" selectId="1"/>
-    <classInstance class="StandView" name="leftSV" instanceUID="1846985117">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1846984314" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1846984916" value="255" text="不改变" selectId="1"/>
-    </classInstance>
-    <classInstance class="StandView" name="middleSV" instanceUID="1846986322">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1846985619" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1846986121" value="255" text="不改变" selectId="1"/>
-    </classInstance>
-    <classInstance class="StandView" name="rightSV" instanceUID="1846987527">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1846986824" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1846987326" value="255" text="不改变" selectId="1"/>
-    </classInstance>
-    <classInstance class="DialogBoardClick" name="next" instanceUID="1846993836">
-      <classInstance class="DialogBoardSelector" name="dialog" instanceUID="1846991030" selectedInstanceUID="1847015578" text="DB0_136_黄怡敏是那么说的，你不会信了吧？" selectId="136"/>
-      <classInstance class="FadeOut" name="fadeOut" instanceUID="1846991532" value="1" text="透明渐变" selectId="2"/>
-      <classInstance class="EventSelector" name="event" instanceUID="1846993635" selectedInstanceUID="3000" text="无事件" selectId="1"/>
+  <classInstance class="DialogBoard" name="DB0_135_确实是，有人见到过妖精吧。">
+    <classInstance class="NameStringSelector" name="name" value="云静盈"/>
+    <classInstance class="ContentStringSelector" name="content" value="135" text="确实是，有人见到过妖精吧。"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="136"/>
     </classInstance>
   </classInstance>
-  <classInstance class="DialogBoard" name="DB0_136_黄怡敏是那么说的，你不会信了吧？" instanceUID="1847015578">
-    <classInstance class="NameStringSelector" name="name" instanceUID="1846998339" value="许睦" text="许睦" selectId="3"/>
-    <classInstance class="ContentStringSelector" name="content" instanceUID="1847000941" value="136" text="136 黄怡敏是那么说的，你不会信了吧？" selectId="137"/>
-    <classInstance class="BooleanSelector" name="typeEffect" instanceUID="1847001443" value="1" text="是" selectId="2"/>
-    <classInstance class="SceneSelector" name="scene" instanceUID="1847002246" value="~" text="沿用当前不改变" selectId="2"/>
-    <classInstance class="FadeIn" name="fadeIn" instanceUID="1847002848" value="0" text="直接出现" selectId="1"/>
-    <classInstance class="EventSelector" name="event" instanceUID="1847004751" selectedInstanceUID="3000" text="无事件" selectId="1"/>
-    <classInstance class="StandView" name="leftSV" instanceUID="1847006358">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1847005655" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1847006157" value="255" text="不改变" selectId="1"/>
-    </classInstance>
-    <classInstance class="StandView" name="middleSV" instanceUID="1847007663">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1847006960" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1847007562" value="255" text="不改变" selectId="1"/>
-    </classInstance>
-    <classInstance class="StandView" name="rightSV" instanceUID="1847008868">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1847008165" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1847008667" value="255" text="不改变" selectId="1"/>
-    </classInstance>
-    <classInstance class="DialogBoardClick" name="next" instanceUID="1847015277">
-      <classInstance class="DialogBoardSelector" name="dialog" instanceUID="1847012471" selectedInstanceUID="1847036719" text="DB0_137_那个………明明没有去试过，怎么知..." selectId="137"/>
-      <classInstance class="FadeOut" name="fadeOut" instanceUID="1847013073" value="1" text="透明渐变" selectId="2"/>
-      <classInstance class="EventSelector" name="event" instanceUID="1847015076" selectedInstanceUID="3000" text="无事件" selectId="1"/>
+  <classInstance class="DialogBoard" name="DB0_136_黄怡敏是那么说的，你不会信了吧？">
+    <classInstance class="NameStringSelector" name="name" value="许睦"/>
+    <classInstance class="ContentStringSelector" name="content" value="136" text="黄怡敏是那么说的，你不会信了吧？"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="137"/>
     </classInstance>
   </classInstance>
-  <classInstance class="DialogBoard" name="DB0_137_那个………明明没有去试过，怎么知..." instanceUID="1847036719">
-    <classInstance class="NameStringSelector" name="name" instanceUID="1847018980" value="云静盈" text="云静盈" selectId="5"/>
-    <classInstance class="ContentStringSelector" name="content" instanceUID="1847021582" value="137" text="137 那个………明明没有去试过，怎么知..." selectId="138"/>
-    <classInstance class="BooleanSelector" name="typeEffect" instanceUID="1847022084" value="1" text="是" selectId="2"/>
-    <classInstance class="SceneSelector" name="scene" instanceUID="1847022987" value="~" text="沿用当前不改变" selectId="2"/>
-    <classInstance class="FadeIn" name="fadeIn" instanceUID="1847023489" value="0" text="直接出现" selectId="1"/>
-    <classInstance class="EventSelector" name="event" instanceUID="1847025492" selectedInstanceUID="3000" text="无事件" selectId="1"/>
-    <classInstance class="StandView" name="leftSV" instanceUID="1847027099">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1847026396" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1847026998" value="255" text="不改变" selectId="1"/>
-    </classInstance>
-    <classInstance class="StandView" name="middleSV" instanceUID="1847028304">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1847027601" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1847028203" value="255" text="不改变" selectId="1"/>
-    </classInstance>
-    <classInstance class="StandView" name="rightSV" instanceUID="1847030009">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1847028806" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1847029708" value="255" text="不改变" selectId="1"/>
-    </classInstance>
-    <classInstance class="DialogBoardClick" name="next" instanceUID="1847036518">
-      <classInstance class="DialogBoardSelector" name="dialog" instanceUID="1847033712" selectedInstanceUID="1847057360" text="DB0_138_说是那么说………" selectId="138"/>
-      <classInstance class="FadeOut" name="fadeOut" instanceUID="1847034214" value="1" text="透明渐变" selectId="2"/>
-      <classInstance class="EventSelector" name="event" instanceUID="1847036217" selectedInstanceUID="3000" text="无事件" selectId="1"/>
+  <classInstance class="DialogBoard" name="DB0_137_那个………明明没有去试过，怎么知...">
+    <classInstance class="NameStringSelector" name="name" value="云静盈"/>
+    <classInstance class="ContentStringSelector" name="content" value="137" text="那个………明明没有去试过，怎么知..."/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="138"/>
     </classInstance>
   </classInstance>
-  <classInstance class="DialogBoard" name="DB0_138_说是那么说………" instanceUID="1847057360">
-    <classInstance class="NameStringSelector" name="name" instanceUID="1847040121" value="许睦" text="许睦" selectId="3"/>
-    <classInstance class="ContentStringSelector" name="content" instanceUID="1847042723" value="138" text="138 说是那么说………" selectId="139"/>
-    <classInstance class="BooleanSelector" name="typeEffect" instanceUID="1847043225" value="1" text="是" selectId="2"/>
-    <classInstance class="SceneSelector" name="scene" instanceUID="1847044128" value="~" text="沿用当前不改变" selectId="2"/>
-    <classInstance class="FadeIn" name="fadeIn" instanceUID="1847044630" value="0" text="直接出现" selectId="1"/>
-    <classInstance class="EventSelector" name="event" instanceUID="1847046733" selectedInstanceUID="3000" text="无事件" selectId="1"/>
-    <classInstance class="StandView" name="leftSV" instanceUID="1847048340">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1847047537" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1847048139" value="255" text="不改变" selectId="1"/>
-    </classInstance>
-    <classInstance class="StandView" name="middleSV" instanceUID="1847049545">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1847048842" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1847049344" value="255" text="不改变" selectId="1"/>
-    </classInstance>
-    <classInstance class="StandView" name="rightSV" instanceUID="1847050850">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1847050047" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1847050649" value="255" text="不改变" selectId="1"/>
-    </classInstance>
-    <classInstance class="DialogBoardClick" name="next" instanceUID="1847057159">
-      <classInstance class="DialogBoardSelector" name="dialog" instanceUID="1847054353" selectedInstanceUID="1847079601" text="DB0_139_所以………如果方便的话………" selectId="139"/>
-      <classInstance class="FadeOut" name="fadeOut" instanceUID="1847054955" value="1" text="透明渐变" selectId="2"/>
-      <classInstance class="EventSelector" name="event" instanceUID="1847056958" selectedInstanceUID="3000" text="无事件" selectId="1"/>
+  <classInstance class="DialogBoard" name="DB0_138_说是那么说………">
+    <classInstance class="NameStringSelector" name="name" value="许睦"/>
+    <classInstance class="ContentStringSelector" name="content" value="138" text="说是那么说………"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="139"/>
     </classInstance>
   </classInstance>
-  <classInstance class="DialogBoard" name="DB0_139_所以………如果方便的话………" instanceUID="1847079601">
-    <classInstance class="NameStringSelector" name="name" instanceUID="1847061762" value="云静盈" text="云静盈" selectId="5"/>
-    <classInstance class="ContentStringSelector" name="content" instanceUID="1847064364" value="139" text="139 所以………如果方便的话………" selectId="140"/>
-    <classInstance class="BooleanSelector" name="typeEffect" instanceUID="1847064866" value="1" text="是" selectId="2"/>
-    <classInstance class="SceneSelector" name="scene" instanceUID="1847065669" value="~" text="沿用当前不改变" selectId="2"/>
-    <classInstance class="FadeIn" name="fadeIn" instanceUID="1847066171" value="0" text="直接出现" selectId="1"/>
-    <classInstance class="EventSelector" name="event" instanceUID="1847068274" selectedInstanceUID="3000" text="无事件" selectId="1"/>
-    <classInstance class="StandView" name="leftSV" instanceUID="1847069981">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1847069278" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1847069780" value="255" text="不改变" selectId="1"/>
-    </classInstance>
-    <classInstance class="StandView" name="middleSV" instanceUID="1847071286">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1847070483" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1847071085" value="255" text="不改变" selectId="1"/>
-    </classInstance>
-    <classInstance class="StandView" name="rightSV" instanceUID="1847072591">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1847071788" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1847072390" value="255" text="不改变" selectId="1"/>
-    </classInstance>
-    <classInstance class="DialogBoardClick" name="next" instanceUID="1847079400">
-      <classInstance class="DialogBoardSelector" name="dialog" instanceUID="1847076594" selectedInstanceUID="1847100542" text="DB0_140_今天晚上，和我一起去寻找妖精吧！" selectId="140"/>
-      <classInstance class="FadeOut" name="fadeOut" instanceUID="1847077096" value="1" text="透明渐变" selectId="2"/>
-      <classInstance class="EventSelector" name="event" instanceUID="1847079099" selectedInstanceUID="3000" text="无事件" selectId="1"/>
+  <classInstance class="DialogBoard" name="DB0_139_所以………如果方便的话………">
+    <classInstance class="NameStringSelector" name="name" value="云静盈"/>
+    <classInstance class="ContentStringSelector" name="content" value="139" text="所以………如果方便的话………"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="140"/>
     </classInstance>
   </classInstance>
-  <classInstance class="DialogBoard" name="DB0_140_今天晚上，和我一起去寻找妖精吧！" instanceUID="1847100542">
-    <classInstance class="NameStringSelector" name="name" instanceUID="1847083203" value="云静盈" text="云静盈" selectId="5"/>
-    <classInstance class="ContentStringSelector" name="content" instanceUID="1847085905" value="140" text="140 今天晚上，和我一起去寻找妖精吧！" selectId="141"/>
-    <classInstance class="BooleanSelector" name="typeEffect" instanceUID="1847086407" value="1" text="是" selectId="2"/>
-    <classInstance class="SceneSelector" name="scene" instanceUID="1847087410" value="~" text="沿用当前不改变" selectId="2"/>
-    <classInstance class="FadeIn" name="fadeIn" instanceUID="1847087912" value="0" text="直接出现" selectId="1"/>
-    <classInstance class="EventSelector" name="event" instanceUID="1847090015" selectedInstanceUID="3000" text="无事件" selectId="1"/>
-    <classInstance class="StandView" name="leftSV" instanceUID="1847091522">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1847090819" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1847091321" value="255" text="不改变" selectId="1"/>
-    </classInstance>
-    <classInstance class="StandView" name="middleSV" instanceUID="1847092727">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1847092024" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1847092626" value="255" text="不改变" selectId="1"/>
-    </classInstance>
-    <classInstance class="StandView" name="rightSV" instanceUID="1847093932">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1847093229" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1847093731" value="255" text="不改变" selectId="1"/>
-    </classInstance>
-    <classInstance class="DialogBoardClick" name="next" instanceUID="1847100341">
-      <classInstance class="DialogBoardSelector" name="dialog" instanceUID="1847097535" selectedInstanceUID="1847122383" text="DB0_141_………#………#………#哈？#为..." selectId="141"/>
-      <classInstance class="FadeOut" name="fadeOut" instanceUID="1847098037" value="1" text="透明渐变" selectId="2"/>
-      <classInstance class="EventSelector" name="event" instanceUID="1847100140" selectedInstanceUID="3000" text="无事件" selectId="1"/>
+  <classInstance class="DialogBoard" name="DB0_140_今天晚上，和我一起去寻找妖精吧！">
+    <classInstance class="NameStringSelector" name="name" value="云静盈"/>
+    <classInstance class="ContentStringSelector" name="content" value="140" text="今天晚上，和我一起去寻找妖精吧！"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="141"/>
     </classInstance>
   </classInstance>
-  <classInstance class="DialogBoard" name="DB0_141_………#………#………#哈？#为..." instanceUID="1847122383">
-    <classInstance class="NameStringSelector" name="name" instanceUID="1847104144" value="许睦" text="许睦" selectId="3"/>
-    <classInstance class="ContentStringSelector" name="content" instanceUID="1847106846" value="141" text="141 ………#………#………#哈？#为..." selectId="142"/>
-    <classInstance class="BooleanSelector" name="typeEffect" instanceUID="1847107348" value="1" text="是" selectId="2"/>
-    <classInstance class="SceneSelector" name="scene" instanceUID="1847108251" value="~" text="沿用当前不改变" selectId="2"/>
-    <classInstance class="FadeIn" name="fadeIn" instanceUID="1847108753" value="0" text="直接出现" selectId="1"/>
-    <classInstance class="EventSelector" name="event" instanceUID="1847110756" selectedInstanceUID="3000" text="无事件" selectId="1"/>
-    <classInstance class="StandView" name="leftSV" instanceUID="1847112463">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1847111660" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1847112262" value="255" text="不改变" selectId="1"/>
-    </classInstance>
-    <classInstance class="StandView" name="middleSV" instanceUID="1847113668">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1847112965" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1847113467" value="255" text="不改变" selectId="1"/>
-    </classInstance>
-    <classInstance class="StandView" name="rightSV" instanceUID="1847114873">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1847114170" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1847114672" value="255" text="不改变" selectId="1"/>
-    </classInstance>
-    <classInstance class="DialogBoardClick" name="next" instanceUID="1847122182">
-      <classInstance class="DialogBoardSelector" name="dialog" instanceUID="1847118476" selectedInstanceUID="1847146924" text="DB0_142_你难道要我大半夜一个人到树林里去..." selectId="142"/>
-      <classInstance class="FadeOut" name="fadeOut" instanceUID="1847119778" value="1" text="透明渐变" selectId="2"/>
-      <classInstance class="EventSelector" name="event" instanceUID="1847121981" selectedInstanceUID="3000" text="无事件" selectId="1"/>
+  <classInstance class="DialogBoard" name="DB0_141_………#………#………#哈？#为...">
+    <classInstance class="NameStringSelector" name="name" value="许睦"/>
+    <classInstance class="ContentStringSelector" name="content" value="141" text="………#………#………#哈？#为..."/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="142"/>
     </classInstance>
   </classInstance>
-  <classInstance class="DialogBoard" name="DB0_142_你难道要我大半夜一个人到树林里去..." instanceUID="1847146924">
-    <classInstance class="NameStringSelector" name="name" instanceUID="1847126985" value="云静盈" text="云静盈" selectId="5"/>
-    <classInstance class="ContentStringSelector" name="content" instanceUID="1847129687" value="142" text="142 你难道要我大半夜一个人到树林里去..." selectId="143"/>
-    <classInstance class="BooleanSelector" name="typeEffect" instanceUID="1847130289" value="1" text="是" selectId="2"/>
-    <classInstance class="SceneSelector" name="scene" instanceUID="1847131192" value="~" text="沿用当前不改变" selectId="2"/>
-    <classInstance class="FadeIn" name="fadeIn" instanceUID="1847132294" value="0" text="直接出现" selectId="1"/>
-    <classInstance class="EventSelector" name="event" instanceUID="1847134497" selectedInstanceUID="3000" text="无事件" selectId="1"/>
-    <classInstance class="StandView" name="leftSV" instanceUID="1847136204">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1847135401" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1847136103" value="255" text="不改变" selectId="1"/>
-    </classInstance>
-    <classInstance class="StandView" name="middleSV" instanceUID="1847138209">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1847136806" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1847137908" value="255" text="不改变" selectId="1"/>
-    </classInstance>
-    <classInstance class="StandView" name="rightSV" instanceUID="1847139514">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1847138711" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1847139313" value="255" text="不改变" selectId="1"/>
-    </classInstance>
-    <classInstance class="DialogBoardClick" name="next" instanceUID="1847146623">
-      <classInstance class="DialogBoardSelector" name="dialog" instanceUID="1847143817" selectedInstanceUID="1847171465" text="DB0_143_不，那也太危险了，我是想问………" selectId="143"/>
-      <classInstance class="FadeOut" name="fadeOut" instanceUID="1847144419" value="1" text="透明渐变" selectId="2"/>
-      <classInstance class="EventSelector" name="event" instanceUID="1847146522" selectedInstanceUID="3000" text="无事件" selectId="1"/>
+  <classInstance class="DialogBoard" name="DB0_142_你难道要我大半夜一个人到树林里去...">
+    <classInstance class="NameStringSelector" name="name" value="云静盈"/>
+    <classInstance class="ContentStringSelector" name="content" value="142" text="你难道要我大半夜一个人到树林里去..."/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="143"/>
     </classInstance>
   </classInstance>
-  <classInstance class="DialogBoard" name="DB0_143_不，那也太危险了，我是想问………" instanceUID="1847171465">
-    <classInstance class="NameStringSelector" name="name" instanceUID="1847151226" value="许睦" text="许睦" selectId="3"/>
-    <classInstance class="ContentStringSelector" name="content" instanceUID="1847153828" value="143" text="143 不，那也太危险了，我是想问………" selectId="144"/>
-    <classInstance class="BooleanSelector" name="typeEffect" instanceUID="1847154330" value="1" text="是" selectId="2"/>
-    <classInstance class="SceneSelector" name="scene" instanceUID="1847155833" value="~" text="沿用当前不改变" selectId="2"/>
-    <classInstance class="FadeIn" name="fadeIn" instanceUID="1847156535" value="0" text="直接出现" selectId="1"/>
-    <classInstance class="EventSelector" name="event" instanceUID="1847158738" selectedInstanceUID="3000" text="无事件" selectId="1"/>
-    <classInstance class="StandView" name="leftSV" instanceUID="1847161045">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1847160242" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1847160844" value="255" text="不改变" selectId="1"/>
-    </classInstance>
-    <classInstance class="StandView" name="middleSV" instanceUID="1847162250">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1847161547" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1847162049" value="255" text="不改变" selectId="1"/>
-    </classInstance>
-    <classInstance class="StandView" name="rightSV" instanceUID="1847163955">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1847162752" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1847163254" value="255" text="不改变" selectId="1"/>
-    </classInstance>
-    <classInstance class="DialogBoardClick" name="next" instanceUID="1847171164">
-      <classInstance class="DialogBoardSelector" name="dialog" instanceUID="1847167658" selectedInstanceUID="1847196106" text="DB0_144_那么，我今晚到时候会去敲你的窗户..." selectId="144"/>
-      <classInstance class="FadeOut" name="fadeOut" instanceUID="1847168160" value="1" text="透明渐变" selectId="2"/>
-      <classInstance class="EventSelector" name="event" instanceUID="1847170863" selectedInstanceUID="3000" text="无事件" selectId="1"/>
+  <classInstance class="DialogBoard" name="DB0_143_不，那也太危险了，我是想问………">
+    <classInstance class="NameStringSelector" name="name" value="许睦"/>
+    <classInstance class="ContentStringSelector" name="content" value="143" text="不，那也太危险了，我是想问………"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="144"/>
     </classInstance>
   </classInstance>
-  <classInstance class="DialogBoard" name="DB0_144_那么，我今晚到时候会去敲你的窗户..." instanceUID="1847196106">
-    <classInstance class="NameStringSelector" name="name" instanceUID="1847175767" value="云静盈" text="云静盈" selectId="5"/>
-    <classInstance class="ContentStringSelector" name="content" instanceUID="1847178669" value="144" text="144 那么，我今晚到时候会去敲你的窗户..." selectId="145"/>
-    <classInstance class="BooleanSelector" name="typeEffect" instanceUID="1847179271" value="1" text="是" selectId="2"/>
-    <classInstance class="SceneSelector" name="scene" instanceUID="1847180174" value="~" text="沿用当前不改变" selectId="2"/>
-    <classInstance class="FadeIn" name="fadeIn" instanceUID="1847181276" value="0" text="直接出现" selectId="1"/>
-    <classInstance class="EventSelector" name="event" instanceUID="1847183379" selectedInstanceUID="3000" text="无事件" selectId="1"/>
-    <classInstance class="StandView" name="leftSV" instanceUID="1847185686">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1847184383" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1847184985" value="255" text="不改变" selectId="1"/>
-    </classInstance>
-    <classInstance class="StandView" name="middleSV" instanceUID="1847186991">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1847186188" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1847186790" value="255" text="不改变" selectId="1"/>
-    </classInstance>
-    <classInstance class="StandView" name="rightSV" instanceUID="1847188196">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1847187493" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1847187995" value="255" text="不改变" selectId="1"/>
-    </classInstance>
-    <classInstance class="DialogBoardClick" name="next" instanceUID="1847195805">
-      <classInstance class="DialogBoardSelector" name="dialog" instanceUID="1847192399" selectedInstanceUID="1847221547" text="DB0_145_她说着离开了厨房。" selectId="145"/>
-      <classInstance class="FadeOut" name="fadeOut" instanceUID="1847192901" value="1" text="透明渐变" selectId="2"/>
-      <classInstance class="EventSelector" name="event" instanceUID="1847195604" selectedInstanceUID="3000" text="无事件" selectId="1"/>
+  <classInstance class="DialogBoard" name="DB0_144_那么，我今晚到时候会去敲你的窗户...">
+    <classInstance class="NameStringSelector" name="name" value="云静盈"/>
+    <classInstance class="ContentStringSelector" name="content" value="144" text="那么，我今晚到时候会去敲你的窗户..."/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="145"/>
     </classInstance>
   </classInstance>
-  <classInstance class="DialogBoard" name="DB0_145_她说着离开了厨房。" instanceUID="1847221547">
-    <classInstance class="NameStringSelector" name="name" instanceUID="1847201308" value="" text="无" selectId="1"/>
-    <classInstance class="ContentStringSelector" name="content" instanceUID="1847204010" value="145" text="145 她说着离开了厨房。" selectId="146"/>
-    <classInstance class="BooleanSelector" name="typeEffect" instanceUID="1847204612" value="1" text="是" selectId="2"/>
-    <classInstance class="SceneSelector" name="scene" instanceUID="1847205515" value="~" text="沿用当前不改变" selectId="2"/>
-    <classInstance class="FadeIn" name="fadeIn" instanceUID="1847206617" value="0" text="直接出现" selectId="1"/>
-    <classInstance class="EventSelector" name="event" instanceUID="1847208620" selectedInstanceUID="3000" text="无事件" selectId="1"/>
-    <classInstance class="StandView" name="leftSV" instanceUID="1847210927">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1847209624" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1847210226" value="255" text="不改变" selectId="1"/>
-    </classInstance>
-    <classInstance class="StandView" name="middleSV" instanceUID="1847212232">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1847211429" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1847211931" value="255" text="不改变" selectId="1"/>
-    </classInstance>
-    <classInstance class="StandView" name="rightSV" instanceUID="1847213937">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1847212634" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1847213236" value="255" text="不改变" selectId="1"/>
-    </classInstance>
-    <classInstance class="DialogBoardClick" name="next" instanceUID="1847221246">
-      <classInstance class="DialogBoardSelector" name="dialog" instanceUID="1847217640" selectedInstanceUID="1847243888" text="DB0_146_再见………" selectId="146"/>
-      <classInstance class="FadeOut" name="fadeOut" instanceUID="1847218842" value="1" text="透明渐变" selectId="2"/>
-      <classInstance class="EventSelector" name="event" instanceUID="1847221045" selectedInstanceUID="3000" text="无事件" selectId="1"/>
+  <classInstance class="DialogBoard" name="DB0_145_她说着离开了厨房。">
+    <classInstance class="NameStringSelector" name="name" value=""/>
+    <classInstance class="ContentStringSelector" name="content" value="145" text="她说着离开了厨房。"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="146"/>
     </classInstance>
   </classInstance>
-  <classInstance class="DialogBoard" name="DB0_146_再见………" instanceUID="1847243888">
-    <classInstance class="NameStringSelector" name="name" instanceUID="1847225749" value="许睦" text="许睦" selectId="3"/>
-    <classInstance class="ContentStringSelector" name="content" instanceUID="1847228351" value="146" text="146 再见………" selectId="147"/>
-    <classInstance class="BooleanSelector" name="typeEffect" instanceUID="1847228953" value="1" text="是" selectId="2"/>
-    <classInstance class="SceneSelector" name="scene" instanceUID="1847229856" value="~" text="沿用当前不改变" selectId="2"/>
-    <classInstance class="FadeIn" name="fadeIn" instanceUID="1847230458" value="0" text="直接出现" selectId="1"/>
-    <classInstance class="EventSelector" name="event" instanceUID="1847232661" selectedInstanceUID="3000" text="无事件" selectId="1"/>
-    <classInstance class="StandView" name="leftSV" instanceUID="1847234368">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1847233665" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1847234167" value="255" text="不改变" selectId="1"/>
-    </classInstance>
-    <classInstance class="StandView" name="middleSV" instanceUID="1847235573">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1847234870" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1847235472" value="255" text="不改变" selectId="1"/>
-    </classInstance>
-    <classInstance class="StandView" name="rightSV" instanceUID="1847236978">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1847236075" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1847236777" value="255" text="不改变" selectId="1"/>
-    </classInstance>
-    <classInstance class="DialogBoardClick" name="next" instanceUID="1847243587">
-      <classInstance class="DialogBoardSelector" name="dialog" instanceUID="1847240681" selectedInstanceUID="1847265629" text="DB0_147_………" selectId="147"/>
-      <classInstance class="FadeOut" name="fadeOut" instanceUID="1847241283" value="1" text="透明渐变" selectId="2"/>
-      <classInstance class="EventSelector" name="event" instanceUID="1847243386" selectedInstanceUID="3000" text="无事件" selectId="1"/>
+  <classInstance class="DialogBoard" name="DB0_146_再见………">
+    <classInstance class="NameStringSelector" name="name" value="许睦"/>
+    <classInstance class="ContentStringSelector" name="content" value="146" text="再见………"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="147"/>
     </classInstance>
   </classInstance>
-  <classInstance class="DialogBoard" name="DB0_147_………" instanceUID="1847265629">
-    <classInstance class="NameStringSelector" name="name" instanceUID="1847247590" value="许睦" text="许睦" selectId="3"/>
-    <classInstance class="ContentStringSelector" name="content" instanceUID="1847250092" value="147" text="147 ………" selectId="148"/>
-    <classInstance class="BooleanSelector" name="typeEffect" instanceUID="1847250694" value="1" text="是" selectId="2"/>
-    <classInstance class="SceneSelector" name="scene" instanceUID="1847251597" value="~" text="沿用当前不改变" selectId="2"/>
-    <classInstance class="FadeIn" name="fadeIn" instanceUID="1847252099" value="0" text="直接出现" selectId="1"/>
-    <classInstance class="EventSelector" name="event" instanceUID="1847254302" selectedInstanceUID="3000" text="无事件" selectId="1"/>
-    <classInstance class="StandView" name="leftSV" instanceUID="1847256009">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1847255206" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1847255808" value="255" text="不改变" selectId="1"/>
-    </classInstance>
-    <classInstance class="StandView" name="middleSV" instanceUID="1847257214">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1847256511" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1847257113" value="255" text="不改变" selectId="1"/>
-    </classInstance>
-    <classInstance class="StandView" name="rightSV" instanceUID="1847258619">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1847257816" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1847258318" value="255" text="不改变" selectId="1"/>
-    </classInstance>
-    <classInstance class="DialogBoardClick" name="next" instanceUID="1847265328">
-      <classInstance class="DialogBoardSelector" name="dialog" instanceUID="1847262422" selectedInstanceUID="1847292270" text="DB0_148_倒是让我把话说完啊。#大半夜去树..." selectId="148"/>
-      <classInstance class="FadeOut" name="fadeOut" instanceUID="1847263024" value="1" text="透明渐变" selectId="2"/>
-      <classInstance class="EventSelector" name="event" instanceUID="1847265127" selectedInstanceUID="3000" text="无事件" selectId="1"/>
+  <classInstance class="DialogBoard" name="DB0_147_………">
+    <classInstance class="NameStringSelector" name="name" value="许睦"/>
+    <classInstance class="ContentStringSelector" name="content" value="147" text="………"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="148"/>
     </classInstance>
   </classInstance>
-  <classInstance class="DialogBoard" name="DB0_148_倒是让我把话说完啊。#大半夜去树..." instanceUID="1847292270">
-    <classInstance class="NameStringSelector" name="name" instanceUID="1847271031" value="" text="无" selectId="1"/>
-    <classInstance class="ContentStringSelector" name="content" instanceUID="1847273733" value="148" text="148 倒是让我把话说完啊。#大半夜去树..." selectId="149"/>
-    <classInstance class="BooleanSelector" name="typeEffect" instanceUID="1847274435" value="1" text="是" selectId="2"/>
-    <classInstance class="SceneSelector" name="scene" instanceUID="1847275438" value="~" text="沿用当前不改变" selectId="2"/>
-    <classInstance class="FadeIn" name="fadeIn" instanceUID="1847275940" value="0" text="直接出现" selectId="1"/>
-    <classInstance class="EventSelector" name="event" instanceUID="1847278143" selectedInstanceUID="3000" text="无事件" selectId="1"/>
-    <classInstance class="StandView" name="leftSV" instanceUID="1847279850">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1847279147" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1847279649" value="255" text="不改变" selectId="1"/>
-    </classInstance>
-    <classInstance class="StandView" name="middleSV" instanceUID="1847281255">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1847280352" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1847281054" value="255" text="不改变" selectId="1"/>
-    </classInstance>
-    <classInstance class="StandView" name="rightSV" instanceUID="1847285260">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1847281757" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1847284959" value="255" text="不改变" selectId="1"/>
-    </classInstance>
-    <classInstance class="DialogBoardClick" name="next" instanceUID="1847291969">
-      <classInstance class="DialogBoardSelector" name="dialog" instanceUID="1847289063" selectedInstanceUID="2269128662" text="DB0_148_搞什么啊………" selectId="149"/>
-      <classInstance class="FadeOut" name="fadeOut" instanceUID="1847289565" value="1" text="透明渐变" selectId="2"/>
-      <classInstance class="EventSelector" name="event" instanceUID="1847291768" selectedInstanceUID="3000" text="无事件" selectId="1"/>
+  <classInstance class="DialogBoard" name="DB0_148_倒是让我把话说完啊。#大半夜去树...">
+    <classInstance class="NameStringSelector" name="name" value=""/>
+    <classInstance class="ContentStringSelector" name="content" value="148" text="倒是让我把话说完啊。#大半夜去树..."/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="149"/>
     </classInstance>
   </classInstance>
-  <classInstance class="DialogBoard" name="DB0_148_搞什么啊………" instanceUID="2269128662">
-    <classInstance class="NameStringSelector" name="name" instanceUID="2269092823" value="许睦" text="许睦" selectId="3"/>
-    <classInstance class="ContentStringSelector" name="content" instanceUID="2269096225" value="148" text="148 倒是让我把话说完啊。#大半夜去树..." selectId="149"/>
-    <classInstance class="BooleanSelector" name="typeEffect" instanceUID="2269097227" value="1" text="是" selectId="2"/>
-    <classInstance class="SceneSelector" name="scene" instanceUID="2269099330" value="~" text="沿用当前不改变" selectId="2"/>
-    <classInstance class="FadeIn" name="fadeIn" instanceUID="2269100432" value="0" text="直接出现" selectId="1"/>
-    <classInstance class="EventSelector" name="event" instanceUID="2269105735" selectedInstanceUID="3000" text="无事件" selectId="1"/>
-    <classInstance class="StandView" name="leftSV" instanceUID="2269109842">
-      <classInstance class="CharacterSelector" name="character" instanceUID="2269108339" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="2269109441" value="255" text="不改变" selectId="1"/>
-    </classInstance>
-    <classInstance class="StandView" name="middleSV" instanceUID="2269112347">
-      <classInstance class="CharacterSelector" name="character" instanceUID="2269110844" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="2269111846" value="255" text="不改变" selectId="1"/>
-    </classInstance>
-    <classInstance class="StandView" name="rightSV" instanceUID="2269114752">
-      <classInstance class="CharacterSelector" name="character" instanceUID="2269113349" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="2269114351" value="255" text="不改变" selectId="1"/>
-    </classInstance>
-    <classInstance class="DialogBoardClick" name="next" instanceUID="2269128161">
-      <classInstance class="DialogBoardSelector" name="dialog" instanceUID="2269120855"/>
-      <classInstance class="FadeOut" name="fadeOut" instanceUID="2269122057" value="0" text="直接消失" selectId="1"/>
-      <classInstance class="EventSelector" name="event" instanceUID="2269127460" selectedInstanceUID="2221810978" text="切换到脚本2" selectId="3"/>
-    </classInstance>
+  <classInstance class="DialogBoard" name="DB0_149_搞什么啊………">
+    <classInstance class="NameStringSelector" name="name" value="许睦"/>
+    <classInstance class="ContentStringSelector" name="content" value="149" text="搞什么啊………"/>
   </classInstance>
+  
   <classInstance class="EventShakeScreen" name="震动1秒" instanceUID="2275834772">
     <classInstance class="Input Number" name="delay" instanceUID="2275831064" text="0"/>
     <classInstance class="Input Number" name="duration" instanceUID="2275832367" text="30"/>
@@ -3773,5 +3303,16 @@
   <classInstance class="EventPlayFaceMotion" name="云  叹气  " instanceUID="2041902548">
     <classInstance class="CharacterSelector" name="character" instanceUID="2041901645" value="1" text="云静盈" selectId="3"/>
     <classInstance class="CharacterFaceMotion" name="motionId" instanceUID="2041902247" value="1" text="叹气" selectId="1"/>
+  </classInstance>
+  <classInstance class="EventPlayFaceMotion" name="惊讶" instanceUID="2805572394">
+    <classInstance class="CharacterSelector" name="character" instanceUID="2805570691" value="2" text="黄怡敏" selectId="4"/>
+    <classInstance class="CharacterFaceMotion" name="motionId" instanceUID="2805571793" value="21" text="惊醒" selectId="2"/>
+  </classInstance>
+  <classInstance class="EventPlayFaceMotion" name="云 惊讶" instanceUID="2790516399">
+    <classInstance class="CharacterSelector" name="character" instanceUID="2790514596" value="1" text="云静盈" selectId="3"/>
+    <classInstance class="CharacterFaceMotion" name="motionId" instanceUID="2790515798" value="21" text="惊醒" selectId="2"/>
+  </classInstance>
+  <classInstance class="EventSetWind" name="设置无风" instanceUID="2833260402">
+    <classInstance class="Input Number" name="wind" instanceUID="2833259801" text="0"/>
   </classInstance>
 </EditableEditorFile>
