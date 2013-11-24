@@ -14,14 +14,14 @@
 		<item text = "娇啧" value = "4"/>
 		<item text = "傲娇" value = "5"/>
 		<item text = "难道" value = "6"/>
-		
+		<item text = "唉" value = "7"/>
 
 		<item text = "眯眼" value = "20"/>
 		<item text = "神秘" value = "21"/>
 		<item text = "斜眼" value = "22"/>
 		<item text = "阴笑" value = "23"/>
 		
-		<item text = "唉" value = "7"/>
+		
 
 	</Selector>
 
