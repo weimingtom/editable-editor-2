@@ -143,9 +143,10 @@ package   UISuit.UIComponent   {
 		
             public  static function BSSScrollBar_onBSSScrollBarClick ( btn : BSSButton  )
             : void { 
-				CONFIG::ASSERT {ASSERT(btn.parent is BSSScrollBar , "error scroll bar");}
+ 				CONFIG::ASSERT {ASSERT(btn.parent is BSSScrollBar , "error scroll bar");}
 				
 				BSSScrollBar_setDragFocusBSSScrollBar( BSSScrollBar(btn.parent));
+				
 				btn.startDrag(false , new Rectangle(btn.x , s_BSSScrollBar_DragFocusBSSScrollBar.m_scrollableMinY, 0 , s_BSSScrollBar_DragFocusBSSScrollBar.m_scrollableHeight - btn.height));
 				//MouseManager.setDragingObject(btn , new Rectangle(btn.x , s_BSSScrollBar_DragFocusBSSScrollBar.m_scrollableMinY, 0 , s_BSSScrollBar_DragFocusBSSScrollBar.m_scrollableHeight - btn.height), false);
 			}
@@ -164,7 +165,7 @@ package   UISuit.UIComponent   {
                 }
 
 				s_BSSScrollBar_DragFocusBSSScrollBar = fBSSScrollBar_DragFocusBSSScrollBar;
-                 
+                BSSScrollBar_setWheelFocusBSSScrollBar(fBSSScrollBar_DragFocusBSSScrollBar)
             }
             
             public  static function BSSScrollBar_onDragFocusBSSScrollBarMouseMove( e : MouseEvent)

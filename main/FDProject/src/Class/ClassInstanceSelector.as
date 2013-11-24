@@ -467,10 +467,19 @@ package  Class
 			if (String(xml.@selectedInstanceUID))
 			{
 				_ClassInstanceSelectorMenu.selectedInstanceUID = uint(String(xml.@selectedInstanceUID));
+				
+				if (String(xml.@selectId))
+				{
+					if (uint(String(xml.@selectId)) != _ClassInstanceSelectorMenu.selectedId)
+					{
+						log("unpair data!!! will use 'selectedInstanceUID' instead of  'selectId'");
+						ASSERT( uint(String(xml.@selectId)) == _ClassInstanceSelectorMenu.selectedId , "unpair data" );
+					}
+				}
+				
 				if (String(xml.@text))
 					ASSERT( String(xml.@text) == _ClassInstanceSelectorMenu.selectedString , "unpair data" );
-				if (String(xml.@selectId))
-					ASSERT( uint(String(xml.@selectId)) == _ClassInstanceSelectorMenu.selectedId , "unpair data" );
+					
 				
 			}	
 			else if (String(xml.@selectId))
