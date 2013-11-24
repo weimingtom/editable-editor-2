@@ -24,20 +24,24 @@ package  Class
 			ASSERT(instance.referenceObject is BSSDropDownMenuScrollable);
 				var _BSSDropDownMenuScrollable : BSSDropDownMenuScrollable = BSSDropDownMenuScrollable(instance.referenceObject);
 				
-				
-			if (String(xml.@selectId))
+			if (String(xml.@selectId) && String(xml.@value))
 			{
 				var selectedId : int =  int(String(xml.@selectId));
 				
-				_BSSDropDownMenuScrollable.selectedId = selectedId ;
-				
-				if (String(xml.@text))
-					ASSERT( String(xml.@text) == _BSSDropDownMenuScrollable.selectedString , "unpair data " ,  String(xml.@text) , _BSSDropDownMenuScrollable.selectedString);
-				
-					if (String(xml.@value))
-					ASSERT( String(xml.@value) == String(valueArray[selectedId - 1]) , "unpair data" ,  String(xml.@value) , String(valueArray[selectedId - 1]));				
+				if (String(xml.@value) == String(valueArray[selectedId - 1]))
+				{
+					_BSSDropDownMenuScrollable.selectedId = selectedId ;
+					if (String(xml.@text))
+						ASSERT( String(xml.@text) == _BSSDropDownMenuScrollable.selectedString , "unpair data " ,  String(xml.@text) , _BSSDropDownMenuScrollable.selectedString);
+				}
+				else
+				{
+					log("unpair data!!! will use 'value' instead of  'selectId'");
+					ASSERT(false , "unpair data" ,  String(xml.@value) , String(valueArray[selectedId - 1]));
+				}
 			}
-			else if (String(xml.@value))
+			
+			if (String(xml.@value))
 			{
 				//trace(xml.@value)
 				var valueString : String = String(xml.@value);
@@ -58,6 +62,17 @@ package  Class
 					ASSERT(false , "unknown valueType " + valueType);
 				}
 				
+			} else if (String(xml.@selectId))
+			{
+				selectedId =  int(String(xml.@selectId));
+				
+				_BSSDropDownMenuScrollable.selectedId = selectedId ;
+				
+				if (String(xml.@text))
+					ASSERT( String(xml.@text) == _BSSDropDownMenuScrollable.selectedString , "unpair data " ,  String(xml.@text) , _BSSDropDownMenuScrollable.selectedString);
+				
+				if (String(xml.@value))
+					ASSERT( String(xml.@value) == String(valueArray[selectedId - 1]) , "unpair data" ,  String(xml.@value) , String(valueArray[selectedId - 1]));				
 			}
 		}
 		
