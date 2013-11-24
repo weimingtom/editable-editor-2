@@ -1,4 +1,4 @@
-<EditableEditorFile version="31" date="Sun Nov 24 09:09:18 GMT+0800 2013">
+<EditableEditorFile version="31" date="Sun Nov 24 09:26:04 GMT+0800 2013">
   <classInstance class="DialogBoard" name="DB0_1_睁开眼睛，眼前是云静盈写满担忧的..." instanceUID="2215417535">
     <classInstance class="NameStringSelector" name="name" instanceUID="2215403496" value="" text="无" selectId="1"/>
     <classInstance class="ContentStringSelector" name="content" instanceUID="2215411598" value="1" text="1 睁开眼睛，眼前是云静盈写满担忧的..." selectId="2"/>
@@ -2549,7 +2549,7 @@
     </classInstance>
     <classInstance class="StandView" name="middleSV" instanceUID="2217619183">
       <classInstance class="CharacterSelector" name="character" instanceUID="2217617880" value="1" text="云静盈" selectId="3"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="2217618782" value="6" text="难道" selectId="8"/>
+      <classInstance class="CharacterFaceSelector" name="face" instanceUID="2217618782" value="3" text="害羞" selectId="5"/>
     </classInstance>
     <classInstance class="StandView" name="rightSV" instanceUID="2217621288">
       <classInstance class="CharacterSelector" name="character" instanceUID="2217620085" value="255" text="不改变" selectId="1"/>
@@ -2748,7 +2748,7 @@
       <classInstance class="CharacterFaceSelector" name="face" instanceUID="2217902005" value="0" text="默认" selectId="2"/>
     </classInstance>
     <classInstance class="StandView" name="middleSV" instanceUID="2217904511">
-      <classInstance class="CharacterSelector" name="character" instanceUID="2217903308" value="255" text="不改变" selectId="1"/>
+      <classInstance class="CharacterSelector" name="character" instanceUID="2217903308" value="0" text="无" selectId="2"/>
       <classInstance class="CharacterFaceSelector" name="face" instanceUID="2217904110" value="255" text="不改变" selectId="1"/>
     </classInstance>
     <classInstance class="StandView" name="rightSV" instanceUID="2217906816">
