@@ -1,11 +1,11 @@
-<EditableEditorFile version="31" date="Mon Dec 23 05:50:45 GMT+0800 2013">
+<EditableEditorFile version="31" date="Mon Dec 30 15:37:57 GMT+0800 2013">
   <classInstance class="DialogBoard" name="DB0_1_………许睦同学？还在睡吗？#……..." instanceUID="1845076743">
     <classInstance class="NameStringSelector" name="name" instanceUID="1845065704" value="声音" text="声音" selectId="2"/>
     <classInstance class="ContentStringSelector" name="content" instanceUID="1845071906" value="1" text="1 ………许睦同学？还在睡吗？#……..." selectId="2"/>
     <classInstance class="BooleanSelector" name="typeEffect" instanceUID="1845072108" value="1" text="是" selectId="2"/>
     <classInstance class="SceneSelector" name="scene" instanceUID="2265369203" value="BG/0001.jpg" text="教室2午后" selectId="3"/>
     <classInstance class="FadeIn" name="fadeIn" instanceUID="1845073713" value="0" text="直接出现" selectId="1"/>
-    <classInstance class="EventSelector" name="event" instanceUID="1845074016" selectedInstanceUID="3000" text="无事件" selectId="1"/>
+    <classInstance class="EventSelector" name="event" instanceUID="1845074016" selectedInstanceUID="2833260402" text="设置无风" selectId="15"/>
     <classInstance class="StandView" name="leftSV" instanceUID="1845074823">
       <classInstance class="CharacterSelector" name="character" instanceUID="1845074420" value="255" text="不改变" selectId="1"/>
       <classInstance class="CharacterFaceSelector" name="face" instanceUID="1845074822" value="255" text="不改变" selectId="1"/>
