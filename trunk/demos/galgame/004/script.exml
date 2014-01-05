@@ -1,4 +1,4 @@
-<EditableEditorFile version="31" date="Sun Jan 5 10:28:23 GMT+0800 2014">
+<EditableEditorFile version="31" date="Sun Jan 5 11:54:58 GMT+0800 2014">
   <classInstance class="DialogBoard" name="DB0_1_睁开眼睛，眼前是云静盈写满担忧的..." instanceUID="2215417535">
     <classInstance class="NameStringSelector" name="name" instanceUID="2215403496" value="" text="无" selectId="1"/>
     <classInstance class="ContentStringSelector" name="content" instanceUID="2215411598" value="1" text="1 睁开眼睛，眼前是云静盈写满担忧的..." selectId="2"/>
@@ -687,7 +687,7 @@
     </classInstance>
     <classInstance class="StandView" name="middleSV" instanceUID="2215723327">
       <classInstance class="CharacterSelector" name="character" instanceUID="2215722924" value="1" text="云静盈" selectId="3"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="2215723226" value="17" text="担忧左" selectId="22"/>
+      <classInstance class="CharacterFaceSelector" name="face" instanceUID="2215723226" value="16" text="担忧" selectId="21"/>
     </classInstance>
     <classInstance class="StandView" name="rightSV" instanceUID="2215724232">
       <classInstance class="CharacterSelector" name="character" instanceUID="2215723729" value="255" text="不改变" selectId="1"/>
