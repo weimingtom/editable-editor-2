@@ -1,4 +1,4 @@
-<EditableEditorFile version="31" date="Sun Nov 24 09:26:04 GMT+0800 2013">
+<EditableEditorFile version="31" date="Sun Jan 5 06:47:26 GMT+0800 2014">
   <classInstance class="DialogBoard" name="DB0_1_睁开眼睛，眼前是云静盈写满担忧的..." instanceUID="2215417535">
     <classInstance class="NameStringSelector" name="name" instanceUID="2215403496" value="" text="无" selectId="1"/>
     <classInstance class="ContentStringSelector" name="content" instanceUID="2215411598" value="1" text="1 睁开眼睛，眼前是云静盈写满担忧的..." selectId="2"/>
@@ -2753,7 +2753,7 @@
     </classInstance>
     <classInstance class="StandView" name="rightSV" instanceUID="2217906816">
       <classInstance class="CharacterSelector" name="character" instanceUID="2217905513" value="2" text="黄怡敏" selectId="4"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="2217906315" value="20" text="眯眼" selectId="9"/>
+      <classInstance class="CharacterFaceSelector" name="face" instanceUID="2217906315" value="20" text="眯眼" selectId="10"/>
     </classInstance>
     <classInstance class="DialogBoardClick" name="next" instanceUID="2217918525">
       <classInstance class="DialogBoardSelector" name="dialog" instanceUID="2217912219" selectedInstanceUID="2217954467" text="DB0_112_嗯，我们已经是恋人了哦。" selectId="112"/>
@@ -2903,7 +2903,7 @@
     </classInstance>
     <classInstance class="StandView" name="rightSV" instanceUID="2218145362">
       <classInstance class="CharacterSelector" name="character" instanceUID="2218144059" value="2" text="黄怡敏" selectId="4"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="2218144961" value="23" text="阴笑" selectId="12"/>
+      <classInstance class="CharacterFaceSelector" name="face" instanceUID="2218144961" value="23" text="阴笑" selectId="13"/>
     </classInstance>
     <classInstance class="DialogBoardClick" name="next" instanceUID="2218159071">
       <classInstance class="DialogBoardSelector" name="dialog" instanceUID="2218152265" selectedInstanceUID="2218202713" text="DB0_118_所以现在那种状况越来越多了吗……..." selectId="118"/>
@@ -2920,7 +2920,7 @@
     <classInstance class="EventSelector" name="event" instanceUID="2218180586" selectedInstanceUID="3000" text="无事件" selectId="1"/>
     <classInstance class="StandView" name="leftSV" instanceUID="2218184493">
       <classInstance class="CharacterSelector" name="character" instanceUID="2218182590" value="1" text="云静盈" selectId="3"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="2218183592" value="5" text="傲娇" selectId="7"/>
+      <classInstance class="CharacterFaceSelector" name="face" instanceUID="2218183592" value="8" text="得意" selectId="14"/>
     </classInstance>
     <classInstance class="StandView" name="middleSV" instanceUID="2218186598">
       <classInstance class="CharacterSelector" name="character" instanceUID="2218185295" value="255" text="不改变" selectId="1"/>
@@ -2978,7 +2978,7 @@
     </classInstance>
     <classInstance class="StandView" name="rightSV" instanceUID="2218277885">
       <classInstance class="CharacterSelector" name="character" instanceUID="2218276282" value="2" text="黄怡敏" selectId="4"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="2218277384" value="22" text="斜眼" selectId="11"/>
+      <classInstance class="CharacterFaceSelector" name="face" instanceUID="2218277384" value="22" text="斜眼" selectId="12"/>
     </classInstance>
     <classInstance class="DialogBoardClick" name="next" instanceUID="2218291694">
       <classInstance class="DialogBoardSelector" name="dialog" instanceUID="2218284988" selectedInstanceUID="2218334436" text="DB0_121_这也是多亏你昨晚的帮忙。" selectId="121"/>
@@ -3078,7 +3078,7 @@
     </classInstance>
     <classInstance class="StandView" name="rightSV" instanceUID="2218446949">
       <classInstance class="CharacterSelector" name="character" instanceUID="2218445546" value="2" text="黄怡敏" selectId="4"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="2218446548" value="23" text="阴笑" selectId="12"/>
+      <classInstance class="CharacterFaceSelector" name="face" instanceUID="2218446548" value="23" text="阴笑" selectId="13"/>
     </classInstance>
     <classInstance class="DialogBoardClick" name="next" instanceUID="2218460758">
       <classInstance class="DialogBoardSelector" name="dialog" instanceUID="2218453752" selectedInstanceUID="2218503500" text="DB0_125_我倒是觉得完全没这个必要，不过你..." selectId="125"/>
@@ -3128,7 +3128,7 @@
     </classInstance>
     <classInstance class="StandView" name="rightSV" instanceUID="2218529931">
       <classInstance class="CharacterSelector" name="character" instanceUID="2218528728" value="2" text="黄怡敏" selectId="4"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="2218529630" value="20" text="眯眼" selectId="9"/>
+      <classInstance class="CharacterFaceSelector" name="face" instanceUID="2218529630" value="20" text="眯眼" selectId="10"/>
     </classInstance>
     <classInstance class="DialogBoardClick" name="next" instanceUID="2218542640">
       <classInstance class="DialogBoardSelector" name="dialog" instanceUID="2218535634" selectedInstanceUID="2218584482" text="DB0_127_………哎？" selectId="127"/>
@@ -3203,7 +3203,7 @@
     </classInstance>
     <classInstance class="StandView" name="rightSV" instanceUID="2218652754">
       <classInstance class="CharacterSelector" name="character" instanceUID="2218651451" value="2" text="黄怡敏" selectId="4"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="2218652353" value="21" text="神秘" selectId="10"/>
+      <classInstance class="CharacterFaceSelector" name="face" instanceUID="2218652353" value="21" text="神秘" selectId="11"/>
     </classInstance>
     <classInstance class="DialogBoardClick" name="next" instanceUID="2218666863">
       <classInstance class="DialogBoardSelector" name="dialog" instanceUID="2218658657" selectedInstanceUID="2218707105" text="DB0_130_那不是你编造的吗？" selectId="130"/>
@@ -3624,7 +3624,7 @@
     </classInstance>
     <classInstance class="StandView" name="middleSV" instanceUID="2219421446">
       <classInstance class="CharacterSelector" name="character" instanceUID="2219419343" value="1" text="云静盈" selectId="3"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="2219420945" value="3" text="害羞" selectId="5"/>
+      <classInstance class="CharacterFaceSelector" name="face" instanceUID="2219420945" value="13" text="害羞笑" selectId="18"/>
     </classInstance>
     <classInstance class="StandView" name="rightSV" instanceUID="2219424351">
       <classInstance class="CharacterSelector" name="character" instanceUID="2219422648" value="255" text="不改变" selectId="1"/>
