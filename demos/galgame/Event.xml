@@ -97,6 +97,15 @@
 	</class>
 
 	
+	<class className = "EventSetBreath" >
+		<item class = "TextFiled Indicate" name = "" text = "角色"/>
+		<item class= "CharacterSelector" name = "character" text="选择角色" />
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "设置呼吸频率1~255 默认16"/>
+		<item class = "ENTER" name = "" />
+		<item class = "Input Number" name = "breathOff" text = "16"/>	
+	</class>
+	
 	<class className = "EventSwitchScript" >
 		<item class = "TextFiled Indicate" name = "" text = "切换至脚本"/>
 		<item class = "ENTER" name = "" />
@@ -177,7 +186,8 @@
 		<item class = "EventPlayBGM"/>
 		<item class = "EventSetWind"/>
 		<item class = "EventPlayFaceMotion"/>
-
+		<item class = "EventSetBreath"/>
+		
 		<item class = "EventSwitchScript"/>
 		<item class = "EventBatch2Event"/>
 		<item class = "EventBatch4Event"/>
@@ -192,7 +202,8 @@
 		<item class = "EventPlayBGM"/>
 		<item class = "EventSetWind"/>
 		<item class = "EventPlayFaceMotion"/>		
-
+		<item class = "EventSetBreath"/>
+		
 		<item class = "EventSwitchScript"/>
 		<item class = "EventBatch2Event"/>
 		<item class = "EventBatch4Event"/>
