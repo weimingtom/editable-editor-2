@@ -28,6 +28,13 @@
 		<item text = "害羞笑" value = "13"/>
 		<item text = "害羞3" value = "14"/>
 		<item text = "害羞2" value = "15"/>	
+		
+		<item text = "担忧" value = "16"/>	
+		<item text = "担忧左" value = "17"/>	
+		<item text = "担忧右" value = "18"/>	
+		<item text = "哭泣" value = "19"/>	
+		<item text = "哭脸" value = "30"/>
+		<item text = "哭笑" value = "31"/>
 	</Selector>
 
 	<Selector className = "CharacterFaceMotion" valueType = "int" width = "60" showValue = "false" export="value=u8">
