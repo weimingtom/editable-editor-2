@@ -1,4 +1,4 @@
-<EditableEditorFile version="31" date="Sun Jan 5 11:54:58 GMT+0800 2014">
+<EditableEditorFile version="31" date="Mon Jan 20 10:56:49 GMT+0800 2014">
   <classInstance class="DialogBoard" name="DB0_1_睁开眼睛，眼前是云静盈写满担忧的..." instanceUID="2215417535">
     <classInstance class="NameStringSelector" name="name" instanceUID="2215403496" value="" text="无" selectId="1"/>
     <classInstance class="ContentStringSelector" name="content" instanceUID="2215411598" value="1" text="1 睁开眼睛，眼前是云静盈写满担忧的..." selectId="2"/>
@@ -3748,7 +3748,7 @@
   </classInstance>
   <classInstance class="EventPlayBGM" name="播放背景音BGM002" instanceUID="36071755">
     <classInstance class="Input Number" name="delay" instanceUID="36068849" text="0"/>
-    <classInstance class="BGMSelector" name="sound" instanceUID="36070452"/>
+    <classInstance class="BGMSelector" name="sound" instanceUID="36070452" value="BGM/BGM002.ogg" text="BGM002" selectId="13"/>
     <classInstance class="BooleanSelector" name="loop" instanceUID="36071354" value="1" text="是" selectId="2"/>
   </classInstance>
   <classInstance class="EventPlayBGM" name="播放背景音NULL" instanceUID="43703863">
@@ -3763,7 +3763,7 @@
   </classInstance>
   <classInstance class="EventPlayBGM" name="播放背景音namida" instanceUID="127475479">
     <classInstance class="Input Number" name="delay" instanceUID="127472573" text="0"/>
-    <classInstance class="BGMSelector" name="sound" instanceUID="127474176"/>
+    <classInstance class="BGMSelector" name="sound" instanceUID="127474176" value="BGM/namida.ogg" text="namida" selectId="14"/>
     <classInstance class="BooleanSelector" name="loop" instanceUID="127475078" value="1" text="是" selectId="2"/>
   </classInstance>
   <classInstance class="EventPlayFaceMotion" name="云 惊讶" instanceUID="2962626988">
