@@ -176,6 +176,19 @@
 		<item class = "Input Number" name = "wind" text = "0"/>	
 	</class>
 	
+	<Selector className = "MoveBgSelector" valueType = "int" width = "100" export="value=u8">
+		<item value = "1" text = "从左到右" />
+		<item value = "2" text = "从右到左" />
+		<item value = "3" text = "从上倒下" />
+		<item value = "4" text = "从下到上" />
+	</Selector>
+	
+	<class className = "EventMoveBg" >
+		<item class = "TextFiled Indicate" name = "" text = "移动背景"/>
+		<item class = "ENTER" name = "" />
+		<item class = "MoveBgSelector" name = "direction"/>	
+	</class>
+	
 	
 	<InstanceSelector className = "EventSelector" valueType = "String" width = "250" editable = "true">
 		<item class = "EventDoNothing"/>
@@ -187,6 +200,7 @@
 		<item class = "EventSetWind"/>
 		<item class = "EventPlayFaceMotion"/>
 		<item class = "EventSetBreath"/>
+		<item class = "EventMoveBg"/>
 		
 		<item class = "EventSwitchScript"/>
 		<item class = "EventBatch2Event"/>
@@ -203,6 +217,7 @@
 		<item class = "EventSetWind"/>
 		<item class = "EventPlayFaceMotion"/>		
 		<item class = "EventSetBreath"/>
+		<item class = "EventMoveBg"/>
 		
 		<item class = "EventSwitchScript"/>
 		<item class = "EventBatch2Event"/>

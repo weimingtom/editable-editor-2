@@ -242,7 +242,7 @@
 				if (clsName  != "DialogBoardTitle")
 					xmlString += '<classInstance class="NameStringSelector" name="name" value="' + (nameArr[i]=="~" ? "" : nameArr[i])  +'"/>'
 					
-				xmlString += '<classInstance class = "TextFiled Mark Number" name = "content" value="' + (i + 1)  + '"/>';
+				xmlString += '<classInstance class = "TextFiled Mark Number" name = "content" text="' + (i + 1)  + '"/>';
 				//xmlString += '<classInstance class="ContentStringSelector" name="content" value="' + (i + 1)  +'" text="' + contentArr[i] + '"/>'
 				
 				if (i+optionNum != contentArr.length - 1)

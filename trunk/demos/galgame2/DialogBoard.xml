@@ -15,6 +15,7 @@
 	</Selector>
 
 	<Selector className = "SceneEffectSelector" valueType = "int" width = "100" export="value=u8">
+		<item value = "255" text = "不改变" />
 		<item value = "0" text = "无" />
 		<item value = "1" text = "水下" />
 		<item value = "2" text = "老电影" />
