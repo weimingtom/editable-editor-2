@@ -6,23 +6,23 @@
   <compiler>
     <define append="true">
       <name>CONFIG::debug</name>
-      <value>false</value>
-    </define>
-    <define append="true">
-      <name>CONFIG::release</name>
       <value>true</value>
     </define>
     <define append="true">
+      <name>CONFIG::release</name>
+      <value>false</value>
+    </define>
+    <define append="true">
       <name>CONFIG::timeStamp</name>
-      <value>'2013/10/5'</value>
+      <value>'2014/3/23'</value>
     </define>
     <source-path append="true">
-      <path-element>E:\Work\FDProject\editable-editor-2\demos\galgame\Tools\TextProcess\src</path-element>
+      <path-element>E:\Work\FDProject\editable-editor-2\demos\galgame2\Tools\TextProcess\src</path-element>
       <path-element>D:\shared\programme\FlashDevelop\Library\AS3\classes</path-element>
     </source-path>
   </compiler>
   <file-specs>
-    <path-element>E:\Work\FDProject\editable-editor-2\demos\galgame\Tools\TextProcess\src\TextProcessAir.as</path-element>
+    <path-element>E:\Work\FDProject\editable-editor-2\demos\galgame2\Tools\TextProcess\src\TextProcessAir.as</path-element>
   </file-specs>
   <default-background-color>#FFFFFF</default-background-color>
   <default-frame-rate>30</default-frame-rate>
