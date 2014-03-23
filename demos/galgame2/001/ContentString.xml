@@ -1,0 +1,9 @@
+<EditableEditorHeader>
+  <Selector className="ContentStringSelector" valueType="int" width="250" showValue="false" export="value=u8_16">
+    <item text="无" value="0"/>
+    <item text="1 沉重的意识，模糊的视线，\n完全..." value="1"/>
+    <item text="2 唔………………" value="2"/>
+    <item text="3 无论如何回想，\n都无法回忆起任..." value="3"/>
+    <item text="4 在那之后没有经过多久，\n深蓝色..." value="4"/>
+  </Selector>
+</EditableEditorHeader>
