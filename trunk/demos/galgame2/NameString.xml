@@ -1,0 +1,10 @@
+<EditableEditorHeader>
+  <Selector className="NameStringSelector" valueType="String" width="150" showValue="false" export="value=string">
+    <item text="无" value=""/>
+    <item text="少女" value="少女"/>
+    <item text="老师" value="老师"/>
+    <item text="小绯" value="小绯"/>
+    <item text="学生A" value="学生A"/>
+    <item text="少女C" value="学生C"/>
+  </Selector>
+</EditableEditorHeader>

@@ -1,0 +1,55 @@
+﻿<EditableEditorHeader>
+	<Selector className = "CharacterSelector" valueType = "int" width = "60" showValue = "false" export="value=u8">
+		<item text = "不改变" value = "255"/>
+		<item text = "无" value = "0"/>
+		<item text = "云静盈" value = "1"/>
+		<item text = "黄怡敏" value = "2"/>
+	</Selector>
+	<Selector className = "CharacterFaceSelector" valueType = "int" width = "60" showValue = "false" export="value=u8">
+		<item text = "不改变" value = "255"/>
+		<item text = "默认" value = "0"/>
+		<item text = "笑" value = "1"/>
+		<item text = "思考" value = "2"/>
+		<item text = "害羞" value = "3"/>
+		<item text = "娇啧" value = "4"/>
+		<item text = "傲娇" value = "5"/>
+		<item text = "难道" value = "6"/>
+		<item text = "唉" value = "7"/>
+
+		<item text = "眯眼" value = "20"/>
+		<item text = "神秘" value = "21"/>
+		<item text = "斜眼" value = "22"/>
+		<item text = "阴笑" value = "23"/>
+		
+		<item text = "得意" value = "8"/>
+		<item text = "紧张" value = "9"/>
+		<item text = "害羞" value = "10"/>
+		<item text = "决心" value = "12"/>
+		<item text = "害羞笑" value = "13"/>
+		<item text = "害羞3" value = "14"/>
+		<item text = "害羞2" value = "15"/>	
+		
+		<item text = "担忧" value = "16"/>	
+		<item text = "担忧左" value = "17"/>	
+		<item text = "担忧右" value = "18"/>	
+		<item text = "哭泣" value = "19"/>	
+		<item text = "哭脸" value = "30"/>
+		<item text = "哭笑" value = "31"/>
+	</Selector>
+
+	<Selector className = "CharacterFaceMotion" valueType = "int" width = "60" showValue = "false" export="value=u8">
+		<item text = "默认" value = "0"/>
+		<item text = "叹气" value = "1"/>
+		<item text = "惊醒" value = "21"/>
+		<item text = "阴笑" value = "22"/>
+	</Selector>
+
+	<class className = "StandView" >
+		<item class = "TextFiled Indicate" name = "" text = "角色"/>
+		<item class = "CharacterSelector" name = "character" default = "1"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "表情"/>
+		<item class = "CharacterFaceSelector" name = "face" default = "1"/>
+	</class>
+</EditableEditorHeader>	
+
