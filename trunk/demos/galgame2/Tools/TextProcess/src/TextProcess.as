@@ -252,7 +252,8 @@
 					{
 						for ( option_i = 0 ; option_i < optionNum ; option_i++ )
 						{
-							xmlString += '<classInstance class="ContentStringSelector" name="optionContent' + option_i + '" value="' + (i+2+option_i)  +'" text="' + contentArr[i + 1 + option_i] + '"/>'
+							xmlString += '<classInstance class="TextFiled Mark Number" name="optionContent' + option_i + '" text="' + (i+2+option_i)  +'"/>'
+							//xmlString += '<classInstance class="ContentStringSelector" name="optionContent' + option_i + '" value="' + (i+2+option_i)  +'" text="' + contentArr[i + 1 + option_i] + '"/>'
 							xmlString += '<classInstance class="DialogBoardClick" name="optionContentNext'+ option_i + '">';
 								xmlString += '<classInstance class="DialogBoardSelector" name="dialog" selectId="' + (i+2 + optionNum - optionTotal ) +'"/>'
 							xmlString += '</classInstance>';
