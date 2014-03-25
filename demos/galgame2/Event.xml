@@ -188,7 +188,7 @@
 		<item class = "ENTER" name = "" />
 		<item class = "MoveBgSelector" name = "direction"/>	
 		<item class = "ENTER" name = "" />
-		<item class = "TextFiled Indicate" name = "" text = "速度(0.1像素单位)"/>
+		<item class = "TextFiled Indicate" name = "" text = "速度(0.01像素单位)"/>
 		<item class = "Input Number" name = "speed" text = "10"/>	
 	</class>
 	
