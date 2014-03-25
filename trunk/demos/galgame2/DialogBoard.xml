@@ -153,14 +153,16 @@
 		
 		<item class = "TextFiled Indicate" name = "" text = "选项1文本"/>
 		<item class = "ENTER" name = "" />
-		<item class = "ContentStringSelector" name = "optionContent0" text = "" default="1"/>
+		<item class = "TextFiled Indicate" name = "" text = "文本编号"/>
+		<item class = "TextFiled Mark Number" name = "optionContent0" width="60" text = "" default="1"/>
 		<item class = "ENTER" name = "" />
 		<item class = "DialogBoardClick" name = "optionContentNext0"/>
 		
 		<item class = "ENTER" name = "" />
 		<item class = "TextFiled Indicate" name = "" text = "选项2文本"/>
 		<item class = "ENTER" name = "" />
-		<item class = "ContentStringSelector" name = "optionContent1" text = "" default="1"/>
+		<item class = "TextFiled Indicate" name = "" text = "文本编号"/>
+		<item class = "TextFiled Mark Number" name = "optionContent1" width="60" text = "" default="1"/>
 		<item class = "ENTER" name = "" />
 		<item class = "DialogBoardClick" name = "optionContentNext1"/>
 		
@@ -213,21 +215,24 @@
 		
 		<item class = "TextFiled Indicate" name = "" text = "选项1文本"/>
 		<item class = "ENTER" name = "" />
-		<item class = "ContentStringSelector" name = "optionContent0" text = "" default="1"/>
+		<item class = "TextFiled Indicate" name = "" text = "文本编号"/>
+		<item class = "TextFiled Mark Number" name = "optionContent0" width="60" text = "" default="1"/>
 		<item class = "ENTER" name = "" />
 		<item class = "DialogBoardClick" name = "optionContentNext0"/>
 		
 		<item class = "ENTER" name = "" />
 		<item class = "TextFiled Indicate" name = "" text = "选项2文本"/>
 		<item class = "ENTER" name = "" />
-		<item class = "ContentStringSelector" name = "optionContent1" text = "" default="1"/>
+		<item class = "TextFiled Indicate" name = "" text = "文本编号"/>
+		<item class = "TextFiled Mark Number" name = "optionContent1" width="60" text = "" default="1"/>
 		<item class = "ENTER" name = "" />
 		<item class = "DialogBoardClick" name = "optionContentNext1"/>
 		
 		<item class = "ENTER" name = "" />
 		<item class = "TextFiled Indicate" name = "" text = "选项3文本"/>
 		<item class = "ENTER" name = "" />
-		<item class = "ContentStringSelector" name = "optionContent2" text = "" default="1"/>
+		<item class = "TextFiled Indicate" name = "" text = "文本编号"/>
+		<item class = "TextFiled Mark Number" name = "optionContent2" width="60" text = "" default="1"/>
 		<item class = "ENTER" name = "" />
 		<item class = "DialogBoardClick" name = "optionContentNext2"/>
 		
