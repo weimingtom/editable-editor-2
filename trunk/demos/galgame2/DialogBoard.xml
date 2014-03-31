@@ -238,6 +238,7 @@
 		
 	</class>
 	
+	<TextField className = "Input Color" editable = "true" width = "100" restrict = "A-Fa-f0-9\-xX" defaultText = "输入数字" export="text=u32" />
 	<class className = "DialogBoardTitle" >
 		<item class = "TextFiled Indicate" text = "标题页 文本内容"/>
 		<item class = "ENTER" name = "" />
@@ -245,6 +246,9 @@
 		<item class = "TextFiled Mark Number" name = "content" width="60"/>
 		<item class = "TextFiled Indicate" name = "" text = "打字效果"/>
 		<item class = "BooleanSelector" name = "typeEffect" default = "2"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "文本颜色"/>
+		<item class = "Input Color" name = "textColor" text = "0xFFFFFFFF"/>
 		<item class = "ENTER" name = "" />
 		<item class = "Line" name = "" />
 		<item class = "ENTER" name = "" />
@@ -273,7 +277,6 @@
 		<item class = "DialogBoardClick" name = "next"/>
 	</class>
 
-	<TextField className = "Input Color" editable = "true" width = "100" restrict = "A-Fa-f0-9\-xX" defaultText = "输入数字" export="text=u32" />
 	<class className = "DialogBoardMessage" >
 		<item class = "TextFiled Indicate" name = "" text = "信息页 文本内容"/>
 		<item class = "ENTER" name = "" />
