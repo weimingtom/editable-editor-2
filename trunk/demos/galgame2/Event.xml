@@ -115,6 +115,15 @@
 		<item class = "TextFiled Indicate" name = "" text = "页码编号"/>
 		<item class = "Input Number" name = "page" text = "0"/>	
 	</class>
+
+	<class className = "EventSwitchDialogBoard" >
+		<item class = "TextFiled Indicate" name = "" text = "跳转到对话框"/>
+		<item class = "ENTER" name = "" />
+		<item class = "DialogBoardSelector" name = "dialog" text = "目标场景"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "消失方式"/>
+		<item class = "FadeOut" name = "fadeOut" default="2"/>
+	</class>
 	
 	<class className = "EventBatch2Event" >
 		<item class = "TextFiled Indicate" name = "" text = "他们会同时按顺序执行不会等一个事件完成"/>
@@ -206,6 +215,8 @@
 		<item class = "EventMoveBg"/>
 		
 		<item class = "EventSwitchScript"/>
+		<item class = "EventSwitchDialogBoard"/>
+
 		<item class = "EventBatch2Event"/>
 		<item class = "EventBatch4Event"/>
 		<item class = "EventSwitch4Event"/>
@@ -221,8 +232,11 @@
 		<item class = "EventPlayFaceMotion"/>		
 		<item class = "EventSetBreath"/>
 		<item class = "EventMoveBg"/>
+
 		
 		<item class = "EventSwitchScript"/>
+		<item class = "EventSwitchDialogBoard"/>
+
 		<item class = "EventBatch2Event"/>
 		<item class = "EventBatch4Event"/>
 		<item class = "EventSwitch4Event"/>
