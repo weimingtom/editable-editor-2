@@ -7,5 +7,7 @@
 		<item text = "黄昏空教室" value = "BG/0003.jpg"/>
 		<item text = "CG小绯睡觉" value = "CG/0001.jpg"/>
 		<item text = "CG小绯办公室" value = "CG/0002.jpg"/>
+		<item text = "黄昏警局" value = "BG/0004.jpg"/>
+		<item text = "CG警局死亡少女" value = "CG/0003.jpg"/>
 	</Selector>
 </EditableEditorHeader>	
