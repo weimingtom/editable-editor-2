@@ -27,7 +27,12 @@
 		<item text="学生H" value="学生H"/>
  
 		<item text="学生群体" value="学生群体"/>
- 
+
+		<item text="警官" value="警官"/>
+
+		<item text="君浩" value="君浩"/>
+
+
 	</Selector>
 
 </EditableEditorHeader>

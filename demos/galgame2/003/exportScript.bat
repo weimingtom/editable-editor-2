@@ -1,0 +1,1 @@
+call ..\Tools\exportScript.bat
