@@ -14,5 +14,9 @@
 		<item text = "公园口黄昏" value = "BG/0006.jpg"/>
 		<item text = "家门口黄昏" value = "BG/0007.jpg"/>
 		
+		<item text = "卧室开灯" value = "BG/0008.jpg"/>
+		<item text = "卧室关灯" value = "BG/0009.jpg"/>
+		<item text = "天花板横" value = "BG/0010.jpg"/>
+		<item text = "天花板竖" value = "BG/0011.jpg"/>
 	</Selector>
 </EditableEditorHeader>	
