@@ -4,7 +4,6 @@
     <classInstance class="TextFiled Mark Number" name="content" text="1"/>
     <classInstance class="DialogBoardClick" name="next">
       <classInstance class="DialogBoardSelector" name="dialog" selectId="2"/>
-      <classInstance class="FadeOut" name="fadeOut" instanceUID="1387587060" value="5" text="透明渐变背景" selectId="6"/>
     </classInstance>
   </classInstance>
   <classInstance class="DialogBoard" name="DB0_2_在决定睡觉之后，\n我便关闭了房...">
@@ -91,8 +90,7 @@
       <classInstance class="DialogBoardSelector" name="dialog" selectId="14"/>
     </classInstance>
   </classInstance>
-  <classInstance class="DialogBoard" name="DB0_14_…………">
-    <classInstance class="NameStringSelector" name="name" value=""/>
+  <classInstance class="DialogBoardAuto" name="DBA_14_$A">
     <classInstance class="TextFiled Mark Number" name="content" text="14"/>
     <classInstance class="DialogBoardClick" name="next">
       <classInstance class="DialogBoardSelector" name="dialog" selectId="15"/>
@@ -222,13 +220,5 @@
     <classInstance class="TextFiled Mark Number" name="content" text="32"/>
   </classInstance>
   
-    <classInstance class="EventSwitchScript" name="下一场景" instanceUID="1071751461">
-    <classInstance class="Input Number" name="script" instanceUID="1071751158" text="1"/>
-    <classInstance class="Input Number" name="page" instanceUID="1071751360" text="0"/>
-  </classInstance>
-  <classInstance class="EventMoveBg" name="移动背景" instanceUID="1072534566">
-    <classInstance class="MoveBgSelector" name="direction" instanceUID="1072534163" value="2" text="从右到左" selectId="2"/>
-    <classInstance class="Input Number" name="speed" instanceUID="1072534465" text="1"/>
-  </classInstance>
 
 </EditableEditorFile>

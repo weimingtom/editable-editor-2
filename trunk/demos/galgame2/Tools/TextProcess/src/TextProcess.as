@@ -199,6 +199,10 @@
 					{
 						clsName  = "DialogBoardMessage";
 					}
+					else if (flag == "$A")
+					{
+						clsName  = "DialogBoardAuto";
+					}
 				}
 				
 				var optionNum : int = 0;
@@ -231,6 +235,8 @@
 					xmlString += "DB0_"
 				else if (clsName == "DialogBoardTitle")
 					xmlString += "DBT_"
+				else if (clsName == "DialogBoardAuto")
+					xmlString += "DBA_"	
 				else if (clsName == "DialogBoardMessage")
 					xmlString += "DBM_"
 				else if (clsName == "DialogBoardOption2")
@@ -239,7 +245,7 @@
 					xmlString += "DB3_"
 				
 				xmlString += (i + 1) + "_" + contentArr[i] + '">';
-				if (clsName  != "DialogBoardTitle")
+				if (clsName  != "DialogBoardTitle" && clsName  != "DialogBoardAuto" && clsName  != "DialogBoardMessage" )
 					xmlString += '<classInstance class="NameStringSelector" name="name" value="' + (nameArr[i]=="~" ? "" : nameArr[i])  +'"/>'
 					
 				xmlString += '<classInstance class = "TextFiled Mark Number" name = "content" text="' + (i + 1)  + '"/>';

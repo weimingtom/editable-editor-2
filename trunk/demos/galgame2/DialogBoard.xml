@@ -278,6 +278,48 @@
 
 		<item class = "DialogBoardClick" name = "next"/>
 	</class>
+	
+	
+	<class className = "DialogBoardAuto" >
+		<item class = "TextFiled Indicate" text = "自动切换页 文本内容"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "文本编号"/>
+		<item class = "TextFiled Mark Number" name = "content" width="60"/>
+		<item class = "ENTER" name = "" />
+		<item class = "Line" name = "" />
+		<item class = "ENTER" name = "" />
+
+		<item class = "TextFiled Indicate" name = "" text = "背景"/>
+		<item class = "SceneSelector" name = "scene" default="2"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "背景特效"/>
+		<item class = "SceneEffectSelector" name = "sceneEffect" default="1"/>
+		<item class = "ENTER" name = "" />
+
+		<item class = "TextFiled Indicate" name = "" text = "出现方式"/>
+		<item class = "FadeIn" name = "fadeIn" default="1"/>
+
+		<item class = "ENTER" name = "" />
+		<item class = "Line" name = "" />
+		<item class = "ENTER" name = "" />
+		
+		<item class = "TextFiled Indicate" name = "" text = "进场事件"/>
+		<item class = "EventSelector" name = "event" default="1"/>
+		<item class = "ENTER" name = "" />
+		<item class = "Line" name = "" />
+		<item class = "ENTER" name = "" />
+		
+		<item class = "TextFiled Indicate" name = "" text = "延迟"/>
+		<item class = "Input Number" name = "delay" text = "3"/>
+		<item class = "TextFiled Indicate" name = "" text = "帧后执行"/>
+		<item class = "ENTER" name = "" />
+		<item class = "DialogBoardClick" name = "next"/>
+		<item class = "ENTER" name = "" />
+		<item class = "Line" name = "" />
+		<item class = "ENTER" name = "" />
+
+		
+	</class>
 
 	<class className = "DialogBoardMessage" >
 		<item class = "TextFiled Indicate" name = "" text = "信息页 文本内容"/>
@@ -323,6 +365,7 @@
 		<item class = "DialogBoard"/>
 		<item class = "DialogBoardTitle"/>
 		<item class = "DialogBoardMessage"/>
+		<item class = "DialogBoardAuto"/>
 		<item class = "DialogBoardOption2"/>
 		<item class = "DialogBoardOption3"/>
 	</InstanceSelector>
@@ -332,6 +375,7 @@
 		<item class = "DialogBoard"/>
 		<item class = "DialogBoardTitle"/>
 		<item class = "DialogBoardMessage"/>
+		<item class = "DialogBoardAuto"/>
 		<item class = "DialogBoardOption2"/>
 		<item class = "DialogBoardOption3"/>
 	</ClassCreater>
