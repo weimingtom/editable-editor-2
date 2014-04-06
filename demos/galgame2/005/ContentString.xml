@@ -1,0 +1,37 @@
+<EditableEditorHeader>
+  <Selector className="ContentStringSelector" valueType="int" width="250" showValue="false" export="value=u8_16">
+    <item text="无" value="0"/>
+    <item text="1 （从现在开始，要自己一个人生活了..." value="1"/>
+    <item text="2 在决定睡觉之后，\n我便关闭了房..." value="2"/>
+    <item text="3 （果然，想要恢复，不太容易。）#..." value="3"/>
+    <item text="4 ………………\n……………………" value="4"/>
+    <item text="5 深夜，不知几点的时候，\n我突然..." value="5"/>
+    <item text="6 （这是怎么回事……我怎么突然醒过..." value="6"/>
+    <item text="7 我这么想着，\n似乎感觉房间里有..." value="7"/>
+    <item text="8 （可恶……这是咋回事，身体动不了..." value="8"/>
+    <item text="9 呵呵呵……" value="9"/>
+    <item text="10 （笑声！！！）" value="10"/>
+    <item text="11 正在我思考事情的时候，\n我的耳..." value="11"/>
+    <item text="12 （我的家里，怎么说都应该只有我一..." value="12"/>
+    <item text="13 我不敢发出任何动静，\n只是胆战..." value="13"/>
+    <item text="14 …………" value="14"/>
+    <item text="15 哇啊啊啊啊啊啊！！！！！！！" value="15"/>
+    <item text="16 那视线移动到门前的那一瞬间，\n..." value="16"/>
+    <item text="17 你……你是！？" value="17"/>
+    <item text="18 我看到了一位身穿红衣的少女，\n..." value="18"/>
+    <item text="19 呵呵呵呵………… " value="19"/>
+    <item text="20 啊！！！#唔……不……不要………..." value="20"/>
+    <item text="21 我已经被吓得说不出话来了，\n嘴..." value="21"/>
+    <item text="22 她没有影子！#也就是说，她并不是..." value="22"/>
+    <item text="23 唔……呜呜…………" value="23"/>
+    <item text="24 我不敢再去看那个少女，\n只是被..." value="24"/>
+    <item text="25 睁开眼睛之后，\n我发现站在我门..." value="25"/>
+    <item text="26 消……消失了吗…………" value="26"/>
+    <item text="27 我再次尝试着从床上坐起来，\n这..." value="27"/>
+    <item text="28 打开灯之后，\n房间里恢复了往常..." value="28"/>
+    <item text="29 哈……哈……刚才的……#那个……..." value="29"/>
+    <item text="30 坐在床上的我，\n此时此刻不停的..." value="30"/>
+    <item text="31 好恐怖……真的好恐怖……#再也不..." value="31"/>
+    <item text="32 我坐在床上，\n不停的安慰着自己..." value="32"/>
+  </Selector>
+</EditableEditorHeader>
