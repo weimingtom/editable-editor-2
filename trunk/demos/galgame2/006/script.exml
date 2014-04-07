@@ -1,11 +1,11 @@
-<EditableEditorFile version="31" date="Tue Apr 8 03:29:07 GMT+0800 2014">
+<EditableEditorFile version="31" date="Tue Apr 8 04:01:01 GMT+0800 2014">
   <classInstance class="DialogBoard" name="DB0_1_唔……天……天亮了……？#好困…..." instanceUID="1311821065">
     <classInstance class="NameStringSelector" name="name" instanceUID="1311811924" value="小绯" text="小绯" selectId="4"/>
     <classInstance class="TextFiled Mark Number" name="content" instanceUID="1311812126" text="1"/>
     <classInstance class="BooleanSelector" name="typeEffect" instanceUID="1311812528" value="1" text="是" selectId="2"/>
     <classInstance class="SceneSelector" name="scene" instanceUID="1311814031" value="BG/0013.jpg" text="卧室白天" selectId="18"/>
     <classInstance class="SceneEffectSelector" name="sceneEffect" instanceUID="1311814333" value="255" text="不改变" selectId="1"/>
-    <classInstance class="FadeIn" name="fadeIn" instanceUID="1311814935" value="1" text="透明渐变" selectId="2"/>
+    <classInstance class="FadeIn" name="fadeIn" instanceUID="1311814935" value="0" text="直接出现" selectId="1"/>
     <classInstance class="EventSelector" name="event" instanceUID="1311815338" selectedInstanceUID="3000" text="无事件" selectId="1"/>
     <classInstance class="StandView" name="leftSV" instanceUID="1311817345">
       <classInstance class="CharacterSelector" name="character" instanceUID="1311815942" value="255" text="不改变" selectId="1"/>
