@@ -1,4 +1,4 @@
-<EditableEditorFile version="31" date="Tue Apr 8 03:23:16 GMT+0800 2014">
+<EditableEditorFile version="31" date="Tue Apr 8 03:29:07 GMT+0800 2014">
   <classInstance class="DialogBoard" name="DB0_1_唔……天……天亮了……？#好困…..." instanceUID="1311821065">
     <classInstance class="NameStringSelector" name="name" instanceUID="1311811924" value="小绯" text="小绯" selectId="4"/>
     <classInstance class="TextFiled Mark Number" name="content" instanceUID="1311812126" text="1"/>
@@ -915,7 +915,7 @@
     <classInstance class="BooleanSelector" name="typeEffect" instanceUID="1312123133" value="1" text="是" selectId="2"/>
     <classInstance class="SceneSelector" name="scene" instanceUID="1312123736" value="BG/0016.jpg" text="校园长廊" selectId="21"/>
     <classInstance class="SceneEffectSelector" name="sceneEffect" instanceUID="1312124238" value="255" text="不改变" selectId="1"/>
-    <classInstance class="FadeIn" name="fadeIn" instanceUID="1312124640" value="0" text="直接出现" selectId="1"/>
+    <classInstance class="FadeIn" name="fadeIn" instanceUID="1312124640" value="1" text="透明渐变" selectId="2"/>
     <classInstance class="EventSelector" name="event" instanceUID="1312125643" selectedInstanceUID="3000" text="无事件" selectId="1"/>
     <classInstance class="StandView" name="leftSV" instanceUID="1312127050">
       <classInstance class="CharacterSelector" name="character" instanceUID="1312126347" value="255" text="不改变" selectId="1"/>
@@ -2319,7 +2319,7 @@
     <classInstance class="SceneEffectSelector" name="sceneEffect" instanceUID="1313066257" value="255" text="不改变" selectId="1"/>
     <classInstance class="FadeIn" name="fadeIn" instanceUID="1313066759" value="0" text="直接出现" selectId="1"/>
     <classInstance class="EventSelector" name="event" instanceUID="1313068662" selectedInstanceUID="3000" text="无事件" selectId="1"/>
-    <classInstance class="Input Number" name="delay" instanceUID="1313069265" text="5"/>
+    <classInstance class="Input Number" name="delay" instanceUID="1313069265" text="1"/>
     <classInstance class="DialogBoardClick" name="next" instanceUID="1313074774">
       <classInstance class="DialogBoardSelector" name="dialog" instanceUID="1313072068" selectedInstanceUID="1313093019" text="DB0_91_那么，这节课就到此为止，下课吧。" selectId="91"/>
       <classInstance class="FadeOut" name="fadeOut" instanceUID="1313072570" value="1" text="透明渐变" selectId="2"/>
