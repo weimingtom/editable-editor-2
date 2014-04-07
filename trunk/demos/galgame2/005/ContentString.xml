@@ -33,5 +33,6 @@
     <item text="30 坐在床上的我，\n此时此刻不停的..." value="30"/>
     <item text="31 好恐怖……真的好恐怖……#再也不..." value="31"/>
     <item text="32 我坐在床上，\n不停的安慰着自己..." value="32"/>
+    <item text="33 $A" value="33"/>
   </Selector>
 </EditableEditorHeader>
