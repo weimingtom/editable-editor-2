@@ -218,7 +218,11 @@
   <classInstance class="DialogBoard" name="DB0_32_我坐在床上，\n不停的安慰着自己...">
     <classInstance class="NameStringSelector" name="name" value=""/>
     <classInstance class="TextFiled Mark Number" name="content" text="32"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="33"/>
+    </classInstance>
   </classInstance>
-  
-
+  <classInstance class="DialogBoardAuto" name="DBA_33_$A">
+    <classInstance class="TextFiled Mark Number" name="content" text="33"/>
+  </classInstance>
 </EditableEditorFile>
