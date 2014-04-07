@@ -19,5 +19,12 @@
 		<item text = "天花板横" value = "BG/0010.jpg"/>
 		<item text = "天花板竖" value = "BG/0011.jpg"/>
 		<item text = "血腥少女" value = "BG/0012.jpg"/>
+		
+		<item text = "卧室白天" value = "BG/0013.jpg"/>
+		<item text = "公园口白天" value = "BG/0014.jpg"/>
+		<item text = "校园口白天" value = "BG/0015.jpg"/>
+		<item text = "校园长廊" value = "BG/0016.jpg"/>
+		<item text = "教室白天" value = "BG/0017.jpg"/>
+	
 	</Selector>
 </EditableEditorHeader>	
