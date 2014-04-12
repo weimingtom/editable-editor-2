@@ -26,5 +26,10 @@
 		<item text = "校园长廊" value = "BG/0016.jpg"/>
 		<item text = "教室白天" value = "BG/0017.jpg"/>
 	
+		<item text = "白霭" value = "BG/0018.jpg"/>
+		<item text = "天台白天" value = "BG/0019.jpg"/>
+		<item text = "白屏" value = "#FFFFFF"/>
+		<item text = "梦幻天空" value = "BG/0020jpg"/>
+		<item text = "天台晚霞" value = "BG/0021jpg"/>
 	</Selector>
 </EditableEditorHeader>	
