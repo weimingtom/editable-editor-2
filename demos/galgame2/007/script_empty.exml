@@ -691,64 +691,78 @@
       <classInstance class="DialogBoardSelector" name="dialog" selectId="100"/>
     </classInstance>
   </classInstance>
-  <classInstance class="DialogBoard" name="DB0_100_小绯，起来了……#唔……嗯………...">
+  <classInstance class="DialogBoard" name="DB0_100_小绯，起来了……">
     <classInstance class="NameStringSelector" name="name" value="君浩"/>
     <classInstance class="TextFiled Mark Number" name="content" text="100"/>
     <classInstance class="DialogBoardClick" name="next">
       <classInstance class="DialogBoardSelector" name="dialog" selectId="101"/>
     </classInstance>
   </classInstance>
-  <classInstance class="DialogBoard" name="DB0_101_嗯，我知道，稍等…………#虽然并...">
+  <classInstance class="DialogBoard" name="DB0_101_唔……嗯…………">
     <classInstance class="NameStringSelector" name="name" value="小绯"/>
     <classInstance class="TextFiled Mark Number" name="content" text="101"/>
     <classInstance class="DialogBoardClick" name="next">
       <classInstance class="DialogBoardSelector" name="dialog" selectId="102"/>
     </classInstance>
   </classInstance>
-  <classInstance class="DialogBoard" name="DB0_102_怎么样，睡的还舒服吗？">
+  <classInstance class="DialogBoard" name="DB0_102_快到3点了，你该去找辅导员了……">
     <classInstance class="NameStringSelector" name="name" value="君浩"/>
     <classInstance class="TextFiled Mark Number" name="content" text="102"/>
     <classInstance class="DialogBoardClick" name="next">
       <classInstance class="DialogBoardSelector" name="dialog" selectId="103"/>
     </classInstance>
   </classInstance>
-  <classInstance class="DialogBoard" name="DB0_103_嗯，很舒服…………">
+  <classInstance class="DialogBoard" name="DB0_103_嗯，我知道，稍等…………#虽然并...">
     <classInstance class="NameStringSelector" name="name" value="小绯"/>
     <classInstance class="TextFiled Mark Number" name="content" text="103"/>
     <classInstance class="DialogBoardClick" name="next">
       <classInstance class="DialogBoardSelector" name="dialog" selectId="104"/>
     </classInstance>
   </classInstance>
-  <classInstance class="DialogBoard" name="DB0_104_哈哈，那就好，看到你那可爱的睡脸...">
+  <classInstance class="DialogBoard" name="DB0_104_怎么样，睡的还舒服吗？">
     <classInstance class="NameStringSelector" name="name" value="君浩"/>
     <classInstance class="TextFiled Mark Number" name="content" text="104"/>
     <classInstance class="DialogBoardClick" name="next">
       <classInstance class="DialogBoardSelector" name="dialog" selectId="105"/>
     </classInstance>
   </classInstance>
-  <classInstance class="DialogBoard" name="DB0_105_君浩又趁着人家睡着的时候偷看人家...">
+  <classInstance class="DialogBoard" name="DB0_105_嗯，很舒服…………">
     <classInstance class="NameStringSelector" name="name" value="小绯"/>
     <classInstance class="TextFiled Mark Number" name="content" text="105"/>
     <classInstance class="DialogBoardClick" name="next">
       <classInstance class="DialogBoardSelector" name="dialog" selectId="106"/>
     </classInstance>
   </classInstance>
-  <classInstance class="DialogBoard" name="DB0_106_那是必须的。#好了，时间不早了，...">
+  <classInstance class="DialogBoard" name="DB0_106_哈哈，那就好，看到你那可爱的睡脸...">
     <classInstance class="NameStringSelector" name="name" value="君浩"/>
     <classInstance class="TextFiled Mark Number" name="content" text="106"/>
     <classInstance class="DialogBoardClick" name="next">
       <classInstance class="DialogBoardSelector" name="dialog" selectId="107"/>
     </classInstance>
   </classInstance>
-  <classInstance class="DialogBoard" name="DB0_107_嗯好。">
+  <classInstance class="DialogBoard" name="DB0_107_君浩又趁着人家睡着的时候偷看人家...">
     <classInstance class="NameStringSelector" name="name" value="小绯"/>
     <classInstance class="TextFiled Mark Number" name="content" text="107"/>
     <classInstance class="DialogBoardClick" name="next">
       <classInstance class="DialogBoardSelector" name="dialog" selectId="108"/>
     </classInstance>
   </classInstance>
-  <classInstance class="DialogBoard" name="DB0_108_我打起精神，告别了君浩，\n向着...">
-    <classInstance class="NameStringSelector" name="name" value=""/>
+  <classInstance class="DialogBoard" name="DB0_108_那是必须的。#好了，时间不早了，...">
+    <classInstance class="NameStringSelector" name="name" value="君浩"/>
     <classInstance class="TextFiled Mark Number" name="content" text="108"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="109"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_109_嗯好。">
+    <classInstance class="NameStringSelector" name="name" value="小绯"/>
+    <classInstance class="TextFiled Mark Number" name="content" text="109"/>
+    <classInstance class="DialogBoardClick" name="next">
+      <classInstance class="DialogBoardSelector" name="dialog" selectId="110"/>
+    </classInstance>
+  </classInstance>
+  <classInstance class="DialogBoard" name="DB0_110_我打起精神，告别了君浩，\n向着...">
+    <classInstance class="NameStringSelector" name="name" value=""/>
+    <classInstance class="TextFiled Mark Number" name="content" text="110"/>
   </classInstance>
 </EditableEditorFile>
