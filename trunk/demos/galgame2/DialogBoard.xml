@@ -8,6 +8,10 @@
 		<item value = "5" text = "透明渐变背景" />
 		<item value = "6" text = "水波" />
 		<item value = "7" text = "扭曲" />
+		<item value = "8" text = "破碎" />
+		<item value = "9" text = "左到右消失" />
+		<item value = "10" text = "右到左消失" />
+		<item value = "11" text = "百叶窗左右" />
 	</Selector>
 	<Selector className = "FadeIn" valueType = "int" width = "100" export="value=u8">
 		<item value = "0" text = "直接出现" />
@@ -17,7 +21,11 @@
 		<item value = "4" text = "圆形" />
 		<item value = "5" text = "透明渐变背景" />
 		<item value = "6" text = "水波" />
-		<item value = "7" text = "扭曲" />>
+		<item value = "7" text = "扭曲" />
+		<!--item value = "8" text = "破碎" /-->
+		<item value = "9" text = "左到右出现" />
+		<item value = "10" text = "右到左出现" />
+		<item value = "11" text = "百叶窗左右" />
 	</Selector>
 
 	<Selector className = "SceneEffectSelector" valueType = "int" width = "100" export="value=u8">
@@ -27,6 +35,7 @@
 		<item value = "2" text = "老电影" />
 		<item value = "3" text = "梦幻蓝光" />
 		<item value = "4" text = "梦幻荧光" />
+		<item value = "5" text = "夕阳黄" />
 	</Selector>
 
 

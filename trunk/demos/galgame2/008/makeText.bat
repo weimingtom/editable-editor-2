@@ -1,0 +1,1 @@
+call ..\Tools\makeText.bat

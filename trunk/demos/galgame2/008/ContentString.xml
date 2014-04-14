@@ -1,0 +1,50 @@
+<EditableEditorHeader>
+  <Selector className="ContentStringSelector" valueType="int" width="250" showValue="false" export="value=u8_16">
+    <item text="无" value="0"/>
+    <item text="1 老师，我是小绯。" value="1"/>
+    <item text="2 好，进来吧。" value="2"/>
+    <item text="3 这次找你，主要是有几件事情想和你..." value="3"/>
+    <item text="4 嗯。" value="4"/>
+    <item text="5 第一件事情，是关于下周的课程安排..." value="5"/>
+    <item text="6 诶？凌月医生会来？" value="6"/>
+    <item text="7 是的，这次校方为了让大家学习到更..." value="7"/>
+    <item text="8 嗯。" value="8"/>
+    <item text="9 虽然你目睹了一起残忍的杀人事件，..." value="9"/>
+    <item text="10 嗯，我知道，谢谢老师。" value="10"/>
+    <item text="11 嗯，最近你也辛苦了，这种事情无论..." value="11"/>
+    <item text="12 嗯…………" value="12"/>
+    <item text="13 当然除此之外，还有一件必须要告诉..." value="13"/>
+    <item text="14 …………" value="14"/>
+    <item text="15 毕竟调查取证是找到凶手的必要环节..." value="15"/>
+    <item text="16 嗯…………" value="16"/>
+    <item text="17 要说的事情就是这些，这周末好好的..." value="17"/>
+    <item text="18 在从辅导员的办公室里出来之后，\..." value="18"/>
+    <item text="19 唔…………" value="19"/>
+    <item text="20 嗯？怎么了，小绯？" value="20"/>
+    <item text="21 没……没事…………" value="21"/>
+    <item text="22 哦。" value="22"/>
+    <item text="23 好几次，话到嘴边，\n却说不出来..." value="23"/>
+    <item text="24 小绯，你已经到家了。" value="24"/>
+    <item text="25 诶？啊……是啊。" value="25"/>
+    <item text="26 不知不觉，\n我们已经走到了家门..." value="26"/>
+    <item text="27 那么，我这就回去了，明天见。" value="27"/>
+    <item text="28 等一下，小绯！" value="28"/>
+    <item text="29 嗯？怎么了君浩？" value="29"/>
+    <item text="30 那个……#小绯，你没事吧？" value="30"/>
+    <item text="31 嗯，我没事的，君浩就放心吧。" value="31"/>
+    <item text="32 嗯，那就好。" value="32"/>
+    <item text="33 …………" value="33"/>
+    <item text="34 总之，小绯，你一定要打起精神来，..." value="34"/>
+    <item text="35 嗯，我会的。#君浩，你也要多注意..." value="35"/>
+    <item text="36 我会的，放心吧。#那么，明天见。" value="36"/>
+    <item text="37 明天见……" value="37"/>
+    <item text="38 回到家之后，\n随便吃了点东西，..." value="38"/>
+    <item text="39 （既然这样，我还是睡觉吧……）" value="39"/>
+    <item text="40 于是我躺在了床上，\n关闭了卧室..." value="40"/>
+    <item text="41 瞬间我的房间里被黑暗覆盖，\n这..." value="41"/>
+    <item text="42 （别怕……那只是我的一场梦而已…..." value="42"/>
+    <item text="43 我一边这么安慰着自己，\n一边用..." value="43"/>
+    <item text="44 （呼……没事了，安心……）#（好..." value="44"/>
+    <item text="45 我下定了决心之后，\n就盖好了被..." value="45"/>
+  </Selector>
+</EditableEditorHeader>
