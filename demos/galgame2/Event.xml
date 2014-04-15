@@ -190,6 +190,11 @@
 		<item value = "2" text = "从右到左" />
 		<item value = "3" text = "从上倒下" />
 		<item value = "4" text = "从下到上" />
+
+		<item value = "33" text = "最左定位" />
+		<item value = "34" text = "最右定位" />
+		<item value = "35" text = "最上定位" />
+		<item value = "36" text = "最下定位" />
 	</Selector>
 	
 	<class className = "EventMoveBg" >
@@ -199,6 +204,19 @@
 		<item class = "ENTER" name = "" />
 		<item class = "TextFiled Indicate" name = "" text = "速度(0.01像素单位)"/>
 		<item class = "Input Number" name = "speed" text = "10"/>	
+	</class>
+	
+	<class className = "EventScaleBg" >
+		<item class = "TextFiled Indicate" name = "" text = "缩放背景"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "比率(100表示1.00 105表示1.05)"/>
+		<item class = "Input Number" name = "scale" text = "100"/>
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "速度比率(1表示0.001)"/>
+		<item class = "Input Number" name = "speed" text = "2"/>	
+		<item class = "ENTER" name = "" />
+		<item class = "TextFiled Indicate" name = "" text = "相对变化"/>
+		<item class = "BooleanSelector" name = "relative" default="2"/>
 	</class>
 	
 	
@@ -213,6 +231,7 @@
 		<item class = "EventPlayFaceMotion"/>
 		<item class = "EventSetBreath"/>
 		<item class = "EventMoveBg"/>
+		<item class = "EventScaleBg"/>
 		
 		<item class = "EventSwitchScript"/>
 		<item class = "EventSwitchDialogBoard"/>
@@ -232,6 +251,7 @@
 		<item class = "EventPlayFaceMotion"/>		
 		<item class = "EventSetBreath"/>
 		<item class = "EventMoveBg"/>
+		<item class = "EventScaleBg"/>
 
 		
 		<item class = "EventSwitchScript"/>

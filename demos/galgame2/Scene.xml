@@ -31,5 +31,16 @@
 		<item text = "白屏" value = "#FFFFFF"/>
 		<item text = "梦幻天空" value = "BG/0020.jpg"/>
 		<item text = "天台晚霞" value = "BG/0021.jpg"/>
+
+		<item text = "CG血腥少女远站" value = "CG/0004.jpg"/>
+		
+		<item text = "CG血腥少女抿嘴" value = "CG/0005.jpg"/>
+		<item text = "CG血腥少女大笑" value = "CG/0006.jpg"/>
+		<item text = "CG血腥少女大笑调色" value = "CG/0007.jpg"/>
+
+		<item text = "玄关夜间" value = "BG/0022.jpg"/>
+
+    <item text = "CG与君浩相拥" value = "CG/0008.jpg"/>
+		
 	</Selector>
 </EditableEditorHeader>	
