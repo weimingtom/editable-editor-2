@@ -83,13 +83,16 @@
     <item text="80 她是已经死亡的人，\n这件事我是..." value="80"/>
     <item text="81 你……唔…………#你不可能还会活..." value="81"/>
     <item text="82 $A" value="82"/>
-    <item text="83 她突然发出了前所未有的笑声，\n..." value="83"/>
-    <item text="84 啊！！！" value="84"/>
-    <item text="85 但尽管那样，\n她依然站在那里。..." value="85"/>
-    <item text="86 $A" value="86"/>
-    <item text="87 啊啊啊啊啊啊啊啊啊啊啊啊！！！" value="87"/>
-    <item text="88 在看到如此恐怖的一幕后，\n我的..." value="88"/>
-    <item text="89 我拼命的把自己身边的所有东西向那..." value="89"/>
-    <item text="90 最后，连我的被子也一起扔出去之后..." value="90"/>
+    <item text="83 $A" value="83"/>
+    <item text="84 $A" value="84"/>
+    <item text="85 $A" value="85"/>
+    <item text="86 她突然发出了前所未有的笑声，\n..." value="86"/>
+    <item text="87 啊！！！" value="87"/>
+    <item text="88 但尽管那样，\n她依然站在那里。..." value="88"/>
+    <item text="89 $A" value="89"/>
+    <item text="90 啊啊啊啊啊啊啊啊啊啊啊啊！！！" value="90"/>
+    <item text="91 在看到如此恐怖的一幕后，\n我的..." value="91"/>
+    <item text="92 我拼命的把自己身边的所有东西向那..." value="92"/>
+    <item text="93 最后，连我的被子也一起扔出去之后..." value="93"/>
   </Selector>
 </EditableEditorHeader>
