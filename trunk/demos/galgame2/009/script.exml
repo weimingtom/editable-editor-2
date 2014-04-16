@@ -1,4 +1,4 @@
-<EditableEditorFile version="31" date="Wed Apr 16 08:40:27 GMT+0800 2014">
+<EditableEditorFile version="31" date="Wed Apr 16 09:11:25 GMT+0800 2014">
   <classInstance class="DialogBoard" name="DB0_1_深夜，不知道是几点的时候，\n我..." instanceUID="2612729165">
     <classInstance class="NameStringSelector" name="name" instanceUID="2612722324" value="" text="无" selectId="1"/>
     <classInstance class="TextFiled Mark Number" name="content" instanceUID="2612722526" text="1"/>
@@ -2284,7 +2284,7 @@
   </classInstance>
   <classInstance class="EventScaleBg" name="缩放背景" instanceUID="2657135441">
     <classInstance class="Input Number" name="scale" instanceUID="2657134538" text="110"/>
-    <classInstance class="Input Number" name="speed" instanceUID="2410983879" text="2"/>
+    <classInstance class="Input Number" name="speed" instanceUID="2410983879" text="5"/>
     <classInstance class="BooleanSelector" name="relative" instanceUID="2657135140" value="1" text="是" selectId="2"/>
   </classInstance>
   <classInstance class="EventMoveBg" name="从下到上" instanceUID="2671030846">
@@ -2297,7 +2297,7 @@
   </classInstance>
   <classInstance class="EventScaleBg" name="放大背景" instanceUID="2381994296">
     <classInstance class="Input Number" name="scale" instanceUID="2381993793" text="120"/>
-    <classInstance class="Input Number" name="speed" instanceUID="2410994597" text="4"/>
+    <classInstance class="Input Number" name="speed" instanceUID="2410994597" text="16"/>
     <classInstance class="BooleanSelector" name="relative" instanceUID="2381994195" value="1" text="是" selectId="2"/>
   </classInstance>
   <classInstance class="EventSwitchScript" name="切010" instanceUID="2387709402">
