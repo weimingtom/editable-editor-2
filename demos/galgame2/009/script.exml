@@ -1,4 +1,4 @@
-<EditableEditorFile version="31" date="Wed Apr 16 08:06:13 GMT+0800 2014">
+<EditableEditorFile version="31" date="Wed Apr 16 08:40:27 GMT+0800 2014">
   <classInstance class="DialogBoard" name="DB0_1_深夜，不知道是几点的时候，\n我..." instanceUID="2612729165">
     <classInstance class="NameStringSelector" name="name" instanceUID="2612722324" value="" text="无" selectId="1"/>
     <classInstance class="TextFiled Mark Number" name="content" instanceUID="2612722526" text="1"/>
@@ -2008,7 +2008,7 @@
     <classInstance class="SceneSelector" name="scene" instanceUID="2613560575" value="~" text="沿用当前不改变" selectId="2"/>
     <classInstance class="SceneEffectSelector" name="sceneEffect" instanceUID="2613561077" value="255" text="不改变" selectId="1"/>
     <classInstance class="FadeIn" name="fadeIn" instanceUID="2613561679" value="0" text="直接出现" selectId="1"/>
-    <classInstance class="EventSelector" name="event" instanceUID="2613563282" selectedInstanceUID="3000" text="无事件" selectId="1"/>
+    <classInstance class="EventSelector" name="event" instanceUID="2613563282" selectedInstanceUID="2675957551" text="定位最上" selectId="6"/>
     <classInstance class="StandView" name="leftSV" instanceUID="2613564889">
       <classInstance class="CharacterSelector" name="character" instanceUID="2613563886" value="255" text="不改变" selectId="1"/>
       <classInstance class="CharacterFaceSelector" name="face" instanceUID="2613564788" value="255" text="不改变" selectId="1"/>
@@ -2081,7 +2081,7 @@
   </classInstance>
   <classInstance class="DialogBoard" name="DB0_86_她突然发出了前所未有的笑声，\n..." instanceUID="2613602979">
     <classInstance class="NameStringSelector" name="name" instanceUID="2613586838" value="" text="无" selectId="1"/>
-    <classInstance class="TextFiled Mark Number" name="content" instanceUID="2613587140" text="83"/>
+    <classInstance class="TextFiled Mark Number" name="content" instanceUID="2613587140" text="86"/>
     <classInstance class="BooleanSelector" name="typeEffect" instanceUID="2613587542" value="1" text="是" selectId="2"/>
     <classInstance class="SceneSelector" name="scene" instanceUID="2613588345" value="CG/0006.jpg" text="CG血腥少女大笑" selectId="30"/>
     <classInstance class="SceneEffectSelector" name="sceneEffect" instanceUID="2613588847" value="255" text="不改变" selectId="1"/>
@@ -2107,7 +2107,7 @@
   </classInstance>
   <classInstance class="DialogBoard" name="DB0_87_啊！！！" instanceUID="2613621922">
     <classInstance class="NameStringSelector" name="name" instanceUID="2613606881" value="小绯" text="小绯" selectId="4"/>
-    <classInstance class="TextFiled Mark Number" name="content" instanceUID="2613607283" text="84"/>
+    <classInstance class="TextFiled Mark Number" name="content" instanceUID="2613607283" text="87"/>
     <classInstance class="BooleanSelector" name="typeEffect" instanceUID="2613607785" value="1" text="是" selectId="2"/>
     <classInstance class="SceneSelector" name="scene" instanceUID="2613608788" value="~" text="沿用当前不改变" selectId="2"/>
     <classInstance class="SceneEffectSelector" name="sceneEffect" instanceUID="2613609290" value="255" text="不改变" selectId="1"/>
@@ -2133,7 +2133,7 @@
   </classInstance>
   <classInstance class="DialogBoard" name="DB0_88_但尽管那样，\n她依然站在那里。..." instanceUID="2613650365">
     <classInstance class="NameStringSelector" name="name" instanceUID="2613624124" value="" text="无" selectId="1"/>
-    <classInstance class="TextFiled Mark Number" name="content" instanceUID="2613624526" text="85"/>
+    <classInstance class="TextFiled Mark Number" name="content" instanceUID="2613624526" text="88"/>
     <classInstance class="BooleanSelector" name="typeEffect" instanceUID="2613625228" value="1" text="是" selectId="2"/>
     <classInstance class="SceneSelector" name="scene" instanceUID="2613626631" value="~" text="沿用当前不改变" selectId="2"/>
     <classInstance class="SceneEffectSelector" name="sceneEffect" instanceUID="2613627833" value="255" text="不改变" selectId="1"/>
@@ -2158,7 +2158,7 @@
     </classInstance>
   </classInstance>
   <classInstance class="DialogBoardAuto" name="DBA_89_$A" instanceUID="2613665592">
-    <classInstance class="TextFiled Mark Number" name="content" instanceUID="2613652968" text="86"/>
+    <classInstance class="TextFiled Mark Number" name="content" instanceUID="2613652968" text="89"/>
     <classInstance class="SceneSelector" name="scene" instanceUID="2613653971" value="~" text="沿用当前不改变" selectId="2"/>
     <classInstance class="SceneEffectSelector" name="sceneEffect" instanceUID="2613654473" value="255" text="不改变" selectId="1"/>
     <classInstance class="FadeIn" name="fadeIn" instanceUID="2613655275" value="0" text="直接出现" selectId="1"/>
@@ -2172,7 +2172,7 @@
   </classInstance>
   <classInstance class="DialogBoard" name="DB0_90_啊啊啊啊啊啊啊啊啊啊啊啊！！！" instanceUID="2613691435">
     <classInstance class="NameStringSelector" name="name" instanceUID="2613669494" value="小绯" text="小绯" selectId="4"/>
-    <classInstance class="TextFiled Mark Number" name="content" instanceUID="2613670096" text="87"/>
+    <classInstance class="TextFiled Mark Number" name="content" instanceUID="2613670096" text="90"/>
     <classInstance class="BooleanSelector" name="typeEffect" instanceUID="2613670698" value="1" text="是" selectId="2"/>
     <classInstance class="SceneSelector" name="scene" instanceUID="2613672001" value="~" text="沿用当前不改变" selectId="2"/>
     <classInstance class="SceneEffectSelector" name="sceneEffect" instanceUID="2613673003" value="255" text="不改变" selectId="1"/>
@@ -2198,7 +2198,7 @@
   </classInstance>
   <classInstance class="DialogBoard" name="DB0_91_在看到如此恐怖的一幕后，\n我的..." instanceUID="2613711678">
     <classInstance class="NameStringSelector" name="name" instanceUID="2613694737" value="" text="无" selectId="1"/>
-    <classInstance class="TextFiled Mark Number" name="content" instanceUID="2613695139" text="88"/>
+    <classInstance class="TextFiled Mark Number" name="content" instanceUID="2613695139" text="91"/>
     <classInstance class="BooleanSelector" name="typeEffect" instanceUID="2613695741" value="1" text="是" selectId="2"/>
     <classInstance class="SceneSelector" name="scene" instanceUID="2613696644" value="~" text="沿用当前不改变" selectId="2"/>
     <classInstance class="SceneEffectSelector" name="sceneEffect" instanceUID="2613697146" value="255" text="不改变" selectId="1"/>
@@ -2224,7 +2224,7 @@
   </classInstance>
   <classInstance class="DialogBoard" name="DB0_92_我拼命的把自己身边的所有东西向那..." instanceUID="2613734421">
     <classInstance class="NameStringSelector" name="name" instanceUID="2613714380" value="" text="无" selectId="1"/>
-    <classInstance class="TextFiled Mark Number" name="content" instanceUID="2613714982" text="89"/>
+    <classInstance class="TextFiled Mark Number" name="content" instanceUID="2613714982" text="92"/>
     <classInstance class="BooleanSelector" name="typeEffect" instanceUID="2613715684" value="1" text="是" selectId="2"/>
     <classInstance class="SceneSelector" name="scene" instanceUID="2613716787" value="~" text="沿用当前不改变" selectId="2"/>
     <classInstance class="SceneEffectSelector" name="sceneEffect" instanceUID="2613717389" value="255" text="不改变" selectId="1"/>
@@ -2250,7 +2250,7 @@
   </classInstance>
   <classInstance class="DialogBoard" name="DB0_93_最后，连我的被子也一起扔出去之后..." instanceUID="2613753064">
     <classInstance class="NameStringSelector" name="name" instanceUID="2613738923" value="" text="无" selectId="1"/>
-    <classInstance class="TextFiled Mark Number" name="content" instanceUID="2613739325" text="90"/>
+    <classInstance class="TextFiled Mark Number" name="content" instanceUID="2613739325" text="93"/>
     <classInstance class="BooleanSelector" name="typeEffect" instanceUID="2613739827" value="1" text="是" selectId="2"/>
     <classInstance class="SceneSelector" name="scene" instanceUID="2613740630" value="~" text="沿用当前不改变" selectId="2"/>
     <classInstance class="SceneEffectSelector" name="sceneEffect" instanceUID="2613741132" value="255" text="不改变" selectId="1"/>
@@ -2289,7 +2289,7 @@
   </classInstance>
   <classInstance class="EventMoveBg" name="从下到上" instanceUID="2671030846">
     <classInstance class="MoveBgSelector" name="direction" instanceUID="2671030143" value="4" text="从下到上" selectId="4"/>
-    <classInstance class="Input Number" name="speed" instanceUID="2671030545" text="240"/>
+    <classInstance class="Input Number" name="speed" instanceUID="2671030545" text="350"/>
   </classInstance>
   <classInstance class="EventMoveBg" name="定位最上" instanceUID="2675957551">
     <classInstance class="MoveBgSelector" name="direction" instanceUID="2675956948" value="35" text="最上定位" selectId="7"/>
