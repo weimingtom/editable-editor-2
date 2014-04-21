@@ -1,0 +1,56 @@
+<EditableEditorHeader>
+  <Selector className="ContentStringSelector" valueType="int" width="250" showValue="false" export="value=u8_16">
+    <item text="无" value="0"/>
+    <item text="1 在灯光亮起的一瞬间，\n一切都恢..." value="1"/>
+    <item text="2 ………………" value="2"/>
+    <item text="3 啊……哈……咳咳…………" value="3"/>
+    <item text="4 打开房间的灯以后，\n我开始拼命..." value="4"/>
+    <item text="5 咳咳咳………………" value="5"/>
+    <item text="6 我环顾着自己的房间，\n发现除了..." value="6"/>
+    <item text="7 这……这究竟是……怎么回事…………" value="7"/>
+    <item text="8 回想起刚刚看到的恐怖画面，\n我..." value="8"/>
+    <item text="9 这……这不可能的，不可能的………..." value="9"/>
+    <item text="10 此时此刻的我，\n已经不知道自己..." value="10"/>
+    <item text="11 ………………#唔………………" value="11"/>
+    <item text="12 喂，是小绯吗？我是君浩。" value="12"/>
+    <item text="13 在电话那头传来君浩的声音之后，\..." value="13"/>
+    <item text="14 君浩，是我……" value="14"/>
+    <item text="15 我呆呆的坐在自己的床上，听着君浩..." value="15"/>
+    <item text="16 小绯，你怎么哭了？发生什么事情了？" value="16"/>
+    <item text="17 君浩，我好害怕…………" value="17"/>
+    <item text="18 我看到了死掉的人……#刚刚……她..." value="18"/>
+    <item text="19 这…………#小绯，你等我，我这就..." value="19"/>
+    <item text="20 嗯…………#君浩，你到了之后……..." value="20"/>
+    <item text="21 好……" value="21"/>
+    <item text="22 在那之后过了不久，\n楼下响起了..." value="22"/>
+    <item text="23 ………………#那个……君浩，是你..." value="23"/>
+    <item text="24 是我，小绯，开门吧。" value="24"/>
+    <item text="25 嗯，好。" value="25"/>
+    <item text="26 我走到了房间的大门前，\n君浩现..." value="26"/>
+    <item text="27 $A" value="27"/>
+    <item text="28 $A" value="28"/>
+    <item text="29 $C" value="29"/>
+    <item text="30 啊啊啊啊啊！！！！！！！！" value="30"/>
+    <item text="31 在开门的一瞬间，\n我看到了那个..." value="31"/>
+    <item text="32 ………………\n……………………" value="32"/>
+    <item text="33 小绯，小绯！！！你怎么了？醒醒啊！" value="33"/>
+    <item text="34 不知道过了多久，\n我的耳边传来..." value="34"/>
+    <item text="35 君浩…………" value="35"/>
+    <item text="36 我看到了，\n君浩正在用温柔而担..." value="36"/>
+    <item text="37 小绯，你终于醒了，太好了。" value="37"/>
+    <item text="38 君浩……我这是，怎么了……？#究..." value="38"/>
+    <item text="39 我也不知道啊，刚刚我在你房间外面..." value="39"/>
+    <item text="40 ………………#（我想起来了，我完..." value="40"/>
+    <item text="41 小绯，你没事真的是太好了。" value="41"/>
+    <item text="42 君浩，真的是你吗？" value="42"/>
+    <item text="43 嗯，是我啊小绯！" value="43"/>
+    <item text="44 $C" value="44"/>
+    <item text="45 君浩一边说着，\n一边紧紧的抱住..." value="45"/>
+    <item text="46 君浩！！！" value="46"/>
+    <item text="47 在下一刻，\n我拼命的抱紧了君浩..." value="47"/>
+    <item text="48 君浩，不要走！不要走！！" value="48"/>
+    <item text="49 放心吧，小绯，我哪里都不会去的！..." value="49"/>
+    <item text="50 嗯！！！" value="50"/>
+    <item text="51 趴在君浩的肩膀上，\n不争气的我..." value="51"/>
+  </Selector>
+</EditableEditorHeader>
