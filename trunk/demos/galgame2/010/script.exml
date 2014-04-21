@@ -1,4 +1,4 @@
-<EditableEditorFile version="31" date="Mon Apr 21 08:23:57 GMT+0800 2014">
+<EditableEditorFile version="31" date="Mon Apr 21 12:36:33 GMT+0800 2014">
   <classInstance class="DialogBoard" name="DB0_1_在灯光亮起的一瞬间，\n一切都恢..." instanceUID="3428327365">
     <classInstance class="NameStringSelector" name="name" instanceUID="3428317824" value="" text="无" selectId="1"/>
     <classInstance class="TextFiled Mark Number" name="content" instanceUID="3428318026" text="1"/>
@@ -697,7 +697,7 @@
     <classInstance class="Input Number" name="delay" instanceUID="3428549183" text="1"/>
     <classInstance class="DialogBoardClick" name="next" instanceUID="3428551592">
       <classInstance class="DialogBoardSelector" name="dialog" instanceUID="3428550186" selectedInstanceUID="3428561237" text="DB0_29_$C" selectId="29"/>
-      <classInstance class="FadeOut" name="fadeOut" instanceUID="3428550488" value="0" text="直接消失" selectId="1"/>
+      <classInstance class="FadeOut" name="fadeOut" instanceUID="3428550488" value="13" text="圆形反刺" selectId="14"/>
       <classInstance class="EventSelector" name="event" instanceUID="3428551491" selectedInstanceUID="3000" text="无事件" selectId="1"/>
     </classInstance>
   </classInstance>
