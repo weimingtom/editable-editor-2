@@ -12,6 +12,7 @@
 		<item value = "9" text = "左到右消失" />
 		<item value = "10" text = "右到左消失" />
 		<item value = "11" text = "百叶窗左右" />
+		<item value = "12" text = "圆形反向" />
 	</Selector>
 	<Selector className = "FadeIn" valueType = "int" width = "100" export="value=u8">
 		<item value = "0" text = "直接出现" />
@@ -26,6 +27,7 @@
 		<item value = "9" text = "左到右出现" />
 		<item value = "10" text = "右到左出现" />
 		<item value = "11" text = "百叶窗左右" />
+		<item value = "12" text = "圆形反向" />
 	</Selector>
 
 	<Selector className = "SceneEffectSelector" valueType = "int" width = "100" export="value=u8">
