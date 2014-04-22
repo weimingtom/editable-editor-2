@@ -1,0 +1,16 @@
+<EditableEditorFile version="31" date="Wed Apr 23 02:33:09 GMT+0800 2014">
+  <classInstance class="DialogBoardTitle" name="DBT_1_$T未完待续，敬请期待…" instanceUID="3568129923">
+    <classInstance class="TextFiled Mark Number" name="content" instanceUID="3568126199" text="1"/>
+    <classInstance class="BooleanSelector" name="typeEffect" instanceUID="3568126301" value="1" text="是" selectId="2"/>
+    <classInstance class="Input Color" name="textColor" instanceUID="3568126403" text="0xFFFFFFFF"/>
+    <classInstance class="SceneSelector" name="scene" instanceUID="3568127106" value="BG/0004.jpg" text="黄昏警局" selectId="8"/>
+    <classInstance class="SceneEffectSelector" name="sceneEffect" instanceUID="3568127408" value="2" text="老电影" selectId="4"/>
+    <classInstance class="FadeIn" name="fadeIn" instanceUID="3568127810" value="3" text="百叶窗上下" selectId="4"/>
+    <classInstance class="EventSelector" name="event" instanceUID="3568128413" selectedInstanceUID="3000" text="无事件" selectId="1"/>
+    <classInstance class="DialogBoardClick" name="next" instanceUID="3568129922">
+      <classInstance class="DialogBoardSelector" name="dialog" instanceUID="3568128816"/>
+      <classInstance class="FadeOut" name="fadeOut" instanceUID="3568129418" value="1" text="透明渐变" selectId="2"/>
+      <classInstance class="EventSelector" name="event" instanceUID="3568129821" selectedInstanceUID="3000" text="无事件" selectId="1"/>
+    </classInstance>
+  </classInstance>
+</EditableEditorFile>
