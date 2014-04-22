@@ -1,11 +1,18 @@
 ﻿<EditableEditorHeader>
 	<Selector className = "SoundSelector" valueType = "String" width = "80" showValue = "true" export="value=string">
+		<item value = "SFX/001.ogg" text ="铃音" />
+		<item value = "SFX/002.ogg" text ="震惊" />
+		<item value = "SFX/003.ogg" text ="恐怖" />
+		<item value = "SFX/004.ogg" text ="破碎" />
+		<item value = "SFX/005.ogg" text ="敲门" />
+		<item value = "SFX/006.ogg" text ="开门" />
 	</Selector>
 	
 	<Selector className = "BGMSelector" valueType = "String" width = "100" showValue = "true" export="value=string">
 		<item text = "无" value = ""/>
 
 		<item value = "BGM/xy.ogg" text ="xy" />
+		<item value = "BGM/drop.ogg" text ="drop" />
 		<item value = "BGM/drop.ogg" text ="drop" />
 		<item value = "BGM/cf.ogg" text ="cf" />
 		<item value = "BGM/sws.ogg" text ="sws" />

@@ -1,0 +1,6 @@
+<EditableEditorHeader>
+  <Selector className="ContentStringSelector" valueType="int" width="250" showValue="false" export="value=u8_16">
+    <item text="无" value="0"/>
+    <item text="1 $T未完待续，敬请期待…" value="1"/>
+  </Selector>
+</EditableEditorHeader>

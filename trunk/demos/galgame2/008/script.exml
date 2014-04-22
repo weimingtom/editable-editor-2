@@ -1,4 +1,4 @@
-<EditableEditorFile version="31" date="Mon Apr 14 23:21:39 GMT+0800 2014">
+<EditableEditorFile version="31" date="Wed Apr 23 01:31:17 GMT+0800 2014">
   <classInstance class="DialogBoard" name="DB0_1_老师，我是小绯。" instanceUID="2368630165">
     <classInstance class="NameStringSelector" name="name" instanceUID="2368623124" value="小绯" text="小绯" selectId="4"/>
     <classInstance class="TextFiled Mark Number" name="content" instanceUID="2368623326" text="1"/>
@@ -6,7 +6,7 @@
     <classInstance class="SceneSelector" name="scene" instanceUID="2368624931" value="" text="无(黑屏)" selectId="1"/>
     <classInstance class="SceneEffectSelector" name="sceneEffect" instanceUID="2368625333" value="255" text="不改变" selectId="1"/>
     <classInstance class="FadeIn" name="fadeIn" instanceUID="2368625935" value="0" text="直接出现" selectId="1"/>
-    <classInstance class="EventSelector" name="event" instanceUID="2368626238" selectedInstanceUID="3000" text="无事件" selectId="1"/>
+    <classInstance class="EventSelector" name="event" instanceUID="2368626238" selectedInstanceUID="3441110539" text="播放敲门" selectId="3"/>
     <classInstance class="StandView" name="leftSV" instanceUID="2368627745">
       <classInstance class="CharacterSelector" name="character" instanceUID="2368626642" value="255" text="不改变" selectId="1"/>
       <classInstance class="CharacterFaceSelector" name="face" instanceUID="2368627744" value="255" text="不改变" selectId="1"/>
@@ -48,7 +48,7 @@
     <classInstance class="DialogBoardClick" name="next" instanceUID="2368634807">
       <classInstance class="DialogBoardSelector" name="dialog" instanceUID="2368634201" selectedInstanceUID="2368640151" text="DB0_3_这次找你，主要是有几件事情想和你..." selectId="3"/>
       <classInstance class="FadeOut" name="fadeOut" instanceUID="2368634503" value="9" text="左到右消失" selectId="10"/>
-      <classInstance class="EventSelector" name="event" instanceUID="2368634806" selectedInstanceUID="3000" text="无事件" selectId="1"/>
+      <classInstance class="EventSelector" name="event" instanceUID="2368634806" selectedInstanceUID="3534820996" text="播放开门" selectId="4"/>
     </classInstance>
   </classInstance>
   <classInstance class="DialogBoard" name="DB0_3_这次找你，主要是有几件事情想和你..." instanceUID="2368640151">
@@ -1172,5 +1172,15 @@
   <classInstance class="EventSwitchScript" name="切换009" instanceUID="2397812863">
     <classInstance class="Input Number" name="script" instanceUID="2397812660" text="9"/>
     <classInstance class="Input Number" name="page" instanceUID="2397812862" text="0"/>
+  </classInstance>
+  <classInstance class="EventPlaySFX" name="播放敲门" instanceUID="3441110539">
+    <classInstance class="Input Number" name="delay" instanceUID="3441109533" text="0"/>
+    <classInstance class="SoundSelector" name="sound" instanceUID="3441110236" value="SFX/005.ogg" text="敲门" selectId="5"/>
+    <classInstance class="Input Number" name="times" instanceUID="3441110438" text="1"/>
+  </classInstance>
+  <classInstance class="EventPlaySFX" name="播放开门" instanceUID="3534820996">
+    <classInstance class="Input Number" name="delay" instanceUID="3534820290" text="0"/>
+    <classInstance class="SoundSelector" name="sound" instanceUID="3534820693" value="SFX/006.ogg" text="开门" selectId="6"/>
+    <classInstance class="Input Number" name="times" instanceUID="3534820895" text="1"/>
   </classInstance>
 </EditableEditorFile>
