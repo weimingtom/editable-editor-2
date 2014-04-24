@@ -1,4 +1,4 @@
-<EditableEditorFile version="31" date="Mon Mar 31 22:47:54 GMT+0800 2014">
+<EditableEditorFile version="31" date="Thu Apr 24 01:16:38 GMT+0800 2014">
   <classInstance class="DialogBoard" name="DB0_1_沉重的意识，模糊的视线，\n完全..." instanceUID="3396186461">
     <classInstance class="NameStringSelector" name="name" instanceUID="3396177020" value="" text="无" selectId="1"/>
     <classInstance class="TextFiled Mark Number" name="content" instanceUID="3396177322" text="1"/>
@@ -6,7 +6,7 @@
     <classInstance class="SceneSelector" name="scene" instanceUID="3396178527" value="BG/0001.jpg" text="海洞" selectId="3"/>
     <classInstance class="SceneEffectSelector" name="sceneEffect" instanceUID="3396179029" value="1" text="水下" selectId="3"/>
     <classInstance class="FadeIn" name="fadeIn" instanceUID="3396179531" value="0" text="直接出现" selectId="1"/>
-    <classInstance class="EventSelector" name="event" instanceUID="3396180134" selectedInstanceUID="3333679695" text="移动背景" selectId="2"/>
+    <classInstance class="EventSelector" name="event" instanceUID="3396180134" selectedInstanceUID="3585466633" text="移动+N54" selectId="7"/>
     <classInstance class="StandView" name="leftSV" instanceUID="3396182341">
       <classInstance class="CharacterSelector" name="character" instanceUID="3396180738" value="255" text="不改变" selectId="1"/>
       <classInstance class="CharacterFaceSelector" name="face" instanceUID="3396182340" value="255" text="不改变" selectId="1"/>
@@ -100,7 +100,7 @@
     <classInstance class="DialogBoardClick" name="next" instanceUID="3396208489">
       <classInstance class="DialogBoardSelector" name="dialog" instanceUID="3396207683"/>
       <classInstance class="FadeOut" name="fadeOut" instanceUID="3396207985" value="1" text="透明渐变" selectId="2"/>
-      <classInstance class="EventSelector" name="event" instanceUID="3396208388" selectedInstanceUID="448579605" text="切换脚本2" selectId="3"/>
+      <classInstance class="EventSelector" name="event" instanceUID="3396208388" selectedInstanceUID="3583666827" text="静音+切换" selectId="6"/>
     </classInstance>
   </classInstance>
   <classInstance class="EventMoveBg" name="移动背景" instanceUID="3333679695">
@@ -110,5 +110,23 @@
   <classInstance class="EventSwitchScript" name="切换脚本2" instanceUID="448579605">
     <classInstance class="Input Number" name="script" instanceUID="448579502" text="2"/>
     <classInstance class="Input Number" name="page" instanceUID="448579604" text="0"/>
+  </classInstance>
+  <classInstance class="EventPlayBGM" name="N54" instanceUID="3582246013">
+    <classInstance class="Input Number" name="delay" instanceUID="3582244907" text="0"/>
+    <classInstance class="BGMSelector" name="sound" instanceUID="3582245510" value="BGM/cp1-n54.ogg" text="n54" selectId="9"/>
+    <classInstance class="BooleanSelector" name="loop" instanceUID="3582245912" value="1" text="是" selectId="2"/>
+  </classInstance>
+  <classInstance class="EventPlayBGM" name="静音" instanceUID="3582805021">
+    <classInstance class="Input Number" name="delay" instanceUID="3582804315" text="0"/>
+    <classInstance class="BGMSelector" name="sound" instanceUID="3582804718" value="" text="无" selectId="1"/>
+    <classInstance class="BooleanSelector" name="loop" instanceUID="3582804920" value="1" text="是" selectId="2"/>
+  </classInstance>
+  <classInstance class="EventBatch2Event" name="静音+切换" instanceUID="3583666827">
+    <classInstance class="EventSelector" name="event0Event" instanceUID="3583666324" selectedInstanceUID="3582805021" text="静音" selectId="5"/>
+    <classInstance class="EventSelector" name="event1Event" instanceUID="3583666726" selectedInstanceUID="448579605" text="切换脚本2" selectId="3"/>
+  </classInstance>
+  <classInstance class="EventBatch2Event" name="移动+N54" instanceUID="3585466633">
+    <classInstance class="EventSelector" name="event0Event" instanceUID="3585466130" selectedInstanceUID="3333679695" text="移动背景" selectId="2"/>
+    <classInstance class="EventSelector" name="event1Event" instanceUID="3585466532" selectedInstanceUID="3582246013" text="N54" selectId="4"/>
   </classInstance>
 </EditableEditorFile>
