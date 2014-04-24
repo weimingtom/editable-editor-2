@@ -11,19 +11,19 @@
 	<Selector className = "BGMSelector" valueType = "String" width = "100" showValue = "true" export="value=string">
 		<item text = "无" value = ""/>
 
-		<item value = "BGM/xy.ogg" text ="xy" />
-		<item value = "BGM/drop.ogg" text ="drop" />
-		<item value = "BGM/drop.ogg" text ="drop" />
-		<item value = "BGM/cf.ogg" text ="cf" />
-		<item value = "BGM/sws.ogg" text ="sws" />
-		<item value = "BGM/kage.ogg" text ="kage" />
-		<item value = "BGM/BGM054.ogg" text ="BGM054" />
-		<item value = "BGM/wangx.ogg" text ="wangx" />
-		<item value = "BGM/Moonlight.ogg" text ="Moonlight" />
-		<item value = "BGM/qt03.ogg" text ="qt03" />
-		<item value = "BGM/gy03.ogg" text ="gy03" />
-		<item value = "BGM/BGM001.ogg" text ="BGM001" />
-		<item value = "BGM/BGM002.ogg" text ="BGM002" />
-		<item value = "BGM/namida.ogg" text ="namida" />
+      <item value = "BGM/cp1-6-year_memories_type1.ogg" text ="6-year_memories_type1" />
+      <item value = "BGM/cp1-asia.ogg" text ="asia" />
+      <item value = "BGM/cp1-c4.ogg" text ="c4" />
+      <item value = "BGM/cp1-cafe.ogg" text ="cafe" />
+      <item value = "BGM/cp1-k_sikisai.ogg" text ="k_sikisai" />
+      <item value = "BGM/cp1-n10.ogg" text ="n10" />
+      <item value = "BGM/cp1-n23.ogg" text ="n23" />
+      <item value = "BGM/cp1-n54.ogg" text ="n54" />
+      <item value = "BGM/cp1-n58.ogg" text ="n58" />
+      <item value = "BGM/cp1-n60.ogg" text ="n60" />
+      <item value = "BGM/cp1-nandesuto.ogg" text ="nandesuto" />
+      <item value = "BGM/cp1-pure.ogg" text ="pure" />
+      <item value = "BGM/cp1-snowgrave.ogg" text ="snowgrave" />
+
 	</Selector>
 </EditableEditorHeader>	
