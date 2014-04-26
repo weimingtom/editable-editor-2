@@ -1,40 +1,73 @@
 ﻿<EditableEditorHeader>
-	<Selector className = "CharacterSelector" valueType = "int" width = "60" showValue = "false" export="value=u8">
+	<Selector className = "CharacterSelector" valueType = "int" width = "80" showValue = "false" export="value=u8">
 		<item text = "不改变" value = "255"/>
 		<item text = "无" value = "0"/>
-		<item text = "云静盈" value = "1"/>
-		<item text = "黄怡敏" value = "2"/>
+		<item text = "小绯" value = "1"/>
+		<item text = "君浩" value = "2"/>
+		<item text = "凌月" value = "3"/>
+		<item text = "碧菡" value = "4"/>
 	</Selector>
-	<Selector className = "CharacterFaceSelector" valueType = "int" width = "60" showValue = "false" export="value=u8">
+	<Selector className = "CharacterFaceSelector" valueType = "int" width = "80" showValue = "false" export="value=u8">
 		<item text = "不改变" value = "255"/>
 		<item text = "默认" value = "0"/>
-		<item text = "笑" value = "1"/>
-		<item text = "思考" value = "2"/>
-		<item text = "害羞" value = "3"/>
-		<item text = "娇啧" value = "4"/>
-		<item text = "傲娇" value = "5"/>
-		<item text = "难道" value = "6"/>
-		<item text = "唉" value = "7"/>
-
-		<item text = "眯眼" value = "20"/>
-		<item text = "神秘" value = "21"/>
-		<item text = "斜眼" value = "22"/>
-		<item text = "阴笑" value = "23"/>
+		<item text = "小绯101笑" value = "1"/>
+		<item text = "小绯102啊？" value = "2"/>
+		<item text = "小绯103开心" value = "3"/>
+		<item text = "小绯104欢笑" value = "4"/>
+		<item text = "小绯105诶" value = "5"/>
+		<item text = "小绯106唔" value = "6"/>
+		<item text = "小绯107唔2" value = "7"/>
+		<item text = "小绯108唔3" value = "8"/>
+		<item text = "小绯109唔4" value = "9"/>
+		<item text = "小绯110哎" value = "10"/>
+		<item text = "小绯111哎呀" value = "11"/>
+		<item text = "小绯112嘿嘿" value = "12"/>
+		<item text = "小绯113困" value = "13"/>
 		
-		<item text = "得意" value = "8"/>
-		<item text = "紧张" value = "9"/>
-		<item text = "害羞" value = "10"/>
-		<item text = "决心" value = "12"/>
-		<item text = "害羞笑" value = "13"/>
-		<item text = "害羞3" value = "14"/>
-		<item text = "害羞2" value = "15"/>	
+		<item text = "小绯301交叉笑" value = "14"/>
+		<item text = "小绯302交叉诶" value = "15"/>
+		<item text = "小绯303交叉开心" value = "16"/>
+		<item text = "小绯304交叉唔" value = "17"/>
+		<item text = "小绯305交叉唔嗯" value = "18"/>
+		<item text = "小绯306交叉啊" value = "19"/>
+		<item text = "小绯307交叉啊2" value = "20"/>
+		<item text = "小绯308交叉嗯？" value = "21"/>
 		
-		<item text = "担忧" value = "16"/>	
-		<item text = "担忧左" value = "17"/>	
-		<item text = "担忧右" value = "18"/>	
-		<item text = "哭泣" value = "19"/>	
-		<item text = "哭脸" value = "30"/>
-		<item text = "哭笑" value = "31"/>
+		<item text = "小绯501校服笑" value = "22"/>
+		<item text = "小绯502校服忧伤" value = "23"/>
+		<item text = "小绯503校服咦" value = "24"/>
+		<item text = "小绯504校服惊" value = "25"/>
+		<item text = "小绯505校服哭" value = "26"/>
+		
+		<item text = "君浩01笑" value = "1"/>
+		<item text = "君浩02啊？" value = "2"/>
+		<item text = "君浩03嗯？" value = "3"/>
+		<item text = "君浩04怒" value = "4"/>
+		<item text = "君浩05怒2" value = "5"/>
+		<item text = "君浩06无奈" value = "6"/>
+		<item text = "君浩07大笑" value = "7"/>
+		<item text = "君浩08高兴" value = "8"/>
+		<item text = "君浩09汗" value = "9"/>
+		<item text = "君浩10哼哼" value = "10"/>
+		<item text = "君浩11思考" value = "11"/>
+		<item text = "君浩12惊" value = "12"/>
+		
+		<item text = "凌月01嘿" value = "1"/>
+		<item text = "凌月02嗯？" value = "2"/>
+		<item text = "凌月03嗯2" value = "3"/>
+		<item text = "凌月04疑" value = "4"/>
+		<item text = "凌月05怒" value = "5"/>
+		<item text = "凌月06无奈" value = "6"/>
+		<item text = "凌月07笑" value = "7"/>
+		
+    <item text = "碧菡01笑" value = "1"/>
+		<item text = "碧菡02嗯" value = "2"/>
+		<item text = "碧菡03诶" value = "3"/>
+		<item text = "碧菡04疑" value = "4"/>
+		<item text = "碧菡05坏笑" value = "5"/>
+		<item text = "碧菡06哦？" value = "6"/>
+		<item text = "碧菡07啊" value = "7"/>
+		
 	</Selector>
 
 	<Selector className = "CharacterFaceMotion" valueType = "int" width = "60" showValue = "false" export="value=u8">

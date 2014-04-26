@@ -1,4 +1,4 @@
-<EditableEditorFile version="31" date="Thu Apr 24 03:20:14 GMT+0800 2014">
+<EditableEditorFile version="31" date="Sat Apr 26 03:02:08 GMT+0800 2014">
   <classInstance class="DialogBoardTitle" name="DBT_1_$T破碎的日常" instanceUID="437191347">
     <classInstance class="TextFiled Mark Number" name="content" instanceUID="437186525" text="1"/>
     <classInstance class="BooleanSelector" name="typeEffect" instanceUID="437187027" value="0" text="否" selectId="1"/>
@@ -2978,8 +2978,8 @@
       <classInstance class="CharacterFaceSelector" name="face" instanceUID="439369553" value="255" text="不改变" selectId="1"/>
     </classInstance>
     <classInstance class="StandView" name="middleSV" instanceUID="439372759">
-      <classInstance class="CharacterSelector" name="character" instanceUID="439371156" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="439372458" value="255" text="不改变" selectId="1"/>
+      <classInstance class="CharacterSelector" name="character" instanceUID="439371156" value="1" text="小绯" selectId="3"/>
+      <classInstance class="CharacterFaceSelector" name="face" instanceUID="439372458" value="11" text="小绯111哎呀" selectId="13"/>
     </classInstance>
     <classInstance class="StandView" name="rightSV" instanceUID="439374764">
       <classInstance class="CharacterSelector" name="character" instanceUID="439373361" value="255" text="不改变" selectId="1"/>
@@ -3108,8 +3108,8 @@
       <classInstance class="CharacterFaceSelector" name="face" instanceUID="439522168" value="255" text="不改变" selectId="1"/>
     </classInstance>
     <classInstance class="StandView" name="middleSV" instanceUID="439528374">
-      <classInstance class="CharacterSelector" name="character" instanceUID="439523471" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="439528173" value="255" text="不改变" selectId="1"/>
+      <classInstance class="CharacterSelector" name="character" instanceUID="439523471" value="1" text="小绯" selectId="3"/>
+      <classInstance class="CharacterFaceSelector" name="face" instanceUID="439528173" value="2" text="小绯102啊？" selectId="4"/>
     </classInstance>
     <classInstance class="StandView" name="rightSV" instanceUID="439530279">
       <classInstance class="CharacterSelector" name="character" instanceUID="439528876" value="255" text="不改变" selectId="1"/>
@@ -3212,8 +3212,8 @@
       <classInstance class="CharacterFaceSelector" name="face" instanceUID="439648140" value="255" text="不改变" selectId="1"/>
     </classInstance>
     <classInstance class="StandView" name="middleSV" instanceUID="439650446">
-      <classInstance class="CharacterSelector" name="character" instanceUID="439648843" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="439650145" value="255" text="不改变" selectId="1"/>
+      <classInstance class="CharacterSelector" name="character" instanceUID="439648843" value="1" text="小绯" selectId="3"/>
+      <classInstance class="CharacterFaceSelector" name="face" instanceUID="439650145" value="1" text="小绯101笑" selectId="3"/>
     </classInstance>
     <classInstance class="StandView" name="rightSV" instanceUID="439652351">
       <classInstance class="CharacterSelector" name="character" instanceUID="439651248" value="255" text="不改变" selectId="1"/>
@@ -3290,8 +3290,8 @@
       <classInstance class="CharacterFaceSelector" name="face" instanceUID="439742769" value="255" text="不改变" selectId="1"/>
     </classInstance>
     <classInstance class="StandView" name="middleSV" instanceUID="439746975">
-      <classInstance class="CharacterSelector" name="character" instanceUID="439744172" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="439746574" value="255" text="不改变" selectId="1"/>
+      <classInstance class="CharacterSelector" name="character" instanceUID="439744172" value="1" text="小绯" selectId="3"/>
+      <classInstance class="CharacterFaceSelector" name="face" instanceUID="439746574" value="11" text="小绯111哎呀" selectId="13"/>
     </classInstance>
     <classInstance class="StandView" name="rightSV" instanceUID="439750080">
       <classInstance class="CharacterSelector" name="character" instanceUID="439747977" value="255" text="不改变" selectId="1"/>
@@ -3395,7 +3395,7 @@
     </classInstance>
     <classInstance class="StandView" name="middleSV" instanceUID="439877747">
       <classInstance class="CharacterSelector" name="character" instanceUID="439876344" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="439877446" value="255" text="不改变" selectId="1"/>
+      <classInstance class="CharacterFaceSelector" name="face" instanceUID="439877446" value="1" text="小绯101笑" selectId="3"/>
     </classInstance>
     <classInstance class="StandView" name="rightSV" instanceUID="439880552">
       <classInstance class="CharacterSelector" name="character" instanceUID="439878449" value="255" text="不改变" selectId="1"/>
@@ -3473,7 +3473,7 @@
     </classInstance>
     <classInstance class="StandView" name="middleSV" instanceUID="439992976">
       <classInstance class="CharacterSelector" name="character" instanceUID="439990873" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="439992075" value="255" text="不改变" selectId="1"/>
+      <classInstance class="CharacterFaceSelector" name="face" instanceUID="439992075" value="11" text="小绯111哎呀" selectId="13"/>
     </classInstance>
     <classInstance class="StandView" name="rightSV" instanceUID="439995381">
       <classInstance class="CharacterSelector" name="character" instanceUID="439993878" value="255" text="不改变" selectId="1"/>
@@ -3915,7 +3915,7 @@
     </classInstance>
     <classInstance class="StandView" name="middleSV" instanceUID="440586007">
       <classInstance class="CharacterSelector" name="character" instanceUID="440584304" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="440585706" value="255" text="不改变" selectId="1"/>
+      <classInstance class="CharacterFaceSelector" name="face" instanceUID="440585706" value="10" text="小绯110哎" selectId="12"/>
     </classInstance>
     <classInstance class="StandView" name="rightSV" instanceUID="440588612">
       <classInstance class="CharacterSelector" name="character" instanceUID="440586909" value="255" text="不改变" selectId="1"/>
@@ -4071,7 +4071,7 @@
     </classInstance>
     <classInstance class="StandView" name="middleSV" instanceUID="440796165">
       <classInstance class="CharacterSelector" name="character" instanceUID="440794162" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="440795764" value="255" text="不改变" selectId="1"/>
+      <classInstance class="CharacterFaceSelector" name="face" instanceUID="440795764" value="11" text="小绯111哎呀" selectId="13"/>
     </classInstance>
     <classInstance class="StandView" name="rightSV" instanceUID="440798770">
       <classInstance class="CharacterSelector" name="character" instanceUID="440796867" value="255" text="不改变" selectId="1"/>
