@@ -1,4 +1,4 @@
-<EditableEditorFile version="31" date="Thu Apr 24 04:16:49 GMT+0800 2014">
+<EditableEditorFile version="31" date="Sat Apr 26 07:18:17 GMT+0800 2014">
   <classInstance class="DialogBoard" name="DB0_1_（从现在开始，要自己一个人生活了..." instanceUID="1108027765">
     <classInstance class="NameStringSelector" name="name" instanceUID="1108019524" value="小绯" text="小绯" selectId="4"/>
     <classInstance class="TextFiled Mark Number" name="content" instanceUID="1108019726" text="1"/>
@@ -12,8 +12,8 @@
       <classInstance class="CharacterFaceSelector" name="face" instanceUID="1108024344" value="255" text="不改变" selectId="1"/>
     </classInstance>
     <classInstance class="StandView" name="middleSV" instanceUID="1108025250">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1108024547" value="255" text="不改变" selectId="1"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1108025249" value="255" text="不改变" selectId="1"/>
+      <classInstance class="CharacterSelector" name="character" instanceUID="1108024547" value="1" text="小绯" selectId="3"/>
+      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1108025249" value="21" text="小绯308交叉嗯？" selectId="22"/>
     </classInstance>
     <classInstance class="StandView" name="rightSV" instanceUID="1108026255">
       <classInstance class="CharacterSelector" name="character" instanceUID="1108025552" value="255" text="不改变" selectId="1"/>
@@ -38,7 +38,7 @@
       <classInstance class="CharacterFaceSelector" name="face" instanceUID="1108030887" value="255" text="不改变" selectId="1"/>
     </classInstance>
     <classInstance class="StandView" name="middleSV" instanceUID="1108032293">
-      <classInstance class="CharacterSelector" name="character" instanceUID="1108031090" value="255" text="不改变" selectId="1"/>
+      <classInstance class="CharacterSelector" name="character" instanceUID="1108031090" value="0" text="无" selectId="2"/>
       <classInstance class="CharacterFaceSelector" name="face" instanceUID="1108032192" value="255" text="不改变" selectId="1"/>
     </classInstance>
     <classInstance class="StandView" name="rightSV" instanceUID="1108033198">

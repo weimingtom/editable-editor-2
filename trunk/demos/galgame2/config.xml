@@ -28,10 +28,10 @@
 	
 	
 	<Page name = "对话框列表">	
-		<classInstance class = "DialogBoardCreater" name = "请选择对话框的类型" default="1"/>
+		<!--classInstance class = "DialogBoardCreater" name = "请选择对话框的类型" default="1"/>
 		<classInstance class = "ENTER" name = "" />
 		<classInstance class = "Line" name = ""/>
-		<classInstance class = "ENTER" name = "" />
+		<classInstance class = "ENTER" name = "" /-->
 		<classInstance class = "DialogBoardSelector" name = "对话框列表"/>
 		
 		<classInstance class = "ENTER" name = "" />
