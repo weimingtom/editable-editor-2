@@ -1,4 +1,4 @@
-<EditableEditorFile version="31" date="Sat Apr 26 08:07:24 GMT+0800 2014">
+<EditableEditorFile version="31" date="Mon Apr 28 01:05:40 GMT+0800 2014">
   <classInstance class="DialogBoard" name="DB0_1_在灯光亮起的一瞬间，\n一切都恢..." instanceUID="3428327365">
     <classInstance class="NameStringSelector" name="name" instanceUID="3428317824" value="" text="无" selectId="1"/>
     <classInstance class="TextFiled Mark Number" name="content" instanceUID="3428318026" text="1"/>
@@ -871,7 +871,7 @@
     </classInstance>
     <classInstance class="StandView" name="middleSV" instanceUID="3428625680">
       <classInstance class="CharacterSelector" name="character" instanceUID="3428624977" value="2" text="君浩" selectId="4"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="3428625579" value="3" text="小绯103开心" selectId="5"/>
+      <classInstance class="CharacterFaceSelector" name="face" instanceUID="3428625579" value="3" text="君浩03嗯？" selectId="31"/>
     </classInstance>
     <classInstance class="StandView" name="rightSV" instanceUID="3428626785">
       <classInstance class="CharacterSelector" name="character" instanceUID="3428625982" value="255" text="不改变" selectId="1"/>

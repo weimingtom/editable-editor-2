@@ -7,7 +7,7 @@
 		<item text = "凌月" value = "3"/>
 		<item text = "碧菡" value = "4"/>
 	</Selector>
-	<Selector className = "CharacterFaceSelector" valueType = "int" width = "80" showValue = "false" export="value=u8">
+	<Selector className = "CharacterFaceSelector" valueType = "int" width = "80" showValue = "false" export="value=u8" enableDuplicate="true">
 		<item text = "不改变" value = "255"/>
 		<item text = "默认" value = "0"/>
 		<item text = "小绯101笑" value = "1"/>

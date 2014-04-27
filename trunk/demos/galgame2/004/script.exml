@@ -1,4 +1,4 @@
-<EditableEditorFile version="31" date="Sat Apr 26 07:24:19 GMT+0800 2014">
+<EditableEditorFile version="31" date="Mon Apr 28 01:07:52 GMT+0800 2014">
   <classInstance class="DialogBoard" name="DB0_1_小绯。" instanceUID="1214615765">
     <classInstance class="NameStringSelector" name="name" instanceUID="1214607124" value="君浩" text="君浩" selectId="15"/>
     <classInstance class="TextFiled Mark Number" name="content" instanceUID="1214607326" text="1"/>
@@ -9,7 +9,7 @@
     <classInstance class="EventSelector" name="event" instanceUID="1214609838" selectedInstanceUID="3813536678" text=" 播放6year" selectId="3"/>
     <classInstance class="StandView" name="leftSV" instanceUID="1214612245">
       <classInstance class="CharacterSelector" name="character" instanceUID="1214610342" value="2" text="君浩" selectId="4"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1214612244" value="10" text="小绯110哎" selectId="12"/>
+      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1214612244" value="10" text="君浩10哼哼" selectId="38"/>
     </classInstance>
     <classInstance class="StandView" name="middleSV" instanceUID="1214613550">
       <classInstance class="CharacterSelector" name="character" instanceUID="1214612447" value="255" text="不改变" selectId="1"/>
@@ -763,7 +763,7 @@
     <classInstance class="EventSelector" name="event" instanceUID="1214866185" selectedInstanceUID="3000" text="无事件" selectId="1"/>
     <classInstance class="StandView" name="leftSV" instanceUID="1214867592">
       <classInstance class="CharacterSelector" name="character" instanceUID="1214866589" value="2" text="君浩" selectId="4"/>
-      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1214867491" value="1" text="小绯101笑" selectId="3"/>
+      <classInstance class="CharacterFaceSelector" name="face" instanceUID="1214867491" value="1" text="君浩01笑" selectId="29"/>
     </classInstance>
     <classInstance class="StandView" name="middleSV" instanceUID="1214868597">
       <classInstance class="CharacterSelector" name="character" instanceUID="1214867994" value="255" text="不改变" selectId="1"/>
