@@ -89,6 +89,8 @@ package  Class
 			cs.valueType = String(xml.@valueType);
 			cs.width = (int)(xml.@width);
 			cs.showValue = (((String)(xml.@showValue)) == "true");
+			cs.enableDuplicate = (((String)(xml.@enableDuplicate)) == "true");
+			
 			if (xml.@export != undefined) 
 				cs.export = xml.@export;
 			else if (valueTypeIsInt)
@@ -105,11 +107,11 @@ package  Class
 				{
 					if (valueTypeIsInt)
 					{
-						cs.addItemInt( int(subXml.@value) ,  String(subXml.@text));
+						cs.addItemInt( int(subXml.@value) ,  String(subXml.@text) , !cs.enableDuplicate);
 					}
 					else if (valueTypeIsString)
 					{
-						cs.addItemString( String(subXml.@value) ,  String(subXml.@text));
+						cs.addItemString( String(subXml.@value) ,  String(subXml.@text), !cs.enableDuplicate);
 					}
 					else
 					{

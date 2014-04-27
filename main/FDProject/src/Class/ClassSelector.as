@@ -17,6 +17,7 @@ package  Class
 		protected var textArray : Vector.<String> = new Vector.<String> ;
 		public var showValue : Boolean;
 		public var valueType : String;
+		public var enableDuplicate : Boolean;
 		
 		public override function formXML(instance : ClassInstance , xml : XML)
 		: void 
@@ -40,40 +41,73 @@ package  Class
 					ASSERT(false , "unpair data" ,  String(xml.@value) , String(valueArray[selectedId - 1]));
 				}
 			}
+			var seq : Array = enableDuplicate ? ["text" , "selectId" , "value"] : ["value" , "text" , "selectId"];
 			
-			if (String(xml.@value))
+			//if (enableDuplicate && String(xml.@text) == "君浩03嗯？")
+			//	enableDuplicate = true;
+			
+			for (var i : int = 0 ; i < seq.length ; i++ )
 			{
-				//trace(xml.@value)
-				var valueString : String = String(xml.@value);
-				if (valueType == "String")
+				var _type : String = seq[i];
+				
+				if (_type == "value")
 				{
-					selectedId = valueArray.indexOf(valueString) + 1;
-					_BSSDropDownMenuScrollable.selectedId = selectedId ;
+					if (String(xml.@value))
+					{
+						//trace(xml.@value)
+						var valueString : String = String(xml.@value);
+						if (valueType == "String")
+						{
+							selectedId = valueArray.indexOf(valueString) + 1;
+							_BSSDropDownMenuScrollable.selectedId = selectedId ;
+							break;
+						}
+						else if  (valueType == "int")
+						{
+							selectedId = valueArray.indexOf(int(valueString)) + 1;
+							//if (! (this is ClassInstanceSelector))
+							//ASSERT(selectedId > 0 , "error can't find id " + valueString);
+							_BSSDropDownMenuScrollable.selectedId = selectedId ;
+							break;
+						}
+						else
+						{
+							ASSERT(false , "unknown valueType " + valueType);
+						}
+						
+					}
 				}
-				else if  (valueType == "int")
+				else if (_type == "selectId")
 				{
-					selectedId = valueArray.indexOf(int(valueString)) + 1;
-					//if (! (this is ClassInstanceSelector))
-					//ASSERT(selectedId > 0 , "error can't find id " + valueString);
-					_BSSDropDownMenuScrollable.selectedId = selectedId ;
+					if (String(xml.@selectId))
+					{
+						selectedId =  int(String(xml.@selectId));
+						
+						_BSSDropDownMenuScrollable.selectedId = selectedId ;
+						
+						if (String(xml.@text))
+							ASSERT( String(xml.@text) == _BSSDropDownMenuScrollable.selectedString , "unpair data " ,  String(xml.@text) , _BSSDropDownMenuScrollable.selectedString);
+						
+						if (String(xml.@value))
+							ASSERT( String(xml.@value) == String(valueArray[selectedId - 1]) , "unpair data" ,  String(xml.@value) , String(valueArray[selectedId - 1]));				
+						break;
+					}
 				}
-				else
+				else if (_type == "text")
 				{
-					ASSERT(false , "unknown valueType " + valueType);
+					if (String(xml.@text))
+					{
+						_BSSDropDownMenuScrollable.selectedString = String(xml.@text);
+						
+						if (String(xml.@value))
+							ASSERT( String(xml.@value) == String(valueArray[selectedId - 1]) , "unpair data" ,  String(xml.@value) , String(valueArray[selectedId - 1]));				
+						break;
+					}
 				}
-				
-			} else if (String(xml.@selectId))
-			{
-				selectedId =  int(String(xml.@selectId));
-				
-				_BSSDropDownMenuScrollable.selectedId = selectedId ;
-				
-				if (String(xml.@text))
-					ASSERT( String(xml.@text) == _BSSDropDownMenuScrollable.selectedString , "unpair data " ,  String(xml.@text) , _BSSDropDownMenuScrollable.selectedString);
-				
-				if (String(xml.@value))
-					ASSERT( String(xml.@value) == String(valueArray[selectedId - 1]) , "unpair data" ,  String(xml.@value) , String(valueArray[selectedId - 1]));				
 			}
+			
+			
+			
 		}
 		
 		public override function toXML(instance : ClassInstance)
