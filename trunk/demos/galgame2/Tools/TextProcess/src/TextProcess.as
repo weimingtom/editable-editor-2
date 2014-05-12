@@ -274,6 +274,12 @@
 					}
 					
 				}
+				else
+				{     
+					xmlString += '<classInstance class="DialogBoardClick" name="next" >';
+					xmlString += '<classInstance class="EventSelector" name="event" text="切到下一个脚本" selectId="2"/>';
+					xmlString += '</classInstance>';
+				}
 				
 				
 				xmlString += '</classInstance>'
@@ -281,6 +287,8 @@
 				i += optionNum;
 				
 			}
+			
+			xmlString +=  '<classInstance class="EventSwitchScript" name="切到下一个脚本">\n<classInstance class="Input Number" name="script" text="1"/>\n<classInstance class="Input Number" name="page" text="0"/>\n</classInstance>';
 			 
 			xmlString +=  '</EditableEditorFile>'
 			
