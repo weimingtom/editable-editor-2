@@ -148,11 +148,14 @@ package ClassInstance
 
 					if (subXml.name() == "classInstance" || subXml.name() == "ClassInstance" )
 					{
+						
 						var _subClassName : String = subXml.attribute("class");
 						var _fieldName : String = subXml.attribute("name");
 						
 						var _subClassBase : ClassBase = ClassMgr.findClass(_subClassName);
 
+						if (_subClassBase.export == "noExport")
+							continue;
 						
 						vbs = new VariableBinStruct();
 						vbs.variableNameId = getStringId(_fieldName);
@@ -190,12 +193,20 @@ package ClassInstance
 				
 				var vbs : VariableBinStruct = new VariableBinStruct();
 				
-				var _exportArray : Array = classBase.export.split("=");
-				vbs.variableNameId = getStringId(_exportArray[0]);
-				fillVariableBinStructType(classBase , vbs);
+				if (classBase.export == "noExport")
+				{
+					cbs.variableNum = 0;
+				}
+				else {
+					var _exportArray : Array = classBase.export.split("=");
+					vbs.variableNameId = getStringId(_exportArray[0]);
+					fillVariableBinStructType(classBase , vbs);
+					cbs.variableNum = 1;
+					cbs.variableArray.push(vbs);
+				}
 				
-				cbs.variableNum = 1;
-				cbs.variableArray.push(vbs);
+				
+				
 			}
 			
 			return cbs;
@@ -262,8 +273,12 @@ package ClassInstance
 
 				if (subXml.name() == "classInstance" || subXml.name() == "ClassInstance" )
 				{
+							
 					var _subClassName : String = subXml.attribute("class");
 					var _fieldName : String = subXml.attribute("name");
+					var _subClassBase : ClassBase = ClassMgr.findClass(_subClassName);
+					if (_subClassBase.export == "noExport")
+						continue;
 					
 					var vbs : VariableBinStruct = cbs.variableArray[idx];
 					CONFIG::ASSERT {

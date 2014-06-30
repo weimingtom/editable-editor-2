@@ -16,10 +16,11 @@
 	<TextField className = "TextFiled Indicate" editable = "false" width = "0" height = "12" border = "false" background = "false" selectable = "false"/>
 	<TextField className = "TextFiled Indicate 3line" editable = "false" width = "0" height = "40" border = "false" background = "false" selectable = "false"/>
 	<TextField className = "TextFiled Mark" editable = "false" width = "120" height = "20" border = "true" background = "true" selectable = "true"/>
+	<TextField className = "TextFiled Mark Number" editable = "false" width = "120" height = "20" border = "true" background = "true" selectable = "true" export="text=s8_16_32"/>
 	<TextField className = "Line" editable = "false" width = "0" height = "12" border = "false" background = "false" selectable = "false" defaultText = "---------------------------------------------------------------------------------"/>
 	
+	<Include filename = "Sound.xml"/>
 	<Include filename = "Character.xml"/>
-	<Include filename = "ContentString.xml"/>
 	<Include filename = "NameString.xml"/>
 	<Include filename = "Scene.xml"/>
 	<Include filename = "Event.xml"/>
@@ -27,10 +28,10 @@
 	
 	
 	<Page name = "对话框列表">	
-		<classInstance class = "DialogBoardCreater" name = "请选择对话框的类型" default="1"/>
+		<!--classInstance class = "DialogBoardCreater" name = "请选择对话框的类型" default="1"/>
 		<classInstance class = "ENTER" name = "" />
 		<classInstance class = "Line" name = ""/>
-		<classInstance class = "ENTER" name = "" />
+		<classInstance class = "ENTER" name = "" /-->
 		<classInstance class = "DialogBoardSelector" name = "对话框列表"/>
 		
 		<classInstance class = "ENTER" name = "" />
@@ -45,8 +46,5 @@
 		<classInstance class = "ENTER" name = "" />
 		<classInstance class = "EventSelector" name = "事件列表"/>
 	</Page>
-	
-	<!--Plugin name = "显示场景预览" data = "Plugin/PlugRocoSceneViewer.swf" resRoot = "http://res.17roco.qq.com/res/scene/"/-->
-
 	
 </EditableEditorHeader>
