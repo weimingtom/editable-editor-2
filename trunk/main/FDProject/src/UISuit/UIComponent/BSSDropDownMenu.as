@@ -175,6 +175,9 @@ package   UISuit.UIComponent   {
 		//*, bool autoWidth = false*/, VECTOR_PTR(BSSDropDownMenu*)* _arerArray /*= NULL*/ ) : m_scrollBG(NULL)
 		)
 		{
+			if (_allMenuBg)
+				addChild(_allMenuBg);
+				
 			m_hitBtn = _hitBtn;
 			
 			m_scrollBG = _scrollBG;
@@ -210,8 +213,7 @@ package   UISuit.UIComponent   {
 			m_scrollItem.visible = (false);
 			//m_scrollItem.mouesEnabled = false;
 			
-			if (_allMenuBg)
-				addChild(_allMenuBg);
+			
 
 			addChild(m_hintText);
 			addChild(m_hitBtn);
@@ -540,10 +542,13 @@ package   UISuit.UIComponent   {
 		
 		override public function get height ()
 		: Number {
+			var _h : Number;
 			if (m_scrollBG.visible)
-				return m_scrollBG.getRect(this).bottom * this.scaleY;
+				_h =  m_scrollBG.getRect(this).bottom;
 			else 
-				return getChildAt(0).getRect(this).bottom * this.scaleY;
+				_h =  getChildAt(0).getRect(this).bottom;
+				
+			return _h * this.scaleY;
 		}
 		
 		public function clearAllItem()

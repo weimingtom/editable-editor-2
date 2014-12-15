@@ -5,6 +5,7 @@ package  Class
 	import flash.display.DisplayObject;
 	import flash.text.TextField;
 	import UISuit.UIComponent.BSSDropDownMenu;
+	import UISuit.UIComponent.BSSDropDownMenu;
 	import UISuit.UIComponent.BSSDropDownMenuScrollable;
 	/**
 	 * ...
@@ -22,8 +23,8 @@ package  Class
 		public override function formXML(instance : ClassInstance , xml : XML)
 		: void 
 		{
-			ASSERT(instance.referenceObject is BSSDropDownMenuScrollable);
-				var _BSSDropDownMenuScrollable : BSSDropDownMenuScrollable = BSSDropDownMenuScrollable(instance.referenceObject);
+			ASSERT(instance.referenceObject is BSSDropDownMenu);
+				var _BSSDropDownMenuScrollable : BSSDropDownMenu = BSSDropDownMenu(instance.referenceObject);
 				
 			if (String(xml.@selectId) && String(xml.@value))
 			{
@@ -120,8 +121,8 @@ package  Class
 			xml.@name = instance.instanceName;
 			xml.@instanceUID = instance.instanceUID;
 			
-			ASSERT(instance.referenceObject is BSSDropDownMenuScrollable);
-			var _BSSDropDownMenuScrollable : BSSDropDownMenuScrollable = BSSDropDownMenuScrollable(instance.referenceObject);
+			ASSERT(instance.referenceObject is BSSDropDownMenu);
+			var _BSSDropDownMenuScrollable : BSSDropDownMenu = BSSDropDownMenu(instance.referenceObject);
 				
 			var selectedId : int = _BSSDropDownMenuScrollable.selectedId;
 
@@ -193,14 +194,25 @@ package  Class
 		{
 			var sp : SpriteWH = new SpriteWH();
 			
-			var bddms : BSSDropDownMenuScrollable = BSSDropDownMenuScrollable.createSimpleBSSDropDownMenuScrollable (width , 20 , className, false);
-			bddms.setMaxHeight(300);
-			bddms.selectFunction = onChangeSelector;
+			var ddm : BSSDropDownMenu;
+			
+			if (textArray.length >= 10  )
+			{
+				var bddmscroll : BSSDropDownMenuScrollable = BSSDropDownMenuScrollable.createSimpleBSSDropDownMenuScrollable (width , 20 , className, false);
+				bddmscroll.setMaxHeight(300);
+				ddm = bddmscroll;
+			}
+			else
+			{
+				ddm = BSSDropDownMenu.createSimpleBSSDropDownMenu (width , 20 , className, false);
+			}
+			
+			ddm.selectFunction = onChangeSelector;
 			
 			for each (var str : String in textArray )
-				bddms.addItem(str);
+				ddm.addItem(str);
 			
-			sp.addChild	(bddms);
+			sp.addChild	(ddm);
 			
 			if (showValue)
 			{
@@ -213,7 +225,7 @@ package  Class
 				textField.x = width + 5;
 				sp.addChild	(textField);
 				
-				bddms.selectFunction = onSelectorChangeText;
+				ddm.selectFunction = onSelectorChangeText;
 			}
 				
 			return sp;
@@ -223,36 +235,36 @@ package  Class
 		: void {
 			
 			ci.referenceObject = ((SpriteWH)(ci.getChildAt(0))).getChildAt(0);
-			ASSERT(ci.referenceObject is BSSDropDownMenuScrollable);
+			ASSERT(ci.referenceObject is BSSDropDownMenu);
 			if (xml)
 			{
 				if ( String(xml.@name))
 				{		
-					BSSDropDownMenuScrollable(ci.referenceObject).text =  xml.@name;			
+					BSSDropDownMenu(ci.referenceObject).text =  xml.@name;			
 				}
 			
 				if ( String(xml.@text))
 				{	
-					BSSDropDownMenuScrollable(ci.referenceObject).text =  xml.@text;			
+					BSSDropDownMenu(ci.referenceObject).text =  xml.@text;			
 				}
 			
 				//trace("String(xml.@default)" , String(xml.@default) ,String(xml.@name) );
 				if ( String(xml.@default))
 				{
 					//trace("String(xml.@default)" , String(xml.@default));
-					ASSERT(ci.referenceObject is BSSDropDownMenuScrollable);
-					BSSDropDownMenuScrollable(ci.referenceObject).selectedId =  (int)(String(xml.@default));	
+					ASSERT(ci.referenceObject is BSSDropDownMenu);
+					BSSDropDownMenu(ci.referenceObject).selectedId =  (int)(String(xml.@default));	
 				}
 			
 				if (String(xml.@active))
 				{
 					if ((String(xml.@active)) == "true")
 					{
-						BSSDropDownMenuScrollable(ci.referenceObject).activate();
+						BSSDropDownMenu(ci.referenceObject).activate();
 					}
 					else
 					{
-						BSSDropDownMenuScrollable(ci.referenceObject).deactivate();
+						BSSDropDownMenu(ci.referenceObject).deactivate();
 					}
 					
 				}
