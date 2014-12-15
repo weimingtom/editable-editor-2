@@ -108,8 +108,8 @@ package
 						}
 						//item class = "NPC Selector" name = "NPC Name"
 						var classBase : ClassBase = ClassMgr.findClass(className);
-						var ci : ClassInstance = new  ClassInstance( classBase ,  subXml.@name );
-						ci.isResident = true;
+						var ci : ClassInstance = new  ClassInstance( classBase ,  subXml.@name , true);
+						//ci.isResident = true;
 						//trace("classBase.ini" , classBase)
 						//trace(subXml.@default)
 						classBase.init(ci , subXml);

@@ -188,7 +188,7 @@ package  Class
 			CallBackMgr.CallBackMgr_notifyEvent(CALLBACK.ON_SELECTOR_CHANGE , [dsp , bddms] );
 		}
 		
-		public override function createDsp ()
+		public override function createDsp (_isResident : Boolean)
 		: DisplayObject
 		{
 			var sp : SpriteWH = new SpriteWH();

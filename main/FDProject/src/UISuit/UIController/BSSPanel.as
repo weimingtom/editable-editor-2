@@ -224,7 +224,7 @@ package   UISuit.UIController
 					else {
 						//if (!(align & BSSUIDEF.FIXED_WIDTH))
 						{
-							trace(off);
+							//trace("BSSPanel off = " +off);
 							dsp.width += int(off);
 						}
 					}

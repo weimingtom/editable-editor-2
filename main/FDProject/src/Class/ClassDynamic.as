@@ -1,8 +1,10 @@
 package  Class
 {
 	import ClassInstance.ClassInstance;
+	import ClassInstance.ClassInstanceLoader;
 	import flash.display.DisplayObject;
 	import flash.display.Sprite;
+	import flash.utils.getTimer;
 	import flash.xml.XMLNode;
 	import UISuit.UIComponent.BSSDropDownMenu;
 	import UISuit.UIComponent.BSSDropDownMenuScrollable;
@@ -13,8 +15,8 @@ package  Class
 	public class ClassDynamic extends ClassBase
 	{
 		private var contenctArray : Vector.<XML> = new Vector.<XML>();
-		
-		
+		private var contentPool : Vector.<SpriteWH> = new Vector.<SpriteWH>();
+		private var contentPoolUsed : int = 0;
 		public override function formXML(instance : ClassInstance , xml : XML)
 		: void 
 		{
@@ -40,7 +42,7 @@ package  Class
 				}
 				else
 				{
-					ASSERT(false , "unknow item " + subXml.name())
+					ASSERT(false , "unknow item " + subXml.name());
 				}
 			}
 		}
@@ -83,19 +85,38 @@ package  Class
 					contenctArray[i] = null;
 				contenctArray = null;
 			}
+			if (contentPool)
+			{
+				leng = contentPool.length;
+				for (i = 0 ; i < leng ; i++ )
+					contentPool[i] = null;
+				contentPool = null;
+			}
 			super.dispose();
 			
 		}
 		
+		
 		public function ClassDynamic (n : String) 
 		{
 			super(n);
+			
+			//var _contentPool : Vector.<DisplayObject> = new Vector.<DisplayObject>();
+			//contentPool 
+		}
+		 
+		public override function init(ci : ClassInstance , xml : XML)
+		: void {
+			
+			if (Config.s_usingPool)
+				ci.disposeFunc = disposeReturnToPool;
+
 		}
 		
-		public override function createDsp ()
-		: DisplayObject
-		{
-			var sp : SpriteWH = new SpriteWH();
+		private function createDspForce(_isResident : Boolean , _isPoolInstanceChild : Boolean)
+		: SpriteWH {
+			var sp : SpriteWH ;
+			sp = new SpriteWH();
 			var _width : Number = 0;
 			var _height : Number = 0;
 			var _maxHeight : Number = 0;
@@ -117,8 +138,10 @@ package  Class
 				}
 				//item class = "NPC Selector" name = "NPC Name"
 				var classBase : ClassBase = ClassMgr.findClass(className);
-				var ci : ClassInstance = new  ClassInstance( classBase , xml.@name );
-				classBase.init(ci , xml);
+				var ci : ClassInstance = new  ClassInstance( classBase , xml.@name , _isResident );
+				ci.isPoolInstanceChild = _isPoolInstanceChild;
+				ci.initXml = xml;
+				classBase.init(ci , ci.initXml);
 				
 				ci.x = _width;
 				ci.y = _height;
@@ -135,6 +158,83 @@ package  Class
 				
 				//trace (xml.attribute("class") , xml.@name);
 			}
+			
+			return sp;
+		}
+		
+		private function disposeReturnToPool(ci : ClassInstance)
+		: void {
+			
+			if (ci.content)
+			{
+				if (ci.content.parent)
+					ci.content.parent.removeChild(ci.content);
+					
+				var _idx : int = contentPool.indexOf(ci.content);
+				
+				ASSERT(_idx != -1 , "err");
+				
+				if (_idx != -1 )
+				{
+					contentPool.splice(_idx , 1);
+					contentPoolUsed--;
+					contentPool.push(ci.content)
+				}
+				
+				return;
+			}
+			
+		}
+		
+		public override function createDsp (_isResident : Boolean)
+		: DisplayObject
+		{
+			
+			var sp : SpriteWH ;
+			if (contentPool && !_isResident)
+			{	
+				var justNew : Boolean ;
+				if (contentPoolUsed == contentPool.length)
+				{
+					//var _c : int = contentPool.length;
+					//for (var i : int = 0 ; i < 16; i++  ) {
+						contentPool.push(createDspForce(_isResident , true));
+					//}
+					justNew = true;
+				}
+				sp = contentPool[contentPoolUsed];
+				contentPoolUsed ++;
+				
+				if (!justNew) {
+					for (var i : int = 0 ; i < sp.numChildren ; i++ )
+					{
+						var _dsp : DisplayObject = sp.getChildAt(i);
+						
+						if (_dsp is ClassInstance)
+						{
+							var _ci : ClassInstance = ClassInstance(_dsp);
+							
+							if (_ci.initXml)
+							{
+								_ci.classType.init(_ci , _ci.initXml);
+							}
+						}
+					}
+				}
+				
+			}
+			else
+				return createDspForce(_isResident , false);
+				
+			//var _t0 : int = 0;
+			//_t0 = getTimer();
+			
+			
+			
+			//ClassInstanceLoader.s_time[1] += getTimer() - _t0;
+
+			
+			
 			return sp;
 		}
 		

@@ -339,6 +339,7 @@ package   UISuit.UIComponent   {
 				if (hoverId == -1)
 				{
 //					ASSERT(m_scrollItem.visible , ("error "));
+					m_scrollItem.y = 0;
 					m_scrollItem.visible = (false);
 				}
 				else
@@ -558,6 +559,10 @@ package   UISuit.UIComponent   {
 				m_scrollItemArray[i] = null;
 			}
 			m_scrollItemArray.length = 0;
+			if (m_scrollBG)
+				m_scrollBG.height = 0 ;
+			m_scrollItem.visible = (false);
+			setHoverId(-1);
 			
 			addItem(back);
 		}

@@ -166,10 +166,10 @@ package
 				else if (subXml.name() == "classInstance" || subXml.name() == "ClassInstance")
 				{
 					var _cCB : ClassBase = ClassMgr.findClass(String(subXml.attribute("class")));
-					var ci : ClassInstance = new ClassInstance( _cCB, String(subXml.@name));
+					var ci : ClassInstance = new ClassInstance( _cCB, String(subXml.@name) , true);
 					_cCB.init(ci , subXml);
 					
-					ci.isResident = true;
+					//ci.isResident = true;
 					if (String(subXml.@instanceUID))
 						ci.instanceUID = int(String(subXml.@instanceUID));	
 						

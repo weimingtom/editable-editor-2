@@ -36,6 +36,13 @@ package UISuit.UIComponent
 			super.dispose();
 		}
 		
+		/*public override function clearAllItem() : void
+		{
+			super.clearAllItem();
+			
+			
+		}*/
+		
 		public static function createSimpleBSSDropDownMenuScrollable (
 		w : int, h   : int
 		, hintString : String = null, 
@@ -202,6 +209,7 @@ package UISuit.UIComponent
 		public override function  addItem(text : String)
 		: void {
 			
+			//trace(m_scrollContainer.height , m_scrollContainer.numChildren);
 			super.addItem(text);
 			
 			m_scrollBar.mouseEnabled = (m_scrollContainer.height > getMaxHeight ());

@@ -25,7 +25,10 @@ package ClassInstance
 		public var editingClassInstanceSelectorMenu : ClassInstanceSelectorMenu;
 		public var content : DisplayObject;
 		public var isResident : Boolean = false;
+		public var isPoolInstanceChild : Boolean = false;//do not delete any instance in pool
 		public var instanceUID : uint;
+		
+		public var initXml : XML;
 		
 		public function get isResidentChildren()
 		: Boolean
@@ -50,6 +53,7 @@ package ClassInstance
 		public override function  dispose()
 		: void
 		{
+			initXml = null;
 			ClassInstanceMgr.unregClassInstace(this);
 			if (disposeFunc != null)
 				disposeFunc(this);
@@ -266,32 +270,47 @@ package ClassInstance
 		
 		private static var timeOffset : int = 0;
 		
-		public function ClassInstance( _classType : ClassBase , _instanceName : String) 
+		public function ClassInstance( _classType : ClassBase , _instanceName : String ,_isResident : Boolean) 
 		{
+			isResident = _isResident;
+			
+						
 			classType = _classType;
 			instanceName =  _instanceName;
 			
-			content = classType.createDsp();
+			
+			content = classType.createDsp(_isResident);
+			
+			//var _t0 : int;
+			//_t0 = getTimer();
 			content.x = 5 ;
 			content.y = 5 ;
 			addChild(content);
+			
+			
 			
 			if (_classType is ClassDynamic && content is DisplayObjectContainer)
 			{
 				var _dspc : DisplayObjectContainer = DisplayObjectContainer(content);
 				
-				for (var __ci : int = 0 ; __ci < _dspc.numChildren;  __ci++)
+				var _numChildren : int = _dspc.numChildren;
+				for (var __ci : int = 0 ; __ci < _numChildren;  __ci++)
 				{
+					
 					var _child : ClassInstance = _dspc.getChildAt(__ci) as ClassInstance;
+					
+					
 					if (_child && _child.classType is ClassDynamic)
 					{	
 						CallBackMgr.CallBackMgr_notifyEvent(CALLBACK.ON_SELECTOR_CHANGE , [_child] );
 					}
+					
+					
 				}
 			}
+			//ClassInstanceLoader.s_time[2] += getTimer() - _t0;
 			
-
-			
+			//_t0 = getTimer();
 			var date : Date = new Date();
 			
 			//trace ((date.fullYear - 2010) , date.getMonth() , date.getDate() , date.getHours() , date.getMinutes() , date.getSeconds() , date.getMilliseconds());
@@ -301,7 +320,14 @@ package ClassInstance
 			
 			instanceUID = timestamp * 100 + timeOffset;
 			
+			//trace(this.isResident);
+			
+			
+			
 			ClassInstanceMgr.regClassInstace(this);
+			
+			//ClassInstanceLoader.s_time[3] += getTimer() - _t0;
+
 		}
 		
 	}
