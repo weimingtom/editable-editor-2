@@ -135,14 +135,19 @@ package UISuit.UIComponent
 			return ddm;
 		}  
 		
+		/*
 		override public function get height ()
-		: Number
-		{
+		: Number {
+			var _h : Number;
 			if (m_scrollBG.visible)
-				return m_scrollBG.y + scaleY;
-			else
-				return m_scrollBG.y;
-		}
+				_h =  m_scrollBG.getRect(this).bottom;
+			else 
+				_h =  m_scrollBG.y;
+				
+			return _h * this.scaleY;
+		}*/
+		
+		
 		public function BSSDropDownMenuScrollable(	_hitBtn : BSSButton 
 													, _allMenuBg : DisplayObject
 													, _hintText : TextField 
