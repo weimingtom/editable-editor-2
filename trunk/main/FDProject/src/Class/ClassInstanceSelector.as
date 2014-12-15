@@ -544,7 +544,8 @@ package  Class
 				
 			}
 			
-			if (!ClassInstanceSelectorInstance.isResident && ClassInstanceSelectorInstance.disposeFunc == disposeRegEdit)
+			//will not readd next init?
+			if (!ClassInstanceSelectorInstance.isResident && !ClassInstanceSelectorInstance.isPoolInstanceChild && ClassInstanceSelectorInstance.disposeFunc == disposeRegEdit)
 			{
 				ClassInstanceSelectorInstance.disposeFunc(ClassInstanceSelectorInstance);
 			}
@@ -573,10 +574,15 @@ package  Class
 			{	
 				if (_ClassInstanceSelectorMenu.getUnResidentgetClassInstanceNum() == 0)
 				{
-					_ClassInstanceSelectorMenu.selectedId = 0;
+					//_ClassInstanceSelectorMenu.selectedId = 0; //fix 20141216
 					return;
 				}
-				fit = true;
+				else {
+					fit = true;
+					//fit = isFitClass(ClassInstanceSelectorInstance , clsAll);
+					
+				}
+				
 			}
 			else
 			while (clsAll)
@@ -699,15 +705,49 @@ package  Class
 				
 			}
 			
-	
+			//ASSERT(ci.disposeFunc == null);
 			//ClassInstanceMgr.addInstaceSelector(ci);
-			ci.disposeFunc = disposeRegEdit;
-			CallBackMgr.CallBackMgr_registerCallBack(CALLBACK.ON_NEW_INSTANCE_CREATE , onNewClassCreateEdit , ci);
-			CallBackMgr.CallBackMgr_registerCallBack(CALLBACK.ON_INSTANCE_DELETE , onNewClassChangeEdit , ci);
-			CallBackMgr.CallBackMgr_registerCallBack(CALLBACK.ON_INSTANCE_CLEARALL , onClearAll , ci);
 			
-			if (ci.classType is ClassSelector && ClassInstanceSelector(ci.classType).needDealInstanceChange)
-				CallBackMgr.CallBackMgr_registerCallBack(CALLBACK.ON_SELECTOR_CHANGE , onNewClassChangeEdit , ci);
+			if (ci.disposeFunc == null) {
+				ci.disposeFunc = disposeRegEdit;
+				CallBackMgr.CallBackMgr_registerCallBack(CALLBACK.ON_NEW_INSTANCE_CREATE , onNewClassCreateEdit , ci);
+				CallBackMgr.CallBackMgr_registerCallBack(CALLBACK.ON_INSTANCE_DELETE , onNewClassChangeEdit , ci);
+				CallBackMgr.CallBackMgr_registerCallBack(CALLBACK.ON_INSTANCE_CLEARALL , onClearAll , ci);
+				
+				if (ci.classType is ClassSelector && ClassInstanceSelector(ci.classType).needDealInstanceChange)
+					CallBackMgr.CallBackMgr_registerCallBack(CALLBACK.ON_SELECTOR_CHANGE , onNewClassChangeEdit , ci);
+			}
+		
+		}
+		
+		public function rescanInstance(ClassInstanceSelectorInstance : ClassInstance):void {
+			
+			
+			var cls : ClassInstance;
+			
+			ASSERT((ClassInstanceSelectorInstance.classType == this ), "error");
+			
+			var _ClassInstanceSelectorMenu : ClassInstanceSelectorMenu = (ClassInstanceSelectorMenu(ClassInstanceSelectorInstance.referenceObject));
+			if (_ClassInstanceSelectorMenu.selectedClassInstance && !_ClassInstanceSelectorMenu.selectedClassInstance.isResident)
+				_ClassInstanceSelectorMenu.selectedId = 0;
+			_ClassInstanceSelectorMenu.clearUnResidentClassInstance();
+			
+			var _selectedClassInstance : ClassInstance = _ClassInstanceSelectorMenu.selectedClassInstance;
+			
+			for each (cls in ClassInstanceMgr.s_classInsList)
+			{
+				if (!cls.isResident && isFit(ClassInstanceSelectorInstance , cls))
+				{
+					ASSERT (ClassInstanceSelectorInstance.referenceObject is  ClassInstanceSelectorMenu , "error type");
+					{
+						(ClassInstanceSelectorMenu(ClassInstanceSelectorInstance.referenceObject)).addClassInstance(cls);
+					}	
+				}
+			}
+			
+			if ( _selectedClassInstance)
+				_ClassInstanceSelectorMenu.selectedClassInstance = _selectedClassInstance;
+
 		}
 		
 		private function disposeRegEdit(ci : ClassInstance)
@@ -757,7 +797,7 @@ package  Class
 			}
 		}
 		
-		public override function createDsp ()
+		public override function createDsp (_isResident : Boolean)
 		: DisplayObject
 		{
 			var bddms : BSSDropDownMenuScrollable = BSSDropDownMenuScrollable.createSimpleBSSDropDownMenuScrollable (width , 20 , className, false);

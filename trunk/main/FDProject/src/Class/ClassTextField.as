@@ -63,7 +63,7 @@ package  Class
 			}
 		}
 		
-		public override function createDsp ()
+		public override function createDsp (_isResident : Boolean)
 		: DisplayObject
 		{
 			var textField : TextFieldWithWidth = new TextFieldWithWidth();

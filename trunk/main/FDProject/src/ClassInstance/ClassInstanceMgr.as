@@ -5,6 +5,7 @@ package  ClassInstance
 	import Class.ClassInstanceSelector;
 	import Class.ClassSelector;
 	import flash.utils.ByteArray;
+	import flash.utils.getTimer;
 	//import Class.ClassInstanceSelectorEdit;
 	import Class.ClassInstanceSelectorMenu;
 	import Class.ClassMgr;
@@ -32,6 +33,8 @@ package  ClassInstance
 		public static function readClassInstance(xml: XML)
 		: void
 		{
+			Logger.s_isOpening = true;
+			Logger.s_openStartTime = getTimer();
 			//trace(xml);
 			ASSERT( xml.name() == "EditableEditorFile" , "unknown header!");
 			
@@ -181,7 +184,23 @@ package  ClassInstance
 			
 			return dxml;
 		}
-		
+		public static function getClassInstanceSelecterList() : Vector.<ClassInstance>
+		{
+			var ci : ClassInstance;
+			var _classInsList : Vector.<ClassInstance> = new Vector.<ClassInstance>();
+			
+			
+			for each ( ci in s_classInsList)
+			{
+				if (ci.classType is ClassInstanceSelector)
+				{
+					_classInsList.push(ci);
+				}
+			}
+			
+			return _classInsList;
+				
+		}
 		
 		public static function exportInstanceBin()
 		: ByteArray
@@ -301,6 +320,7 @@ package  ClassInstance
 		: void 
 		{
 			CallBackMgr.CallBackMgr_notifyEvent(CALLBACK.ON_INSTANCE_CLEARALL);
+			Logger.s_isNewing = true;
 			
 			var ci : ClassInstance;
 			for each (ci  in s_classInsList)
@@ -318,17 +338,27 @@ package  ClassInstance
 			
 			var _classInsList : Vector.<ClassInstance> = new Vector.<ClassInstance>();
 			
-			
+			var _poolNum : int;
 			for each ( ci in s_classInsList)
 			{
 				if (!ci.isResidentChildren)
 				{
-					_classInsList.push(ci);
+					if (Config.s_usingPool) {
+						if (!ci.isPoolInstanceChild)
+						{
+							_classInsList.push(ci);
+						}
+						else {
+							_poolNum++;
+						}
+					}
+					else
+						_classInsList.push(ci);
 				}
 			}
 			
-			
-			for (var _ci : int = 0 ; _ci < _classInsList.length; _ci++)
+			var _classInsList_length : int = _classInsList.length;
+			for (var _ci : int = 0 ; _ci < _classInsList_length; _ci++)
 			{
 				ci = _classInsList[_ci];
 				if (ci)
@@ -345,7 +375,30 @@ package  ClassInstance
 				}
 			}
 			
-			for (_ci = 0 ; _ci < _classInsList.length; _ci++)
+			if (Config.s_usingPool)
+			{
+				for (_ci = 0 ; _ci < _classInsList_length; _ci++)
+				{
+					ci = _classInsList[_ci];
+					if (ci)
+					{
+						if (ci.classType is ClassDynamic)
+						{
+							ci.dispose();
+							_classInsList[_ci] = null;
+						}
+						else
+						{
+							
+						}
+					}
+				}
+				
+			}
+			
+			
+			
+			for (_ci = 0 ; _ci < _classInsList_length; _ci++)
 			{
 				ci = _classInsList[_ci];
 				if (ci)
@@ -362,7 +415,7 @@ package  ClassInstance
 				}
 			}
 			
-			for (_ci = 0 ; _ci < _classInsList.length; _ci++)
+			for (_ci = 0 ; _ci < _classInsList_length; _ci++)
 			{
 				ci = _classInsList[_ci];
 				if (ci)
@@ -375,7 +428,11 @@ package  ClassInstance
 			_classInsList.length = 0;
 			_classInsList = null;
 			
-			DBG_TRACE("dispose class ins " + (i-s_classInsList.length) , "Resident class ins " + s_classInsList.length);
+			log("dispose class ins " + (i - s_classInsList.length));
+			log("cache class ins " + _poolNum);
+			log("resident class ins " + (s_classInsList.length - _poolNum));
+			
+			DBG_TRACE("Dispose class ins " + (i-s_classInsList.length) , "Cached class ins " + _poolNum, "Resident class ins " +( s_classInsList.length - _poolNum));
 			
 			/*
 			
@@ -390,7 +447,7 @@ package  ClassInstance
 			
 			_classInsListToDel = null;
 			*/
-			
+			Logger.s_isNewing = false;
 		}
 	
 		internal static function unregClassInstace(cls : ClassInstance)
@@ -403,8 +460,12 @@ package  ClassInstance
 			{
 				s_classInsList.splice(s_classInsList.indexOf(cls) , 1);
 			}
-			CallBackMgr.CallBackMgr_notifyEvent(CALLBACK.ON_INSTANCE_DELETE , [cls] );	
-
+			Profiler.setStart();
+			if (!Logger.s_isNewing)
+				CallBackMgr.CallBackMgr_notifyEvent(CALLBACK.ON_INSTANCE_DELETE , [cls] );	
+			Profiler.setEnd(0);
+			
+			Profiler.traceAll();
 		}
 	
 		internal static function regClassInstace(cls : ClassInstance)
@@ -413,8 +474,8 @@ package  ClassInstance
 			ASSERT(s_classInsList.indexOf(cls) == -1 , "error");
 			s_classInsList.push(cls);
 			
-			
-			CallBackMgr.CallBackMgr_notifyEvent(CALLBACK.ON_NEW_INSTANCE_CREATE , [cls] );
+			//if (cls.isResident || !	Logger.s_isOpening)
+				CallBackMgr.CallBackMgr_notifyEvent(CALLBACK.ON_NEW_INSTANCE_CREATE , [cls] );
 			
 			//for each (var classInstanceSelector : ClassInstance in s_classSelectorInsList)
 			//{

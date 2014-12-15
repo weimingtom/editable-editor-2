@@ -36,7 +36,7 @@ package  Class
 			
 		}
 		
-		public override function createDsp ()
+		public override function createDsp (_isResident : Boolean)
 		: DisplayObject
 		{
 			//trace("createDsp");
@@ -117,7 +117,7 @@ package  Class
 					//	(textField.text),
 					//	bddm.selectedString
 					//);
-					(new ClassInstance(ClassMgr.findClass(bddm.selectedString) , String(textField.text))) ;
+					(new ClassInstance(ClassMgr.findClass(bddm.selectedString) , String(textField.text) , false)) ;
 				}
 			}
 			

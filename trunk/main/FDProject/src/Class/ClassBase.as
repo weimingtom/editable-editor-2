@@ -57,7 +57,7 @@ package  Class
 			return _className;
 		}
 		
-		public function createDsp () : DisplayObject
+		public function createDsp (_isResident : Boolean) : DisplayObject
 		{
 			return null;
 		}
